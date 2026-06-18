@@ -8,7 +8,9 @@ The main project repository is <https://github.com/UBC-FRESH/fresh-hectaresbc>.
 
 ## Current Status
 
-This dataset has been initialized as a DataLad/git-annex repository. An Arbutus-backed S3 special remote named `arbutus-s3` is configured for annexed payloads. Large archive payloads have not yet been imported.
+This dataset has been initialized as a DataLad/git-annex repository. An Arbutus-backed S3 special remote named `arbutus-s3` is configured for annexed payloads.
+
+The Phase 4 representative cold-clone validation payloads have been imported under `raw/hectaresbc_2022_export/` and published to `arbutus-s3`. See `metadata/validation/representative_payloads.md`.
 
 ## Intended Layout
 
