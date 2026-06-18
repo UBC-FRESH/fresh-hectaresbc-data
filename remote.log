@@ -1,0 +1,1 @@
+78f7b9e0-fc71-43fa-85a6-c1b66f449e1a bucket=fresh-hectaresbc-data datacenter=US embedcreds=no encryption=none fileprefix=annex/ host=object-arbutus.cloud.computecanada.ca name=arbutus-s3 port=80 protocol=https region=ca-west-1 requeststyle=path storageclass=STANDARD type=S3 timestamp=1781826573s
