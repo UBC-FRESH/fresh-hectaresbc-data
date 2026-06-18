@@ -8,7 +8,7 @@ The main project repository is <https://github.com/UBC-FRESH/fresh-hectaresbc>.
 
 ## Current Status
 
-This dataset has been initialized as a DataLad/git-annex repository. Large archive payloads have not yet been imported or published to an object-storage special remote.
+This dataset has been initialized as a DataLad/git-annex repository. An Arbutus-backed S3 special remote named `arbutus-s3` is configured for annexed payloads. Large archive payloads have not yet been imported.
 
 ## Intended Layout
 
@@ -16,6 +16,8 @@ This dataset has been initialized as a DataLad/git-annex repository. Large archi
 - `metadata/`: compact inventories, recovered catalog records, validation reports, and schema notes.
 - `derived/`: future derived products, documented separately before use.
 - `docs/`: dataset-specific operational notes.
+
+See `docs/arbutus_s3_remote.md` for the non-secret Arbutus special-remote contract and retrieval smoke test.
 
 ## Data Handling
 
