@@ -21,6 +21,10 @@ The Phase 4 representative cold-clone validation payloads have been imported und
 
 See `docs/arbutus_s3_remote.md` for the non-secret Arbutus special-remote contract and retrieval smoke test.
 
+## Metadata
+
+Compact public metadata from the main `fresh-hectaresbc` repository is mirrored under `metadata/`. Root HectaresBC control files are stored under `raw/hectaresbc_2022_export/` beside the preserved raw payload layout.
+
 ## Data Handling
 
 Large source files belong in git-annex. Small documentation, manifests, schemas, and compact tabular metadata should remain in Git when practical.
