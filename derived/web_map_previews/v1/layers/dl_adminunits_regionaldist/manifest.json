@@ -1,0 +1,487 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_adminunits_regionaldist/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_adminunits_regionaldist",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T03:56:48+00:00",
+  "internal_raster_path": "regionaldist.tiff",
+  "internal_wms_path": "regionaldist.wms.xml",
+  "manifest_path": "layers/dl_adminunits_regionaldist/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "regionaldist.tiff",
+    "legend_source_path": "regionaldist.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_adminunits_regionaldist",
+    "source_title": "Regional Districts",
+    "source_zip_path": "data_layers/adminunits_regionaldist.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/adminunits_regionaldist.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/adminunits_regionaldist.zip",
+  "title": "Regional Districts",
+  "value_class_count": 29,
+  "value_classes": [
+    {
+      "label": "Alberni-Clayoquot",
+      "rgb": [
+        34,
+        149,
+        62
+      ],
+      "rgba": [
+        34,
+        149,
+        62,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Bulkley-Nechako",
+      "rgb": [
+        109,
+        85,
+        21
+      ],
+      "rgba": [
+        109,
+        85,
+        21,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Capital",
+      "rgb": [
+        67,
+        59,
+        160
+      ],
+      "rgba": [
+        67,
+        59,
+        160,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Cariboo",
+      "rgb": [
+        167,
+        106,
+        91
+      ],
+      "rgba": [
+        167,
+        106,
+        91,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Central Coast",
+      "rgb": [
+        69,
+        164,
+        55
+      ],
+      "rgba": [
+        69,
+        164,
+        55,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Central Kootenay",
+      "rgb": [
+        134,
+        108,
+        189
+      ],
+      "rgba": [
+        134,
+        108,
+        189,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Central Okanagan",
+      "rgb": [
+        73,
+        69,
+        160
+      ],
+      "rgba": [
+        73,
+        69,
+        160,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Columbia Shuswap",
+      "rgb": [
+        133,
+        206,
+        113
+      ],
+      "rgba": [
+        133,
+        206,
+        113,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Comox Valley",
+      "rgb": [
+        120,
+        131,
+        167
+      ],
+      "rgba": [
+        120,
+        131,
+        167,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Cowichan Valley",
+      "rgb": [
+        80,
+        187,
+        47
+      ],
+      "rgba": [
+        80,
+        187,
+        47,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "East Kootenay",
+      "rgb": [
+        169,
+        179,
+        122
+      ],
+      "rgba": [
+        169,
+        179,
+        122,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Fraser-Fort George",
+      "rgb": [
+        222,
+        188,
+        203
+      ],
+      "rgba": [
+        222,
+        188,
+        203,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Fraser Valley",
+      "rgb": [
+        211,
+        20,
+        251
+      ],
+      "rgba": [
+        211,
+        20,
+        251,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Greater Vancouver",
+      "rgb": [
+        43,
+        10,
+        223
+      ],
+      "rgba": [
+        43,
+        10,
+        223,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Kitmat-Stikine",
+      "rgb": [
+        85,
+        58,
+        103
+      ],
+      "rgba": [
+        85,
+        58,
+        103,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Kootenay Boundary",
+      "rgb": [
+        85,
+        13,
+        88
+      ],
+      "rgba": [
+        85,
+        13,
+        88,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Mount Waddington",
+      "rgb": [
+        219,
+        219,
+        172
+      ],
+      "rgba": [
+        219,
+        219,
+        172,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Nanaimo",
+      "rgb": [
+        142,
+        178,
+        60
+      ],
+      "rgba": [
+        142,
+        178,
+        60,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Northern Rockies",
+      "rgb": [
+        210,
+        164,
+        45
+      ],
+      "rgba": [
+        210,
+        164,
+        45,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "North Okanagan",
+      "rgb": [
+        143,
+        206,
+        129
+      ],
+      "rgba": [
+        143,
+        206,
+        129,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Okanagan-Similkameen",
+      "rgb": [
+        141,
+        59,
+        37
+      ],
+      "rgba": [
+        141,
+        59,
+        37,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Peace River",
+      "rgb": [
+        98,
+        120,
+        10
+      ],
+      "rgba": [
+        98,
+        120,
+        10,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Powell River",
+      "rgb": [
+        218,
+        171,
+        11
+      ],
+      "rgba": [
+        218,
+        171,
+        11,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Skeena-Queen Charlotte",
+      "rgb": [
+        115,
+        205,
+        130
+      ],
+      "rgba": [
+        115,
+        205,
+        130,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Squamish-Lillooet",
+      "rgb": [
+        254,
+        27,
+        250
+      ],
+      "rgba": [
+        254,
+        27,
+        250,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Stikine",
+      "rgb": [
+        75,
+        33,
+        193
+      ],
+      "rgba": [
+        75,
+        33,
+        193,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Strathcona",
+      "rgb": [
+        220,
+        186,
+        131
+      ],
+      "rgba": [
+        220,
+        186,
+        131,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Sunshine Coast",
+      "rgb": [
+        64,
+        176,
+        99
+      ],
+      "rgba": [
+        64,
+        176,
+        99,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Thompson-Nicola",
+      "rgb": [
+        162,
+        39,
+        169
+      ],
+      "rgba": [
+        162,
+        39,
+        169,
+        220
+      ],
+      "value": 29
+    }
+  ],
+  "visible_pixel_count": 21920,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

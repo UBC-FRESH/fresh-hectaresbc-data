@@ -1,0 +1,1072 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_species_ck/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_species_ck",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:34:06+00:00",
+  "internal_raster_path": "ck.tiff",
+  "internal_wms_path": "ck.wms.xml",
+  "manifest_path": "layers/dl_species_ck/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "ck.tiff",
+    "legend_source_path": "ck.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_species_ck",
+    "source_title": "Salmon - Chinook",
+    "source_zip_path": "data_layers/species_ck.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/species_ck.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/species_ck.zip",
+  "title": "Salmon - Chinook",
+  "value_class_count": 68,
+  "value_classes": [
+    {
+      "label": "Alsek",
+      "rgb": [
+        241,
+        11,
+        179
+      ],
+      "rgba": [
+        241,
+        11,
+        179,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Bella Coola-Bentinck",
+      "rgb": [
+        138,
+        92,
+        202
+      ],
+      "rgba": [
+        138,
+        92,
+        202,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Boundary Bay",
+      "rgb": [
+        244,
+        126,
+        216
+      ],
+      "rgba": [
+        244,
+        126,
+        216,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Dean River",
+      "rgb": [
+        142,
+        124,
+        79
+      ],
+      "rgba": [
+        142,
+        124,
+        79,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Docee",
+      "rgb": [
+        197,
+        236,
+        221
+      ],
+      "rgba": [
+        197,
+        236,
+        221,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "East Vancouver Island-Cowichan and Koksilah",
+      "rgb": [
+        169,
+        204,
+        165
+      ],
+      "rgba": [
+        169,
+        204,
+        165,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "East Vancouver Island-Goldstream",
+      "rgb": [
+        159,
+        101,
+        109
+      ],
+      "rgba": [
+        159,
+        101,
+        109,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "East Vancouver Island-Nanaimo and Chemainus-fall timing",
+      "rgb": [
+        197,
+        129,
+        212
+      ],
+      "rgba": [
+        197,
+        129,
+        212,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "East Vancouver Island-Nanaimo-spring timing",
+      "rgb": [
+        114,
+        228,
+        51
+      ],
+      "rgba": [
+        114,
+        228,
+        51,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "East Vancouver Island-Nanaimo-summer timing",
+      "rgb": [
+        87,
+        240,
+        159
+      ],
+      "rgba": [
+        87,
+        240,
+        159,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "East Vancouver Island-Qualicum and Puntledge-fall timing",
+      "rgb": [
+        22,
+        118,
+        181
+      ],
+      "rgba": [
+        22,
+        118,
+        181,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "East Vancouver-Puntledge-summer timing",
+      "rgb": [
+        73,
+        90,
+        57
+      ],
+      "rgba": [
+        73,
+        90,
+        57,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "Ecstall",
+      "rgb": [
+        50,
+        17,
+        204
+      ],
+      "rgba": [
+        50,
+        17,
+        204,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Fraser Canyon-Nahatlatch",
+      "rgb": [
+        218,
+        243,
+        72
+      ],
+      "rgba": [
+        218,
+        243,
+        72,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Gitnadoix",
+      "rgb": [
+        92,
+        54,
+        122
+      ],
+      "rgba": [
+        92,
+        54,
+        122,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Homathko",
+      "rgb": [
+        135,
+        253,
+        222
+      ],
+      "rgba": [
+        135,
+        253,
+        222,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Kalum-early timing",
+      "rgb": [
+        194,
+        129,
+        232
+      ],
+      "rgba": [
+        194,
+        129,
+        232,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Kalum-late timing",
+      "rgb": [
+        193,
+        63,
+        30
+      ],
+      "rgba": [
+        193,
+        63,
+        30,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Klinaklini",
+      "rgb": [
+        242,
+        241,
+        103
+      ],
+      "rgba": [
+        242,
+        241,
+        103,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Lakelse",
+      "rgb": [
+        2,
+        102,
+        109
+      ],
+      "rgba": [
+        2,
+        102,
+        109,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Lower Fraser River-fall timing (white)",
+      "rgb": [
+        209,
+        123,
+        192
+      ],
+      "rgba": [
+        209,
+        123,
+        192,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Lower Fraser River-spring timing",
+      "rgb": [
+        78,
+        24,
+        199
+      ],
+      "rgba": [
+        78,
+        24,
+        199,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Lower Fraser River-summer timing",
+      "rgb": [
+        162,
+        250,
+        70
+      ],
+      "rgba": [
+        162,
+        250,
+        70,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Lower Fraser River-Upper Pitt",
+      "rgb": [
+        178,
+        138,
+        113
+      ],
+      "rgba": [
+        178,
+        138,
+        113,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Lower Skeena",
+      "rgb": [
+        143,
+        80,
+        177
+      ],
+      "rgba": [
+        143,
+        80,
+        177,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Lower Thompson-spring timing-age 1.2",
+      "rgb": [
+        163,
+        234,
+        44
+      ],
+      "rgba": [
+        163,
+        234,
+        44,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Lynn Canal",
+      "rgb": [
+        120,
+        121,
+        90
+      ],
+      "rgba": [
+        120,
+        121,
+        90,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Maria Slough",
+      "rgb": [
+        26,
+        170,
+        47
+      ],
+      "rgba": [
+        26,
+        170,
+        47,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Middle Fraser River-Portage",
+      "rgb": [
+        138,
+        107,
+        239
+      ],
+      "rgba": [
+        138,
+        107,
+        239,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "Middle Fraser River-spring timing",
+      "rgb": [
+        55,
+        100,
+        206
+      ],
+      "rgba": [
+        55,
+        100,
+        206,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Middle Fraser River-summer timing",
+      "rgb": [
+        156,
+        220,
+        146
+      ],
+      "rgba": [
+        156,
+        220,
+        146,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Middle Skeena",
+      "rgb": [
+        36,
+        208,
+        135
+      ],
+      "rgba": [
+        36,
+        208,
+        135,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Middle Skeena-large lakes",
+      "rgb": [
+        29,
+        117,
+        75
+      ],
+      "rgba": [
+        29,
+        117,
+        75,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Middle Skeena-mainstem tributaries",
+      "rgb": [
+        240,
+        228,
+        97
+      ],
+      "rgba": [
+        240,
+        228,
+        97,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Nootka and Kyuquot",
+      "rgb": [
+        15,
+        156,
+        114
+      ],
+      "rgba": [
+        15,
+        156,
+        114,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "North and Central Coast-early timing",
+      "rgb": [
+        79,
+        76,
+        27
+      ],
+      "rgba": [
+        79,
+        76,
+        27,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "North and Central Coast-late timing",
+      "rgb": [
+        181,
+        196,
+        155
+      ],
+      "rgba": [
+        181,
+        196,
+        155,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Northeast Vancouver Island",
+      "rgb": [
+        203,
+        102,
+        97
+      ],
+      "rgba": [
+        203,
+        102,
+        97,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "North Thompson-spring timing-age 1.3",
+      "rgb": [
+        162,
+        184,
+        122
+      ],
+      "rgba": [
+        162,
+        184,
+        122,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "North Thompson-spring timing-age 1.3",
+      "rgb": [
+        162,
+        184,
+        122
+      ],
+      "rgba": [
+        162,
+        184,
+        122,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "Northwest Vancouver Island",
+      "rgb": [
+        177,
+        86,
+        167
+      ],
+      "rgba": [
+        177,
+        86,
+        167,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "Okanagan",
+      "rgb": [
+        233,
+        106,
+        53
+      ],
+      "rgba": [
+        233,
+        106,
+        53,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "Portland Sound-Observatory Inlet-Lower Nass",
+      "rgb": [
+        139,
+        65,
+        24
+      ],
+      "rgba": [
+        139,
+        65,
+        24,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Port San Juan",
+      "rgb": [
+        180,
+        251,
+        203
+      ],
+      "rgba": [
+        180,
+        251,
+        203,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "Queen Charlotte Islands-east",
+      "rgb": [
+        237,
+        107,
+        82
+      ],
+      "rgba": [
+        237,
+        107,
+        82,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "Queen Charlotte Islands-north",
+      "rgb": [
+        60,
+        226,
+        244
+      ],
+      "rgba": [
+        60,
+        226,
+        244,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "Rivers Inlet",
+      "rgb": [
+        167,
+        107,
+        91
+      ],
+      "rgba": [
+        167,
+        107,
+        91,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "Shuswap River-summer timing-age 1.3",
+      "rgb": [
+        207,
+        68,
+        115
+      ],
+      "rgba": [
+        207,
+        68,
+        115,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "Skeena Estuary",
+      "rgb": [
+        147,
+        222,
+        60
+      ],
+      "rgba": [
+        147,
+        222,
+        60,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "South Coast-Georgia Strait",
+      "rgb": [
+        192,
+        211,
+        186
+      ],
+      "rgba": [
+        192,
+        211,
+        186,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "South Coast-southern fjords",
+      "rgb": [
+        93,
+        206,
+        91
+      ],
+      "rgba": [
+        93,
+        206,
+        91,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "South Thompson-Bessette Creek",
+      "rgb": [
+        148,
+        137,
+        223
+      ],
+      "rgba": [
+        148,
+        137,
+        223,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "South Thompson-summer timing-age 0.3",
+      "rgb": [
+        224,
+        252,
+        36
+      ],
+      "rgba": [
+        224,
+        252,
+        36,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "South Thompson-summer timing-age 1.3",
+      "rgb": [
+        184,
+        35,
+        126
+      ],
+      "rgba": [
+        184,
+        35,
+        126,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "Southwest Vancouver Island",
+      "rgb": [
+        115,
+        22,
+        159
+      ],
+      "rgba": [
+        115,
+        22,
+        159,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "Stikine-early timing",
+      "rgb": [
+        1,
+        109,
+        122
+      ],
+      "rgba": [
+        1,
+        109,
+        122,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Stikine-late timing",
+      "rgb": [
+        98,
+        25,
+        153
+      ],
+      "rgba": [
+        98,
+        25,
+        153,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Taku-early timing",
+      "rgb": [
+        221,
+        51,
+        249
+      ],
+      "rgba": [
+        221,
+        51,
+        249,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "Taku-late timing",
+      "rgb": [
+        117,
+        124,
+        21
+      ],
+      "rgba": [
+        117,
+        124,
+        21,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "Taku-mid timing",
+      "rgb": [
+        84,
+        171,
+        200
+      ],
+      "rgba": [
+        84,
+        171,
+        200,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "Unuk",
+      "rgb": [
+        6,
+        178,
+        170
+      ],
+      "rgba": [
+        6,
+        178,
+        170,
+        220
+      ],
+      "value": 65
+    },
+    {
+      "label": "Upper Bulkley River",
+      "rgb": [
+        55,
+        112,
+        52
+      ],
+      "rgba": [
+        55,
+        112,
+        52,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Upper Fraser River-spring timing",
+      "rgb": [
+        134,
+        128,
+        89
+      ],
+      "rgba": [
+        134,
+        128,
+        89,
+        220
+      ],
+      "value": 63
+    },
+    {
+      "label": "Upper Nass",
+      "rgb": [
+        232,
+        69,
+        117
+      ],
+      "rgba": [
+        232,
+        69,
+        117,
+        220
+      ],
+      "value": 64
+    },
+    {
+      "label": "Upper Skeena",
+      "rgb": [
+        189,
+        163,
+        130
+      ],
+      "rgba": [
+        189,
+        163,
+        130,
+        220
+      ],
+      "value": 66
+    },
+    {
+      "label": "Wannock",
+      "rgb": [
+        146,
+        216,
+        84
+      ],
+      "rgba": [
+        146,
+        216,
+        84,
+        220
+      ],
+      "value": 67
+    },
+    {
+      "label": "Whiting",
+      "rgb": [
+        243,
+        254,
+        177
+      ],
+      "rgba": [
+        243,
+        254,
+        177,
+        220
+      ],
+      "value": 68
+    },
+    {
+      "label": "Yukon River-Teslin headwaters",
+      "rgb": [
+        192,
+        203,
+        162
+      ],
+      "rgba": [
+        192,
+        203,
+        162,
+        220
+      ],
+      "value": 62
+    }
+  ],
+  "visible_pixel_count": 2603,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

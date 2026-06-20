@@ -1,0 +1,157 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_soils_drain/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_soils_drain",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:11:48+00:00",
+  "internal_raster_path": "drain.tiff",
+  "internal_wms_path": "drain.wms.xml",
+  "manifest_path": "layers/dl_soils_drain/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "drain.tiff",
+    "legend_source_path": "drain.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_soils_drain",
+    "source_title": "Drainage",
+    "source_zip_path": "data_layers/soils_drain.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/soils_drain.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/soils_drain.zip",
+  "title": "Drainage",
+  "value_class_count": 7,
+  "value_classes": [
+    {
+      "label": "Non-applicable (#)",
+      "rgb": [
+        29,
+        54,
+        104
+      ],
+      "rgba": [
+        29,
+        54,
+        104,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Imperfect (I)",
+      "rgb": [
+        96,
+        158,
+        58
+      ],
+      "rgba": [
+        96,
+        158,
+        58,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Moderately Well (M)",
+      "rgb": [
+        244,
+        72,
+        39
+      ],
+      "rgba": [
+        244,
+        72,
+        39,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Poor (P)",
+      "rgb": [
+        93,
+        44,
+        114
+      ],
+      "rgba": [
+        93,
+        44,
+        114,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Rapid (R)",
+      "rgb": [
+        105,
+        170,
+        255
+      ],
+      "rgba": [
+        105,
+        170,
+        255,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Very Poor (V)",
+      "rgb": [
+        205,
+        24,
+        13
+      ],
+      "rgba": [
+        205,
+        24,
+        13,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Well (W)",
+      "rgb": [
+        255,
+        255,
+        42
+      ],
+      "rgba": [
+        255,
+        255,
+        42,
+        220
+      ],
+      "value": 7
+    }
+  ],
+  "visible_pixel_count": 21843,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

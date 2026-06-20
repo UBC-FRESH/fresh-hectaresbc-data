@@ -1,0 +1,982 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_misc_cutblock/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_misc_cutblock",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:10:25+00:00",
+  "internal_raster_path": "cutblock.tiff",
+  "internal_wms_path": "cutblock.wms.xml",
+  "manifest_path": "layers/dl_misc_cutblock/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "cutblock.tiff",
+    "legend_source_path": "cutblock.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_misc_cutblock",
+    "source_title": "Harvested Areas of BC (Consolidated Cutblocks)",
+    "source_zip_path": "data_layers/misc_cutblock.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/misc_cutblock.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/misc_cutblock.zip",
+  "title": "Harvested Areas of BC (Consolidated Cutblocks)",
+  "value_class_count": 62,
+  "value_classes": [
+    {
+      "label": "1930",
+      "rgb": [
+        48,
+        106,
+        52
+      ],
+      "rgba": [
+        48,
+        106,
+        52,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "1955",
+      "rgb": [
+        225,
+        193,
+        70
+      ],
+      "rgba": [
+        225,
+        193,
+        70,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "1956",
+      "rgb": [
+        109,
+        229,
+        243
+      ],
+      "rgba": [
+        109,
+        229,
+        243,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "1957",
+      "rgb": [
+        39,
+        22,
+        164
+      ],
+      "rgba": [
+        39,
+        22,
+        164,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "1958",
+      "rgb": [
+        55,
+        78,
+        226
+      ],
+      "rgba": [
+        55,
+        78,
+        226,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "1959",
+      "rgb": [
+        127,
+        227,
+        166
+      ],
+      "rgba": [
+        127,
+        227,
+        166,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "1960",
+      "rgb": [
+        82,
+        222,
+        47
+      ],
+      "rgba": [
+        82,
+        222,
+        47,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "1961",
+      "rgb": [
+        187,
+        183,
+        98
+      ],
+      "rgba": [
+        187,
+        183,
+        98,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "1962",
+      "rgb": [
+        10,
+        95,
+        29
+      ],
+      "rgba": [
+        10,
+        95,
+        29,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "1963",
+      "rgb": [
+        144,
+        242,
+        243
+      ],
+      "rgba": [
+        144,
+        242,
+        243,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "1964",
+      "rgb": [
+        27,
+        53,
+        254
+      ],
+      "rgba": [
+        27,
+        53,
+        254,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "1965",
+      "rgb": [
+        64,
+        39,
+        236
+      ],
+      "rgba": [
+        64,
+        39,
+        236,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "1966",
+      "rgb": [
+        126,
+        230,
+        64
+      ],
+      "rgba": [
+        126,
+        230,
+        64,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "1967",
+      "rgb": [
+        248,
+        191,
+        0
+      ],
+      "rgba": [
+        248,
+        191,
+        0,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "1968",
+      "rgb": [
+        60,
+        131,
+        12
+      ],
+      "rgba": [
+        60,
+        131,
+        12,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "1969",
+      "rgb": [
+        148,
+        207,
+        42
+      ],
+      "rgba": [
+        148,
+        207,
+        42,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "1970",
+      "rgb": [
+        163,
+        132,
+        157
+      ],
+      "rgba": [
+        163,
+        132,
+        157,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "1971",
+      "rgb": [
+        148,
+        203,
+        101
+      ],
+      "rgba": [
+        148,
+        203,
+        101,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "1972",
+      "rgb": [
+        132,
+        148,
+        126
+      ],
+      "rgba": [
+        132,
+        148,
+        126,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "1973",
+      "rgb": [
+        103,
+        211,
+        122
+      ],
+      "rgba": [
+        103,
+        211,
+        122,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "1974",
+      "rgb": [
+        252,
+        252,
+        75
+      ],
+      "rgba": [
+        252,
+        252,
+        75,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "1975",
+      "rgb": [
+        242,
+        11,
+        55
+      ],
+      "rgba": [
+        242,
+        11,
+        55,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "1976",
+      "rgb": [
+        111,
+        223,
+        189
+      ],
+      "rgba": [
+        111,
+        223,
+        189,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "1977",
+      "rgb": [
+        155,
+        84,
+        54
+      ],
+      "rgba": [
+        155,
+        84,
+        54,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "1978",
+      "rgb": [
+        47,
+        57,
+        111
+      ],
+      "rgba": [
+        47,
+        57,
+        111,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "1979",
+      "rgb": [
+        155,
+        240,
+        1
+      ],
+      "rgba": [
+        155,
+        240,
+        1,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "1980",
+      "rgb": [
+        89,
+        75,
+        114
+      ],
+      "rgba": [
+        89,
+        75,
+        114,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "1981",
+      "rgb": [
+        176,
+        19,
+        229
+      ],
+      "rgba": [
+        176,
+        19,
+        229,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "1982",
+      "rgb": [
+        107,
+        175,
+        155
+      ],
+      "rgba": [
+        107,
+        175,
+        155,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "1983",
+      "rgb": [
+        2,
+        55,
+        64
+      ],
+      "rgba": [
+        2,
+        55,
+        64,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "1984",
+      "rgb": [
+        79,
+        224,
+        138
+      ],
+      "rgba": [
+        79,
+        224,
+        138,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "1985",
+      "rgb": [
+        251,
+        113,
+        195
+      ],
+      "rgba": [
+        251,
+        113,
+        195,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "1986",
+      "rgb": [
+        13,
+        214,
+        158
+      ],
+      "rgba": [
+        13,
+        214,
+        158,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "1987",
+      "rgb": [
+        64,
+        235,
+        177
+      ],
+      "rgba": [
+        64,
+        235,
+        177,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "1988",
+      "rgb": [
+        169,
+        181,
+        84
+      ],
+      "rgba": [
+        169,
+        181,
+        84,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "1989",
+      "rgb": [
+        205,
+        171,
+        71
+      ],
+      "rgba": [
+        205,
+        171,
+        71,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "1990",
+      "rgb": [
+        185,
+        77,
+        195
+      ],
+      "rgba": [
+        185,
+        77,
+        195,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "1991",
+      "rgb": [
+        238,
+        5,
+        40
+      ],
+      "rgba": [
+        238,
+        5,
+        40,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "1992",
+      "rgb": [
+        241,
+        47,
+        134
+      ],
+      "rgba": [
+        241,
+        47,
+        134,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "1993",
+      "rgb": [
+        165,
+        167,
+        91
+      ],
+      "rgba": [
+        165,
+        167,
+        91,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "1994",
+      "rgb": [
+        47,
+        200,
+        197
+      ],
+      "rgba": [
+        47,
+        200,
+        197,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "1995",
+      "rgb": [
+        113,
+        16,
+        172
+      ],
+      "rgba": [
+        113,
+        16,
+        172,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "1996",
+      "rgb": [
+        161,
+        38,
+        29
+      ],
+      "rgba": [
+        161,
+        38,
+        29,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "1997",
+      "rgb": [
+        56,
+        252,
+        132
+      ],
+      "rgba": [
+        56,
+        252,
+        132,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "1998",
+      "rgb": [
+        181,
+        100,
+        86
+      ],
+      "rgba": [
+        181,
+        100,
+        86,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "1999",
+      "rgb": [
+        98,
+        169,
+        9
+      ],
+      "rgba": [
+        98,
+        169,
+        9,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "2000",
+      "rgb": [
+        25,
+        234,
+        150
+      ],
+      "rgba": [
+        25,
+        234,
+        150,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "2001",
+      "rgb": [
+        106,
+        217,
+        13
+      ],
+      "rgba": [
+        106,
+        217,
+        13,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "2002",
+      "rgb": [
+        120,
+        84,
+        4
+      ],
+      "rgba": [
+        120,
+        84,
+        4,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "2003",
+      "rgb": [
+        162,
+        139,
+        150
+      ],
+      "rgba": [
+        162,
+        139,
+        150,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "2004",
+      "rgb": [
+        69,
+        116,
+        44
+      ],
+      "rgba": [
+        69,
+        116,
+        44,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "2005",
+      "rgb": [
+        180,
+        64,
+        131
+      ],
+      "rgba": [
+        180,
+        64,
+        131,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "2006",
+      "rgb": [
+        46,
+        251,
+        241
+      ],
+      "rgba": [
+        46,
+        251,
+        241,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "2007",
+      "rgb": [
+        104,
+        161,
+        39
+      ],
+      "rgba": [
+        104,
+        161,
+        39,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "2008",
+      "rgb": [
+        25,
+        30,
+        39
+      ],
+      "rgba": [
+        25,
+        30,
+        39,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "2009",
+      "rgb": [
+        54,
+        20,
+        188
+      ],
+      "rgba": [
+        54,
+        20,
+        188,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "2010",
+      "rgb": [
+        154,
+        187,
+        97
+      ],
+      "rgba": [
+        154,
+        187,
+        97,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "2011",
+      "rgb": [
+        116,
+        214,
+        101
+      ],
+      "rgba": [
+        116,
+        214,
+        101,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "2012",
+      "rgb": [
+        99,
+        253,
+        208
+      ],
+      "rgba": [
+        99,
+        253,
+        208,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "2013",
+      "rgb": [
+        147,
+        74,
+        222
+      ],
+      "rgba": [
+        147,
+        74,
+        222,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "2014",
+      "rgb": [
+        56,
+        86,
+        136
+      ],
+      "rgba": [
+        56,
+        86,
+        136,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "2015",
+      "rgb": [
+        100,
+        159,
+        171
+      ],
+      "rgba": [
+        100,
+        159,
+        171,
+        220
+      ],
+      "value": 62
+    }
+  ],
+  "visible_pixel_count": 2024,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

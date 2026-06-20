@@ -1,0 +1,487 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_adminunits_forestdistrict/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_adminunits_forestdistrict",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T03:50:45+00:00",
+  "internal_raster_path": "forestdistrict.tiff",
+  "internal_wms_path": "forestdistrict.wms.xml",
+  "manifest_path": "layers/dl_adminunits_forestdistrict/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "forestdistrict.tiff",
+    "legend_source_path": "forestdistrict.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_adminunits_forestdistrict",
+    "source_title": "Forest Districts",
+    "source_zip_path": "data_layers/adminunits_forestdistrict.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/adminunits_forestdistrict.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/adminunits_forestdistrict.zip",
+  "title": "Forest Districts",
+  "value_class_count": 29,
+  "value_classes": [
+    {
+      "label": "100 Mile House Forest District",
+      "rgb": [
+        94,
+        147,
+        166
+      ],
+      "rgba": [
+        94,
+        147,
+        166,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Arrow Boundary Forest District",
+      "rgb": [
+        198,
+        89,
+        124
+      ],
+      "rgba": [
+        198,
+        89,
+        124,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Campbell River Forest District",
+      "rgb": [
+        28,
+        7,
+        45
+      ],
+      "rgba": [
+        28,
+        7,
+        45,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Cascades Forest District",
+      "rgb": [
+        122,
+        58,
+        13
+      ],
+      "rgba": [
+        122,
+        58,
+        13,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Central Cariboo Forest District",
+      "rgb": [
+        193,
+        250,
+        14
+      ],
+      "rgba": [
+        193,
+        250,
+        14,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Chilcotin Forest District",
+      "rgb": [
+        146,
+        196,
+        148
+      ],
+      "rgba": [
+        146,
+        196,
+        148,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Chilliwack Forest District",
+      "rgb": [
+        156,
+        25,
+        241
+      ],
+      "rgba": [
+        156,
+        25,
+        241,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Columbia Forest District",
+      "rgb": [
+        75,
+        238,
+        7
+      ],
+      "rgba": [
+        75,
+        238,
+        7,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Fort Nelson Forest District",
+      "rgb": [
+        195,
+        95,
+        197
+      ],
+      "rgba": [
+        195,
+        95,
+        197,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Fort St. James Forest District",
+      "rgb": [
+        101,
+        43,
+        47
+      ],
+      "rgba": [
+        101,
+        43,
+        47,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Headwaters Forest District",
+      "rgb": [
+        128,
+        252,
+        253
+      ],
+      "rgba": [
+        128,
+        252,
+        253,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Kalum Forest District",
+      "rgb": [
+        141,
+        73,
+        193
+      ],
+      "rgba": [
+        141,
+        73,
+        193,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Kamloops Forest District",
+      "rgb": [
+        15,
+        25,
+        232
+      ],
+      "rgba": [
+        15,
+        25,
+        232,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Kootenay Lake Forest District",
+      "rgb": [
+        51,
+        230,
+        169
+      ],
+      "rgba": [
+        51,
+        230,
+        169,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Mackenzie Forest District",
+      "rgb": [
+        0,
+        79,
+        193
+      ],
+      "rgba": [
+        0,
+        79,
+        193,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Nadina Forest District",
+      "rgb": [
+        1,
+        63,
+        123
+      ],
+      "rgba": [
+        1,
+        63,
+        123,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "North Coast Forest District",
+      "rgb": [
+        21,
+        204,
+        119
+      ],
+      "rgba": [
+        21,
+        204,
+        119,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "North Island - Central Coast Forest District",
+      "rgb": [
+        158,
+        43,
+        15
+      ],
+      "rgba": [
+        158,
+        43,
+        15,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Okanagan Shuswap Forest District",
+      "rgb": [
+        42,
+        100,
+        239
+      ],
+      "rgba": [
+        42,
+        100,
+        239,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Peace Forest District",
+      "rgb": [
+        111,
+        204,
+        238
+      ],
+      "rgba": [
+        111,
+        204,
+        238,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Prince George Forest District",
+      "rgb": [
+        161,
+        188,
+        26
+      ],
+      "rgba": [
+        161,
+        188,
+        26,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Queen Charlotte Islands Forest District",
+      "rgb": [
+        163,
+        178,
+        0
+      ],
+      "rgba": [
+        163,
+        178,
+        0,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Quesnel Forest District",
+      "rgb": [
+        132,
+        50,
+        77
+      ],
+      "rgba": [
+        132,
+        50,
+        77,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Rocky Mountain Forest District",
+      "rgb": [
+        133,
+        103,
+        50
+      ],
+      "rgba": [
+        133,
+        103,
+        50,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Skeena Stikine Forest District",
+      "rgb": [
+        59,
+        241,
+        1
+      ],
+      "rgba": [
+        59,
+        241,
+        1,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "South Island Forest District",
+      "rgb": [
+        185,
+        153,
+        29
+      ],
+      "rgba": [
+        185,
+        153,
+        29,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Squamish Forest District",
+      "rgb": [
+        168,
+        219,
+        15
+      ],
+      "rgba": [
+        168,
+        219,
+        15,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Sunshine Coast Forest District",
+      "rgb": [
+        84,
+        89,
+        57
+      ],
+      "rgba": [
+        84,
+        89,
+        57,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Vanderhoof Forest District",
+      "rgb": [
+        248,
+        0,
+        190
+      ],
+      "rgba": [
+        248,
+        0,
+        190,
+        220
+      ],
+      "value": 29
+    }
+  ],
+  "visible_pixel_count": 22966,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

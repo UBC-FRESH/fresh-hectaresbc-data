@@ -1,0 +1,2407 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_parksprotected_conservancy/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_parksprotected_conservancy",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:11:21+00:00",
+  "internal_raster_path": "conservancy.tiff",
+  "internal_wms_path": "conservancy.wms.xml",
+  "manifest_path": "layers/dl_parksprotected_conservancy/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "conservancy.tiff",
+    "legend_source_path": "conservancy.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_parksprotected_conservancy",
+    "source_title": "Conservancy Areas",
+    "source_zip_path": "data_layers/parksprotected_conservancy.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/parksprotected_conservancy.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/parksprotected_conservancy.zip",
+  "title": "Conservancy Areas",
+  "value_class_count": 157,
+  "value_classes": [
+    {
+      "label": "ALTY CONSERVANCY",
+      "rgb": [
+        31,
+        114,
+        53
+      ],
+      "rgba": [
+        31,
+        114,
+        53,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "BANKS NII LUUTIKSM CONSERVANCY",
+      "rgb": [
+        243,
+        221,
+        77
+      ],
+      "rgba": [
+        243,
+        221,
+        77,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "BEAR ISLAND CONSERVANCY",
+      "rgb": [
+        48,
+        26,
+        45
+      ],
+      "rgba": [
+        48,
+        26,
+        45,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "BELLA COOLA ESTUARY CONSERVANCY",
+      "rgb": [
+        168,
+        161,
+        170
+      ],
+      "rgba": [
+        168,
+        161,
+        170,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "BISHOP BAY-MONKEY BEACH CONSERVANCY",
+      "rgb": [
+        27,
+        81,
+        106
+      ],
+      "rgba": [
+        27,
+        81,
+        106,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "BISHOP BAY-MONKEY BEACH CORRIDOR CONSERVANCY",
+      "rgb": [
+        13,
+        204,
+        101
+      ],
+      "rgba": [
+        13,
+        204,
+        101,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "BROUGHTON ARCHIPELAGO CONSERVANCY",
+      "rgb": [
+        105,
+        205,
+        66
+      ],
+      "rgba": [
+        105,
+        205,
+        66,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "BURDWOOD GROUP CONSERVANCY",
+      "rgb": [
+        130,
+        49,
+        93
+      ],
+      "rgba": [
+        130,
+        49,
+        93,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "BURNT BRIDGE CREEK CONSERVANCY",
+      "rgb": [
+        190,
+        146,
+        169
+      ],
+      "rgba": [
+        190,
+        146,
+        169,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "CALLAGHAN CONSERVANCY",
+      "rgb": [
+        173,
+        77,
+        210
+      ],
+      "rgba": [
+        173,
+        77,
+        210,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "CALVERT ISLAND CONSERVANCY",
+      "rgb": [
+        165,
+        10,
+        15
+      ],
+      "rgba": [
+        165,
+        10,
+        15,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "CARTER BAY CONSERVANCY",
+      "rgb": [
+        180,
+        223,
+        235
+      ],
+      "rgba": [
+        180,
+        223,
+        235,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "CASCADE-SUTSLEM CONSERVANCY",
+      "rgb": [
+        49,
+        89,
+        47
+      ],
+      "rgba": [
+        49,
+        89,
+        47,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "CATTO CREEK CONSERVANCY",
+      "rgb": [
+        251,
+        112,
+        223
+      ],
+      "rgba": [
+        251,
+        112,
+        223,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "CETAN/THURSTON BAY CONSERVANCY",
+      "rgb": [
+        55,
+        182,
+        197
+      ],
+      "rgba": [
+        55,
+        182,
+        197,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "CLAYTON FALLS CONSERVANCY",
+      "rgb": [
+        229,
+        126,
+        153
+      ],
+      "rgba": [
+        229,
+        126,
+        153,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "CLYAK ESTUARY CONSERVANCY",
+      "rgb": [
+        103,
+        134,
+        81
+      ],
+      "rgba": [
+        103,
+        134,
+        81,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "CODVILLE LAGOON CONSERVANCY",
+      "rgb": [
+        239,
+        156,
+        19
+      ],
+      "rgba": [
+        239,
+        156,
+        19,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "CRAB LAKE CONSERVANCY",
+      "rgb": [
+        114,
+        208,
+        111
+      ],
+      "rgba": [
+        114,
+        208,
+        111,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "CRANSTOWN POINT CONSERVANCY",
+      "rgb": [
+        37,
+        71,
+        52
+      ],
+      "rgba": [
+        37,
+        71,
+        52,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "DAAWUUXUSDA CONSERVANCY",
+      "rgb": [
+        240,
+        172,
+        76
+      ],
+      "rgba": [
+        240,
+        172,
+        76,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "DAMAXYAA CONSERVANCY",
+      "rgb": [
+        174,
+        35,
+        100
+      ],
+      "rgba": [
+        174,
+        35,
+        100,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "DEAN RIVER CONSERVANCY",
+      "rgb": [
+        83,
+        95,
+        33
+      ],
+      "rgba": [
+        83,
+        95,
+        33,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "DEAN RIVER CORRIDOR CONSERVANCY",
+      "rgb": [
+        78,
+        141,
+        93
+      ],
+      "rgba": [
+        78,
+        141,
+        93,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "DUU GUUSD CONSERVANCY",
+      "rgb": [
+        254,
+        135,
+        240
+      ],
+      "rgba": [
+        254,
+        135,
+        240,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "DZAWADI/KLINAKLINI ESTUARY CONSERVANCY",
+      "rgb": [
+        130,
+        234,
+        79
+      ],
+      "rgba": [
+        130,
+        234,
+        79,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "DZAWADI/UPPER KLINAKLINI RIVER CONSERVANCY",
+      "rgb": [
+        201,
+        91,
+        15
+      ],
+      "rgba": [
+        201,
+        91,
+        15,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "ECSTALL HEADWATERS CONSERVANCY",
+      "rgb": [
+        21,
+        10,
+        239
+      ],
+      "rgba": [
+        21,
+        10,
+        239,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "ECSTALL-SPARKLING CONSERVANCY",
+      "rgb": [
+        184,
+        202,
+        243
+      ],
+      "rgba": [
+        184,
+        202,
+        243,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "ECSTALL-SPOKSUUT CONSERVANCY",
+      "rgb": [
+        155,
+        50,
+        95
+      ],
+      "rgba": [
+        155,
+        50,
+        95,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "ELLERSLIE-ROSCOE CONSERVANCY",
+      "rgb": [
+        173,
+        83,
+        22
+      ],
+      "rgba": [
+        173,
+        83,
+        22,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "EMILY LAKE CONSERVANCY",
+      "rgb": [
+        53,
+        249,
+        51
+      ],
+      "rgba": [
+        53,
+        249,
+        51,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "ESTERO BASIN CONSERVANCY",
+      "rgb": [
+        31,
+        89,
+        194
+      ],
+      "rgba": [
+        31,
+        89,
+        194,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "ESTE-TIWILH/SIGURD CREEK CONSERVANCY",
+      "rgb": [
+        186,
+        2,
+        74
+      ],
+      "rgba": [
+        186,
+        2,
+        74,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "ETHELDA BAY-TENNANT ISLAND CONSERVANCY",
+      "rgb": [
+        246,
+        48,
+        143
+      ],
+      "rgba": [
+        246,
+        48,
+        143,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "EUROPA LAKE CONSERVANCY",
+      "rgb": [
+        85,
+        98,
+        158
+      ],
+      "rgba": [
+        85,
+        98,
+        158,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "FIORDLAND CONSERVANCY",
+      "rgb": [
+        162,
+        72,
+        248
+      ],
+      "rgba": [
+        162,
+        72,
+        248,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "FORWARD HARBOUR CONSERVANCY",
+      "rgb": [
+        68,
+        60,
+        178
+      ],
+      "rgba": [
+        68,
+        60,
+        178,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "GILLARD-JIMMY JUDD ISLAND CONSERVANCY",
+      "rgb": [
+        232,
+        37,
+        51
+      ],
+      "rgba": [
+        232,
+        37,
+        51,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "GITXAALA NII LUUTIKSM/KITKATLA CONSERVANCY",
+      "rgb": [
+        96,
+        5,
+        225
+      ],
+      "rgba": [
+        96,
+        5,
+        225,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "GOAT COVE CONSERVANCY",
+      "rgb": [
+        96,
+        51,
+        40
+      ],
+      "rgba": [
+        96,
+        51,
+        40,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "GOLDEN GATE/XAAT YADI AANI CONSERVANCY",
+      "rgb": [
+        3,
+        173,
+        2
+      ],
+      "rgba": [
+        3,
+        173,
+        2,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "GOOSE BAY CONSERVANCY",
+      "rgb": [
+        34,
+        148,
+        151
+      ],
+      "rgba": [
+        34,
+        148,
+        151,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "GUNBOAT HARBOUR CONSERVANCY",
+      "rgb": [
+        167,
+        3,
+        137
+      ],
+      "rgba": [
+        167,
+        3,
+        137,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "HAKAI CONSERVATION STUDY AREA",
+      "rgb": [
+        219,
+        16,
+        31
+      ],
+      "rgba": [
+        219,
+        16,
+        31,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "HAKAI/LUXVBALIS CONSERVANCY",
+      "rgb": [
+        107,
+        183,
+        253
+      ],
+      "rgba": [
+        107,
+        183,
+        253,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "HANNA-TINTINA CONSERVANCY",
+      "rgb": [
+        66,
+        205,
+        210
+      ],
+      "rgba": [
+        66,
+        205,
+        210,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "HOT SPRINGS-NO NAME CREEK CONSERVANCY",
+      "rgb": [
+        115,
+        47,
+        102
+      ],
+      "rgba": [
+        115,
+        47,
+        102,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "HUCHSDUWACHSDU NUYEM JEES/KITLOPE HERITAGE CONSERV",
+      "rgb": [
+        63,
+        32,
+        189
+      ],
+      "rgba": [
+        63,
+        32,
+        189,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "HUNWADI/AHNUHATI - BALD CONSERVANCY",
+      "rgb": [
+        240,
+        12,
+        131
+      ],
+      "rgba": [
+        240,
+        12,
+        131,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "I7LOQAW7/100 LAKES PLATEAU CONSERVANCY",
+      "rgb": [
+        213,
+        26,
+        141
+      ],
+      "rgba": [
+        213,
+        26,
+        141,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "INDIAN LAKE-HITCHCOCK CREEK/AT CH'INISHA CONSERVAN",
+      "rgb": [
+        22,
+        192,
+        18
+      ],
+      "rgba": [
+        22,
+        192,
+        18,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "JUMP ACROSS CONSERVANCY",
+      "rgb": [
+        73,
+        136,
+        45
+      ],
+      "rgba": [
+        73,
+        136,
+        45,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "KAMDIS CONSERVANCY",
+      "rgb": [
+        208,
+        220,
+        204
+      ],
+      "rgba": [
+        208,
+        220,
+        204,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "K'DISTSAUSK/TURTLE POINT CONSERVANCY",
+      "rgb": [
+        34,
+        128,
+        132
+      ],
+      "rgba": [
+        34,
+        128,
+        132,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "KENNEDY ISLAND CONSERVANCY",
+      "rgb": [
+        83,
+        76,
+        202
+      ],
+      "rgba": [
+        83,
+        76,
+        202,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "KHTADA LAKE CONSERVANCY",
+      "rgb": [
+        105,
+        109,
+        178
+      ],
+      "rgba": [
+        105,
+        109,
+        178,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "KHUTZEYMATEEN INLET CONSERVANCY",
+      "rgb": [
+        144,
+        241,
+        60
+      ],
+      "rgba": [
+        144,
+        241,
+        60,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "KHUTZEYMATEEN INLET WEST CONSERVANCY",
+      "rgb": [
+        125,
+        96,
+        192
+      ],
+      "rgba": [
+        125,
+        96,
+        192,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "KHYEX CONSERVANCY",
+      "rgb": [
+        193,
+        131,
+        79
+      ],
+      "rgba": [
+        193,
+        131,
+        79,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "KILBELLA ESTUARY CONSERVANCY",
+      "rgb": [
+        2,
+        16,
+        2
+      ],
+      "rgba": [
+        2,
+        16,
+        2,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "KIMSQUIT ESTUARY CONSERVANCY",
+      "rgb": [
+        47,
+        110,
+        34
+      ],
+      "rgba": [
+        47,
+        110,
+        34,
+        220
+      ],
+      "value": 62
+    },
+    {
+      "label": "KITASOO SPIRIT BEAR CONSERVANCY",
+      "rgb": [
+        245,
+        79,
+        231
+      ],
+      "rgba": [
+        245,
+        79,
+        231,
+        220
+      ],
+      "value": 63
+    },
+    {
+      "label": "KLEWNUGGIT CONSERVANCY",
+      "rgb": [
+        119,
+        55,
+        194
+      ],
+      "rgba": [
+        119,
+        55,
+        194,
+        220
+      ],
+      "value": 64
+    },
+    {
+      "label": "K'LGAAN/KLEKANE CONSERVANCY",
+      "rgb": [
+        181,
+        172,
+        199
+      ],
+      "rgba": [
+        181,
+        172,
+        199,
+        220
+      ],
+      "value": 65
+    },
+    {
+      "label": "K'MOODA/LOWE-GAMBLE CONSERVANCY",
+      "rgb": [
+        202,
+        210,
+        6
+      ],
+      "rgba": [
+        202,
+        210,
+        6,
+        220
+      ],
+      "value": 66
+    },
+    {
+      "label": "K'NABIYAAXL/ASHDOWN CONSERVANCY",
+      "rgb": [
+        123,
+        117,
+        225
+      ],
+      "rgba": [
+        123,
+        117,
+        225,
+        220
+      ],
+      "value": 67
+    },
+    {
+      "label": "KOEYE CONSERVANCY",
+      "rgb": [
+        245,
+        250,
+        29
+      ],
+      "rgba": [
+        245,
+        250,
+        29,
+        220
+      ],
+      "value": 68
+    },
+    {
+      "label": "K'OOTZ/KHUTZE CONSERVANCY",
+      "rgb": [
+        128,
+        205,
+        147
+      ],
+      "rgba": [
+        128,
+        205,
+        147,
+        220
+      ],
+      "value": 69
+    },
+    {
+      "label": "KSGAXL/STEPHENS ISLANDS CONSERVANCY",
+      "rgb": [
+        200,
+        68,
+        71
+      ],
+      "rgba": [
+        200,
+        68,
+        71,
+        220
+      ],
+      "value": 70
+    },
+    {
+      "label": "KSI X' ANMAAS CONSERVANCY",
+      "rgb": [
+        16,
+        248,
+        61
+      ],
+      "rgba": [
+        16,
+        248,
+        61,
+        220
+      ],
+      "value": 71
+    },
+    {
+      "label": "KSI XTS'AT'KW/STAGOO CONSERVANCY",
+      "rgb": [
+        130,
+        242,
+        188
+      ],
+      "rgba": [
+        130,
+        242,
+        188,
+        220
+      ],
+      "value": 72
+    },
+    {
+      "label": "KT'II/RACEY CONSERVANCY",
+      "rgb": [
+        98,
+        125,
+        23
+      ],
+      "rgba": [
+        98,
+        125,
+        23,
+        220
+      ],
+      "value": 73
+    },
+    {
+      "label": "KTISGAIDZ/MACDONALD BAY CONSERVANCY",
+      "rgb": [
+        106,
+        190,
+        100
+      ],
+      "rgba": [
+        106,
+        190,
+        100,
+        220
+      ],
+      "value": 74
+    },
+    {
+      "label": "KTS'MKTA'ANI/UNION LAKE CONSERVANCY",
+      "rgb": [
+        82,
+        52,
+        78
+      ],
+      "rgba": [
+        82,
+        52,
+        78,
+        220
+      ],
+      "value": 75
+    },
+    {
+      "label": "KUNXALAS CONSERVANCY",
+      "rgb": [
+        1,
+        227,
+        28
+      ],
+      "rgba": [
+        1,
+        227,
+        28,
+        220
+      ],
+      "value": 76
+    },
+    {
+      "label": "K'UUNA GWAAY CONSERVANCY",
+      "rgb": [
+        103,
+        4,
+        172
+      ],
+      "rgba": [
+        103,
+        4,
+        172,
+        220
+      ],
+      "value": 77
+    },
+    {
+      "label": "K'WAAL CONSERVANCY",
+      "rgb": [
+        238,
+        116,
+        5
+      ],
+      "rgba": [
+        238,
+        116,
+        5,
+        220
+      ],
+      "value": 78
+    },
+    {
+      "label": "KWATNA ESTUARY CONSERVANCY",
+      "rgb": [
+        45,
+        54,
+        185
+      ],
+      "rgba": [
+        45,
+        54,
+        185,
+        220
+      ],
+      "value": 79
+    },
+    {
+      "label": "K'ZUZALT/TWIN TWO CONSERVANCY",
+      "rgb": [
+        152,
+        45,
+        19
+      ],
+      "rgba": [
+        152,
+        45,
+        19,
+        220
+      ],
+      "value": 80
+    },
+    {
+      "label": "LADY DOUGLAS-DON PENNINSULA CONSERVANCY",
+      "rgb": [
+        56,
+        244,
+        97
+      ],
+      "rgba": [
+        56,
+        244,
+        97,
+        220
+      ],
+      "value": 81
+    },
+    {
+      "label": "LARCOM LAGOON CONSERVANCY",
+      "rgb": [
+        148,
+        206,
+        19
+      ],
+      "rgba": [
+        148,
+        206,
+        19,
+        220
+      ],
+      "value": 82
+    },
+    {
+      "label": "LAX KA'GAAS/CAMPANIA CONSERVANCY",
+      "rgb": [
+        167,
+        226,
+        33
+      ],
+      "rgba": [
+        167,
+        226,
+        33,
+        220
+      ],
+      "value": 83
+    },
+    {
+      "label": "LAX KUL NII LUUTIKSM/BONILLA CONSERVANCY",
+      "rgb": [
+        120,
+        209,
+        236
+      ],
+      "rgba": [
+        120,
+        209,
+        236,
+        220
+      ],
+      "value": 84
+    },
+    {
+      "label": "LAX KWAXL/DUNDAS AND MELVILLE ISLANDS CONSERVANCY",
+      "rgb": [
+        111,
+        76,
+        200
+      ],
+      "rgba": [
+        111,
+        76,
+        200,
+        220
+      ],
+      "value": 85
+    },
+    {
+      "label": "LAX KWIL DZIIDZ/FIN CONSERVANCY",
+      "rgb": [
+        180,
+        0,
+        161
+      ],
+      "rgba": [
+        180,
+        0,
+        161,
+        220
+      ],
+      "value": 86
+    },
+    {
+      "label": "LOCKHART-GORDON CONSERVANCY",
+      "rgb": [
+        40,
+        19,
+        127
+      ],
+      "rgba": [
+        40,
+        19,
+        127,
+        220
+      ],
+      "value": 87
+    },
+    {
+      "label": "LONG ISLAND CONSERVANCY",
+      "rgb": [
+        191,
+        186,
+        237
+      ],
+      "rgba": [
+        191,
+        186,
+        237,
+        220
+      ],
+      "value": 88
+    },
+    {
+      "label": "LUCY ISLANDS CONSERVANCY",
+      "rgb": [
+        187,
+        216,
+        54
+      ],
+      "rgba": [
+        187,
+        216,
+        54,
+        220
+      ],
+      "value": 89
+    },
+    {
+      "label": "MACHMELL CONSERVANCY",
+      "rgb": [
+        117,
+        249,
+        229
+      ],
+      "rgba": [
+        117,
+        249,
+        229,
+        220
+      ],
+      "value": 90
+    },
+    {
+      "label": "MAHPAHKUM-AHKWUNA/DESERTERS-WALKER CONSERVANCY",
+      "rgb": [
+        197,
+        104,
+        3
+      ],
+      "rgba": [
+        197,
+        104,
+        3,
+        220
+      ],
+      "value": 91
+    },
+    {
+      "label": "MANZANITA COVE CONSERVANCY",
+      "rgb": [
+        11,
+        230,
+        99
+      ],
+      "rgba": [
+        11,
+        230,
+        99,
+        220
+      ],
+      "value": 92
+    },
+    {
+      "label": "MAXTAKTSM'AA/UNION PASSAGE CONSERVANCY",
+      "rgb": [
+        135,
+        0,
+        81
+      ],
+      "rgba": [
+        135,
+        0,
+        81,
+        220
+      ],
+      "value": 93
+    },
+    {
+      "label": "MKWAL'TS CONSERVANCY",
+      "rgb": [
+        55,
+        22,
+        251
+      ],
+      "rgba": [
+        55,
+        22,
+        251,
+        220
+      ],
+      "value": 94
+    },
+    {
+      "label": "MOKSGM'OL/CHAPPLE -- CORNWALL CONSERVANCY",
+      "rgb": [
+        106,
+        229,
+        57
+      ],
+      "rgba": [
+        106,
+        229,
+        57,
+        220
+      ],
+      "value": 95
+    },
+    {
+      "label": "MONARCH MOUNTAIN/A XEEGI DEIYI CONSERVANCY",
+      "rgb": [
+        95,
+        212,
+        153
+      ],
+      "rgba": [
+        95,
+        212,
+        153,
+        220
+      ],
+      "value": 96
+    },
+    {
+      "label": "MONCKTON NII LUUTIKSM CONSERVANCY",
+      "rgb": [
+        74,
+        42,
+        208
+      ],
+      "rgba": [
+        74,
+        42,
+        208,
+        220
+      ],
+      "value": 97
+    },
+    {
+      "label": "MOUNT MINTO/K'IYAN CONSERVANCY",
+      "rgb": [
+        99,
+        110,
+        87
+      ],
+      "rgba": [
+        99,
+        110,
+        87,
+        220
+      ],
+      "value": 98
+    },
+    {
+      "label": "NAKINA-INKLIN RIVERS (KUTHAI AREA)/YAWU YAA CONSER",
+      "rgb": [
+        98,
+        132,
+        181
+      ],
+      "rgba": [
+        98,
+        132,
+        181,
+        220
+      ],
+      "value": 99
+    },
+    {
+      "label": "NAKINA-INKLIN RIVERS/YAWU YAA CONSERVANCY",
+      "rgb": [
+        183,
+        223,
+        118
+      ],
+      "rgba": [
+        183,
+        223,
+        118,
+        220
+      ],
+      "value": 100
+    },
+    {
+      "label": "NAMU CONSERVANCY",
+      "rgb": [
+        82,
+        1,
+        250
+      ],
+      "rgba": [
+        82,
+        1,
+        250,
+        220
+      ],
+      "value": 101
+    },
+    {
+      "label": "NAMU CORRIDOR CONSERVANCY",
+      "rgb": [
+        251,
+        152,
+        211
+      ],
+      "rgba": [
+        251,
+        152,
+        211,
+        220
+      ],
+      "value": 102
+    },
+    {
+      "label": "NANG XALDANGAAS CONSERVANCY",
+      "rgb": [
+        100,
+        1,
+        162
+      ],
+      "rgba": [
+        100,
+        1,
+        162,
+        220
+      ],
+      "value": 103
+    },
+    {
+      "label": "NE'AH' CONSERVANCY",
+      "rgb": [
+        148,
+        83,
+        71
+      ],
+      "rgba": [
+        148,
+        83,
+        71,
+        220
+      ],
+      "value": 104
+    },
+    {
+      "label": "NEKITE ESTUARY CONSERVANCY",
+      "rgb": [
+        212,
+        167,
+        34
+      ],
+      "rgba": [
+        212,
+        167,
+        34,
+        220
+      ],
+      "value": 105
+    },
+    {
+      "label": "NLHAXTEN/CERISE CREEK CONSERVANCY",
+      "rgb": [
+        192,
+        156,
+        159
+      ],
+      "rgba": [
+        192,
+        156,
+        159,
+        220
+      ],
+      "value": 106
+    },
+    {
+      "label": "NOOSESECK CONSERVANCY",
+      "rgb": [
+        91,
+        199,
+        160
+      ],
+      "rgba": [
+        91,
+        199,
+        160,
+        220
+      ],
+      "value": 107
+    },
+    {
+      "label": "NORTH SPIT CONSERVANCY",
+      "rgb": [
+        136,
+        60,
+        66
+      ],
+      "rgba": [
+        136,
+        60,
+        66,
+        220
+      ],
+      "value": 108
+    },
+    {
+      "label": "OUTER CENTRAL COAST ISLANDS CONSERVANCY",
+      "rgb": [
+        29,
+        153,
+        217
+      ],
+      "rgba": [
+        29,
+        153,
+        217,
+        220
+      ],
+      "value": 109
+    },
+    {
+      "label": "OWIKENO CONSERVANCY",
+      "rgb": [
+        36,
+        59,
+        38
+      ],
+      "rgba": [
+        36,
+        59,
+        38,
+        220
+      ],
+      "value": 110
+    },
+    {
+      "label": "PA-AAT CONSERVANCY",
+      "rgb": [
+        61,
+        110,
+        221
+      ],
+      "rgba": [
+        61,
+        110,
+        221,
+        220
+      ],
+      "value": 111
+    },
+    {
+      "label": "PENROSE-RIPON CONSERVANCY",
+      "rgb": [
+        111,
+        59,
+        91
+      ],
+      "rgba": [
+        111,
+        59,
+        91,
+        220
+      ],
+      "value": 112
+    },
+    {
+      "label": "PHILLIPS ESTUARY CONSERVANCY",
+      "rgb": [
+        20,
+        201,
+        222
+      ],
+      "rgba": [
+        20,
+        201,
+        222,
+        220
+      ],
+      "value": 113
+    },
+    {
+      "label": "POLKINGHORNE ISLANDS CONSERVANCY",
+      "rgb": [
+        170,
+        194,
+        85
+      ],
+      "rgba": [
+        170,
+        194,
+        85,
+        220
+      ],
+      "value": 114
+    },
+    {
+      "label": "POOLEY CONSERVANCY",
+      "rgb": [
+        26,
+        61,
+        59
+      ],
+      "rgba": [
+        26,
+        61,
+        59,
+        220
+      ],
+      "value": 115
+    },
+    {
+      "label": "PORT ARTHUR CONSERVANCY",
+      "rgb": [
+        63,
+        72,
+        190
+      ],
+      "rgba": [
+        63,
+        72,
+        190,
+        220
+      ],
+      "value": 116
+    },
+    {
+      "label": "Q'ALTANAAS/AALTANHASH CONSERVANCY",
+      "rgb": [
+        242,
+        213,
+        31
+      ],
+      "rgba": [
+        242,
+        213,
+        31,
+        220
+      ],
+      "value": 117
+    },
+    {
+      "label": "QWALIMAK/UPPER BIRKENHEAD CONSERVANCY",
+      "rgb": [
+        165,
+        116,
+        231
+      ],
+      "rgba": [
+        165,
+        116,
+        231,
+        220
+      ],
+      "value": 118
+    },
+    {
+      "label": "QWIQUALLAAQ/BOAT BAY CONSERVANCY",
+      "rgb": [
+        199,
+        161,
+        38
+      ],
+      "rgba": [
+        199,
+        161,
+        38,
+        220
+      ],
+      "value": 119
+    },
+    {
+      "label": "RESCUE BAY CONSERVANCY",
+      "rgb": [
+        132,
+        137,
+        248
+      ],
+      "rgba": [
+        132,
+        137,
+        248,
+        220
+      ],
+      "value": 120
+    },
+    {
+      "label": "RESTORATION BAY CONSERVANCY",
+      "rgb": [
+        101,
+        158,
+        1
+      ],
+      "rgba": [
+        101,
+        158,
+        1,
+        220
+      ],
+      "value": 121
+    },
+    {
+      "label": "SANCTUARY BAY CONSERVANCY",
+      "rgb": [
+        174,
+        62,
+        187
+      ],
+      "rgba": [
+        174,
+        62,
+        187,
+        220
+      ],
+      "value": 122
+    },
+    {
+      "label": "SAND POINT CONSERVANCY",
+      "rgb": [
+        35,
+        51,
+        214
+      ],
+      "rgba": [
+        35,
+        51,
+        214,
+        220
+      ],
+      "value": 123
+    },
+    {
+      "label": "SGAAY TAAW SIIWAAY K'ADJUU CONSERVANCY",
+      "rgb": [
+        106,
+        18,
+        138
+      ],
+      "rgba": [
+        106,
+        18,
+        138,
+        220
+      ],
+      "value": 124
+    },
+    {
+      "label": "SHEARWATER HOT SPRINGS CONSERVANCY",
+      "rgb": [
+        201,
+        222,
+        86
+      ],
+      "rgba": [
+        201,
+        222,
+        86,
+        220
+      ],
+      "value": 125
+    },
+    {
+      "label": "SHEEMAHANT CONSERVANCY",
+      "rgb": [
+        18,
+        182,
+        207
+      ],
+      "rgba": [
+        18,
+        182,
+        207,
+        220
+      ],
+      "value": 126
+    },
+    {
+      "label": "SIMPSON LAKE EAST CONSERVANCY",
+      "rgb": [
+        123,
+        153,
+        124
+      ],
+      "rgba": [
+        123,
+        153,
+        124,
+        220
+      ],
+      "value": 127
+    },
+    {
+      "label": "SKEENA BANK CONSERVANCY",
+      "rgb": [
+        80,
+        244,
+        209
+      ],
+      "rgba": [
+        80,
+        244,
+        209,
+        220
+      ],
+      "value": 128
+    },
+    {
+      "label": "SMITHERS ISLAND CONSERVANCY",
+      "rgb": [
+        6,
+        126,
+        132
+      ],
+      "rgba": [
+        6,
+        126,
+        132,
+        220
+      ],
+      "value": 129
+    },
+    {
+      "label": "STAFFORD ESTUARY CONSERVANCY",
+      "rgb": [
+        185,
+        2,
+        172
+      ],
+      "rgba": [
+        185,
+        2,
+        172,
+        220
+      ],
+      "value": 130
+    },
+    {
+      "label": "STAIR CREEK CONSERVANCY",
+      "rgb": [
+        98,
+        32,
+        85
+      ],
+      "rgba": [
+        98,
+        32,
+        85,
+        220
+      ],
+      "value": 131
+    },
+    {
+      "label": "TAKU RIVER/T'AKU TEIX' CONSERVANCY",
+      "rgb": [
+        75,
+        71,
+        142
+      ],
+      "rgba": [
+        75,
+        71,
+        142,
+        220
+      ],
+      "value": 132
+    },
+    {
+      "label": "THORSEN CREEK CONSERVANCY",
+      "rgb": [
+        216,
+        74,
+        31
+      ],
+      "rgba": [
+        216,
+        74,
+        31,
+        220
+      ],
+      "value": 133
+    },
+    {
+      "label": "THULME FALLS CONSERVANCY",
+      "rgb": [
+        15,
+        172,
+        28
+      ],
+      "rgba": [
+        15,
+        172,
+        28,
+        220
+      ],
+      "value": 134
+    },
+    {
+      "label": "TLALL CONSERVANCY",
+      "rgb": [
+        244,
+        145,
+        2
+      ],
+      "rgba": [
+        244,
+        145,
+        2,
+        220
+      ],
+      "value": 135
+    },
+    {
+      "label": "TROUP PASSAGE CONSERVANCY",
+      "rgb": [
+        1,
+        13,
+        233
+      ],
+      "rgba": [
+        1,
+        13,
+        233,
+        220
+      ],
+      "value": 136
+    },
+    {
+      "label": "TSA-LATL/SMOKEHOUSE CONSERVANCY",
+      "rgb": [
+        41,
+        30,
+        149
+      ],
+      "rgba": [
+        41,
+        30,
+        149,
+        220
+      ],
+      "value": 137
+    },
+    {
+      "label": "TUTSHI LAKE/T'OOCH' AAYI CONSERVANCY",
+      "rgb": [
+        211,
+        100,
+        247
+      ],
+      "rgba": [
+        211,
+        100,
+        247,
+        220
+      ],
+      "value": 138
+    },
+    {
+      "label": "UGWIWA/CAPE CAUTION-BLUNDEN BAY CONSERVANCY",
+      "rgb": [
+        113,
+        17,
+        124
+      ],
+      "rgba": [
+        113,
+        17,
+        124,
+        220
+      ],
+      "value": 139
+    },
+    {
+      "label": "UGWIWA/CAPE CAUTION CONSERVANCY",
+      "rgb": [
+        185,
+        44,
+        76
+      ],
+      "rgba": [
+        185,
+        44,
+        76,
+        220
+      ],
+      "value": 140
+    },
+    {
+      "label": "UPPER ELAHO VALLEY CONSERVANCY",
+      "rgb": [
+        207,
+        21,
+        82
+      ],
+      "rgba": [
+        207,
+        21,
+        82,
+        220
+      ],
+      "value": 141
+    },
+    {
+      "label": "UPPER GLADYS RIVER/WATSIX DEIYI CONSERVANCY",
+      "rgb": [
+        55,
+        216,
+        63
+      ],
+      "rgba": [
+        55,
+        216,
+        63,
+        220
+      ],
+      "value": 142
+    },
+    {
+      "label": "UPPER KIMSQUIT RIVER CONSERVANCY",
+      "rgb": [
+        68,
+        58,
+        68
+      ],
+      "rgba": [
+        68,
+        58,
+        68,
+        220
+      ],
+      "value": 143
+    },
+    {
+      "label": "UPPER ROGERS KOL117 CONSERVANCY",
+      "rgb": [
+        204,
+        205,
+        145
+      ],
+      "rgba": [
+        204,
+        205,
+        145,
+        220
+      ],
+      "value": 144
+    },
+    {
+      "label": "UPPER SOO CONSERVANCY",
+      "rgb": [
+        117,
+        197,
+        207
+      ],
+      "rgba": [
+        117,
+        197,
+        207,
+        220
+      ],
+      "value": 145
+    },
+    {
+      "label": "WAHKASH POINT CONSERVANCY",
+      "rgb": [
+        87,
+        26,
+        119
+      ],
+      "rgba": [
+        87,
+        26,
+        119,
+        220
+      ],
+      "value": 146
+    },
+    {
+      "label": "WAKEMAN ESTUARY CONSERVANCY",
+      "rgb": [
+        12,
+        241,
+        251
+      ],
+      "rgba": [
+        12,
+        241,
+        251,
+        220
+      ],
+      "value": 147
+    },
+    {
+      "label": "WALES HARBOUR CONSERVANCY",
+      "rgb": [
+        201,
+        198,
+        51
+      ],
+      "rgba": [
+        201,
+        198,
+        51,
+        220
+      ],
+      "value": 148
+    },
+    {
+      "label": "WAWLEY/SEYMOUR ESTUARY CONSERVANCY",
+      "rgb": [
+        58,
+        49,
+        152
+      ],
+      "rgba": [
+        58,
+        49,
+        152,
+        220
+      ],
+      "value": 149
+    },
+    {
+      "label": "WILKINSON-WRIGHT BAY CONSERVANCY",
+      "rgb": [
+        240,
+        193,
+        78
+      ],
+      "rgba": [
+        240,
+        193,
+        78,
+        220
+      ],
+      "value": 150
+    },
+    {
+      "label": "WILLISON CREEK-NELSON LAKE/SIT' HEENI CONSERVANCY",
+      "rgb": [
+        243,
+        63,
+        44
+      ],
+      "rgba": [
+        243,
+        63,
+        44,
+        220
+      ],
+      "value": 151
+    },
+    {
+      "label": "WINTER INLET CONSERVANCY",
+      "rgb": [
+        4,
+        79,
+        192
+      ],
+      "rgba": [
+        4,
+        79,
+        192,
+        220
+      ],
+      "value": 152
+    },
+    {
+      "label": "WOODWORTH LAKE CONSERVANCY",
+      "rgb": [
+        134,
+        180,
+        105
+      ],
+      "rgba": [
+        134,
+        180,
+        105,
+        220
+      ],
+      "value": 153
+    },
+    {
+      "label": "YAAGUUN GANDLAAY CONSERVANCY",
+      "rgb": [
+        240,
+        102,
+        184
+      ],
+      "rgba": [
+        240,
+        102,
+        184,
+        220
+      ],
+      "value": 154
+    },
+    {
+      "label": "YAAGUUN SUU CONSERVANCY",
+      "rgb": [
+        150,
+        168,
+        209
+      ],
+      "rgba": [
+        150,
+        168,
+        209,
+        220
+      ],
+      "value": 155
+    },
+    {
+      "label": "YORKE ISLAND CONSERVANCY",
+      "rgb": [
+        117,
+        92,
+        134
+      ],
+      "rgba": [
+        117,
+        92,
+        134,
+        220
+      ],
+      "value": 156
+    },
+    {
+      "label": "ZUMTELA BAY CONSERVANCY",
+      "rgb": [
+        125,
+        233,
+        54
+      ],
+      "rgba": [
+        125,
+        233,
+        54,
+        220
+      ],
+      "value": 157
+    }
+  ],
+  "visible_pixel_count": 676,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

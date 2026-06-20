@@ -1,0 +1,142 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_grasslands_grasslands/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_grasslands_grasslands",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:08:00+00:00",
+  "internal_raster_path": "grasslands.tiff",
+  "internal_wms_path": "grasslands.wms.xml",
+  "manifest_path": "layers/dl_grasslands_grasslands/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "grasslands.tiff",
+    "legend_source_path": "grasslands.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_grasslands_grasslands",
+    "source_title": "Grasslands",
+    "source_zip_path": "data_layers/grasslands_grasslands.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/grasslands_grasslands.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/grasslands_grasslands.zip",
+  "title": "Grasslands",
+  "value_class_count": 6,
+  "value_classes": [
+    {
+      "label": "Burned Forest (in PP or BG BGC zone)",
+      "rgb": [
+        18,
+        126,
+        159
+      ],
+      "rgba": [
+        18,
+        126,
+        159,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Grassland associated Clay Bank",
+      "rgb": [
+        86,
+        180,
+        237
+      ],
+      "rgba": [
+        86,
+        180,
+        237,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Open Dry Forest adjacent to Open Grasslands",
+      "rgb": [
+        206,
+        50,
+        206
+      ],
+      "rgba": [
+        206,
+        50,
+        206,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Open Dry Forest in NDT4",
+      "rgb": [
+        63,
+        39,
+        128
+      ],
+      "rgba": [
+        63,
+        39,
+        128,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Open Grasslands",
+      "rgb": [
+        47,
+        83,
+        49
+      ],
+      "rgba": [
+        47,
+        83,
+        49,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Open Grasslands with Logging History",
+      "rgb": [
+        246,
+        98,
+        69
+      ],
+      "rgba": [
+        246,
+        98,
+        69,
+        220
+      ],
+      "value": 6
+    }
+  ],
+  "visible_pixel_count": 172,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

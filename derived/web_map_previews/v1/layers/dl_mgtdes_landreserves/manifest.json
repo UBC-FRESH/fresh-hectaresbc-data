@@ -1,0 +1,112 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_mgtdes_landreserves/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_mgtdes_landreserves",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:09:37+00:00",
+  "internal_raster_path": "landreserves.tiff",
+  "internal_wms_path": "landreserves.wms.xml",
+  "manifest_path": "layers/dl_mgtdes_landreserves/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "landreserves.tiff",
+    "legend_source_path": "landreserves.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_mgtdes_landreserves",
+    "source_title": "Crown Land Reserves and Notations",
+    "source_zip_path": "data_layers/mgtdes_landreserves.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/mgtdes_landreserves.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/mgtdes_landreserves.zip",
+  "title": "Crown Land Reserves and Notations",
+  "value_class_count": 4,
+  "value_classes": [
+    {
+      "label": "SEC 15 OIC RESERVE",
+      "rgb": [
+        12,
+        58,
+        40
+      ],
+      "rgba": [
+        12,
+        58,
+        40,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "SEC 16 MAP RESERVE",
+      "rgb": [
+        28,
+        59,
+        128
+      ],
+      "rgba": [
+        28,
+        59,
+        128,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "SEC 17 DESIGNATED USE AREA",
+      "rgb": [
+        140,
+        247,
+        139
+      ],
+      "rgba": [
+        140,
+        247,
+        139,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "SEC 66 PROHIBITED USE AREA",
+      "rgb": [
+        129,
+        76,
+        220
+      ],
+      "rgba": [
+        129,
+        76,
+        220,
+        220
+      ],
+      "value": 4
+    }
+  ],
+  "visible_pixel_count": 1547,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

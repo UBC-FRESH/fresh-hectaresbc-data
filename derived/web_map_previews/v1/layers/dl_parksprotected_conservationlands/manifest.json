@@ -1,0 +1,8377 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_parksprotected_conservationlands/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_parksprotected_conservationlands",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:11:21+00:00",
+  "internal_raster_path": "conservationlands.tiff",
+  "internal_wms_path": "conservationlands.wms.xml",
+  "manifest_path": "layers/dl_parksprotected_conservationlands/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "conservationlands.tiff",
+    "legend_source_path": "conservationlands.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_parksprotected_conservationlands",
+    "source_title": "Conservation Lands",
+    "source_zip_path": "data_layers/parksprotected_conservationlands.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/parksprotected_conservationlands.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/parksprotected_conservationlands.zip",
+  "title": "Conservation Lands",
+  "value_class_count": 555,
+  "value_classes": [
+    {
+      "label": "70 Mile House (MR 1)",
+      "rgb": [
+        127,
+        49,
+        233
+      ],
+      "rgba": [
+        127,
+        49,
+        233,
+        220
+      ],
+      "value": 230
+    },
+    {
+      "label": "70 Mile House (MR 2)",
+      "rgb": [
+        102,
+        133,
+        85
+      ],
+      "rgba": [
+        102,
+        133,
+        85,
+        220
+      ],
+      "value": 231
+    },
+    {
+      "label": "Alaska Highway (MR)",
+      "rgb": [
+        1,
+        54,
+        24
+      ],
+      "rgba": [
+        1,
+        54,
+        24,
+        220
+      ],
+      "value": 232
+    },
+    {
+      "label": "Alice Arm (LEA)",
+      "rgb": [
+        122,
+        209,
+        189
+      ],
+      "rgba": [
+        122,
+        209,
+        189,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Annacis Island (ACQ)",
+      "rgb": [
+        19,
+        236,
+        223
+      ],
+      "rgba": [
+        19,
+        236,
+        223,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Antlers Saddle (ACQ 1)",
+      "rgb": [
+        0,
+        90,
+        232
+      ],
+      "rgba": [
+        0,
+        90,
+        232,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Antlers Saddle (ACQ 2) -- Garnet Valley",
+      "rgb": [
+        104,
+        61,
+        213
+      ],
+      "rgba": [
+        104,
+        61,
+        213,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Antlers Saddle (TAC)",
+      "rgb": [
+        148,
+        110,
+        58
+      ],
+      "rgba": [
+        148,
+        110,
+        58,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Arrow Lakes (ACQ)",
+      "rgb": [
+        109,
+        78,
+        159
+      ],
+      "rgba": [
+        109,
+        78,
+        159,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Arthur Seat Range (MR)",
+      "rgb": [
+        47,
+        1,
+        45
+      ],
+      "rgba": [
+        47,
+        1,
+        45,
+        220
+      ],
+      "value": 233
+    },
+    {
+      "label": "Arthur Seat Range (NOI)",
+      "rgb": [
+        2,
+        60,
+        40
+      ],
+      "rgba": [
+        2,
+        60,
+        40,
+        220
+      ],
+      "value": 234
+    },
+    {
+      "label": "Ashnola Pullout (MR)",
+      "rgb": [
+        64,
+        165,
+        163
+      ],
+      "rgba": [
+        64,
+        165,
+        163,
+        220
+      ],
+      "value": 235
+    },
+    {
+      "label": "Ashnola River (ACQ) -- Crater Cabin",
+      "rgb": [
+        13,
+        103,
+        251
+      ],
+      "rgba": [
+        13,
+        103,
+        251,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Ashnola River (MR)",
+      "rgb": [
+        171,
+        132,
+        29
+      ],
+      "rgba": [
+        171,
+        132,
+        29,
+        220
+      ],
+      "value": 236
+    },
+    {
+      "label": "Asseek Estuary (DUA)",
+      "rgb": [
+        222,
+        15,
+        85
+      ],
+      "rgba": [
+        222,
+        15,
+        85,
+        220
+      ],
+      "value": 237
+    },
+    {
+      "label": "Asseek Estuary (LEA)",
+      "rgb": [
+        133,
+        27,
+        139
+      ],
+      "rgba": [
+        133,
+        27,
+        139,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Atna Lake (MR)",
+      "rgb": [
+        38,
+        52,
+        147
+      ],
+      "rgba": [
+        38,
+        52,
+        147,
+        220
+      ],
+      "value": 238
+    },
+    {
+      "label": "Baldonnel (MR)",
+      "rgb": [
+        27,
+        233,
+        230
+      ],
+      "rgba": [
+        27,
+        233,
+        230,
+        220
+      ],
+      "value": 239
+    },
+    {
+      "label": "Balfour (TAC)",
+      "rgb": [
+        234,
+        14,
+        25
+      ],
+      "rgba": [
+        234,
+        14,
+        25,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Barriere River (MR)",
+      "rgb": [
+        246,
+        30,
+        129
+      ],
+      "rgba": [
+        246,
+        30,
+        129,
+        220
+      ],
+      "value": 240
+    },
+    {
+      "label": "Baynes Sound (LEA 1) -- Coal Creek",
+      "rgb": [
+        191,
+        24,
+        189
+      ],
+      "rgba": [
+        191,
+        24,
+        189,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Baynes Sound (LEA 2) -- Coal Creek",
+      "rgb": [
+        41,
+        210,
+        249
+      ],
+      "rgba": [
+        41,
+        210,
+        249,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Baynes Sound (LEA 3) -- Fanny Bay",
+      "rgb": [
+        254,
+        192,
+        154
+      ],
+      "rgba": [
+        254,
+        192,
+        154,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Baynes Sound (LEA 4) -- Millard Creek",
+      "rgb": [
+        106,
+        150,
+        214
+      ],
+      "rgba": [
+        106,
+        150,
+        214,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Baynes Sound (MR) -- Mud Bay",
+      "rgb": [
+        17,
+        107,
+        161
+      ],
+      "rgba": [
+        17,
+        107,
+        161,
+        220
+      ],
+      "value": 241
+    },
+    {
+      "label": "Baynes Sound (TAC 1) -- Fanny Bay",
+      "rgb": [
+        110,
+        8,
+        14
+      ],
+      "rgba": [
+        110,
+        8,
+        14,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Baynes Sound (TAC 2) -- Fanny Bay",
+      "rgb": [
+        72,
+        209,
+        224
+      ],
+      "rgba": [
+        72,
+        209,
+        224,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Baynes Sound (TAC 3) -- Mud Bay",
+      "rgb": [
+        21,
+        125,
+        223
+      ],
+      "rgba": [
+        21,
+        125,
+        223,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Bear Flats (NOI)",
+      "rgb": [
+        171,
+        141,
+        71
+      ],
+      "rgba": [
+        171,
+        141,
+        71,
+        220
+      ],
+      "value": 242
+    },
+    {
+      "label": "Bearskin Bay (MR)",
+      "rgb": [
+        120,
+        121,
+        113
+      ],
+      "rgba": [
+        120,
+        121,
+        113,
+        220
+      ],
+      "value": 243
+    },
+    {
+      "label": "Beaton Creek Range (NOI)",
+      "rgb": [
+        235,
+        47,
+        226
+      ],
+      "rgba": [
+        235,
+        47,
+        226,
+        220
+      ],
+      "value": 244
+    },
+    {
+      "label": "Beatton River and Milligan (DUA)",
+      "rgb": [
+        20,
+        18,
+        116
+      ],
+      "rgba": [
+        20,
+        18,
+        116,
+        220
+      ],
+      "value": 245
+    },
+    {
+      "label": "Beatton River Vicinity DL 907 (MR)",
+      "rgb": [
+        32,
+        83,
+        78
+      ],
+      "rgba": [
+        32,
+        83,
+        78,
+        220
+      ],
+      "value": 246
+    },
+    {
+      "label": "Beatton River Vicinity Section 24 (MR)",
+      "rgb": [
+        92,
+        152,
+        78
+      ],
+      "rgba": [
+        92,
+        152,
+        78,
+        220
+      ],
+      "value": 247
+    },
+    {
+      "label": "Beaver Cove (OIC)",
+      "rgb": [
+        111,
+        221,
+        103
+      ],
+      "rgba": [
+        111,
+        221,
+        103,
+        220
+      ],
+      "value": 248
+    },
+    {
+      "label": "Beaverfoot River (MR)",
+      "rgb": [
+        188,
+        9,
+        189
+      ],
+      "rgba": [
+        188,
+        9,
+        189,
+        220
+      ],
+      "value": 249
+    },
+    {
+      "label": "Bednesti Lake (MR)",
+      "rgb": [
+        178,
+        213,
+        119
+      ],
+      "rgba": [
+        178,
+        213,
+        119,
+        220
+      ],
+      "value": 250
+    },
+    {
+      "label": "Bella Coola Estuary (LEA)",
+      "rgb": [
+        95,
+        137,
+        213
+      ],
+      "rgba": [
+        95,
+        137,
+        213,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Bert Brink Wildlife Management Area",
+      "rgb": [
+        136,
+        224,
+        245
+      ],
+      "rgba": [
+        136,
+        224,
+        245,
+        220
+      ],
+      "value": 527
+    },
+    {
+      "label": "Bert Brink WMA (LEA 1) -- McGillivray Slough",
+      "rgb": [
+        25,
+        43,
+        25
+      ],
+      "rgba": [
+        25,
+        43,
+        25,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Bert Brink WMA (LEA 2) -- McGillivray-Cattermole",
+      "rgb": [
+        132,
+        216,
+        149
+      ],
+      "rgba": [
+        132,
+        216,
+        149,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Black Creek (MR 1) -- South",
+      "rgb": [
+        80,
+        238,
+        82
+      ],
+      "rgba": [
+        80,
+        238,
+        82,
+        220
+      ],
+      "value": 251
+    },
+    {
+      "label": "Black Creek (MR 2) -- Lot 2568",
+      "rgb": [
+        65,
+        254,
+        210
+      ],
+      "rgba": [
+        65,
+        254,
+        210,
+        220
+      ],
+      "value": 252
+    },
+    {
+      "label": "Blaeberry (NOI) -- Kicking Horse River",
+      "rgb": [
+        144,
+        95,
+        195
+      ],
+      "rgba": [
+        144,
+        95,
+        195,
+        220
+      ],
+      "value": 253
+    },
+    {
+      "label": "Bleeker Lake Aeration (MR)",
+      "rgb": [
+        120,
+        176,
+        248
+      ],
+      "rgba": [
+        120,
+        176,
+        248,
+        220
+      ],
+      "value": 254
+    },
+    {
+      "label": "Blue Creek Cabin (MR)",
+      "rgb": [
+        124,
+        93,
+        120
+      ],
+      "rgba": [
+        124,
+        93,
+        120,
+        220
+      ],
+      "value": 255
+    },
+    {
+      "label": "Bonaparte Lake Outlet (MR)",
+      "rgb": [
+        245,
+        166,
+        242
+      ],
+      "rgba": [
+        245,
+        166,
+        242,
+        220
+      ],
+      "value": 256
+    },
+    {
+      "label": "Booth Bay Shellfish (MR)",
+      "rgb": [
+        32,
+        2,
+        106
+      ],
+      "rgba": [
+        32,
+        2,
+        106,
+        220
+      ],
+      "value": 257
+    },
+    {
+      "label": "Botanie Flats (MR)",
+      "rgb": [
+        70,
+        235,
+        100
+      ],
+      "rgba": [
+        70,
+        235,
+        100,
+        220
+      ],
+      "value": 258
+    },
+    {
+      "label": "Botanie Flats (NOI)",
+      "rgb": [
+        7,
+        89,
+        30
+      ],
+      "rgba": [
+        7,
+        89,
+        30,
+        220
+      ],
+      "value": 259
+    },
+    {
+      "label": "Boucher Lake (MR)",
+      "rgb": [
+        240,
+        115,
+        182
+      ],
+      "rgba": [
+        240,
+        115,
+        182,
+        220
+      ],
+      "value": 260
+    },
+    {
+      "label": "Boundary Bay WMA",
+      "rgb": [
+        219,
+        56,
+        96
+      ],
+      "rgba": [
+        219,
+        56,
+        96,
+        220
+      ],
+      "value": 528
+    },
+    {
+      "label": "Boundary Bay WMA (LEA 1) -- Grauer Beach",
+      "rgb": [
+        90,
+        242,
+        78
+      ],
+      "rgba": [
+        90,
+        242,
+        78,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Boundary Bay WMA (LEA 2) -- Mud Bay",
+      "rgb": [
+        53,
+        185,
+        104
+      ],
+      "rgba": [
+        53,
+        185,
+        104,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Boundary Lake (LEA 1)",
+      "rgb": [
+        7,
+        253,
+        198
+      ],
+      "rgba": [
+        7,
+        253,
+        198,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Boundary Lake (LEA 2) -- Bahm",
+      "rgb": [
+        57,
+        10,
+        194
+      ],
+      "rgba": [
+        57,
+        10,
+        194,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Boundary Lake (TAC) -- Raspberry Creek",
+      "rgb": [
+        120,
+        73,
+        134
+      ],
+      "rgba": [
+        120,
+        73,
+        134,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Brennan Creek (DUA)",
+      "rgb": [
+        35,
+        77,
+        13
+      ],
+      "rgba": [
+        35,
+        77,
+        13,
+        220
+      ],
+      "value": 261
+    },
+    {
+      "label": "Bulkley Valley (DUA) -- WHMA",
+      "rgb": [
+        251,
+        77,
+        227
+      ],
+      "rgba": [
+        251,
+        77,
+        227,
+        220
+      ],
+      "value": 262
+    },
+    {
+      "label": "Bull River (ACQ) -- Neilson",
+      "rgb": [
+        127,
+        186,
+        105
+      ],
+      "rgba": [
+        127,
+        186,
+        105,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Bull River (LEA) -- Armstrong",
+      "rgb": [
+        115,
+        113,
+        42
+      ],
+      "rgba": [
+        115,
+        113,
+        42,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Bull River (NOI)",
+      "rgb": [
+        13,
+        253,
+        222
+      ],
+      "rgba": [
+        13,
+        253,
+        222,
+        220
+      ],
+      "value": 263
+    },
+    {
+      "label": "Bummers Flats (ACQ) -- Zirnhelt",
+      "rgb": [
+        53,
+        111,
+        87
+      ],
+      "rgba": [
+        53,
+        111,
+        87,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Bummers Flats (LEA 1) -- Pighin",
+      "rgb": [
+        96,
+        193,
+        239
+      ],
+      "rgba": [
+        96,
+        193,
+        239,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Bummers Flats (LEA 2) --  Cherry Creek",
+      "rgb": [
+        103,
+        15,
+        132
+      ],
+      "rgba": [
+        103,
+        15,
+        132,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Bummers Flats (TAC)",
+      "rgb": [
+        24,
+        99,
+        212
+      ],
+      "rgba": [
+        24,
+        99,
+        212,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Bummers Island (MR)",
+      "rgb": [
+        3,
+        186,
+        213
+      ],
+      "rgba": [
+        3,
+        186,
+        213,
+        220
+      ],
+      "value": 264
+    },
+    {
+      "label": "Buttertubs Marsh (LEA 1)",
+      "rgb": [
+        83,
+        202,
+        107
+      ],
+      "rgba": [
+        83,
+        202,
+        107,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Buttertubs Marsh (LEA 2)",
+      "rgb": [
+        156,
+        139,
+        233
+      ],
+      "rgba": [
+        156,
+        139,
+        233,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Cache Creek (MR)",
+      "rgb": [
+        228,
+        93,
+        23
+      ],
+      "rgba": [
+        228,
+        93,
+        23,
+        220
+      ],
+      "value": 265
+    },
+    {
+      "label": "Cameron River (MR)",
+      "rgb": [
+        223,
+        107,
+        155
+      ],
+      "rgba": [
+        223,
+        107,
+        155,
+        220
+      ],
+      "value": 266
+    },
+    {
+      "label": "Campbell River Estuary (TAC)",
+      "rgb": [
+        149,
+        12,
+        174
+      ],
+      "rgba": [
+        149,
+        12,
+        174,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Campbell River (MR)",
+      "rgb": [
+        66,
+        95,
+        141
+      ],
+      "rgba": [
+        66,
+        95,
+        141,
+        220
+      ],
+      "value": 267
+    },
+    {
+      "label": "Camp Slough (LEA)",
+      "rgb": [
+        247,
+        157,
+        251
+      ],
+      "rgba": [
+        247,
+        157,
+        251,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Canoe River (MR)",
+      "rgb": [
+        236,
+        139,
+        41
+      ],
+      "rgba": [
+        236,
+        139,
+        41,
+        220
+      ],
+      "value": 268
+    },
+    {
+      "label": "Cecil Lake (MR)",
+      "rgb": [
+        153,
+        45,
+        56
+      ],
+      "rgba": [
+        153,
+        45,
+        56,
+        220
+      ],
+      "value": 269
+    },
+    {
+      "label": "Cecil Lake Northeast (MR)",
+      "rgb": [
+        68,
+        113,
+        17
+      ],
+      "rgba": [
+        68,
+        113,
+        17,
+        220
+      ],
+      "value": 270
+    },
+    {
+      "label": "Cedar Creek (MR)",
+      "rgb": [
+        93,
+        250,
+        228
+      ],
+      "rgba": [
+        93,
+        250,
+        228,
+        220
+      ],
+      "value": 271
+    },
+    {
+      "label": "Chapman Lake (MR)",
+      "rgb": [
+        111,
+        219,
+        201
+      ],
+      "rgba": [
+        111,
+        219,
+        201,
+        220
+      ],
+      "value": 272
+    },
+    {
+      "label": "Charlie Lake West (MR)",
+      "rgb": [
+        220,
+        45,
+        124
+      ],
+      "rgba": [
+        220,
+        45,
+        124,
+        220
+      ],
+      "value": 273
+    },
+    {
+      "label": "Cheam Lake (TAC) -- Popkum",
+      "rgb": [
+        229,
+        217,
+        31
+      ],
+      "rgba": [
+        229,
+        217,
+        31,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "Chemainus (MR)",
+      "rgb": [
+        237,
+        100,
+        216
+      ],
+      "rgba": [
+        237,
+        100,
+        216,
+        220
+      ],
+      "value": 274
+    },
+    {
+      "label": "Chemainus River Estuary (NOI)",
+      "rgb": [
+        43,
+        52,
+        22
+      ],
+      "rgba": [
+        43,
+        52,
+        22,
+        220
+      ],
+      "value": 275
+    },
+    {
+      "label": "Chilanko Marsh WMA",
+      "rgb": [
+        25,
+        114,
+        226
+      ],
+      "rgba": [
+        25,
+        114,
+        226,
+        220
+      ],
+      "value": 529
+    },
+    {
+      "label": "Chilanko Marsh WMA (LEA)",
+      "rgb": [
+        162,
+        156,
+        36
+      ],
+      "rgba": [
+        162,
+        156,
+        36,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Chilco (MR)",
+      "rgb": [
+        183,
+        192,
+        77
+      ],
+      "rgba": [
+        183,
+        192,
+        77,
+        220
+      ],
+      "value": 276
+    },
+    {
+      "label": "Chilcotin Lake and Marshes (DUA)",
+      "rgb": [
+        232,
+        0,
+        81
+      ],
+      "rgba": [
+        232,
+        0,
+        81,
+        220
+      ],
+      "value": 277
+    },
+    {
+      "label": "Chilcotin Lake and Marshes (LEA)",
+      "rgb": [
+        159,
+        18,
+        100
+      ],
+      "rgba": [
+        159,
+        18,
+        100,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "Chilliwack (LEA) -- Wells",
+      "rgb": [
+        6,
+        47,
+        205
+      ],
+      "rgba": [
+        6,
+        47,
+        205,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "Chilliwack River (LEA)",
+      "rgb": [
+        49,
+        42,
+        46
+      ],
+      "rgba": [
+        49,
+        42,
+        46,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "Cluculz Creek (OIC)",
+      "rgb": [
+        181,
+        166,
+        249
+      ],
+      "rgba": [
+        181,
+        166,
+        249,
+        220
+      ],
+      "value": 278
+    },
+    {
+      "label": "Cluculz Lake (ACQ) -- Joanne Lloyd",
+      "rgb": [
+        0,
+        9,
+        250
+      ],
+      "rgba": [
+        0,
+        9,
+        250,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Cluculz Lake (MR) -- East",
+      "rgb": [
+        108,
+        162,
+        36
+      ],
+      "rgba": [
+        108,
+        162,
+        36,
+        220
+      ],
+      "value": 279
+    },
+    {
+      "label": "Cluxewe Estuary Salt Marsh (LEA)",
+      "rgb": [
+        127,
+        15,
+        106
+      ],
+      "rgba": [
+        127,
+        15,
+        106,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "Cluxewe Wildlife Management Area",
+      "rgb": [
+        122,
+        46,
+        202
+      ],
+      "rgba": [
+        122,
+        46,
+        202,
+        220
+      ],
+      "value": 530
+    },
+    {
+      "label": "Columbia Lake (ACQ)",
+      "rgb": [
+        92,
+        128,
+        121
+      ],
+      "rgba": [
+        92,
+        128,
+        121,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "Columbia Lake (LEA) -- West",
+      "rgb": [
+        111,
+        67,
+        252
+      ],
+      "rgba": [
+        111,
+        67,
+        252,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "Columbia Wetlands (ACQ) -- Feldman",
+      "rgb": [
+        179,
+        210,
+        171
+      ],
+      "rgba": [
+        179,
+        210,
+        171,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "Columbia Wetlands WMA",
+      "rgb": [
+        146,
+        119,
+        194
+      ],
+      "rgba": [
+        146,
+        119,
+        194,
+        220
+      ],
+      "value": 531
+    },
+    {
+      "label": "Comox River Estuary (MR)",
+      "rgb": [
+        120,
+        233,
+        190
+      ],
+      "rgba": [
+        120,
+        233,
+        190,
+        220
+      ],
+      "value": 280
+    },
+    {
+      "label": "Comstock Marsh (LEA)",
+      "rgb": [
+        28,
+        191,
+        101
+      ],
+      "rgba": [
+        28,
+        191,
+        101,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "Comstock Marsh (TAC)",
+      "rgb": [
+        142,
+        241,
+        214
+      ],
+      "rgba": [
+        142,
+        241,
+        214,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "Conifryd Lake (NOI)",
+      "rgb": [
+        78,
+        137,
+        14
+      ],
+      "rgba": [
+        78,
+        137,
+        14,
+        220
+      ],
+      "value": 281
+    },
+    {
+      "label": "Coquitlam River (TAC) -- Colony Farms",
+      "rgb": [
+        116,
+        144,
+        249
+      ],
+      "rgba": [
+        116,
+        144,
+        249,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "Coquitlam River WMA",
+      "rgb": [
+        57,
+        127,
+        9
+      ],
+      "rgba": [
+        57,
+        127,
+        9,
+        220
+      ],
+      "value": 532
+    },
+    {
+      "label": "Corkscrew Creek (MR)",
+      "rgb": [
+        194,
+        9,
+        59
+      ],
+      "rgba": [
+        194,
+        9,
+        59,
+        220
+      ],
+      "value": 282
+    },
+    {
+      "label": "Courtenay Estuary (LEA) -- Simpson Farm",
+      "rgb": [
+        145,
+        244,
+        180
+      ],
+      "rgba": [
+        145,
+        244,
+        180,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "Courtenay Estuary (TAC)",
+      "rgb": [
+        245,
+        156,
+        170
+      ],
+      "rgba": [
+        245,
+        156,
+        170,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "Cowichan River Estuary (ACQ) -- Blackley Farm",
+      "rgb": [
+        249,
+        164,
+        105
+      ],
+      "rgba": [
+        249,
+        164,
+        105,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "Cowichan River Estuary (LEA 1) -- Arbutus",
+      "rgb": [
+        42,
+        46,
+        86
+      ],
+      "rgba": [
+        42,
+        46,
+        86,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "Cowichan River Estuary (LEA 2) -- Dinsdale",
+      "rgb": [
+        224,
+        0,
+        84
+      ],
+      "rgba": [
+        224,
+        0,
+        84,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "Cowichan River Estuary (LEA 3) -- Evans",
+      "rgb": [
+        24,
+        190,
+        73
+      ],
+      "rgba": [
+        24,
+        190,
+        73,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "Cowichan River Estuary (LEA 4) -- Koksilah",
+      "rgb": [
+        159,
+        238,
+        178
+      ],
+      "rgba": [
+        159,
+        238,
+        178,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "Cowichan River Estuary (LEA 5) -- Lot 19",
+      "rgb": [
+        191,
+        93,
+        25
+      ],
+      "rgba": [
+        191,
+        93,
+        25,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "Cowichan River Estuary (LEA 6) -- Rodenbush",
+      "rgb": [
+        230,
+        57,
+        61
+      ],
+      "rgba": [
+        230,
+        57,
+        61,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "Cowichan River Estuary (TAC) -- Lot 160",
+      "rgb": [
+        179,
+        97,
+        238
+      ],
+      "rgba": [
+        179,
+        97,
+        238,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "Cranberry Marsh/Starratt WMA",
+      "rgb": [
+        122,
+        12,
+        150
+      ],
+      "rgba": [
+        122,
+        12,
+        150,
+        220
+      ],
+      "value": 533
+    },
+    {
+      "label": "Cranberry Marsh/Starratt WMA (LEA 1)",
+      "rgb": [
+        97,
+        95,
+        46
+      ],
+      "rgba": [
+        97,
+        95,
+        46,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "Cranberry Marsh/Starratt WMA (LEA 2)",
+      "rgb": [
+        203,
+        138,
+        247
+      ],
+      "rgba": [
+        203,
+        138,
+        247,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "Crescent Spur (MR 1)",
+      "rgb": [
+        215,
+        111,
+        95
+      ],
+      "rgba": [
+        215,
+        111,
+        95,
+        220
+      ],
+      "value": 283
+    },
+    {
+      "label": "Crescent Spur (MR 2)",
+      "rgb": [
+        211,
+        99,
+        63
+      ],
+      "rgba": [
+        211,
+        99,
+        63,
+        220
+      ],
+      "value": 284
+    },
+    {
+      "label": "Creston Southwest (MR)",
+      "rgb": [
+        28,
+        98,
+        212
+      ],
+      "rgba": [
+        28,
+        98,
+        212,
+        220
+      ],
+      "value": 285
+    },
+    {
+      "label": "Croydon (MR)",
+      "rgb": [
+        67,
+        155,
+        106
+      ],
+      "rgba": [
+        67,
+        155,
+        106,
+        220
+      ],
+      "value": 286
+    },
+    {
+      "label": "Dale Lake (LEA)",
+      "rgb": [
+        232,
+        128,
+        67
+      ],
+      "rgba": [
+        232,
+        128,
+        67,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "Davies Lake (NOI)",
+      "rgb": [
+        251,
+        133,
+        175
+      ],
+      "rgba": [
+        251,
+        133,
+        175,
+        220
+      ],
+      "value": 287
+    },
+    {
+      "label": "Dean River (MR 1)",
+      "rgb": [
+        53,
+        160,
+        190
+      ],
+      "rgba": [
+        53,
+        160,
+        190,
+        220
+      ],
+      "value": 288
+    },
+    {
+      "label": "Dean River (MR 2)",
+      "rgb": [
+        226,
+        11,
+        114
+      ],
+      "rgba": [
+        226,
+        11,
+        114,
+        220
+      ],
+      "value": 289
+    },
+    {
+      "label": "Dean River (MR 3)",
+      "rgb": [
+        56,
+        177,
+        189
+      ],
+      "rgba": [
+        56,
+        177,
+        189,
+        220
+      ],
+      "value": 290
+    },
+    {
+      "label": "Dease Lake South (MR)",
+      "rgb": [
+        94,
+        206,
+        18
+      ],
+      "rgba": [
+        94,
+        206,
+        18,
+        220
+      ],
+      "value": 291
+    },
+    {
+      "label": "Deer Park (MR)",
+      "rgb": [
+        203,
+        48,
+        56
+      ],
+      "rgba": [
+        203,
+        48,
+        56,
+        220
+      ],
+      "value": 292
+    },
+    {
+      "label": "Deer Park Ranch (TAC)",
+      "rgb": [
+        214,
+        117,
+        146
+      ],
+      "rgba": [
+        214,
+        117,
+        146,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "Denman Island (TAC) - Morrison and  McFarlane",
+      "rgb": [
+        251,
+        203,
+        207
+      ],
+      "rgba": [
+        251,
+        203,
+        207,
+        220
+      ],
+      "value": 62
+    },
+    {
+      "label": "Dewdrop-Rosseau Creek WMA",
+      "rgb": [
+        230,
+        128,
+        21
+      ],
+      "rgba": [
+        230,
+        128,
+        21,
+        220
+      ],
+      "value": 534
+    },
+    {
+      "label": "Donaldson (ACQ)",
+      "rgb": [
+        184,
+        114,
+        100
+      ],
+      "rgba": [
+        184,
+        114,
+        100,
+        220
+      ],
+      "value": 63
+    },
+    {
+      "label": "Drought Mountain (MR) -- DL 2690",
+      "rgb": [
+        13,
+        14,
+        66
+      ],
+      "rgba": [
+        13,
+        14,
+        66,
+        220
+      ],
+      "value": 293
+    },
+    {
+      "label": "Dry Gulch (MR)",
+      "rgb": [
+        239,
+        154,
+        153
+      ],
+      "rgba": [
+        239,
+        154,
+        153,
+        220
+      ],
+      "value": 294
+    },
+    {
+      "label": "Dry William Lake (MR)",
+      "rgb": [
+        175,
+        28,
+        251
+      ],
+      "rgba": [
+        175,
+        28,
+        251,
+        220
+      ],
+      "value": 295
+    },
+    {
+      "label": "Duck Meadows (LEA 1)",
+      "rgb": [
+        201,
+        130,
+        210
+      ],
+      "rgba": [
+        201,
+        130,
+        210,
+        220
+      ],
+      "value": 64
+    },
+    {
+      "label": "Duck Meadows (LEA 2)",
+      "rgb": [
+        148,
+        190,
+        214
+      ],
+      "rgba": [
+        148,
+        190,
+        214,
+        220
+      ],
+      "value": 65
+    },
+    {
+      "label": "Dudley Marsh (LEA)",
+      "rgb": [
+        2,
+        113,
+        4
+      ],
+      "rgba": [
+        2,
+        113,
+        4,
+        220
+      ],
+      "value": 66
+    },
+    {
+      "label": "Duncan Flats (LEA 1) -- Lardeau",
+      "rgb": [
+        246,
+        56,
+        156
+      ],
+      "rgba": [
+        246,
+        56,
+        156,
+        220
+      ],
+      "value": 67
+    },
+    {
+      "label": "Duncan Flats (LEA 2) -- Lardeau",
+      "rgb": [
+        223,
+        79,
+        117
+      ],
+      "rgba": [
+        223,
+        79,
+        117,
+        220
+      ],
+      "value": 68
+    },
+    {
+      "label": "Duncan Flats (LEA 3) -- Lardeau",
+      "rgb": [
+        55,
+        62,
+        3
+      ],
+      "rgba": [
+        55,
+        62,
+        3,
+        220
+      ],
+      "value": 69
+    },
+    {
+      "label": "Duncan Flats (TAC)",
+      "rgb": [
+        251,
+        86,
+        125
+      ],
+      "rgba": [
+        251,
+        86,
+        125,
+        220
+      ],
+      "value": 70
+    },
+    {
+      "label": "Dunlevy Creek (LEA 1) -- Williston",
+      "rgb": [
+        62,
+        137,
+        209
+      ],
+      "rgba": [
+        62,
+        137,
+        209,
+        220
+      ],
+      "value": 71
+    },
+    {
+      "label": "Dunlevy Creek (LEA 2) -- Williston",
+      "rgb": [
+        83,
+        63,
+        141
+      ],
+      "rgba": [
+        83,
+        63,
+        141,
+        220
+      ],
+      "value": 72
+    },
+    {
+      "label": "Dunster (MR)",
+      "rgb": [
+        234,
+        180,
+        141
+      ],
+      "rgba": [
+        234,
+        180,
+        141,
+        220
+      ],
+      "value": 296
+    },
+    {
+      "label": "Eagle River (MR)",
+      "rgb": [
+        54,
+        62,
+        172
+      ],
+      "rgba": [
+        54,
+        62,
+        172,
+        220
+      ],
+      "value": 297
+    },
+    {
+      "label": "East Pine (MR)",
+      "rgb": [
+        232,
+        124,
+        47
+      ],
+      "rgba": [
+        232,
+        124,
+        47,
+        220
+      ],
+      "value": 298
+    },
+    {
+      "label": "East Side Columbia Lake WMA",
+      "rgb": [
+        113,
+        253,
+        74
+      ],
+      "rgba": [
+        113,
+        253,
+        74,
+        220
+      ],
+      "value": 535
+    },
+    {
+      "label": "East Side Columbia Lake WMA (LEA 1)",
+      "rgb": [
+        51,
+        121,
+        112
+      ],
+      "rgba": [
+        51,
+        121,
+        112,
+        220
+      ],
+      "value": 73
+    },
+    {
+      "label": "East Side Columbia Lake WMA (LEA 2) -- LeMaster",
+      "rgb": [
+        156,
+        153,
+        133
+      ],
+      "rgba": [
+        156,
+        153,
+        133,
+        220
+      ],
+      "value": 74
+    },
+    {
+      "label": "Echoes Lakes (MR)",
+      "rgb": [
+        252,
+        88,
+        61
+      ],
+      "rgba": [
+        252,
+        88,
+        61,
+        220
+      ],
+      "value": 299
+    },
+    {
+      "label": "Elizabeth Lake (ACQ)",
+      "rgb": [
+        44,
+        120,
+        2
+      ],
+      "rgba": [
+        44,
+        120,
+        2,
+        220
+      ],
+      "value": 75
+    },
+    {
+      "label": "Elizabeth Lake (LEA) -- Scriver",
+      "rgb": [
+        195,
+        157,
+        99
+      ],
+      "rgba": [
+        195,
+        157,
+        99,
+        220
+      ],
+      "value": 76
+    },
+    {
+      "label": "Elizabeth Lake (MR 1)",
+      "rgb": [
+        188,
+        131,
+        229
+      ],
+      "rgba": [
+        188,
+        131,
+        229,
+        220
+      ],
+      "value": 300
+    },
+    {
+      "label": "Elizabeth Lake (MR 2)",
+      "rgb": [
+        14,
+        137,
+        205
+      ],
+      "rgba": [
+        14,
+        137,
+        205,
+        220
+      ],
+      "value": 301
+    },
+    {
+      "label": "Elko West (MR)",
+      "rgb": [
+        117,
+        228,
+        212
+      ],
+      "rgba": [
+        117,
+        228,
+        212,
+        220
+      ],
+      "value": 302
+    },
+    {
+      "label": "Elk River (MR)",
+      "rgb": [
+        40,
+        37,
+        8
+      ],
+      "rgba": [
+        40,
+        37,
+        8,
+        220
+      ],
+      "value": 303
+    },
+    {
+      "label": "Emerson Creek (MR)",
+      "rgb": [
+        150,
+        214,
+        27
+      ],
+      "rgba": [
+        150,
+        214,
+        27,
+        220
+      ],
+      "value": 304
+    },
+    {
+      "label": "Esquimalt Harbour (MR)",
+      "rgb": [
+        62,
+        241,
+        251
+      ],
+      "rgba": [
+        62,
+        241,
+        251,
+        220
+      ],
+      "value": 305
+    },
+    {
+      "label": "Etthithun Lake (MR)",
+      "rgb": [
+        135,
+        250,
+        176
+      ],
+      "rgba": [
+        135,
+        250,
+        176,
+        220
+      ],
+      "value": 306
+    },
+    {
+      "label": "Etthithun River (NOI)",
+      "rgb": [
+        172,
+        131,
+        154
+      ],
+      "rgba": [
+        172,
+        131,
+        154,
+        220
+      ],
+      "value": 307
+    },
+    {
+      "label": "Fairview (MR)",
+      "rgb": [
+        34,
+        178,
+        41
+      ],
+      "rgba": [
+        34,
+        178,
+        41,
+        220
+      ],
+      "value": 308
+    },
+    {
+      "label": "Farrell Creek (MR)",
+      "rgb": [
+        5,
+        44,
+        12
+      ],
+      "rgba": [
+        5,
+        44,
+        12,
+        220
+      ],
+      "value": 309
+    },
+    {
+      "label": "Fassiferne (MR)",
+      "rgb": [
+        81,
+        188,
+        238
+      ],
+      "rgba": [
+        81,
+        188,
+        238,
+        220
+      ],
+      "value": 310
+    },
+    {
+      "label": "Filberg Marsh (LEA)",
+      "rgb": [
+        197,
+        173,
+        247
+      ],
+      "rgba": [
+        197,
+        173,
+        247,
+        220
+      ],
+      "value": 77
+    },
+    {
+      "label": "Findlay Marsh (MR)",
+      "rgb": [
+        170,
+        254,
+        13
+      ],
+      "rgba": [
+        170,
+        254,
+        13,
+        220
+      ],
+      "value": 311
+    },
+    {
+      "label": "Finmore (MR)",
+      "rgb": [
+        193,
+        69,
+        25
+      ],
+      "rgba": [
+        193,
+        69,
+        25,
+        220
+      ],
+      "value": 312
+    },
+    {
+      "label": "Fish Lake (MR)",
+      "rgb": [
+        220,
+        64,
+        76
+      ],
+      "rgba": [
+        220,
+        64,
+        76,
+        220
+      ],
+      "value": 313
+    },
+    {
+      "label": "Fishpan Lake (MR)",
+      "rgb": [
+        110,
+        205,
+        23
+      ],
+      "rgba": [
+        110,
+        205,
+        23,
+        220
+      ],
+      "value": 314
+    },
+    {
+      "label": "Flathead River (MR)",
+      "rgb": [
+        87,
+        176,
+        62
+      ],
+      "rgba": [
+        87,
+        176,
+        62,
+        220
+      ],
+      "value": 315
+    },
+    {
+      "label": "Flatrock (MR)",
+      "rgb": [
+        181,
+        122,
+        135
+      ],
+      "rgba": [
+        181,
+        122,
+        135,
+        220
+      ],
+      "value": 316
+    },
+    {
+      "label": "Forslund (ACQ) -- Watson",
+      "rgb": [
+        201,
+        133,
+        250
+      ],
+      "rgba": [
+        201,
+        133,
+        250,
+        220
+      ],
+      "value": 78
+    },
+    {
+      "label": "Fort Fraser South (TAC)",
+      "rgb": [
+        252,
+        21,
+        105
+      ],
+      "rgba": [
+        252,
+        21,
+        105,
+        220
+      ],
+      "value": 317
+    },
+    {
+      "label": "Fort Steele (DUA) -- Fenwick",
+      "rgb": [
+        23,
+        102,
+        250
+      ],
+      "rgba": [
+        23,
+        102,
+        250,
+        220
+      ],
+      "value": 318
+    },
+    {
+      "label": "Fort Steele (MR) -- Kootenay River",
+      "rgb": [
+        161,
+        12,
+        222
+      ],
+      "rgba": [
+        161,
+        12,
+        222,
+        220
+      ],
+      "value": 319
+    },
+    {
+      "label": "Fort St. John Potholes (LEA)",
+      "rgb": [
+        159,
+        250,
+        45
+      ],
+      "rgba": [
+        159,
+        250,
+        45,
+        220
+      ],
+      "value": 79
+    },
+    {
+      "label": "Foster Lake (MR)",
+      "rgb": [
+        84,
+        163,
+        13
+      ],
+      "rgba": [
+        84,
+        163,
+        13,
+        220
+      ],
+      "value": 320
+    },
+    {
+      "label": "Fulford Harbour (MR)",
+      "rgb": [
+        201,
+        239,
+        168
+      ],
+      "rgba": [
+        201,
+        239,
+        168,
+        220
+      ],
+      "value": 321
+    },
+    {
+      "label": "Gabriola Island (MR 2)",
+      "rgb": [
+        201,
+        227,
+        10
+      ],
+      "rgba": [
+        201,
+        227,
+        10,
+        220
+      ],
+      "value": 322
+    },
+    {
+      "label": "Gaius Point (MR)",
+      "rgb": [
+        62,
+        76,
+        168
+      ],
+      "rgba": [
+        62,
+        76,
+        168,
+        220
+      ],
+      "value": 323
+    },
+    {
+      "label": "Ginty's Pond (LEA)",
+      "rgb": [
+        163,
+        217,
+        148
+      ],
+      "rgba": [
+        163,
+        217,
+        148,
+        220
+      ],
+      "value": 80
+    },
+    {
+      "label": "Ginty's Pond (MR)",
+      "rgb": [
+        89,
+        146,
+        9
+      ],
+      "rgba": [
+        89,
+        146,
+        9,
+        220
+      ],
+      "value": 324
+    },
+    {
+      "label": "Goat River and Fraser River (MR)",
+      "rgb": [
+        193,
+        250,
+        127
+      ],
+      "rgba": [
+        193,
+        250,
+        127,
+        220
+      ],
+      "value": 325
+    },
+    {
+      "label": "Gold Creek Game Reserve (LEA) -- Strauss",
+      "rgb": [
+        156,
+        173,
+        15
+      ],
+      "rgba": [
+        156,
+        173,
+        15,
+        220
+      ],
+      "value": 81
+    },
+    {
+      "label": "Gordon Creek (NOI)",
+      "rgb": [
+        224,
+        61,
+        162
+      ],
+      "rgba": [
+        224,
+        61,
+        162,
+        220
+      ],
+      "value": 326
+    },
+    {
+      "label": "Grand Forks (ACQ) -- Gilpin",
+      "rgb": [
+        17,
+        4,
+        200
+      ],
+      "rgba": [
+        17,
+        4,
+        200,
+        220
+      ],
+      "value": 82
+    },
+    {
+      "label": "Grand Forks (LEA 1)",
+      "rgb": [
+        20,
+        66,
+        160
+      ],
+      "rgba": [
+        20,
+        66,
+        160,
+        220
+      ],
+      "value": 83
+    },
+    {
+      "label": "Grand Forks (LEA 2) -- Edwards Pond",
+      "rgb": [
+        163,
+        50,
+        203
+      ],
+      "rgba": [
+        163,
+        50,
+        203,
+        220
+      ],
+      "value": 84
+    },
+    {
+      "label": "Grave Prairie (LEA 1) -- Big Ranch",
+      "rgb": [
+        219,
+        163,
+        2
+      ],
+      "rgba": [
+        219,
+        163,
+        2,
+        220
+      ],
+      "value": 85
+    },
+    {
+      "label": "Grave Prairie (LEA 2) -- Musil",
+      "rgb": [
+        236,
+        141,
+        68
+      ],
+      "rgba": [
+        236,
+        141,
+        68,
+        220
+      ],
+      "value": 86
+    },
+    {
+      "label": "Green Mountain WMA",
+      "rgb": [
+        208,
+        107,
+        148
+      ],
+      "rgba": [
+        208,
+        107,
+        148,
+        220
+      ],
+      "value": 536
+    },
+    {
+      "label": "Halfway River (MR 1)",
+      "rgb": [
+        117,
+        143,
+        144
+      ],
+      "rgba": [
+        117,
+        143,
+        144,
+        220
+      ],
+      "value": 327
+    },
+    {
+      "label": "Halfway River (MR 2)",
+      "rgb": [
+        113,
+        130,
+        153
+      ],
+      "rgba": [
+        113,
+        130,
+        153,
+        220
+      ],
+      "value": 328
+    },
+    {
+      "label": "Hamill Creek (MR)",
+      "rgb": [
+        98,
+        105,
+        25
+      ],
+      "rgba": [
+        98,
+        105,
+        25,
+        220
+      ],
+      "value": 329
+    },
+    {
+      "label": "Hamling Lakes WMA",
+      "rgb": [
+        25,
+        209,
+        242
+      ],
+      "rgba": [
+        25,
+        209,
+        242,
+        220
+      ],
+      "value": 537
+    },
+    {
+      "label": "Hanceville (ACQ)",
+      "rgb": [
+        23,
+        74,
+        59
+      ],
+      "rgba": [
+        23,
+        74,
+        59,
+        220
+      ],
+      "value": 87
+    },
+    {
+      "label": "Haney Lake (MR)",
+      "rgb": [
+        166,
+        212,
+        235
+      ],
+      "rgba": [
+        166,
+        212,
+        235,
+        220
+      ],
+      "value": 330
+    },
+    {
+      "label": "Harrison-Chehalis (TAC)",
+      "rgb": [
+        209,
+        119,
+        41
+      ],
+      "rgba": [
+        209,
+        119,
+        41,
+        220
+      ],
+      "value": 88
+    },
+    {
+      "label": "Harrison River (LEA)",
+      "rgb": [
+        98,
+        68,
+        211
+      ],
+      "rgba": [
+        98,
+        68,
+        211,
+        220
+      ],
+      "value": 89
+    },
+    {
+      "label": "Harrison River (OIC) -- Chehalis River Delta",
+      "rgb": [
+        242,
+        167,
+        181
+      ],
+      "rgba": [
+        242,
+        167,
+        181,
+        220
+      ],
+      "value": 331
+    },
+    {
+      "label": "Hay River (NOI)",
+      "rgb": [
+        203,
+        166,
+        1
+      ],
+      "rgba": [
+        203,
+        166,
+        1,
+        220
+      ],
+      "value": 332
+    },
+    {
+      "label": "Hemp Creek Range (MR)",
+      "rgb": [
+        122,
+        248,
+        146
+      ],
+      "rgba": [
+        122,
+        248,
+        146,
+        220
+      ],
+      "value": 333
+    },
+    {
+      "label": "Hill (ACQ) -- MacKenzie",
+      "rgb": [
+        100,
+        79,
+        165
+      ],
+      "rgba": [
+        100,
+        79,
+        165,
+        220
+      ],
+      "value": 90
+    },
+    {
+      "label": "Holmes River (MR)",
+      "rgb": [
+        37,
+        39,
+        97
+      ],
+      "rgba": [
+        37,
+        39,
+        97,
+        220
+      ],
+      "value": 334
+    },
+    {
+      "label": "Hominka River (MR)",
+      "rgb": [
+        121,
+        84,
+        89
+      ],
+      "rgba": [
+        121,
+        84,
+        89,
+        220
+      ],
+      "value": 335
+    },
+    {
+      "label": "Honna River Mouth (MR)",
+      "rgb": [
+        222,
+        198,
+        112
+      ],
+      "rgba": [
+        222,
+        198,
+        112,
+        220
+      ],
+      "value": 336
+    },
+    {
+      "label": "Horsefly (ACQ)",
+      "rgb": [
+        103,
+        226,
+        92
+      ],
+      "rgba": [
+        103,
+        226,
+        92,
+        220
+      ],
+      "value": 91
+    },
+    {
+      "label": "Horsefly Bay (MR)",
+      "rgb": [
+        168,
+        82,
+        220
+      ],
+      "rgba": [
+        168,
+        82,
+        220,
+        220
+      ],
+      "value": 337
+    },
+    {
+      "label": "Horsefly (LEA) -- Black Creek",
+      "rgb": [
+        75,
+        250,
+        3
+      ],
+      "rgba": [
+        75,
+        250,
+        3,
+        220
+      ],
+      "value": 92
+    },
+    {
+      "label": "Hubert Hill (ACQ) -- Toodienia Reserve",
+      "rgb": [
+        244,
+        64,
+        178
+      ],
+      "rgba": [
+        244,
+        64,
+        178,
+        220
+      ],
+      "value": 93
+    },
+    {
+      "label": "Hudson Hope (MR 1)",
+      "rgb": [
+        151,
+        148,
+        159
+      ],
+      "rgba": [
+        151,
+        148,
+        159,
+        220
+      ],
+      "value": 338
+    },
+    {
+      "label": "Hudson Hope (MR 2)",
+      "rgb": [
+        141,
+        150,
+        210
+      ],
+      "rgba": [
+        141,
+        150,
+        210,
+        220
+      ],
+      "value": 339
+    },
+    {
+      "label": "Hutton (MR)",
+      "rgb": [
+        18,
+        224,
+        110
+      ],
+      "rgba": [
+        18,
+        224,
+        110,
+        220
+      ],
+      "value": 340
+    },
+    {
+      "label": "Inga Lake (MR)",
+      "rgb": [
+        161,
+        200,
+        150
+      ],
+      "rgba": [
+        161,
+        200,
+        150,
+        220
+      ],
+      "value": 341
+    },
+    {
+      "label": "Jamieson Range (MR)",
+      "rgb": [
+        68,
+        210,
+        46
+      ],
+      "rgba": [
+        68,
+        210,
+        46,
+        220
+      ],
+      "value": 342
+    },
+    {
+      "label": "Jewel Lake (MR)",
+      "rgb": [
+        190,
+        103,
+        215
+      ],
+      "rgba": [
+        190,
+        103,
+        215,
+        220
+      ],
+      "value": 343
+    },
+    {
+      "label": "Keremeos Creek (LEA) -- Wainright",
+      "rgb": [
+        196,
+        160,
+        85
+      ],
+      "rgba": [
+        196,
+        160,
+        85,
+        220
+      ],
+      "value": 94
+    },
+    {
+      "label": "Keremeos West (MR) -- Lot 235S",
+      "rgb": [
+        105,
+        195,
+        131
+      ],
+      "rgba": [
+        105,
+        195,
+        131,
+        220
+      ],
+      "value": 344
+    },
+    {
+      "label": "Kettle River (MR)",
+      "rgb": [
+        15,
+        28,
+        106
+      ],
+      "rgba": [
+        15,
+        28,
+        106,
+        220
+      ],
+      "value": 345
+    },
+    {
+      "label": "Kiahko Lake (OIC)",
+      "rgb": [
+        168,
+        190,
+        210
+      ],
+      "rgba": [
+        168,
+        190,
+        210,
+        220
+      ],
+      "value": 346
+    },
+    {
+      "label": "Kilpoola Lake (LEA)",
+      "rgb": [
+        81,
+        136,
+        113
+      ],
+      "rgba": [
+        81,
+        136,
+        113,
+        220
+      ],
+      "value": 95
+    },
+    {
+      "label": "Kimberley Airport (MR)",
+      "rgb": [
+        132,
+        133,
+        60
+      ],
+      "rgba": [
+        132,
+        133,
+        60,
+        220
+      ],
+      "value": 347
+    },
+    {
+      "label": "Kimberley (MR) -- St. Mary Lake",
+      "rgb": [
+        231,
+        208,
+        86
+      ],
+      "rgba": [
+        231,
+        208,
+        86,
+        220
+      ],
+      "value": 348
+    },
+    {
+      "label": "Kingcome River Estuary (LEA 1)",
+      "rgb": [
+        211,
+        18,
+        204
+      ],
+      "rgba": [
+        211,
+        18,
+        204,
+        220
+      ],
+      "value": 96
+    },
+    {
+      "label": "Kingcome River Estuary (LEA 2)",
+      "rgb": [
+        233,
+        124,
+        95
+      ],
+      "rgba": [
+        233,
+        124,
+        95,
+        220
+      ],
+      "value": 97
+    },
+    {
+      "label": "Kingcome River Estuary (LEA 3)",
+      "rgb": [
+        128,
+        220,
+        133
+      ],
+      "rgba": [
+        128,
+        220,
+        133,
+        220
+      ],
+      "value": 98
+    },
+    {
+      "label": "Kingcome River Estuary (LEA 4)",
+      "rgb": [
+        153,
+        121,
+        215
+      ],
+      "rgba": [
+        153,
+        121,
+        215,
+        220
+      ],
+      "value": 99
+    },
+    {
+      "label": "Kingcome River Estuary (TAC)",
+      "rgb": [
+        110,
+        207,
+        213
+      ],
+      "rgba": [
+        110,
+        207,
+        213,
+        220
+      ],
+      "value": 100
+    },
+    {
+      "label": "Kiskatinaw River (MR)",
+      "rgb": [
+        8,
+        35,
+        136
+      ],
+      "rgba": [
+        8,
+        35,
+        136,
+        220
+      ],
+      "value": 349
+    },
+    {
+      "label": "Kitsumkalum Lake (LEA) -- Nelson River",
+      "rgb": [
+        74,
+        88,
+        60
+      ],
+      "rgba": [
+        74,
+        88,
+        60,
+        220
+      ],
+      "value": 101
+    },
+    {
+      "label": "Klinger Lake (MR)",
+      "rgb": [
+        187,
+        60,
+        124
+      ],
+      "rgba": [
+        187,
+        60,
+        124,
+        220
+      ],
+      "value": 350
+    },
+    {
+      "label": "Knife Creek (ACQ)",
+      "rgb": [
+        107,
+        186,
+        144
+      ],
+      "rgba": [
+        107,
+        186,
+        144,
+        220
+      ],
+      "value": 102
+    },
+    {
+      "label": "Koeye Estuary (LEA 1)",
+      "rgb": [
+        45,
+        123,
+        240
+      ],
+      "rgba": [
+        45,
+        123,
+        240,
+        220
+      ],
+      "value": 103
+    },
+    {
+      "label": "Koeye Estuary (LEA 2)",
+      "rgb": [
+        64,
+        152,
+        130
+      ],
+      "rgba": [
+        64,
+        152,
+        130,
+        220
+      ],
+      "value": 104
+    },
+    {
+      "label": "Kokanee (ACQ)",
+      "rgb": [
+        62,
+        173,
+        131
+      ],
+      "rgba": [
+        62,
+        173,
+        131,
+        220
+      ],
+      "value": 105
+    },
+    {
+      "label": "Koocanusa Lake (MR)",
+      "rgb": [
+        181,
+        179,
+        106
+      ],
+      "rgba": [
+        181,
+        179,
+        106,
+        220
+      ],
+      "value": 351
+    },
+    {
+      "label": "Kootenay Park Boundary (NOI)",
+      "rgb": [
+        63,
+        27,
+        110
+      ],
+      "rgba": [
+        63,
+        27,
+        110,
+        220
+      ],
+      "value": 352
+    },
+    {
+      "label": "Kumdis Slough (LEA)",
+      "rgb": [
+        153,
+        239,
+        12
+      ],
+      "rgba": [
+        153,
+        239,
+        12,
+        220
+      ],
+      "value": 106
+    },
+    {
+      "label": "Kumdis Slough (TAC 2)",
+      "rgb": [
+        199,
+        135,
+        96
+      ],
+      "rgba": [
+        199,
+        135,
+        96,
+        220
+      ],
+      "value": 107
+    },
+    {
+      "label": "Kwitzil Lake (MR)",
+      "rgb": [
+        122,
+        192,
+        160
+      ],
+      "rgba": [
+        122,
+        192,
+        160,
+        220
+      ],
+      "value": 353
+    },
+    {
+      "label": "Lac Des Roches (MR) -- West",
+      "rgb": [
+        4,
+        9,
+        117
+      ],
+      "rgba": [
+        4,
+        9,
+        117,
+        220
+      ],
+      "value": 354
+    },
+    {
+      "label": "Lac La Hache (TAC)",
+      "rgb": [
+        109,
+        174,
+        1
+      ],
+      "rgba": [
+        109,
+        174,
+        1,
+        220
+      ],
+      "value": 108
+    },
+    {
+      "label": "La Guarde Creek (TAC)",
+      "rgb": [
+        241,
+        143,
+        141
+      ],
+      "rgba": [
+        241,
+        143,
+        141,
+        220
+      ],
+      "value": 109
+    },
+    {
+      "label": "Lake Kathlyn Creek (ACQ)",
+      "rgb": [
+        67,
+        149,
+        216
+      ],
+      "rgba": [
+        67,
+        149,
+        216,
+        220
+      ],
+      "value": 110
+    },
+    {
+      "label": "Lakelse Lake (LEA) -- Mullers Bay",
+      "rgb": [
+        146,
+        70,
+        128
+      ],
+      "rgba": [
+        146,
+        70,
+        128,
+        220
+      ],
+      "value": 111
+    },
+    {
+      "label": "Lakelse Lake South (TAC)",
+      "rgb": [
+        116,
+        146,
+        222
+      ],
+      "rgba": [
+        116,
+        146,
+        222,
+        220
+      ],
+      "value": 112
+    },
+    {
+      "label": "Lakelse River (LEA)",
+      "rgb": [
+        100,
+        130,
+        227
+      ],
+      "rgba": [
+        100,
+        130,
+        227,
+        220
+      ],
+      "value": 113
+    },
+    {
+      "label": "Langford Lake (MR)",
+      "rgb": [
+        160,
+        140,
+        193
+      ],
+      "rgba": [
+        160,
+        140,
+        193,
+        220
+      ],
+      "value": 355
+    },
+    {
+      "label": "Larsen Lake (MR)",
+      "rgb": [
+        65,
+        138,
+        188
+      ],
+      "rgba": [
+        65,
+        138,
+        188,
+        220
+      ],
+      "value": 356
+    },
+    {
+      "label": "Lazo Marsh-North East Comox WMA",
+      "rgb": [
+        145,
+        41,
+        105
+      ],
+      "rgba": [
+        145,
+        41,
+        105,
+        220
+      ],
+      "value": 538
+    },
+    {
+      "label": "Lazo Marsh-North East Comox  WMA (LEA) -- Lazo Marsh",
+      "rgb": [
+        36,
+        5,
+        88
+      ],
+      "rgba": [
+        36,
+        5,
+        88,
+        220
+      ],
+      "value": 114
+    },
+    {
+      "label": "Lh\u00e1:lt / Harrison-Chehalis WMA",
+      "rgb": [
+        11,
+        190,
+        178
+      ],
+      "rgba": [
+        11,
+        190,
+        178,
+        220
+      ],
+      "value": 539
+    },
+    {
+      "label": "Lindup (MR)",
+      "rgb": [
+        169,
+        56,
+        25
+      ],
+      "rgba": [
+        169,
+        56,
+        25,
+        220
+      ],
+      "value": 357
+    },
+    {
+      "label": "Linton Creek (ACQ)",
+      "rgb": [
+        177,
+        239,
+        20
+      ],
+      "rgba": [
+        177,
+        239,
+        20,
+        220
+      ],
+      "value": 115
+    },
+    {
+      "label": "Little White Lake (MR)",
+      "rgb": [
+        175,
+        151,
+        35
+      ],
+      "rgba": [
+        175,
+        151,
+        35,
+        220
+      ],
+      "value": 358
+    },
+    {
+      "label": "Liza Lake Cabin (MR)",
+      "rgb": [
+        179,
+        52,
+        96
+      ],
+      "rgba": [
+        179,
+        52,
+        96,
+        220
+      ],
+      "value": 359
+    },
+    {
+      "label": "Lodgepole Lake Aeration (TAC)",
+      "rgb": [
+        69,
+        179,
+        3
+      ],
+      "rgba": [
+        69,
+        179,
+        3,
+        220
+      ],
+      "value": 116
+    },
+    {
+      "label": "Lytton Range (MR)",
+      "rgb": [
+        122,
+        18,
+        186
+      ],
+      "rgba": [
+        122,
+        18,
+        186,
+        220
+      ],
+      "value": 360
+    },
+    {
+      "label": "Marina Island (MR)",
+      "rgb": [
+        121,
+        207,
+        198
+      ],
+      "rgba": [
+        121,
+        207,
+        198,
+        220
+      ],
+      "value": 361
+    },
+    {
+      "label": "Mariners Island (TAC)",
+      "rgb": [
+        66,
+        32,
+        53
+      ],
+      "rgba": [
+        66,
+        32,
+        53,
+        220
+      ],
+      "value": 117
+    },
+    {
+      "label": "Marrow Valley (NOI)",
+      "rgb": [
+        7,
+        2,
+        177
+      ],
+      "rgba": [
+        7,
+        2,
+        177,
+        220
+      ],
+      "value": 362
+    },
+    {
+      "label": "Marsden Face (LEA 1)",
+      "rgb": [
+        103,
+        176,
+        104
+      ],
+      "rgba": [
+        103,
+        176,
+        104,
+        220
+      ],
+      "value": 118
+    },
+    {
+      "label": "Marsden Face (LEA 2)",
+      "rgb": [
+        103,
+        222,
+        5
+      ],
+      "rgba": [
+        103,
+        222,
+        5,
+        220
+      ],
+      "value": 119
+    },
+    {
+      "label": "Marsden Face (TAC)",
+      "rgb": [
+        123,
+        54,
+        98
+      ],
+      "rgba": [
+        123,
+        54,
+        98,
+        220
+      ],
+      "value": 120
+    },
+    {
+      "label": "McGinty Lake (MR)",
+      "rgb": [
+        127,
+        147,
+        101
+      ],
+      "rgba": [
+        127,
+        147,
+        101,
+        220
+      ],
+      "value": 363
+    },
+    {
+      "label": "McMurdo Station (MR)",
+      "rgb": [
+        115,
+        240,
+        76
+      ],
+      "rgba": [
+        115,
+        240,
+        76,
+        220
+      ],
+      "value": 364
+    },
+    {
+      "label": "McQuarrie Lake (NOI)",
+      "rgb": [
+        63,
+        229,
+        202
+      ],
+      "rgba": [
+        63,
+        229,
+        202,
+        220
+      ],
+      "value": 365
+    },
+    {
+      "label": "McQueen Slough (LEA 1)",
+      "rgb": [
+        199,
+        243,
+        4
+      ],
+      "rgba": [
+        199,
+        243,
+        4,
+        220
+      ],
+      "value": 121
+    },
+    {
+      "label": "McQueen Slough (LEA 2)",
+      "rgb": [
+        156,
+        82,
+        125
+      ],
+      "rgba": [
+        156,
+        82,
+        125,
+        220
+      ],
+      "value": 122
+    },
+    {
+      "label": "McTaggart-Cowan/nskniwt WMA",
+      "rgb": [
+        53,
+        114,
+        182
+      ],
+      "rgba": [
+        53,
+        114,
+        182,
+        220
+      ],
+      "value": 540
+    },
+    {
+      "label": "Meadow Creek (ACQ)",
+      "rgb": [
+        55,
+        248,
+        143
+      ],
+      "rgba": [
+        55,
+        248,
+        143,
+        220
+      ],
+      "value": 123
+    },
+    {
+      "label": "Menzies Lake (ACQ)",
+      "rgb": [
+        211,
+        240,
+        211
+      ],
+      "rgba": [
+        211,
+        240,
+        211,
+        220
+      ],
+      "value": 124
+    },
+    {
+      "label": "Midge Creek WMA",
+      "rgb": [
+        161,
+        137,
+        3
+      ],
+      "rgba": [
+        161,
+        137,
+        3,
+        220
+      ],
+      "value": 541
+    },
+    {
+      "label": "Milligan Lake (MR)",
+      "rgb": [
+        132,
+        111,
+        25
+      ],
+      "rgba": [
+        132,
+        111,
+        25,
+        220
+      ],
+      "value": 366
+    },
+    {
+      "label": "Misinchinka River (MR)",
+      "rgb": [
+        68,
+        243,
+        205
+      ],
+      "rgba": [
+        68,
+        243,
+        205,
+        220
+      ],
+      "value": 367
+    },
+    {
+      "label": "Moran Range (NOI)",
+      "rgb": [
+        219,
+        61,
+        0
+      ],
+      "rgba": [
+        219,
+        61,
+        0,
+        220
+      ],
+      "value": 368
+    },
+    {
+      "label": "Morkill River (MR)",
+      "rgb": [
+        201,
+        128,
+        230
+      ],
+      "rgba": [
+        201,
+        128,
+        230,
+        220
+      ],
+      "value": 369
+    },
+    {
+      "label": "Morley Lake (MR)",
+      "rgb": [
+        195,
+        191,
+        31
+      ],
+      "rgba": [
+        195,
+        191,
+        31,
+        220
+      ],
+      "value": 370
+    },
+    {
+      "label": "Moss Creek (DUA)",
+      "rgb": [
+        62,
+        27,
+        23
+      ],
+      "rgba": [
+        62,
+        27,
+        23,
+        220
+      ],
+      "value": 371
+    },
+    {
+      "label": "Mount Kitchener (MR)",
+      "rgb": [
+        187,
+        70,
+        54
+      ],
+      "rgba": [
+        187,
+        70,
+        54,
+        220
+      ],
+      "value": 372
+    },
+    {
+      "label": "Mount Robson Ranch (LEA)",
+      "rgb": [
+        172,
+        121,
+        8
+      ],
+      "rgba": [
+        172,
+        121,
+        8,
+        220
+      ],
+      "value": 125
+    },
+    {
+      "label": "Murdale (MR)",
+      "rgb": [
+        229,
+        9,
+        193
+      ],
+      "rgba": [
+        229,
+        9,
+        193,
+        220
+      ],
+      "value": 373
+    },
+    {
+      "label": "Murdale Northwest (MR)",
+      "rgb": [
+        71,
+        174,
+        167
+      ],
+      "rgba": [
+        71,
+        174,
+        167,
+        220
+      ],
+      "value": 374
+    },
+    {
+      "label": "Murray River (MR)",
+      "rgb": [
+        67,
+        93,
+        104
+      ],
+      "rgba": [
+        67,
+        93,
+        104,
+        220
+      ],
+      "value": 375
+    },
+    {
+      "label": "Naden Harbour (DUA)",
+      "rgb": [
+        134,
+        76,
+        30
+      ],
+      "rgba": [
+        134,
+        76,
+        30,
+        220
+      ],
+      "value": 376
+    },
+    {
+      "label": "Nadina River (MR)",
+      "rgb": [
+        164,
+        220,
+        8
+      ],
+      "rgba": [
+        164,
+        220,
+        8,
+        220
+      ],
+      "value": 377
+    },
+    {
+      "label": "Nadina River Valley (LEA) -- Owen Lake",
+      "rgb": [
+        124,
+        97,
+        84
+      ],
+      "rgba": [
+        124,
+        97,
+        84,
+        220
+      ],
+      "value": 126
+    },
+    {
+      "label": "Nakina River (MR)",
+      "rgb": [
+        125,
+        61,
+        145
+      ],
+      "rgba": [
+        125,
+        61,
+        145,
+        220
+      ],
+      "value": 378
+    },
+    {
+      "label": "Nanaimo River Estuary (LEA 1) -- Nanaimo Island",
+      "rgb": [
+        181,
+        21,
+        59
+      ],
+      "rgba": [
+        181,
+        21,
+        59,
+        220
+      ],
+      "value": 127
+    },
+    {
+      "label": "Nanaimo River Estuary (LEA 2) -- Canada Cement",
+      "rgb": [
+        206,
+        6,
+        196
+      ],
+      "rgba": [
+        206,
+        6,
+        196,
+        220
+      ],
+      "value": 128
+    },
+    {
+      "label": "Nanaimo River Estuary (LEA 3) -- Duke Point",
+      "rgb": [
+        185,
+        201,
+        133
+      ],
+      "rgba": [
+        185,
+        201,
+        133,
+        220
+      ],
+      "value": 129
+    },
+    {
+      "label": "Nanaimo River Estuary (LEA 4) -- Duke Point Addition",
+      "rgb": [
+        124,
+        196,
+        100
+      ],
+      "rgba": [
+        124,
+        196,
+        100,
+        220
+      ],
+      "value": 130
+    },
+    {
+      "label": "Nanaimo River Estuary (LEA 5) -- Maughan Road",
+      "rgb": [
+        179,
+        227,
+        23
+      ],
+      "rgba": [
+        179,
+        227,
+        23,
+        220
+      ],
+      "value": 131
+    },
+    {
+      "label": "Nanaimo River Estuary (LEA 6) -- Holden Creek",
+      "rgb": [
+        170,
+        42,
+        167
+      ],
+      "rgba": [
+        170,
+        42,
+        167,
+        220
+      ],
+      "value": 132
+    },
+    {
+      "label": "Nanaimo River Estuary (TAC)",
+      "rgb": [
+        9,
+        192,
+        238
+      ],
+      "rgba": [
+        9,
+        192,
+        238,
+        220
+      ],
+      "value": 133
+    },
+    {
+      "label": "Nanoose Bay Estuary (MR)",
+      "rgb": [
+        115,
+        219,
+        107
+      ],
+      "rgba": [
+        115,
+        219,
+        107,
+        220
+      ],
+      "value": 379
+    },
+    {
+      "label": "Naramata (NOI)",
+      "rgb": [
+        26,
+        116,
+        70
+      ],
+      "rgba": [
+        26,
+        116,
+        70,
+        220
+      ],
+      "value": 380
+    },
+    {
+      "label": "Nechako River (LEA) -- Tyee",
+      "rgb": [
+        48,
+        147,
+        59
+      ],
+      "rgba": [
+        48,
+        147,
+        59,
+        220
+      ],
+      "value": 134
+    },
+    {
+      "label": "Nechako River (MR 1) -- Diamond Island",
+      "rgb": [
+        157,
+        51,
+        91
+      ],
+      "rgba": [
+        157,
+        51,
+        91,
+        220
+      ],
+      "value": 381
+    },
+    {
+      "label": "Nechako River (MR 2) -- Corridor",
+      "rgb": [
+        37,
+        172,
+        5
+      ],
+      "rgba": [
+        37,
+        172,
+        5,
+        220
+      ],
+      "value": 382
+    },
+    {
+      "label": "Nechako River (MR 3) -- McCall",
+      "rgb": [
+        113,
+        50,
+        124
+      ],
+      "rgba": [
+        113,
+        50,
+        124,
+        220
+      ],
+      "value": 383
+    },
+    {
+      "label": "Nechako River (MR 4) -- Engen",
+      "rgb": [
+        128,
+        36,
+        99
+      ],
+      "rgba": [
+        128,
+        36,
+        99,
+        220
+      ],
+      "value": 384
+    },
+    {
+      "label": "Neilson Lake (MR)",
+      "rgb": [
+        65,
+        55,
+        28
+      ],
+      "rgba": [
+        65,
+        55,
+        28,
+        220
+      ],
+      "value": 385
+    },
+    {
+      "label": "Nevin Creek (MR)",
+      "rgb": [
+        234,
+        63,
+        232
+      ],
+      "rgba": [
+        234,
+        63,
+        232,
+        220
+      ],
+      "value": 386
+    },
+    {
+      "label": "Newgate (ACQ 1) -- Gordon Earl",
+      "rgb": [
+        98,
+        225,
+        156
+      ],
+      "rgba": [
+        98,
+        225,
+        156,
+        220
+      ],
+      "value": 135
+    },
+    {
+      "label": "Newgate (ACQ 2) -- Smith",
+      "rgb": [
+        169,
+        10,
+        237
+      ],
+      "rgba": [
+        169,
+        10,
+        237,
+        220
+      ],
+      "value": 136
+    },
+    {
+      "label": "Nicola Lake Damsite (ACQ)",
+      "rgb": [
+        38,
+        33,
+        231
+      ],
+      "rgba": [
+        38,
+        33,
+        231,
+        220
+      ],
+      "value": 137
+    },
+    {
+      "label": "North Pender Island (MR)",
+      "rgb": [
+        58,
+        6,
+        177
+      ],
+      "rgba": [
+        58,
+        6,
+        177,
+        220
+      ],
+      "value": 387
+    },
+    {
+      "label": "Nulki Lake (MR)",
+      "rgb": [
+        173,
+        94,
+        190
+      ],
+      "rgba": [
+        173,
+        94,
+        190,
+        220
+      ],
+      "value": 388
+    },
+    {
+      "label": "Oakhills Bird Reserve (MR)",
+      "rgb": [
+        201,
+        185,
+        7
+      ],
+      "rgba": [
+        201,
+        185,
+        7,
+        220
+      ],
+      "value": 389
+    },
+    {
+      "label": "O'Connor Lake (DUA)",
+      "rgb": [
+        187,
+        203,
+        103
+      ],
+      "rgba": [
+        187,
+        203,
+        103,
+        220
+      ],
+      "value": 390
+    },
+    {
+      "label": "Okanagan Falls (ACQ) -- Bourrassa Spring",
+      "rgb": [
+        29,
+        177,
+        4
+      ],
+      "rgba": [
+        29,
+        177,
+        4,
+        220
+      ],
+      "value": 138
+    },
+    {
+      "label": "Okanagan Falls (MR)",
+      "rgb": [
+        244,
+        74,
+        239
+      ],
+      "rgba": [
+        244,
+        74,
+        239,
+        220
+      ],
+      "value": 391
+    },
+    {
+      "label": "Okanagan Falls (NOI 2) -- White Lake",
+      "rgb": [
+        30,
+        254,
+        146
+      ],
+      "rgba": [
+        30,
+        254,
+        146,
+        220
+      ],
+      "value": 392
+    },
+    {
+      "label": "Okanagan Falls (NOI 3)",
+      "rgb": [
+        99,
+        206,
+        155
+      ],
+      "rgba": [
+        99,
+        206,
+        155,
+        220
+      ],
+      "value": 393
+    },
+    {
+      "label": "Okanagan Falls Southern (MR)",
+      "rgb": [
+        177,
+        17,
+        97
+      ],
+      "rgba": [
+        177,
+        17,
+        97,
+        220
+      ],
+      "value": 394
+    },
+    {
+      "label": "Okanagan Lake (NOI)",
+      "rgb": [
+        229,
+        34,
+        250
+      ],
+      "rgba": [
+        229,
+        34,
+        250,
+        220
+      ],
+      "value": 395
+    },
+    {
+      "label": "Oliver Mountain (MR)",
+      "rgb": [
+        109,
+        15,
+        104
+      ],
+      "rgba": [
+        109,
+        15,
+        104,
+        220
+      ],
+      "value": 396
+    },
+    {
+      "label": "Oliver (MR 1)",
+      "rgb": [
+        150,
+        252,
+        136
+      ],
+      "rgba": [
+        150,
+        252,
+        136,
+        220
+      ],
+      "value": 397
+    },
+    {
+      "label": "Oliver (NOI 1)",
+      "rgb": [
+        88,
+        226,
+        140
+      ],
+      "rgba": [
+        88,
+        226,
+        140,
+        220
+      ],
+      "value": 398
+    },
+    {
+      "label": "Oliver (NOI 2) -- Block A",
+      "rgb": [
+        27,
+        168,
+        86
+      ],
+      "rgba": [
+        27,
+        168,
+        86,
+        220
+      ],
+      "value": 399
+    },
+    {
+      "label": "Oliver (NOI 3) -- Part Block A, Lot 7",
+      "rgb": [
+        160,
+        238,
+        195
+      ],
+      "rgba": [
+        160,
+        238,
+        195,
+        220
+      ],
+      "value": 400
+    },
+    {
+      "label": "Oliver (NOI 4) -- Rill Fire",
+      "rgb": [
+        106,
+        155,
+        21
+      ],
+      "rgba": [
+        106,
+        155,
+        21,
+        220
+      ],
+      "value": 401
+    },
+    {
+      "label": "Orel Lake (LEA)",
+      "rgb": [
+        139,
+        215,
+        145
+      ],
+      "rgba": [
+        139,
+        215,
+        145,
+        220
+      ],
+      "value": 139
+    },
+    {
+      "label": "Osoyoos Lake (DUA) -- Lot 676",
+      "rgb": [
+        59,
+        157,
+        148
+      ],
+      "rgba": [
+        59,
+        157,
+        148,
+        220
+      ],
+      "value": 402
+    },
+    {
+      "label": "Osoyoos Lake (MR)",
+      "rgb": [
+        6,
+        79,
+        5
+      ],
+      "rgba": [
+        6,
+        79,
+        5,
+        220
+      ],
+      "value": 403
+    },
+    {
+      "label": "Osoyoos Lake (NOI)",
+      "rgb": [
+        192,
+        197,
+        208
+      ],
+      "rgba": [
+        192,
+        197,
+        208,
+        220
+      ],
+      "value": 404
+    },
+    {
+      "label": "Osoyoos Lake NW (MR)",
+      "rgb": [
+        48,
+        111,
+        17
+      ],
+      "rgba": [
+        48,
+        111,
+        17,
+        220
+      ],
+      "value": 405
+    },
+    {
+      "label": "Osoyoos (MR) -- Sect 33, L413",
+      "rgb": [
+        194,
+        110,
+        180
+      ],
+      "rgba": [
+        194,
+        110,
+        180,
+        220
+      ],
+      "value": 406
+    },
+    {
+      "label": "Osoyoos (MR) -- Swartz",
+      "rgb": [
+        114,
+        174,
+        88
+      ],
+      "rgba": [
+        114,
+        174,
+        88,
+        220
+      ],
+      "value": 407
+    },
+    {
+      "label": "Osoyoos (NOI 1)",
+      "rgb": [
+        142,
+        22,
+        1
+      ],
+      "rgba": [
+        142,
+        22,
+        1,
+        220
+      ],
+      "value": 408
+    },
+    {
+      "label": "Osoyoos (NOI 2) -- Anarchist",
+      "rgb": [
+        123,
+        118,
+        61
+      ],
+      "rgba": [
+        123,
+        118,
+        61,
+        220
+      ],
+      "value": 409
+    },
+    {
+      "label": "Otter Lake (MR)",
+      "rgb": [
+        229,
+        59,
+        80
+      ],
+      "rgba": [
+        229,
+        59,
+        80,
+        220
+      ],
+      "value": 410
+    },
+    {
+      "label": "Owikeno Lake (NOI)",
+      "rgb": [
+        84,
+        126,
+        243
+      ],
+      "rgba": [
+        84,
+        126,
+        243,
+        220
+      ],
+      "value": 411
+    },
+    {
+      "label": "Oyster River (MR) -- Woodhus Slough",
+      "rgb": [
+        31,
+        38,
+        73
+      ],
+      "rgba": [
+        31,
+        38,
+        73,
+        220
+      ],
+      "value": 412
+    },
+    {
+      "label": "Parksville-Qualicum (ACQ) -- Englishman River",
+      "rgb": [
+        211,
+        198,
+        55
+      ],
+      "rgba": [
+        211,
+        198,
+        55,
+        220
+      ],
+      "value": 140
+    },
+    {
+      "label": "Parksville-Qualicum Beach WMA",
+      "rgb": [
+        166,
+        27,
+        149
+      ],
+      "rgba": [
+        166,
+        27,
+        149,
+        220
+      ],
+      "value": 542
+    },
+    {
+      "label": "Parksville-Qualicum Beach WMA (LEA 1) -- Englishman River",
+      "rgb": [
+        140,
+        31,
+        199
+      ],
+      "rgba": [
+        140,
+        31,
+        199,
+        220
+      ],
+      "value": 141
+    },
+    {
+      "label": "Parksville-Qualicum Beach WMA (LEA 2) -- Englishman River",
+      "rgb": [
+        222,
+        249,
+        142
+      ],
+      "rgba": [
+        222,
+        249,
+        142,
+        220
+      ],
+      "value": 142
+    },
+    {
+      "label": "Parksville-Qualicum Beach WMA (LEA 3) -- Englishman River",
+      "rgb": [
+        69,
+        54,
+        39
+      ],
+      "rgba": [
+        69,
+        54,
+        39,
+        220
+      ],
+      "value": 143
+    },
+    {
+      "label": "Parksville-Qualicum Beach WMA (LEA 4) -- Parksville Flats",
+      "rgb": [
+        3,
+        130,
+        93
+      ],
+      "rgba": [
+        3,
+        130,
+        93,
+        220
+      ],
+      "value": 144
+    },
+    {
+      "label": "Parksville-Qualicum Beach WMA (LEA 5) -- Block 564",
+      "rgb": [
+        162,
+        193,
+        161
+      ],
+      "rgba": [
+        162,
+        193,
+        161,
+        220
+      ],
+      "value": 145
+    },
+    {
+      "label": "Parsnip River (DUA)",
+      "rgb": [
+        203,
+        101,
+        71
+      ],
+      "rgba": [
+        203,
+        101,
+        71,
+        220
+      ],
+      "value": 413
+    },
+    {
+      "label": "Passed Lake (NOI)",
+      "rgb": [
+        141,
+        254,
+        35
+      ],
+      "rgba": [
+        141,
+        254,
+        35,
+        220
+      ],
+      "value": 414
+    },
+    {
+      "label": "Peace River (MR 1)",
+      "rgb": [
+        99,
+        251,
+        142
+      ],
+      "rgba": [
+        99,
+        251,
+        142,
+        220
+      ],
+      "value": 415
+    },
+    {
+      "label": "Peace River (MR 2)",
+      "rgb": [
+        10,
+        202,
+        147
+      ],
+      "rgba": [
+        10,
+        202,
+        147,
+        220
+      ],
+      "value": 416
+    },
+    {
+      "label": "Peace River (MR 4)",
+      "rgb": [
+        159,
+        238,
+        201
+      ],
+      "rgba": [
+        159,
+        238,
+        201,
+        220
+      ],
+      "value": 417
+    },
+    {
+      "label": "Peachland (DUA) -- Pincushion",
+      "rgb": [
+        210,
+        208,
+        200
+      ],
+      "rgba": [
+        210,
+        208,
+        200,
+        220
+      ],
+      "value": 418
+    },
+    {
+      "label": "Peachland (MR) -- Lot 2534",
+      "rgb": [
+        151,
+        171,
+        16
+      ],
+      "rgba": [
+        151,
+        171,
+        16,
+        220
+      ],
+      "value": 419
+    },
+    {
+      "label": "Peachland Northwest (MR)",
+      "rgb": [
+        168,
+        205,
+        204
+      ],
+      "rgba": [
+        168,
+        205,
+        204,
+        220
+      ],
+      "value": 420
+    },
+    {
+      "label": "Peavine Lake (MR)",
+      "rgb": [
+        128,
+        155,
+        188
+      ],
+      "rgba": [
+        128,
+        155,
+        188,
+        220
+      ],
+      "value": 421
+    },
+    {
+      "label": "Peddie Creek Pond (MR)",
+      "rgb": [
+        240,
+        111,
+        193
+      ],
+      "rgba": [
+        240,
+        111,
+        193,
+        220
+      ],
+      "value": 422
+    },
+    {
+      "label": "Pemberton Wetlands WMA",
+      "rgb": [
+        63,
+        106,
+        77
+      ],
+      "rgba": [
+        63,
+        106,
+        77,
+        220
+      ],
+      "value": 543
+    },
+    {
+      "label": "Pend D'Oreille (ACQ10) -- Remac",
+      "rgb": [
+        51,
+        101,
+        190
+      ],
+      "rgba": [
+        51,
+        101,
+        190,
+        220
+      ],
+      "value": 146
+    },
+    {
+      "label": "Pend D'Oreille (ACQ11) -- Valiquet",
+      "rgb": [
+        151,
+        175,
+        89
+      ],
+      "rgba": [
+        151,
+        175,
+        89,
+        220
+      ],
+      "value": 147
+    },
+    {
+      "label": "Pend D'Oreille (ACQ12) -- Wild",
+      "rgb": [
+        116,
+        158,
+        44
+      ],
+      "rgba": [
+        116,
+        158,
+        44,
+        220
+      ],
+      "value": 148
+    },
+    {
+      "label": "Pend D'Oreille (ACQ 1) -- Atco",
+      "rgb": [
+        154,
+        98,
+        28
+      ],
+      "rgba": [
+        154,
+        98,
+        28,
+        220
+      ],
+      "value": 149
+    },
+    {
+      "label": "Pend D'Oreille (ACQ 2) -- BC Hydro",
+      "rgb": [
+        51,
+        156,
+        134
+      ],
+      "rgba": [
+        51,
+        156,
+        134,
+        220
+      ],
+      "value": 150
+    },
+    {
+      "label": "Pend D'Oreille (ACQ 3) -- BC Hydro C",
+      "rgb": [
+        1,
+        32,
+        22
+      ],
+      "rgba": [
+        1,
+        32,
+        22,
+        220
+      ],
+      "value": 151
+    },
+    {
+      "label": "Pend D'Oreille (ACQ 4) -- Berukoff",
+      "rgb": [
+        93,
+        212,
+        105
+      ],
+      "rgba": [
+        93,
+        212,
+        105,
+        220
+      ],
+      "value": 152
+    },
+    {
+      "label": "Pend D'Oreille (ACQ 5) -- Buckley",
+      "rgb": [
+        28,
+        234,
+        203
+      ],
+      "rgba": [
+        28,
+        234,
+        203,
+        220
+      ],
+      "value": 153
+    },
+    {
+      "label": "Pend D'Oreille (ACQ 6) -- Fitzpatrick",
+      "rgb": [
+        106,
+        60,
+        249
+      ],
+      "rgba": [
+        106,
+        60,
+        249,
+        220
+      ],
+      "value": 154
+    },
+    {
+      "label": "Pend D'Oreille (ACQ 7) -- Imperial Pacific",
+      "rgb": [
+        222,
+        240,
+        56
+      ],
+      "rgba": [
+        222,
+        240,
+        56,
+        220
+      ],
+      "value": 155
+    },
+    {
+      "label": "Pend D'Oreille (ACQ 8) -- Pend D'Oreille Enterprises",
+      "rgb": [
+        181,
+        44,
+        105
+      ],
+      "rgba": [
+        181,
+        44,
+        105,
+        220
+      ],
+      "value": 156
+    },
+    {
+      "label": "Pend D'Oreille (ACQ 9) -- Pend D'Oreille Farms",
+      "rgb": [
+        142,
+        63,
+        6
+      ],
+      "rgba": [
+        142,
+        63,
+        6,
+        220
+      ],
+      "value": 157
+    },
+    {
+      "label": "Pennask Creek (TAC) -- Hatchery Site",
+      "rgb": [
+        29,
+        178,
+        38
+      ],
+      "rgba": [
+        29,
+        178,
+        38,
+        220
+      ],
+      "value": 158
+    },
+    {
+      "label": "Penny (MR)",
+      "rgb": [
+        142,
+        124,
+        246
+      ],
+      "rgba": [
+        142,
+        124,
+        246,
+        220
+      ],
+      "value": 423
+    },
+    {
+      "label": "Perkins Flats (ACQ)",
+      "rgb": [
+        11,
+        127,
+        76
+      ],
+      "rgba": [
+        11,
+        127,
+        76,
+        220
+      ],
+      "value": 159
+    },
+    {
+      "label": "Peter Hope Lake (MR)",
+      "rgb": [
+        76,
+        3,
+        150
+      ],
+      "rgba": [
+        76,
+        3,
+        150,
+        220
+      ],
+      "value": 424
+    },
+    {
+      "label": "Peter Hope Lake (OIC)",
+      "rgb": [
+        82,
+        212,
+        110
+      ],
+      "rgba": [
+        82,
+        212,
+        110,
+        220
+      ],
+      "value": 425
+    },
+    {
+      "label": "Peterson Lake Cabinsite (MR)",
+      "rgb": [
+        152,
+        220,
+        65
+      ],
+      "rgba": [
+        152,
+        220,
+        65,
+        220
+      ],
+      "value": 426
+    },
+    {
+      "label": "Pigeon Creek Vicinity (MR)",
+      "rgb": [
+        213,
+        164,
+        64
+      ],
+      "rgba": [
+        213,
+        164,
+        64,
+        220
+      ],
+      "value": 427
+    },
+    {
+      "label": "Pine River (MR)",
+      "rgb": [
+        30,
+        69,
+        213
+      ],
+      "rgba": [
+        30,
+        69,
+        213,
+        220
+      ],
+      "value": 428
+    },
+    {
+      "label": "Pitt-Addington Marsh WMA",
+      "rgb": [
+        178,
+        185,
+        161
+      ],
+      "rgba": [
+        178,
+        185,
+        161,
+        220
+      ],
+      "value": 544
+    },
+    {
+      "label": "Pitt-Addington Marsh WMA (LEA)",
+      "rgb": [
+        175,
+        65,
+        156
+      ],
+      "rgba": [
+        175,
+        65,
+        156,
+        220
+      ],
+      "value": 160
+    },
+    {
+      "label": "Porcupine Creek Cabin (MR)",
+      "rgb": [
+        66,
+        125,
+        109
+      ],
+      "rgba": [
+        66,
+        125,
+        109,
+        220
+      ],
+      "value": 429
+    },
+    {
+      "label": "Premier Ridge (ACQ 1) -- Pommier",
+      "rgb": [
+        158,
+        246,
+        241
+      ],
+      "rgba": [
+        158,
+        246,
+        241,
+        220
+      ],
+      "value": 161
+    },
+    {
+      "label": "Premier Ridge (ACQ 2) -- Three Sons",
+      "rgb": [
+        208,
+        44,
+        196
+      ],
+      "rgba": [
+        208,
+        44,
+        196,
+        220
+      ],
+      "value": 162
+    },
+    {
+      "label": "Premier Ridge (MR)",
+      "rgb": [
+        42,
+        68,
+        64
+      ],
+      "rgba": [
+        42,
+        68,
+        64,
+        220
+      ],
+      "value": 430
+    },
+    {
+      "label": "Princeton (MR) -- Lot 3027",
+      "rgb": [
+        26,
+        163,
+        116
+      ],
+      "rgba": [
+        26,
+        163,
+        116,
+        220
+      ],
+      "value": 431
+    },
+    {
+      "label": "Princeton (NOI 1) -- 1 km East",
+      "rgb": [
+        227,
+        3,
+        102
+      ],
+      "rgba": [
+        227,
+        3,
+        102,
+        220
+      ],
+      "value": 432
+    },
+    {
+      "label": "Princeton (NOI 2) -- Cliffs",
+      "rgb": [
+        81,
+        28,
+        37
+      ],
+      "rgba": [
+        81,
+        28,
+        37,
+        220
+      ],
+      "value": 433
+    },
+    {
+      "label": "Quatse WMA",
+      "rgb": [
+        57,
+        202,
+        38
+      ],
+      "rgba": [
+        57,
+        202,
+        38,
+        220
+      ],
+      "value": 545
+    },
+    {
+      "label": "Queen's Bay (MR)",
+      "rgb": [
+        37,
+        181,
+        140
+      ],
+      "rgba": [
+        37,
+        181,
+        140,
+        220
+      ],
+      "value": 434
+    },
+    {
+      "label": "Quick (MR)",
+      "rgb": [
+        48,
+        26,
+        111
+      ],
+      "rgba": [
+        48,
+        26,
+        111,
+        220
+      ],
+      "value": 435
+    },
+    {
+      "label": "Quick South (MR) -- Bulkley River",
+      "rgb": [
+        58,
+        243,
+        127
+      ],
+      "rgba": [
+        58,
+        243,
+        127,
+        220
+      ],
+      "value": 436
+    },
+    {
+      "label": "Raush River (MR)",
+      "rgb": [
+        165,
+        244,
+        125
+      ],
+      "rgba": [
+        165,
+        244,
+        125,
+        220
+      ],
+      "value": 437
+    },
+    {
+      "label": "RCMP Flats (LEA)",
+      "rgb": [
+        0,
+        87,
+        234
+      ],
+      "rgba": [
+        0,
+        87,
+        234,
+        220
+      ],
+      "value": 163
+    },
+    {
+      "label": "Red Creek (MR)",
+      "rgb": [
+        85,
+        230,
+        180
+      ],
+      "rgba": [
+        85,
+        230,
+        180,
+        220
+      ],
+      "value": 438
+    },
+    {
+      "label": "Redfish Creek (ACQ 1)",
+      "rgb": [
+        135,
+        230,
+        74
+      ],
+      "rgba": [
+        135,
+        230,
+        74,
+        220
+      ],
+      "value": 164
+    },
+    {
+      "label": "Redfish Creek (ACQ 2)",
+      "rgb": [
+        56,
+        117,
+        77
+      ],
+      "rgba": [
+        56,
+        117,
+        77,
+        220
+      ],
+      "value": 165
+    },
+    {
+      "label": "Redfish Creek (LEA 1)",
+      "rgb": [
+        238,
+        227,
+        110
+      ],
+      "rgba": [
+        238,
+        227,
+        110,
+        220
+      ],
+      "value": 166
+    },
+    {
+      "label": "Redfish Creek (LEA 2)",
+      "rgb": [
+        12,
+        20,
+        226
+      ],
+      "rgba": [
+        12,
+        20,
+        226,
+        220
+      ],
+      "value": 167
+    },
+    {
+      "label": "Red Mountain Creek (DUA)",
+      "rgb": [
+        248,
+        111,
+        189
+      ],
+      "rgba": [
+        248,
+        111,
+        189,
+        220
+      ],
+      "value": 439
+    },
+    {
+      "label": "Reed Lakes (MR)",
+      "rgb": [
+        210,
+        122,
+        139
+      ],
+      "rgba": [
+        210,
+        122,
+        139,
+        220
+      ],
+      "value": 440
+    },
+    {
+      "label": "Revelstoke (MR)",
+      "rgb": [
+        192,
+        125,
+        114
+      ],
+      "rgba": [
+        192,
+        125,
+        114,
+        220
+      ],
+      "value": 441
+    },
+    {
+      "label": "Richter Mountain (NOI) -- Lower Similkameen",
+      "rgb": [
+        110,
+        221,
+        3
+      ],
+      "rgba": [
+        110,
+        221,
+        3,
+        220
+      ],
+      "value": 442
+    },
+    {
+      "label": "Riondel (ACQ 1)",
+      "rgb": [
+        91,
+        248,
+        26
+      ],
+      "rgba": [
+        91,
+        248,
+        26,
+        220
+      ],
+      "value": 168
+    },
+    {
+      "label": "Riondel (ACQ 2)",
+      "rgb": [
+        97,
+        31,
+        169
+      ],
+      "rgba": [
+        97,
+        31,
+        169,
+        220
+      ],
+      "value": 169
+    },
+    {
+      "label": "Roberts Bank (OIC)",
+      "rgb": [
+        153,
+        231,
+        73
+      ],
+      "rgba": [
+        153,
+        231,
+        73,
+        220
+      ],
+      "value": 443
+    },
+    {
+      "label": "Roberts Bank WMA",
+      "rgb": [
+        220,
+        4,
+        236
+      ],
+      "rgba": [
+        220,
+        4,
+        236,
+        220
+      ],
+      "value": 546
+    },
+    {
+      "label": "Round Lake Northeast (NOI)",
+      "rgb": [
+        98,
+        103,
+        15
+      ],
+      "rgba": [
+        98,
+        103,
+        15,
+        220
+      ],
+      "value": 444
+    },
+    {
+      "label": "Roundtop Refuge (ACQ)",
+      "rgb": [
+        194,
+        177,
+        82
+      ],
+      "rgba": [
+        194,
+        177,
+        82,
+        220
+      ],
+      "value": 170
+    },
+    {
+      "label": "Ryder Creek (MR)",
+      "rgb": [
+        124,
+        126,
+        35
+      ],
+      "rgba": [
+        124,
+        126,
+        35,
+        220
+      ],
+      "value": 445
+    },
+    {
+      "label": "Salmon Arm Bay (DUA)",
+      "rgb": [
+        115,
+        110,
+        68
+      ],
+      "rgba": [
+        115,
+        110,
+        68,
+        220
+      ],
+      "value": 446
+    },
+    {
+      "label": "Salmon Arm Bay (LEA)",
+      "rgb": [
+        85,
+        13,
+        170
+      ],
+      "rgba": [
+        85,
+        13,
+        170,
+        220
+      ],
+      "value": 171
+    },
+    {
+      "label": "Salmon Arm Bay (NOI)",
+      "rgb": [
+        233,
+        242,
+        180
+      ],
+      "rgba": [
+        233,
+        242,
+        180,
+        220
+      ],
+      "value": 447
+    },
+    {
+      "label": "Salmon Arm Bay (OIC)",
+      "rgb": [
+        136,
+        19,
+        178
+      ],
+      "rgba": [
+        136,
+        19,
+        178,
+        220
+      ],
+      "value": 448
+    },
+    {
+      "label": "Salmon River Elk Reserve (LEA)",
+      "rgb": [
+        88,
+        109,
+        240
+      ],
+      "rgba": [
+        88,
+        109,
+        240,
+        220
+      ],
+      "value": 172
+    },
+    {
+      "label": "Salmon River Estuary (LEA 1) -- Matthew",
+      "rgb": [
+        28,
+        202,
+        31
+      ],
+      "rgba": [
+        28,
+        202,
+        31,
+        220
+      ],
+      "value": 173
+    },
+    {
+      "label": "Salmon River Estuary (LEA 2)",
+      "rgb": [
+        10,
+        11,
+        245
+      ],
+      "rgba": [
+        10,
+        11,
+        245,
+        220
+      ],
+      "value": 174
+    },
+    {
+      "label": "Salmon River Estuary (LEA 3)",
+      "rgb": [
+        5,
+        12,
+        228
+      ],
+      "rgba": [
+        5,
+        12,
+        228,
+        220
+      ],
+      "value": 175
+    },
+    {
+      "label": "Saltspring Island (MR 1) -- St. Mary Lake",
+      "rgb": [
+        211,
+        57,
+        35
+      ],
+      "rgba": [
+        211,
+        57,
+        35,
+        220
+      ],
+      "value": 449
+    },
+    {
+      "label": "Saltspring Island (MR 2) -- Walter Bay",
+      "rgb": [
+        57,
+        243,
+        16
+      ],
+      "rgba": [
+        57,
+        243,
+        16,
+        220
+      ],
+      "value": 450
+    },
+    {
+      "label": "Sand Lake (DUA) -- Pickering Hills",
+      "rgb": [
+        0,
+        150,
+        82
+      ],
+      "rgba": [
+        0,
+        150,
+        82,
+        220
+      ],
+      "value": 451
+    },
+    {
+      "label": "Saugum Lake (MR)",
+      "rgb": [
+        11,
+        77,
+        165
+      ],
+      "rgba": [
+        11,
+        77,
+        165,
+        220
+      ],
+      "value": 452
+    },
+    {
+      "label": "Saxon Lake (NOI)",
+      "rgb": [
+        41,
+        119,
+        50
+      ],
+      "rgba": [
+        41,
+        119,
+        50,
+        220
+      ],
+      "value": 453
+    },
+    {
+      "label": "Serpentine WMA",
+      "rgb": [
+        135,
+        131,
+        232
+      ],
+      "rgba": [
+        135,
+        131,
+        232,
+        220
+      ],
+      "value": 547
+    },
+    {
+      "label": "Seymour Lake (MR)",
+      "rgb": [
+        149,
+        27,
+        141
+      ],
+      "rgba": [
+        149,
+        27,
+        141,
+        220
+      ],
+      "value": 454
+    },
+    {
+      "label": "Sheep Mountain (ACQ) -- Starr",
+      "rgb": [
+        112,
+        203,
+        81
+      ],
+      "rgba": [
+        112,
+        203,
+        81,
+        220
+      ],
+      "value": 176
+    },
+    {
+      "label": "Sheep Mountain (LEA) -- Cutts",
+      "rgb": [
+        179,
+        27,
+        253
+      ],
+      "rgba": [
+        179,
+        27,
+        253,
+        220
+      ],
+      "value": 177
+    },
+    {
+      "label": "Shelley (MR) -- Bob's Secret",
+      "rgb": [
+        219,
+        157,
+        76
+      ],
+      "rgba": [
+        219,
+        157,
+        76,
+        220
+      ],
+      "value": 455
+    },
+    {
+      "label": "Shere (MR)",
+      "rgb": [
+        225,
+        140,
+        172
+      ],
+      "rgba": [
+        225,
+        140,
+        172,
+        220
+      ],
+      "value": 456
+    },
+    {
+      "label": "Sheridan Lake (MR) -- West",
+      "rgb": [
+        97,
+        108,
+        98
+      ],
+      "rgba": [
+        97,
+        108,
+        98,
+        220
+      ],
+      "value": 457
+    },
+    {
+      "label": "Sheridan Lake North (MR)",
+      "rgb": [
+        154,
+        72,
+        211
+      ],
+      "rgba": [
+        154,
+        72,
+        211,
+        220
+      ],
+      "value": 458
+    },
+    {
+      "label": "Shingle Bay (NOI)",
+      "rgb": [
+        245,
+        239,
+        89
+      ],
+      "rgba": [
+        245,
+        239,
+        89,
+        220
+      ],
+      "value": 459
+    },
+    {
+      "label": "Shorts Creek (LEA)",
+      "rgb": [
+        211,
+        107,
+        8
+      ],
+      "rgba": [
+        211,
+        107,
+        8,
+        220
+      ],
+      "value": 178
+    },
+    {
+      "label": "Shuswap River Islands (MR)",
+      "rgb": [
+        70,
+        22,
+        146
+      ],
+      "rgba": [
+        70,
+        22,
+        146,
+        220
+      ],
+      "value": 460
+    },
+    {
+      "label": "Sidenius Creek (MR)",
+      "rgb": [
+        92,
+        12,
+        149
+      ],
+      "rgba": [
+        92,
+        12,
+        149,
+        220
+      ],
+      "value": 461
+    },
+    {
+      "label": "Sikanni Chief River (NOI 1)",
+      "rgb": [
+        122,
+        134,
+        227
+      ],
+      "rgba": [
+        122,
+        134,
+        227,
+        220
+      ],
+      "value": 462
+    },
+    {
+      "label": "Silverhope Creek (LEA)",
+      "rgb": [
+        83,
+        122,
+        163
+      ],
+      "rgba": [
+        83,
+        122,
+        163,
+        220
+      ],
+      "value": 179
+    },
+    {
+      "label": "Skaha Lake East (LEA 1)",
+      "rgb": [
+        102,
+        184,
+        198
+      ],
+      "rgba": [
+        102,
+        184,
+        198,
+        220
+      ],
+      "value": 180
+    },
+    {
+      "label": "Skaha Lake East (LEA 2)",
+      "rgb": [
+        23,
+        40,
+        179
+      ],
+      "rgba": [
+        23,
+        40,
+        179,
+        220
+      ],
+      "value": 181
+    },
+    {
+      "label": "Skeena River (NOI)",
+      "rgb": [
+        83,
+        89,
+        98
+      ],
+      "rgba": [
+        83,
+        89,
+        98,
+        220
+      ],
+      "value": 463
+    },
+    {
+      "label": "Skookumchuck (MR) -- Alkali Lake",
+      "rgb": [
+        34,
+        184,
+        236
+      ],
+      "rgba": [
+        34,
+        184,
+        236,
+        220
+      ],
+      "value": 464
+    },
+    {
+      "label": "Skull Mountain (ACQ 1)",
+      "rgb": [
+        138,
+        128,
+        14
+      ],
+      "rgba": [
+        138,
+        128,
+        14,
+        220
+      ],
+      "value": 182
+    },
+    {
+      "label": "Skull Mountain (ACQ 2) -- Carrier",
+      "rgb": [
+        94,
+        90,
+        115
+      ],
+      "rgba": [
+        94,
+        90,
+        115,
+        220
+      ],
+      "value": 183
+    },
+    {
+      "label": "Skull Mountain DLs (MR)",
+      "rgb": [
+        82,
+        38,
+        252
+      ],
+      "rgba": [
+        82,
+        38,
+        252,
+        220
+      ],
+      "value": 465
+    },
+    {
+      "label": "Skulow Lake (MR)",
+      "rgb": [
+        74,
+        100,
+        38
+      ],
+      "rgba": [
+        74,
+        100,
+        38,
+        220
+      ],
+      "value": 466
+    },
+    {
+      "label": "Skwelwil'em Squamish Estuary WMA",
+      "rgb": [
+        244,
+        161,
+        192
+      ],
+      "rgba": [
+        244,
+        161,
+        192,
+        220
+      ],
+      "value": 548
+    },
+    {
+      "label": "Slocan Lake (LEA) -- Stedman",
+      "rgb": [
+        48,
+        73,
+        179
+      ],
+      "rgba": [
+        48,
+        73,
+        179,
+        220
+      ],
+      "value": 184
+    },
+    {
+      "label": "Smithers East (MR)",
+      "rgb": [
+        200,
+        159,
+        234
+      ],
+      "rgba": [
+        200,
+        159,
+        234,
+        220
+      ],
+      "value": 467
+    },
+    {
+      "label": "Smith Island (LEA)",
+      "rgb": [
+        140,
+        242,
+        29
+      ],
+      "rgba": [
+        140,
+        242,
+        29,
+        220
+      ],
+      "value": 185
+    },
+    {
+      "label": "Somenos Marsh (ACQ) -- Timber Crest",
+      "rgb": [
+        221,
+        212,
+        227
+      ],
+      "rgba": [
+        221,
+        212,
+        227,
+        220
+      ],
+      "value": 186
+    },
+    {
+      "label": "Somenos Marsh (LEA 1)",
+      "rgb": [
+        151,
+        240,
+        33
+      ],
+      "rgba": [
+        151,
+        240,
+        33,
+        220
+      ],
+      "value": 187
+    },
+    {
+      "label": "Somenos Marsh (LEA 2)",
+      "rgb": [
+        181,
+        233,
+        11
+      ],
+      "rgba": [
+        181,
+        233,
+        11,
+        220
+      ],
+      "value": 188
+    },
+    {
+      "label": "Somenos Marsh (LEA 3) -- Silva",
+      "rgb": [
+        13,
+        119,
+        15
+      ],
+      "rgba": [
+        13,
+        119,
+        15,
+        220
+      ],
+      "value": 189
+    },
+    {
+      "label": "Somenos Marsh (TAC)",
+      "rgb": [
+        218,
+        163,
+        221
+      ],
+      "rgba": [
+        218,
+        163,
+        221,
+        220
+      ],
+      "value": 190
+    },
+    {
+      "label": "South Arm Marshes WMA",
+      "rgb": [
+        144,
+        110,
+        154
+      ],
+      "rgba": [
+        144,
+        110,
+        154,
+        220
+      ],
+      "value": 549
+    },
+    {
+      "label": "South Arm Marshes WMA (LEA 1) -- Gunn Island",
+      "rgb": [
+        145,
+        58,
+        80
+      ],
+      "rgba": [
+        145,
+        58,
+        80,
+        220
+      ],
+      "value": 191
+    },
+    {
+      "label": "South Arm Marshes WMA (LEA 2) -- Kirkland and Rose",
+      "rgb": [
+        187,
+        66,
+        196
+      ],
+      "rgba": [
+        187,
+        66,
+        196,
+        220
+      ],
+      "value": 192
+    },
+    {
+      "label": "South Okanagan WMA",
+      "rgb": [
+        77,
+        31,
+        48
+      ],
+      "rgba": [
+        77,
+        31,
+        48,
+        220
+      ],
+      "value": 550
+    },
+    {
+      "label": "SOWMA addition (MR 10)",
+      "rgb": [
+        252,
+        14,
+        199
+      ],
+      "rgba": [
+        252,
+        14,
+        199,
+        220
+      ],
+      "value": 468
+    },
+    {
+      "label": "SOWMA addition (MR 15)",
+      "rgb": [
+        242,
+        91,
+        104
+      ],
+      "rgba": [
+        242,
+        91,
+        104,
+        220
+      ],
+      "value": 469
+    },
+    {
+      "label": "SOWMA addition (MR 4)",
+      "rgb": [
+        110,
+        32,
+        48
+      ],
+      "rgba": [
+        110,
+        32,
+        48,
+        220
+      ],
+      "value": 470
+    },
+    {
+      "label": "SOWMA addition (MR 5)",
+      "rgb": [
+        55,
+        218,
+        210
+      ],
+      "rgba": [
+        55,
+        218,
+        210,
+        220
+      ],
+      "value": 471
+    },
+    {
+      "label": "SOWMA addition (MR 7)",
+      "rgb": [
+        187,
+        231,
+        173
+      ],
+      "rgba": [
+        187,
+        231,
+        173,
+        220
+      ],
+      "value": 472
+    },
+    {
+      "label": "SOWMA addition (MR 8)",
+      "rgb": [
+        166,
+        86,
+        207
+      ],
+      "rgba": [
+        166,
+        86,
+        207,
+        220
+      ],
+      "value": 473
+    },
+    {
+      "label": "Spallumcheen Forest (MR) -- Byers",
+      "rgb": [
+        110,
+        0,
+        60
+      ],
+      "rgba": [
+        110,
+        0,
+        60,
+        220
+      ],
+      "value": 474
+    },
+    {
+      "label": "Spences Bridge (MR)",
+      "rgb": [
+        211,
+        231,
+        202
+      ],
+      "rgba": [
+        211,
+        231,
+        202,
+        220
+      ],
+      "value": 475
+    },
+    {
+      "label": "Spring Lakes (MR)",
+      "rgb": [
+        89,
+        21,
+        120
+      ],
+      "rgba": [
+        89,
+        21,
+        120,
+        220
+      ],
+      "value": 476
+    },
+    {
+      "label": "Stellako River WMA",
+      "rgb": [
+        162,
+        202,
+        177
+      ],
+      "rgba": [
+        162,
+        202,
+        177,
+        220
+      ],
+      "value": 551
+    },
+    {
+      "label": "Stellako River WMA (LEA 1)",
+      "rgb": [
+        143,
+        81,
+        122
+      ],
+      "rgba": [
+        143,
+        81,
+        122,
+        220
+      ],
+      "value": 193
+    },
+    {
+      "label": "Stellako River WMA (LEA 2)",
+      "rgb": [
+        26,
+        43,
+        198
+      ],
+      "rgba": [
+        26,
+        43,
+        198,
+        220
+      ],
+      "value": 194
+    },
+    {
+      "label": "Stillwater Lake (MR)",
+      "rgb": [
+        66,
+        210,
+        90
+      ],
+      "rgba": [
+        66,
+        210,
+        90,
+        220
+      ],
+      "value": 477
+    },
+    {
+      "label": "Sturgeon Bank WMA",
+      "rgb": [
+        108,
+        207,
+        154
+      ],
+      "rgba": [
+        108,
+        207,
+        154,
+        220
+      ],
+      "value": 552
+    },
+    {
+      "label": "Summerland (MR) -- Lot 3403",
+      "rgb": [
+        6,
+        106,
+        140
+      ],
+      "rgba": [
+        6,
+        106,
+        140,
+        220
+      ],
+      "value": 478
+    },
+    {
+      "label": "Summerland (NOI) -- Bentley Road, Lot 4772",
+      "rgb": [
+        251,
+        55,
+        219
+      ],
+      "rgba": [
+        251,
+        55,
+        219,
+        220
+      ],
+      "value": 479
+    },
+    {
+      "label": "Summerland North (MR 1) -- Lot 2533",
+      "rgb": [
+        186,
+        244,
+        66
+      ],
+      "rgba": [
+        186,
+        244,
+        66,
+        220
+      ],
+      "value": 480
+    },
+    {
+      "label": "Summerland North (MR 2) -- Lot 4244",
+      "rgb": [
+        160,
+        250,
+        35
+      ],
+      "rgba": [
+        160,
+        250,
+        35,
+        220
+      ],
+      "value": 481
+    },
+    {
+      "label": "Surrey Intermodal Lands (LEA)",
+      "rgb": [
+        146,
+        183,
+        25
+      ],
+      "rgba": [
+        146,
+        183,
+        25,
+        220
+      ],
+      "value": 195
+    },
+    {
+      "label": "Sustut Lake (MR)",
+      "rgb": [
+        145,
+        218,
+        205
+      ],
+      "rgba": [
+        145,
+        218,
+        205,
+        220
+      ],
+      "value": 482
+    },
+    {
+      "label": "Swift Creek (MR)",
+      "rgb": [
+        87,
+        44,
+        133
+      ],
+      "rgba": [
+        87,
+        44,
+        133,
+        220
+      ],
+      "value": 483
+    },
+    {
+      "label": "Tabor Lake (MR)",
+      "rgb": [
+        136,
+        99,
+        55
+      ],
+      "rgba": [
+        136,
+        99,
+        55,
+        220
+      ],
+      "value": 484
+    },
+    {
+      "label": "Tachick Lake (MR)",
+      "rgb": [
+        176,
+        15,
+        190
+      ],
+      "rgba": [
+        176,
+        15,
+        190,
+        220
+      ],
+      "value": 485
+    },
+    {
+      "label": "Tagish Lake (NOI)",
+      "rgb": [
+        169,
+        181,
+        56
+      ],
+      "rgba": [
+        169,
+        181,
+        56,
+        220
+      ],
+      "value": 486
+    },
+    {
+      "label": "Tahtsa Lake (NOI)",
+      "rgb": [
+        155,
+        43,
+        60
+      ],
+      "rgba": [
+        155,
+        43,
+        60,
+        220
+      ],
+      "value": 487
+    },
+    {
+      "label": "Tappen Springs Hatchery (NOI)",
+      "rgb": [
+        231,
+        209,
+        234
+      ],
+      "rgba": [
+        231,
+        209,
+        234,
+        220
+      ],
+      "value": 488
+    },
+    {
+      "label": "Tautri Creek (LEA)",
+      "rgb": [
+        209,
+        106,
+        146
+      ],
+      "rgba": [
+        209,
+        106,
+        146,
+        220
+      ],
+      "value": 196
+    },
+    {
+      "label": "Tautri Creek (TAC) -- Rosita Lake",
+      "rgb": [
+        62,
+        83,
+        160
+      ],
+      "rgba": [
+        62,
+        83,
+        160,
+        220
+      ],
+      "value": 197
+    },
+    {
+      "label": "Tchesinkut Lake (MR)",
+      "rgb": [
+        142,
+        190,
+        192
+      ],
+      "rgba": [
+        142,
+        190,
+        192,
+        220
+      ],
+      "value": 489
+    },
+    {
+      "label": "Telkwa Mountain (MR)",
+      "rgb": [
+        79,
+        49,
+        89
+      ],
+      "rgba": [
+        79,
+        49,
+        89,
+        220
+      ],
+      "value": 490
+    },
+    {
+      "label": "Telkwa River (MR) -- Bulkley",
+      "rgb": [
+        97,
+        127,
+        13
+      ],
+      "rgba": [
+        97,
+        127,
+        13,
+        220
+      ],
+      "value": 491
+    },
+    {
+      "label": "Telkwa South (MR)",
+      "rgb": [
+        187,
+        87,
+        156
+      ],
+      "rgba": [
+        187,
+        87,
+        156,
+        220
+      ],
+      "value": 492
+    },
+    {
+      "label": "Testalinden (MR)",
+      "rgb": [
+        71,
+        109,
+        46
+      ],
+      "rgba": [
+        71,
+        109,
+        46,
+        220
+      ],
+      "value": 493
+    },
+    {
+      "label": "Tete Creek (MR) -- Fraser River",
+      "rgb": [
+        240,
+        77,
+        4
+      ],
+      "rgba": [
+        240,
+        77,
+        4,
+        220
+      ],
+      "value": 494
+    },
+    {
+      "label": "Tete Jaune (MR)",
+      "rgb": [
+        132,
+        71,
+        229
+      ],
+      "rgba": [
+        132,
+        71,
+        229,
+        220
+      ],
+      "value": 495
+    },
+    {
+      "label": "Thetis Island Bat Caves (LEA)",
+      "rgb": [
+        54,
+        22,
+        207
+      ],
+      "rgba": [
+        54,
+        22,
+        207,
+        220
+      ],
+      "value": 198
+    },
+    {
+      "label": "Todagin WMA",
+      "rgb": [
+        158,
+        228,
+        120
+      ],
+      "rgba": [
+        158,
+        228,
+        120,
+        220
+      ],
+      "value": 553
+    },
+    {
+      "label": "Tofino Mudflats WMA",
+      "rgb": [
+        234,
+        105,
+        137
+      ],
+      "rgba": [
+        234,
+        105,
+        137,
+        220
+      ],
+      "value": 554
+    },
+    {
+      "label": "Tower Lake (MR)",
+      "rgb": [
+        26,
+        187,
+        91
+      ],
+      "rgba": [
+        26,
+        187,
+        91,
+        220
+      ],
+      "value": 496
+    },
+    {
+      "label": "Tranquille WMA",
+      "rgb": [
+        251,
+        21,
+        52
+      ],
+      "rgba": [
+        251,
+        21,
+        52,
+        220
+      ],
+      "value": 555
+    },
+    {
+      "label": "Trembley (MR)",
+      "rgb": [
+        61,
+        163,
+        199
+      ],
+      "rgba": [
+        61,
+        163,
+        199,
+        220
+      ],
+      "value": 497
+    },
+    {
+      "label": "Trepanier Creek (TAC)",
+      "rgb": [
+        231,
+        84,
+        0
+      ],
+      "rgba": [
+        231,
+        84,
+        0,
+        220
+      ],
+      "value": 199
+    },
+    {
+      "label": "Trout Lake (MR 1) -- East End",
+      "rgb": [
+        122,
+        139,
+        179
+      ],
+      "rgba": [
+        122,
+        139,
+        179,
+        220
+      ],
+      "value": 498
+    },
+    {
+      "label": "Trout Lake (MR 2) -- Lardeau River",
+      "rgb": [
+        48,
+        69,
+        41
+      ],
+      "rgba": [
+        48,
+        69,
+        41,
+        220
+      ],
+      "value": 499
+    },
+    {
+      "label": "Trust Creek (LEA 1) -- Mackenzie/Hamlin",
+      "rgb": [
+        224,
+        170,
+        16
+      ],
+      "rgba": [
+        224,
+        170,
+        16,
+        220
+      ],
+      "value": 200
+    },
+    {
+      "label": "Trust Creek (LEA 2) -- Ritchie",
+      "rgb": [
+        64,
+        149,
+        140
+      ],
+      "rgba": [
+        64,
+        149,
+        140,
+        220
+      ],
+      "value": 201
+    },
+    {
+      "label": "Turnbull Creek (MR)",
+      "rgb": [
+        53,
+        20,
+        104
+      ],
+      "rgba": [
+        53,
+        20,
+        104,
+        220
+      ],
+      "value": 500
+    },
+    {
+      "label": "Union Bay (MR)",
+      "rgb": [
+        166,
+        181,
+        206
+      ],
+      "rgba": [
+        166,
+        181,
+        206,
+        220
+      ],
+      "value": 501
+    },
+    {
+      "label": "Urling (MR)",
+      "rgb": [
+        185,
+        30,
+        89
+      ],
+      "rgba": [
+        185,
+        30,
+        89,
+        220
+      ],
+      "value": 502
+    },
+    {
+      "label": "Vanderhoof Waterfowl Reserve (OIC)",
+      "rgb": [
+        236,
+        49,
+        2
+      ],
+      "rgba": [
+        236,
+        49,
+        2,
+        220
+      ],
+      "value": 503
+    },
+    {
+      "label": "Vaseux Lake (LEA 10) -- Sub-lot 35",
+      "rgb": [
+        63,
+        144,
+        109
+      ],
+      "rgba": [
+        63,
+        144,
+        109,
+        220
+      ],
+      "value": 202
+    },
+    {
+      "label": "Vaseux Lake (LEA 1) -- Winters/MacIntyre Bluff",
+      "rgb": [
+        142,
+        252,
+        208
+      ],
+      "rgba": [
+        142,
+        252,
+        208,
+        220
+      ],
+      "value": 203
+    },
+    {
+      "label": "Vaseux Lake (LEA 2) -- Brock",
+      "rgb": [
+        88,
+        0,
+        88
+      ],
+      "rgba": [
+        88,
+        0,
+        88,
+        220
+      ],
+      "value": 204
+    },
+    {
+      "label": "Vaseux Lake (LEA 3) -- Brock/Mavety",
+      "rgb": [
+        254,
+        131,
+        236
+      ],
+      "rgba": [
+        254,
+        131,
+        236,
+        220
+      ],
+      "value": 205
+    },
+    {
+      "label": "Vaseux Lake (LEA 4) -- Emery",
+      "rgb": [
+        44,
+        209,
+        52
+      ],
+      "rgba": [
+        44,
+        209,
+        52,
+        220
+      ],
+      "value": 206
+    },
+    {
+      "label": "Vaseux Lake (LEA 5) -- Franmar",
+      "rgb": [
+        209,
+        87,
+        244
+      ],
+      "rgba": [
+        209,
+        87,
+        244,
+        220
+      ],
+      "value": 207
+    },
+    {
+      "label": "Vaseux Lake (LEA 6) -- Long's Ranch",
+      "rgb": [
+        187,
+        227,
+        199
+      ],
+      "rgba": [
+        187,
+        227,
+        199,
+        220
+      ],
+      "value": 208
+    },
+    {
+      "label": "Vaseux Lake (LEA 7) -- Salter",
+      "rgb": [
+        53,
+        206,
+        48
+      ],
+      "rgba": [
+        53,
+        206,
+        48,
+        220
+      ],
+      "value": 209
+    },
+    {
+      "label": "Vaseux Lake (LEA 8) -- Schneider",
+      "rgb": [
+        46,
+        201,
+        108
+      ],
+      "rgba": [
+        46,
+        201,
+        108,
+        220
+      ],
+      "value": 210
+    },
+    {
+      "label": "Vaseux Lake (LEA 9) -- Sub-lot 15",
+      "rgb": [
+        118,
+        74,
+        188
+      ],
+      "rgba": [
+        118,
+        74,
+        188,
+        220
+      ],
+      "value": 211
+    },
+    {
+      "label": "Vaseux Lake North End (DUA)",
+      "rgb": [
+        180,
+        133,
+        249
+      ],
+      "rgba": [
+        180,
+        133,
+        249,
+        220
+      ],
+      "value": 504
+    },
+    {
+      "label": "Vaseux Lake South (MR)",
+      "rgb": [
+        242,
+        153,
+        206
+      ],
+      "rgba": [
+        242,
+        153,
+        206,
+        220
+      ],
+      "value": 505
+    },
+    {
+      "label": "Vaseux Lake (TAC) -- South",
+      "rgb": [
+        210,
+        223,
+        53
+      ],
+      "rgba": [
+        210,
+        223,
+        53,
+        220
+      ],
+      "value": 212
+    },
+    {
+      "label": "Vernon (LEA) -- Swan Lake",
+      "rgb": [
+        236,
+        37,
+        219
+      ],
+      "rgba": [
+        236,
+        37,
+        219,
+        220
+      ],
+      "value": 213
+    },
+    {
+      "label": "Vernon (MR) -- Swan Lake",
+      "rgb": [
+        58,
+        40,
+        206
+      ],
+      "rgba": [
+        58,
+        40,
+        206,
+        220
+      ],
+      "value": 506
+    },
+    {
+      "label": "Village Bay (MR)",
+      "rgb": [
+        90,
+        240,
+        240
+      ],
+      "rgba": [
+        90,
+        240,
+        240,
+        220
+      ],
+      "value": 507
+    },
+    {
+      "label": "Waldie Island (LEA)",
+      "rgb": [
+        45,
+        245,
+        213
+      ],
+      "rgba": [
+        45,
+        245,
+        213,
+        220
+      ],
+      "value": 214
+    },
+    {
+      "label": "Walhachin Access (ACQ)",
+      "rgb": [
+        239,
+        1,
+        192
+      ],
+      "rgba": [
+        239,
+        1,
+        192,
+        220
+      ],
+      "value": 215
+    },
+    {
+      "label": "Walter Clough Wildlife Area (LEA)",
+      "rgb": [
+        222,
+        179,
+        100
+      ],
+      "rgba": [
+        222,
+        179,
+        100,
+        220
+      ],
+      "value": 216
+    },
+    {
+      "label": "Ward Lake (MR)",
+      "rgb": [
+        169,
+        172,
+        202
+      ],
+      "rgba": [
+        169,
+        172,
+        202,
+        220
+      ],
+      "value": 508
+    },
+    {
+      "label": "Wasa Slough (LEA)",
+      "rgb": [
+        75,
+        248,
+        233
+      ],
+      "rgba": [
+        75,
+        248,
+        233,
+        220
+      ],
+      "value": 217
+    },
+    {
+      "label": "Wasa Slough (MR)",
+      "rgb": [
+        219,
+        233,
+        172
+      ],
+      "rgba": [
+        219,
+        233,
+        172,
+        220
+      ],
+      "value": 509
+    },
+    {
+      "label": "Wasa Slough (TAC)",
+      "rgb": [
+        81,
+        66,
+        218
+      ],
+      "rgba": [
+        81,
+        66,
+        218,
+        220
+      ],
+      "value": 218
+    },
+    {
+      "label": "Watun (MR)",
+      "rgb": [
+        101,
+        238,
+        98
+      ],
+      "rgba": [
+        101,
+        238,
+        98,
+        220
+      ],
+      "value": 510
+    },
+    {
+      "label": "Waukwass (MR)",
+      "rgb": [
+        62,
+        115,
+        230
+      ],
+      "rgba": [
+        62,
+        115,
+        230,
+        220
+      ],
+      "value": 511
+    },
+    {
+      "label": "West Dyke (DUA)",
+      "rgb": [
+        163,
+        187,
+        47
+      ],
+      "rgba": [
+        163,
+        187,
+        47,
+        220
+      ],
+      "value": 512
+    },
+    {
+      "label": "Whispering Pine (MR)",
+      "rgb": [
+        52,
+        48,
+        126
+      ],
+      "rgba": [
+        52,
+        48,
+        126,
+        220
+      ],
+      "value": 513
+    },
+    {
+      "label": "White Lake-Seacrest (MR)",
+      "rgb": [
+        220,
+        53,
+        154
+      ],
+      "rgba": [
+        220,
+        53,
+        154,
+        220
+      ],
+      "value": 514
+    },
+    {
+      "label": "White River (OIC)",
+      "rgb": [
+        0,
+        145,
+        86
+      ],
+      "rgba": [
+        0,
+        145,
+        86,
+        220
+      ],
+      "value": 515
+    },
+    {
+      "label": "Wigwam Flats (ACQ 1)",
+      "rgb": [
+        63,
+        78,
+        8
+      ],
+      "rgba": [
+        63,
+        78,
+        8,
+        220
+      ],
+      "value": 219
+    },
+    {
+      "label": "Wigwam Flats (ACQ 2) -- Tregilges",
+      "rgb": [
+        128,
+        238,
+        182
+      ],
+      "rgba": [
+        128,
+        238,
+        182,
+        220
+      ],
+      "value": 220
+    },
+    {
+      "label": "Wigwam Flats (DUA)",
+      "rgb": [
+        108,
+        85,
+        224
+      ],
+      "rgba": [
+        108,
+        85,
+        224,
+        220
+      ],
+      "value": 516
+    },
+    {
+      "label": "Wigwam Flats (LEA 1)",
+      "rgb": [
+        226,
+        50,
+        74
+      ],
+      "rgba": [
+        226,
+        50,
+        74,
+        220
+      ],
+      "value": 221
+    },
+    {
+      "label": "Wigwam Flats (LEA 2)",
+      "rgb": [
+        243,
+        2,
+        62
+      ],
+      "rgba": [
+        243,
+        2,
+        62,
+        220
+      ],
+      "value": 222
+    },
+    {
+      "label": "Wigwam Flats (LEA 3)",
+      "rgb": [
+        158,
+        153,
+        139
+      ],
+      "rgba": [
+        158,
+        153,
+        139,
+        220
+      ],
+      "value": 223
+    },
+    {
+      "label": "Williams Lake (MR) -- Alkali Lake",
+      "rgb": [
+        216,
+        26,
+        12
+      ],
+      "rgba": [
+        216,
+        26,
+        12,
+        220
+      ],
+      "value": 517
+    },
+    {
+      "label": "Willowbrook (MR)",
+      "rgb": [
+        114,
+        142,
+        238
+      ],
+      "rgba": [
+        114,
+        142,
+        238,
+        220
+      ],
+      "value": 518
+    },
+    {
+      "label": "Willow Creek (LEA)",
+      "rgb": [
+        242,
+        54,
+        220
+      ],
+      "rgba": [
+        242,
+        54,
+        220,
+        220
+      ],
+      "value": 224
+    },
+    {
+      "label": "Willow Heights (DUA)",
+      "rgb": [
+        32,
+        229,
+        180
+      ],
+      "rgba": [
+        32,
+        229,
+        180,
+        220
+      ],
+      "value": 519
+    },
+    {
+      "label": "Windermere Creek (MR)",
+      "rgb": [
+        108,
+        90,
+        160
+      ],
+      "rgba": [
+        108,
+        90,
+        160,
+        220
+      ],
+      "value": 520
+    },
+    {
+      "label": "Winfield (DUA)",
+      "rgb": [
+        37,
+        92,
+        184
+      ],
+      "rgba": [
+        37,
+        92,
+        184,
+        220
+      ],
+      "value": 521
+    },
+    {
+      "label": "Winfield (TAC) -- Swalwell Lake",
+      "rgb": [
+        242,
+        61,
+        254
+      ],
+      "rgba": [
+        242,
+        61,
+        254,
+        220
+      ],
+      "value": 225
+    },
+    {
+      "label": "Winlaw Creek (ACQ)",
+      "rgb": [
+        60,
+        67,
+        15
+      ],
+      "rgba": [
+        60,
+        67,
+        15,
+        220
+      ],
+      "value": 226
+    },
+    {
+      "label": "Wolf Creek (ACQ) -- Busch",
+      "rgb": [
+        248,
+        193,
+        1
+      ],
+      "rgba": [
+        248,
+        193,
+        1,
+        220
+      ],
+      "value": 227
+    },
+    {
+      "label": "Wolf Creek (NOI)",
+      "rgb": [
+        87,
+        66,
+        95
+      ],
+      "rgba": [
+        87,
+        66,
+        95,
+        220
+      ],
+      "value": 522
+    },
+    {
+      "label": "Worth Marsh (LEA)",
+      "rgb": [
+        25,
+        102,
+        211
+      ],
+      "rgba": [
+        25,
+        102,
+        211,
+        220
+      ],
+      "value": 228
+    },
+    {
+      "label": "Woss (NOI)",
+      "rgb": [
+        100,
+        174,
+        123
+      ],
+      "rgba": [
+        100,
+        174,
+        123,
+        220
+      ],
+      "value": 523
+    },
+    {
+      "label": "Wycliffe Corridor (TAC)",
+      "rgb": [
+        23,
+        167,
+        245
+      ],
+      "rgba": [
+        23,
+        167,
+        245,
+        220
+      ],
+      "value": 229
+    },
+    {
+      "label": "Yalakom Game (OIC)",
+      "rgb": [
+        74,
+        21,
+        24
+      ],
+      "rgba": [
+        74,
+        21,
+        24,
+        220
+      ],
+      "value": 524
+    },
+    {
+      "label": "Yankee Flats Range (NOI)",
+      "rgb": [
+        251,
+        52,
+        107
+      ],
+      "rgba": [
+        251,
+        52,
+        107,
+        220
+      ],
+      "value": 525
+    },
+    {
+      "label": "Zeballos (MR)",
+      "rgb": [
+        58,
+        254,
+        4
+      ],
+      "rgba": [
+        58,
+        254,
+        4,
+        220
+      ],
+      "value": 526
+    }
+  ],
+  "visible_pixel_count": 270,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

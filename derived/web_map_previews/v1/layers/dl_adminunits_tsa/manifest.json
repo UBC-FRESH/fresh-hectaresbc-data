@@ -1,0 +1,622 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_adminunits_tsa/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_adminunits_tsa",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T03:57:44+00:00",
+  "internal_raster_path": "tsa.tiff",
+  "internal_wms_path": "tsa.wms.xml",
+  "manifest_path": "layers/dl_adminunits_tsa/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "tsa.tiff",
+    "legend_source_path": "tsa.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_adminunits_tsa",
+    "source_title": "Timber Supply Area (TSA)",
+    "source_zip_path": "data_layers/adminunits_tsa.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/adminunits_tsa.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/adminunits_tsa.zip",
+  "title": "Timber Supply Area (TSA)",
+  "value_class_count": 38,
+  "value_classes": [
+    {
+      "label": "Arrow TSA (01)",
+      "rgb": [
+        78,
+        175,
+        134
+      ],
+      "rgba": [
+        78,
+        175,
+        134,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Boundary TSA (02)",
+      "rgb": [
+        23,
+        78,
+        45
+      ],
+      "rgba": [
+        23,
+        78,
+        45,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Bulkley TSA (03)",
+      "rgb": [
+        123,
+        197,
+        215
+      ],
+      "rgba": [
+        123,
+        197,
+        215,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Cassiar TSA (04)",
+      "rgb": [
+        49,
+        71,
+        146
+      ],
+      "rgba": [
+        49,
+        71,
+        146,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Cranbrook TSA (05)",
+      "rgb": [
+        248,
+        184,
+        138
+      ],
+      "rgba": [
+        248,
+        184,
+        138,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Golden TSA (07)",
+      "rgb": [
+        187,
+        73,
+        99
+      ],
+      "rgba": [
+        187,
+        73,
+        99,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Fort Nelson TSA (08)",
+      "rgb": [
+        215,
+        162,
+        252
+      ],
+      "rgba": [
+        215,
+        162,
+        252,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Invermere TSA (09)",
+      "rgb": [
+        47,
+        5,
+        81
+      ],
+      "rgba": [
+        47,
+        5,
+        81,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Kalum TSA (10)",
+      "rgb": [
+        233,
+        243,
+        66
+      ],
+      "rgba": [
+        233,
+        243,
+        66,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Kamloops TSA (11)",
+      "rgb": [
+        245,
+        84,
+        101
+      ],
+      "rgba": [
+        245,
+        84,
+        101,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Kispiox TSA (12)",
+      "rgb": [
+        213,
+        84,
+        113
+      ],
+      "rgba": [
+        213,
+        84,
+        113,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Kootenay Lake TSA (13)",
+      "rgb": [
+        58,
+        185,
+        84
+      ],
+      "rgba": [
+        58,
+        185,
+        84,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Lakes TSA (14)",
+      "rgb": [
+        221,
+        75,
+        194
+      ],
+      "rgba": [
+        221,
+        75,
+        194,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Lillooet TSA (15)",
+      "rgb": [
+        153,
+        54,
+        0
+      ],
+      "rgba": [
+        153,
+        54,
+        0,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "MacKenzie TSA (16)",
+      "rgb": [
+        85,
+        7,
+        185
+      ],
+      "rgba": [
+        85,
+        7,
+        185,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Robson Valley TSA (17)",
+      "rgb": [
+        103,
+        124,
+        197
+      ],
+      "rgba": [
+        103,
+        124,
+        197,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Merritt TSA (18)",
+      "rgb": [
+        119,
+        96,
+        125
+      ],
+      "rgba": [
+        119,
+        96,
+        125,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Morice TSA (20)",
+      "rgb": [
+        88,
+        217,
+        33
+      ],
+      "rgba": [
+        88,
+        217,
+        33,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Okanagan TSA (22)",
+      "rgb": [
+        204,
+        228,
+        219
+      ],
+      "rgba": [
+        204,
+        228,
+        219,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "100 Mile House TSA (23)",
+      "rgb": [
+        196,
+        219,
+        66
+      ],
+      "rgba": [
+        196,
+        219,
+        66,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Prince George TSA (24)",
+      "rgb": [
+        244,
+        150,
+        86
+      ],
+      "rgba": [
+        244,
+        150,
+        86,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Queen Charlotte TSA (25)",
+      "rgb": [
+        187,
+        47,
+        152
+      ],
+      "rgba": [
+        187,
+        47,
+        152,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Quesnel TSA (26)",
+      "rgb": [
+        46,
+        212,
+        44
+      ],
+      "rgba": [
+        46,
+        212,
+        44,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Revelstoke TSA (27)",
+      "rgb": [
+        236,
+        56,
+        201
+      ],
+      "rgba": [
+        236,
+        56,
+        201,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Williams Lake TSA (29)",
+      "rgb": [
+        4,
+        141,
+        201
+      ],
+      "rgba": [
+        4,
+        141,
+        201,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Fraser TSA (30)",
+      "rgb": [
+        75,
+        202,
+        49
+      ],
+      "rgba": [
+        75,
+        202,
+        49,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Soo TSA (31)",
+      "rgb": [
+        235,
+        197,
+        124
+      ],
+      "rgba": [
+        235,
+        197,
+        124,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Kingcome TSA (33)",
+      "rgb": [
+        83,
+        129,
+        124
+      ],
+      "rgba": [
+        83,
+        129,
+        124,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Arrowsmith TSA (38)",
+      "rgb": [
+        76,
+        143,
+        224
+      ],
+      "rgba": [
+        76,
+        143,
+        224,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Sunshine Coast TSA (39)",
+      "rgb": [
+        61,
+        224,
+        111
+      ],
+      "rgba": [
+        61,
+        224,
+        111,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Fort St. John TSA (40)",
+      "rgb": [
+        52,
+        149,
+        199
+      ],
+      "rgba": [
+        52,
+        149,
+        199,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Dawson Creek TSA (41)",
+      "rgb": [
+        90,
+        155,
+        2
+      ],
+      "rgba": [
+        90,
+        155,
+        2,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Nass TSA (43)",
+      "rgb": [
+        69,
+        170,
+        181
+      ],
+      "rgba": [
+        69,
+        170,
+        181,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Pacific TSA (44)",
+      "rgb": [
+        0,
+        128,
+        172
+      ],
+      "rgba": [
+        0,
+        128,
+        172,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Cascadia TSA (45)",
+      "rgb": [
+        180,
+        10,
+        137
+      ],
+      "rgba": [
+        180,
+        10,
+        137,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "GBR North TSA (46)",
+      "rgb": [
+        157,
+        145,
+        146
+      ],
+      "rgba": [
+        157,
+        145,
+        146,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "GBR South TSA (47)",
+      "rgb": [
+        14,
+        147,
+        167
+      ],
+      "rgba": [
+        14,
+        147,
+        167,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "North Island TSA (48)",
+      "rgb": [
+        82,
+        115,
+        110
+      ],
+      "rgba": [
+        82,
+        115,
+        110,
+        220
+      ],
+      "value": 38
+    }
+  ],
+  "visible_pixel_count": 22966,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

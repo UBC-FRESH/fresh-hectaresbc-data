@@ -1,0 +1,217 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_ecosec_bcnacp/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_ecosec_bcnacp",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:08:22+00:00",
+  "internal_raster_path": "bcnacp.tiff",
+  "internal_wms_path": "bcnacp.wms.xml",
+  "manifest_path": "layers/dl_ecosec_bcnacp/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "bcnacp.tiff",
+    "legend_source_path": "bcnacp.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_ecosec_bcnacp",
+    "source_title": "Natural Area Conservation Plan Boundaries",
+    "source_zip_path": "data_layers/ecosec_bcnacp.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/ecosec_bcnacp.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/ecosec_bcnacp.zip",
+  "title": "Natural Area Conservation Plan Boundaries",
+  "value_class_count": 11,
+  "value_classes": [
+    {
+      "label": "Central Coast Rainforest Natural Area",
+      "rgb": [
+        212,
+        71,
+        52
+      ],
+      "rgba": [
+        212,
+        71,
+        52,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Cowichan Valley Natural Area",
+      "rgb": [
+        69,
+        213,
+        76
+      ],
+      "rgba": [
+        69,
+        213,
+        76,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Discovery Pass Natural Area",
+      "rgb": [
+        172,
+        239,
+        47
+      ],
+      "rgba": [
+        172,
+        239,
+        47,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Haida Gwaii Natural Area",
+      "rgb": [
+        87,
+        149,
+        113
+      ],
+      "rgba": [
+        87,
+        149,
+        113,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Heritage Grasslands Natural Area",
+      "rgb": [
+        45,
+        73,
+        232
+      ],
+      "rgba": [
+        45,
+        73,
+        232,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Kootenay Rockies Natural Area",
+      "rgb": [
+        204,
+        67,
+        223
+      ],
+      "rgba": [
+        204,
+        67,
+        223,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Salish Sea Natural Area",
+      "rgb": [
+        106,
+        129,
+        54
+      ],
+      "rgba": [
+        106,
+        129,
+        54,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "South Cariboo's Fifties",
+      "rgb": [
+        229,
+        106,
+        207
+      ],
+      "rgba": [
+        229,
+        106,
+        207,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "South Okanagan-Similkameen Natural Area",
+      "rgb": [
+        82,
+        63,
+        227
+      ],
+      "rgba": [
+        82,
+        63,
+        227,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "South Selkirks Natural Area",
+      "rgb": [
+        71,
+        155,
+        81
+      ],
+      "rgba": [
+        71,
+        155,
+        81,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Tatlayoko Natural Area",
+      "rgb": [
+        59,
+        227,
+        249
+      ],
+      "rgba": [
+        59,
+        227,
+        249,
+        220
+      ],
+      "value": 11
+    }
+  ],
+  "visible_pixel_count": 2651,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

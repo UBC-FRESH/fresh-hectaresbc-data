@@ -1,0 +1,412 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_species_seriver/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_species_seriver",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:12:12+00:00",
+  "internal_raster_path": "seriver.tiff",
+  "internal_wms_path": "seriver.wms.xml",
+  "manifest_path": "layers/dl_species_seriver/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "seriver.tiff",
+    "legend_source_path": "seriver.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_species_seriver",
+    "source_title": "Salmon - River Sockeye",
+    "source_zip_path": "data_layers/species_seriver.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/species_seriver.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/species_seriver.zip",
+  "title": "Salmon - River Sockeye",
+  "value_class_count": 24,
+  "value_classes": [
+    {
+      "label": "Alsek River",
+      "rgb": [
+        105,
+        118,
+        142
+      ],
+      "rgba": [
+        105,
+        118,
+        142,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Boundary Bay",
+      "rgb": [
+        147,
+        12,
+        220
+      ],
+      "rgba": [
+        147,
+        12,
+        220,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Chilkat River",
+      "rgb": [
+        19,
+        182,
+        164
+      ],
+      "rgba": [
+        19,
+        182,
+        164,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "East Queen Charlotte Islands",
+      "rgb": [
+        96,
+        215,
+        163
+      ],
+      "rgba": [
+        96,
+        215,
+        163,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "East Vancouver Island and Georgia Strait",
+      "rgb": [
+        92,
+        57,
+        249
+      ],
+      "rgba": [
+        92,
+        57,
+        249,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Fraser Canyon",
+      "rgb": [
+        59,
+        101,
+        93
+      ],
+      "rgba": [
+        59,
+        101,
+        93,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Lower Fraser",
+      "rgb": [
+        153,
+        141,
+        37
+      ],
+      "rgba": [
+        153,
+        141,
+        37,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Lower Nass-Portland",
+      "rgb": [
+        175,
+        28,
+        244
+      ],
+      "rgba": [
+        175,
+        28,
+        244,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Middle Fraser",
+      "rgb": [
+        153,
+        225,
+        187
+      ],
+      "rgba": [
+        153,
+        225,
+        187,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Northern Coastal Fjords",
+      "rgb": [
+        37,
+        105,
+        144
+      ],
+      "rgba": [
+        37,
+        105,
+        144,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Northern Transboundary Fjords",
+      "rgb": [
+        28,
+        130,
+        91
+      ],
+      "rgba": [
+        28,
+        130,
+        91,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Northn Coastal Streams",
+      "rgb": [
+        207,
+        182,
+        63
+      ],
+      "rgba": [
+        207,
+        182,
+        63,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "North Queen Charlotte Islands",
+      "rgb": [
+        64,
+        56,
+        147
+      ],
+      "rgba": [
+        64,
+        56,
+        147,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "NW Vancouver Island",
+      "rgb": [
+        56,
+        98,
+        30
+      ],
+      "rgba": [
+        56,
+        98,
+        30,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Rivers-Smith Inlets",
+      "rgb": [
+        68,
+        204,
+        68
+      ],
+      "rgba": [
+        68,
+        204,
+        68,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Skeena River",
+      "rgb": [
+        12,
+        80,
+        195
+      ],
+      "rgba": [
+        12,
+        80,
+        195,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Skeena River-high interior",
+      "rgb": [
+        158,
+        26,
+        148
+      ],
+      "rgba": [
+        158,
+        26,
+        148,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Southern Fjords",
+      "rgb": [
+        187,
+        73,
+        189
+      ],
+      "rgba": [
+        187,
+        73,
+        189,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Thompson",
+      "rgb": [
+        216,
+        15,
+        148
+      ],
+      "rgba": [
+        216,
+        15,
+        148,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Upper Fraser",
+      "rgb": [
+        231,
+        96,
+        15
+      ],
+      "rgba": [
+        231,
+        96,
+        15,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Upper Nass River",
+      "rgb": [
+        214,
+        51,
+        171
+      ],
+      "rgba": [
+        214,
+        51,
+        171,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "West Queen Charlotte Islands",
+      "rgb": [
+        92,
+        80,
+        100
+      ],
+      "rgba": [
+        92,
+        80,
+        100,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "West Vancouver Island",
+      "rgb": [
+        238,
+        215,
+        11
+      ],
+      "rgba": [
+        238,
+        215,
+        11,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Widgeon",
+      "rgb": [
+        119,
+        216,
+        109
+      ],
+      "rgba": [
+        119,
+        216,
+        109,
+        220
+      ],
+      "value": 22
+    }
+  ],
+  "visible_pixel_count": 10465,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

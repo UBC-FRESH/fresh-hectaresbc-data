@@ -1,0 +1,51 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_linearfeat_distancetoroad/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_linearfeat_distancetoroad",
+  "dtype": "int32",
+  "generated_at": "2026-06-20T04:32:51+00:00",
+  "internal_raster_path": "distancetoroad.tiff",
+  "internal_wms_path": "distancetoroad.wms.xml",
+  "manifest_path": "layers/dl_linearfeat_distancetoroad/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "distancetoroad.tiff",
+    "legend_source_path": "distancetoroad.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_linearfeat_distancetoroad",
+    "source_title": "Distance To Road Transportation Corridor",
+    "source_zip_path": "data_layers/linearfeat_distancetoroad.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/linearfeat_distancetoroad.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/linearfeat_distancetoroad.zip",
+  "title": "Distance To Road Transportation Corridor",
+  "value_class_count": 0,
+  "value_classes": [],
+  "visible_pixel_count": 59904,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

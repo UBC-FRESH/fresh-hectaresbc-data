@@ -1,0 +1,442 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_ownership_fown/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_ownership_fown",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:10:49+00:00",
+  "internal_raster_path": "fown.tiff",
+  "internal_wms_path": "fown.wms.xml",
+  "manifest_path": "layers/dl_ownership_fown/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "fown.tiff",
+    "legend_source_path": "fown.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_ownership_fown",
+    "source_title": "Generalized Forest Cover Ownership",
+    "source_zip_path": "data_layers/ownership_fown.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/ownership_fown.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/ownership_fown.zip",
+  "title": "Generalized Forest Cover Ownership",
+  "value_class_count": 26,
+  "value_classes": [
+    {
+      "label": "40N - Private (Crown Grant)",
+      "rgb": [
+        5,
+        234,
+        105
+      ],
+      "rgba": [
+        5,
+        234,
+        105,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "41N",
+      "rgb": [
+        11,
+        176,
+        46
+      ],
+      "rgba": [
+        11,
+        176,
+        46,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "50N - Federal Reserves",
+      "rgb": [
+        159,
+        122,
+        229
+      ],
+      "rgba": [
+        159,
+        122,
+        229,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "51N - National Parks",
+      "rgb": [
+        146,
+        146,
+        33
+      ],
+      "rgba": [
+        146,
+        146,
+        33,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "52N - Indian Reserves",
+      "rgb": [
+        146,
+        245,
+        96
+      ],
+      "rgba": [
+        146,
+        245,
+        96,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "53N - Military Reserves",
+      "rgb": [
+        34,
+        192,
+        153
+      ],
+      "rgba": [
+        34,
+        192,
+        153,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "54N - Dominion Government Block",
+      "rgb": [
+        84,
+        179,
+        214
+      ],
+      "rgba": [
+        84,
+        179,
+        214,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "60N - Crown (Ecological Reserves)",
+      "rgb": [
+        230,
+        122,
+        223
+      ],
+      "rgba": [
+        230,
+        122,
+        223,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "61C - Crown (Use, Recreation and Enjoyment of the Public Reserves)",
+      "rgb": [
+        191,
+        25,
+        121
+      ],
+      "rgba": [
+        191,
+        25,
+        121,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "61N - Crown (Use, Recreation and Enjoyment of the Public Reserves)",
+      "rgb": [
+        231,
+        192,
+        162
+      ],
+      "rgba": [
+        231,
+        192,
+        162,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "62C - Crown (Forest Management Unit TSA)",
+      "rgb": [
+        106,
+        84,
+        252
+      ],
+      "rgba": [
+        106,
+        84,
+        252,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "63N - Crown (Provicial Park Class A)",
+      "rgb": [
+        230,
+        19,
+        200
+      ],
+      "rgba": [
+        230,
+        19,
+        200,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "67N - Crown (Provincial Park equivalent or reserve)",
+      "rgb": [
+        222,
+        33,
+        18
+      ],
+      "rgba": [
+        222,
+        33,
+        18,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "68N",
+      "rgb": [
+        156,
+        140,
+        189
+      ],
+      "rgba": [
+        156,
+        140,
+        189,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "69C - Crown Miscellaneous reserves",
+      "rgb": [
+        10,
+        10,
+        87
+      ],
+      "rgba": [
+        10,
+        10,
+        87,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "69N - Crown Miscellaneous reserves",
+      "rgb": [
+        152,
+        163,
+        136
+      ],
+      "rgba": [
+        152,
+        163,
+        136,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "70C - Crown (active timber licence in a TFL)",
+      "rgb": [
+        173,
+        125,
+        113
+      ],
+      "rgba": [
+        173,
+        125,
+        113,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "70N - Crown (active timber licence in a TSA)",
+      "rgb": [
+        240,
+        78,
+        36
+      ],
+      "rgba": [
+        240,
+        78,
+        36,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "72A - Private (Schedule 'A' land, TFL)",
+      "rgb": [
+        177,
+        130,
+        35
+      ],
+      "rgba": [
+        177,
+        130,
+        35,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "72B - Crown (Schedule 'B' land, TFL)",
+      "rgb": [
+        132,
+        81,
+        89
+      ],
+      "rgba": [
+        132,
+        81,
+        89,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "74N - Crown and private (timber alienated in watershed)",
+      "rgb": [
+        186,
+        245,
+        206
+      ],
+      "rgba": [
+        186,
+        245,
+        206,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "75N - Crown (Christmas Tree Permits)",
+      "rgb": [
+        76,
+        215,
+        205
+      ],
+      "rgba": [
+        76,
+        215,
+        205,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "77B",
+      "rgb": [
+        95,
+        128,
+        237
+      ],
+      "rgba": [
+        95,
+        128,
+        237,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "79B - Community Forest",
+      "rgb": [
+        11,
+        17,
+        94
+      ],
+      "rgba": [
+        11,
+        17,
+        94,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "99C - Crown Land (Administered by Government of BC)",
+      "rgb": [
+        88,
+        131,
+        97
+      ],
+      "rgba": [
+        88,
+        131,
+        97,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "99N - Crown Land (Administered by Government of BC)",
+      "rgb": [
+        124,
+        50,
+        106
+      ],
+      "rgba": [
+        124,
+        50,
+        106,
+        220
+      ],
+      "value": 26
+    }
+  ],
+  "visible_pixel_count": 22965,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

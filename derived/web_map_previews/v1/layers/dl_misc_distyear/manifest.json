@@ -1,0 +1,67 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_misc_distyear/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_misc_distyear",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:33:29+00:00",
+  "internal_raster_path": "distyear.tiff",
+  "internal_wms_path": "distyear.wms.xml",
+  "manifest_path": "layers/dl_misc_distyear/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "distyear.tiff",
+    "legend_source_path": "distyear.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_misc_distyear",
+    "source_title": "Most Recent Year of Disturbance",
+    "source_zip_path": "data_layers/misc_distyear.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/misc_distyear.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/misc_distyear.zip",
+  "title": "Most Recent Year of Disturbance",
+  "value_class_count": 1,
+  "value_classes": [
+    {
+      "label": "Unknown",
+      "rgb": [
+        155,
+        155,
+        155
+      ],
+      "rgba": [
+        155,
+        155,
+        155,
+        220
+      ],
+      "value": 999
+    }
+  ],
+  "visible_pixel_count": 178,
+  "visual_signal_status": "single_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

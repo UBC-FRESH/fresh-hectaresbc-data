@@ -1,0 +1,652 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_vri19_nonloggingdisttype/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_vri19_nonloggingdisttype",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:14:02+00:00",
+  "internal_raster_path": "nonloggingdisttype.tiff",
+  "internal_wms_path": "nonloggingdisttype.wms.xml",
+  "manifest_path": "layers/dl_vri19_nonloggingdisttype/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "nonloggingdisttype.tiff",
+    "legend_source_path": "nonloggingdisttype.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_vri19_nonloggingdisttype",
+    "source_title": "Earliest Non Logging Disturbance Type",
+    "source_zip_path": "data_layers/vri19_nonloggingdisttype.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/vri19_nonloggingdisttype.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/vri19_nonloggingdisttype.zip",
+  "title": "Earliest Non Logging Disturbance Type",
+  "value_class_count": 40,
+  "value_classes": [
+    {
+      "label": "Animal Damage (A)",
+      "rgb": [
+        118,
+        205,
+        126
+      ],
+      "rgba": [
+        118,
+        205,
+        126,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Wildlife (B)",
+      "rgb": [
+        56,
+        202,
+        44
+      ],
+      "rgba": [
+        56,
+        202,
+        44,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Escaped burn (BE)",
+      "rgb": [
+        127,
+        230,
+        108
+      ],
+      "rgba": [
+        127,
+        230,
+        108,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Ground fire (BG)",
+      "rgb": [
+        154,
+        107,
+        242
+      ],
+      "rgba": [
+        154,
+        107,
+        242,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Range burn (BR)",
+      "rgb": [
+        188,
+        254,
+        110
+      ],
+      "rgba": [
+        188,
+        254,
+        110,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Wildlife burn (BW)",
+      "rgb": [
+        246,
+        18,
+        53
+      ],
+      "rgba": [
+        246,
+        18,
+        53,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Chemical (C)",
+      "rgb": [
+        88,
+        233,
+        62
+      ],
+      "rgba": [
+        88,
+        233,
+        62,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Diseases (D)",
+      "rgb": [
+        129,
+        10,
+        205
+      ],
+      "rgba": [
+        129,
+        10,
+        205,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Diseases - Foiage Diseases (general) (DF)",
+      "rgb": [
+        191,
+        200,
+        120
+      ],
+      "rgba": [
+        191,
+        200,
+        120,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Diseases - Laminated (not cedar strain) (DL)",
+      "rgb": [
+        130,
+        250,
+        185
+      ],
+      "rgba": [
+        130,
+        250,
+        185,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Diseases - Root Disease (general) (DR)",
+      "rgb": [
+        72,
+        114,
+        202
+      ],
+      "rgba": [
+        72,
+        114,
+        202,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Diseases - Annosus Root Rot (DRN)",
+      "rgb": [
+        42,
+        187,
+        246
+      ],
+      "rgba": [
+        42,
+        187,
+        246,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Insects (I)",
+      "rgb": [
+        54,
+        55,
+        174
+      ],
+      "rgba": [
+        54,
+        55,
+        174,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Insects - Bark Beetles (general) (IB)",
+      "rgb": [
+        48,
+        68,
+        177
+      ],
+      "rgba": [
+        48,
+        68,
+        177,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Insects - Western Balsam Bark Beetle (IBB)",
+      "rgb": [
+        172,
+        116,
+        175
+      ],
+      "rgba": [
+        172,
+        116,
+        175,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Insects - Douglas-fir Beetle (IBD)",
+      "rgb": [
+        253,
+        66,
+        165
+      ],
+      "rgba": [
+        253,
+        66,
+        165,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Insects - IBF",
+      "rgb": [
+        253,
+        66,
+        165
+      ],
+      "rgba": [
+        253,
+        66,
+        165,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Insects - Mountain Pine Beetle (IBM)",
+      "rgb": [
+        157,
+        200,
+        74
+      ],
+      "rgba": [
+        157,
+        200,
+        74,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Insects - Spruce Beetle (IBS)",
+      "rgb": [
+        53,
+        75,
+        123
+      ],
+      "rgba": [
+        53,
+        75,
+        123,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Insects - Defoliatiors (general) (ID)",
+      "rgb": [
+        43,
+        95,
+        87
+      ],
+      "rgba": [
+        43,
+        95,
+        87,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Insects - Black Army Cutworm (IDA)",
+      "rgb": [
+        126,
+        67,
+        77
+      ],
+      "rgba": [
+        126,
+        67,
+        77,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Insects - Forest Tent Caterpillar (IDF)",
+      "rgb": [
+        11,
+        123,
+        70
+      ],
+      "rgba": [
+        11,
+        123,
+        70,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Insects - Western hemlock looper (IDL)",
+      "rgb": [
+        17,
+        126,
+        57
+      ],
+      "rgba": [
+        17,
+        126,
+        57,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Insects - Douglas-fir Tussock Moth (IDT)",
+      "rgb": [
+        104,
+        46,
+        27
+      ],
+      "rgba": [
+        104,
+        46,
+        27,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Insects - Western Aspen Tortrix (IDW)",
+      "rgb": [
+        243,
+        227,
+        168
+      ],
+      "rgba": [
+        243,
+        227,
+        168,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Insects - Western Cedar Borer (ISB)",
+      "rgb": [
+        70,
+        226,
+        33
+      ],
+      "rgba": [
+        70,
+        226,
+        33,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Insects -European Pine Shoot Moth (ISE)",
+      "rgb": [
+        70,
+        226,
+        33
+      ],
+      "rgba": [
+        70,
+        226,
+        33,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Insects - Weevils (general) (IW)",
+      "rgb": [
+        197,
+        202,
+        98
+      ],
+      "rgba": [
+        197,
+        202,
+        98,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Mite Damage (Trisetacus spp) (M)",
+      "rgb": [
+        39,
+        1,
+        240
+      ],
+      "rgba": [
+        39,
+        1,
+        240,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Non-Biological (abiotic) injuries (N)",
+      "rgb": [
+        4,
+        203,
+        72
+      ],
+      "rgba": [
+        4,
+        203,
+        72,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Non-Biological (abiotic) injuries - Wildfire (NB)",
+      "rgb": [
+        60,
+        151,
+        225
+      ],
+      "rgba": [
+        60,
+        151,
+        225,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Non-Biological (abiotic) injuries - Drought (ND)",
+      "rgb": [
+        95,
+        203,
+        29
+      ],
+      "rgba": [
+        95,
+        203,
+        29,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Non-Biological (abiotic) injuries - Flooding (NF)",
+      "rgb": [
+        132,
+        178,
+        180
+      ],
+      "rgba": [
+        132,
+        178,
+        180,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Non-Biological (abiotic) injuries - Fume Kill (NK)",
+      "rgb": [
+        214,
+        3,
+        212
+      ],
+      "rgba": [
+        214,
+        3,
+        212,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "Non-Biological (abiotic) injuries - Road Salt (NS)",
+      "rgb": [
+        28,
+        202,
+        139
+      ],
+      "rgba": [
+        28,
+        202,
+        139,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Non-Biological (abiotic) injuries - Windthrow (NW)",
+      "rgb": [
+        122,
+        195,
+        233
+      ],
+      "rgba": [
+        122,
+        195,
+        233,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "Non-Biological (abiotic) injuries - Windthrow-treatment or harvest related (NWT)",
+      "rgb": [
+        48,
+        236,
+        19
+      ],
+      "rgba": [
+        48,
+        236,
+        19,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "P",
+      "rgb": [
+        158,
+        212,
+        89
+      ],
+      "rgba": [
+        158,
+        212,
+        89,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "Site rehabilitation (R)",
+      "rgb": [
+        59,
+        140,
+        98
+      ],
+      "rgba": [
+        59,
+        140,
+        98,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Damage (cause unknown) (U)",
+      "rgb": [
+        178,
+        230,
+        204
+      ],
+      "rgba": [
+        178,
+        230,
+        204,
+        220
+      ],
+      "value": 41
+    }
+  ],
+  "visible_pixel_count": 2958,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

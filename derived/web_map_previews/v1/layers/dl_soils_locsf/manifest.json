@@ -1,0 +1,337 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_soils_locsf/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_soils_locsf",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:11:47+00:00",
+  "internal_raster_path": "locsf.tiff",
+  "internal_wms_path": "locsf.wms.xml",
+  "manifest_path": "layers/dl_soils_locsf/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "locsf.tiff",
+    "legend_source_path": "locsf.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_soils_locsf",
+    "source_title": "Local Surface Form",
+    "source_zip_path": "data_layers/soils_locsf.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/soils_locsf.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/soils_locsf.zip",
+  "title": "Local Surface Form",
+  "value_class_count": 19,
+  "value_classes": [
+    {
+      "label": "Non-applicable (#)",
+      "rgb": [
+        231,
+        33,
+        5
+      ],
+      "rgba": [
+        231,
+        33,
+        5,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Domed Bog (B04)",
+      "rgb": [
+        1,
+        36,
+        178
+      ],
+      "rgba": [
+        1,
+        36,
+        178,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Peat Plateau Bog (B07)",
+      "rgb": [
+        131,
+        20,
+        44
+      ],
+      "rgba": [
+        131,
+        20,
+        44,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Basin Bog (B13)",
+      "rgb": [
+        83,
+        194,
+        212
+      ],
+      "rgba": [
+        83,
+        194,
+        212,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Flat Bog (B14)",
+      "rgb": [
+        226,
+        180,
+        233
+      ],
+      "rgba": [
+        226,
+        180,
+        233,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Blanket Bog (B16)",
+      "rgb": [
+        6,
+        226,
+        94
+      ],
+      "rgba": [
+        6,
+        226,
+        94,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Slope Bog (B18)",
+      "rgb": [
+        4,
+        231,
+        123
+      ],
+      "rgba": [
+        4,
+        231,
+        123,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Veneer Bog (B19)",
+      "rgb": [
+        207,
+        230,
+        96
+      ],
+      "rgba": [
+        207,
+        230,
+        96,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Dissected (D)",
+      "rgb": [
+        63,
+        247,
+        182
+      ],
+      "rgba": [
+        63,
+        247,
+        182,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Horizontal Fen (F13)",
+      "rgb": [
+        2,
+        16,
+        217
+      ],
+      "rgba": [
+        2,
+        16,
+        217,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Hummocky (or Irregular) (H)",
+      "rgb": [
+        40,
+        161,
+        125
+      ],
+      "rgba": [
+        40,
+        161,
+        125,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Inclined (I)",
+      "rgb": [
+        90,
+        53,
+        114
+      ],
+      "rgba": [
+        90,
+        53,
+        114,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Knoll and Kettle (K)",
+      "rgb": [
+        103,
+        212,
+        60
+      ],
+      "rgba": [
+        103,
+        212,
+        60,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Level (L)",
+      "rgb": [
+        230,
+        17,
+        43
+      ],
+      "rgba": [
+        230,
+        17,
+        43,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Rolling (M)",
+      "rgb": [
+        101,
+        204,
+        110
+      ],
+      "rgba": [
+        101,
+        204,
+        110,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Ridged (R)",
+      "rgb": [
+        211,
+        104,
+        63
+      ],
+      "rgba": [
+        211,
+        104,
+        63,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Steep (S)",
+      "rgb": [
+        25,
+        11,
+        176
+      ],
+      "rgba": [
+        25,
+        11,
+        176,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Terraced (T)",
+      "rgb": [
+        186,
+        18,
+        5
+      ],
+      "rgba": [
+        186,
+        18,
+        5,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Undulating (U)",
+      "rgb": [
+        182,
+        204,
+        103
+      ],
+      "rgba": [
+        182,
+        204,
+        103,
+        220
+      ],
+      "value": 19
+    }
+  ],
+  "visible_pixel_count": 21843,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

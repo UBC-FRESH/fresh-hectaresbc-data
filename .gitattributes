@@ -11,3 +11,4 @@
 *.gitattributes annex.largefiles=nothing
 raw/hectaresbc_2022_export/data_layers/*.zip annex.largefiles=anything
 raw/hectaresbc_2022_export/virtual_layers/*.zip annex.largefiles=anything
+derived/web_map_previews/**/preview.png annex.largefiles=anything

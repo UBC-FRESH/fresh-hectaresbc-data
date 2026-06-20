@@ -1,0 +1,67 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_vri19_livevolume/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_vri19_livevolume",
+  "dtype": "float32",
+  "generated_at": "2026-06-20T04:36:39+00:00",
+  "internal_raster_path": "livevolume.tiff",
+  "internal_wms_path": "livevolume.wms.xml",
+  "manifest_path": "layers/dl_vri19_livevolume/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "livevolume.tiff",
+    "legend_source_path": "livevolume.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_vri19_livevolume",
+    "source_title": "Volume - Live",
+    "source_zip_path": "data_layers/vri19_livevolume.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/vri19_livevolume.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/vri19_livevolume.zip",
+  "title": "Volume - Live",
+  "value_class_count": 1,
+  "value_classes": [
+    {
+      "label": "0",
+      "rgb": [
+        200,
+        200,
+        200
+      ],
+      "rgba": [
+        200,
+        200,
+        200,
+        220
+      ],
+      "value": 0
+    }
+  ],
+  "visible_pixel_count": 29,
+  "visual_signal_status": "single_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

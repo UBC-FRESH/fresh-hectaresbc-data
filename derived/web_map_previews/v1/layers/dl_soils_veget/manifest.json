@@ -1,0 +1,247 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_soils_veget/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_soils_veget",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:11:41+00:00",
+  "internal_raster_path": "veget.tiff",
+  "internal_wms_path": "veget.wms.xml",
+  "manifest_path": "layers/dl_soils_veget/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "veget.tiff",
+    "legend_source_path": "veget.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_soils_veget",
+    "source_title": "Vegetation Cover",
+    "source_zip_path": "data_layers/soils_veget.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/soils_veget.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/soils_veget.zip",
+  "title": "Vegetation Cover",
+  "value_class_count": 13,
+  "value_classes": [
+    {
+      "label": "Non-applicable (#)",
+      "rgb": [
+        107,
+        19,
+        242
+      ],
+      "rgba": [
+        107,
+        19,
+        242,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Agricultural Crops (A)",
+      "rgb": [
+        192,
+        229,
+        104
+      ],
+      "rgba": [
+        192,
+        229,
+        104,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Bog (B)",
+      "rgb": [
+        103,
+        12,
+        125
+      ],
+      "rgba": [
+        103,
+        12,
+        125,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Coniferous Forest (C)",
+      "rgb": [
+        162,
+        252,
+        174
+      ],
+      "rgba": [
+        162,
+        252,
+        174,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Deciduous Forest (D)",
+      "rgb": [
+        45,
+        144,
+        40
+      ],
+      "rgba": [
+        45,
+        144,
+        40,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Fen (F)",
+      "rgb": [
+        10,
+        77,
+        250
+      ],
+      "rgba": [
+        10,
+        77,
+        250,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Grassland (G)",
+      "rgb": [
+        201,
+        248,
+        151
+      ],
+      "rgba": [
+        201,
+        248,
+        151,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Arctic desert (H)",
+      "rgb": [
+        201,
+        118,
+        109
+      ],
+      "rgba": [
+        201,
+        118,
+        109,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Mixed Forest (M)",
+      "rgb": [
+        186,
+        75,
+        153
+      ],
+      "rgba": [
+        186,
+        75,
+        153,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Parkland (P)",
+      "rgb": [
+        241,
+        101,
+        43
+      ],
+      "rgba": [
+        241,
+        101,
+        43,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Shrubland (S)",
+      "rgb": [
+        3,
+        251,
+        0
+      ],
+      "rgba": [
+        3,
+        251,
+        0,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Tundra, Alpine (TA)",
+      "rgb": [
+        35,
+        74,
+        170
+      ],
+      "rgba": [
+        35,
+        74,
+        170,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Unvegetated Surface (U)",
+      "rgb": [
+        238,
+        234,
+        30
+      ],
+      "rgba": [
+        238,
+        234,
+        30,
+        220
+      ],
+      "value": 13
+    }
+  ],
+  "visible_pixel_count": 21843,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

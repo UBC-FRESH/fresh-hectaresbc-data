@@ -1,0 +1,2137 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_ecosec_version2/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_ecosec_version2",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:07:53+00:00",
+  "internal_raster_path": "version2.tiff",
+  "internal_wms_path": "version2.wms.xml",
+  "manifest_path": "layers/dl_ecosec_version2/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": 0.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "version2.tiff",
+    "legend_source_path": "version2.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_ecosec_version2",
+    "source_title": "Ecoprovinces and Ecosections of BC",
+    "source_zip_path": "data_layers/ecosec_version2.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/ecosec_version2.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/ecosec_version2.zip",
+  "title": "Ecoprovinces and Ecosections of BC",
+  "value_class_count": 139,
+  "value_classes": [
+    {
+      "label": "Alsek Ranges",
+      "rgb": [
+        28,
+        164,
+        6
+      ],
+      "rgba": [
+        28,
+        164,
+        6,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Kluane Ranges",
+      "rgb": [
+        52,
+        206,
+        88
+      ],
+      "rgba": [
+        52,
+        206,
+        88,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Tatshenshini Basin",
+      "rgb": [
+        28,
+        208,
+        223
+      ],
+      "rgba": [
+        28,
+        208,
+        223,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Northern Boundary Ranges",
+      "rgb": [
+        201,
+        75,
+        49
+      ],
+      "rgba": [
+        201,
+        75,
+        49,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Whitehorse Upland",
+      "rgb": [
+        157,
+        153,
+        214
+      ],
+      "rgba": [
+        157,
+        153,
+        214,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Teslin Basin",
+      "rgb": [
+        31,
+        65,
+        243
+      ],
+      "rgba": [
+        31,
+        65,
+        243,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Petitot Plain",
+      "rgb": [
+        237,
+        152,
+        40
+      ],
+      "rgba": [
+        237,
+        152,
+        40,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Tuya Range",
+      "rgb": [
+        106,
+        241,
+        38
+      ],
+      "rgba": [
+        106,
+        241,
+        38,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Trout Lake Plain",
+      "rgb": [
+        239,
+        160,
+        254
+      ],
+      "rgba": [
+        239,
+        160,
+        254,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Liard Plain",
+      "rgb": [
+        144,
+        125,
+        192
+      ],
+      "rgba": [
+        144,
+        125,
+        192,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Maxhamish Upland",
+      "rgb": [
+        227,
+        153,
+        101
+      ],
+      "rgba": [
+        227,
+        153,
+        101,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Muskwa Upland",
+      "rgb": [
+        233,
+        204,
+        52
+      ],
+      "rgba": [
+        233,
+        204,
+        52,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Hyland Plateau",
+      "rgb": [
+        66,
+        232,
+        5
+      ],
+      "rgba": [
+        66,
+        232,
+        5,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Simpson Upland",
+      "rgb": [
+        33,
+        178,
+        80
+      ],
+      "rgba": [
+        33,
+        178,
+        80,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Etsho Plateau",
+      "rgb": [
+        82,
+        81,
+        233
+      ],
+      "rgba": [
+        82,
+        81,
+        233,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Fort Nelson Lowland",
+      "rgb": [
+        41,
+        112,
+        43
+      ],
+      "rgba": [
+        41,
+        112,
+        43,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Kechika Mountains",
+      "rgb": [
+        29,
+        93,
+        195
+      ],
+      "rgba": [
+        29,
+        93,
+        195,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Cassiar Ranges",
+      "rgb": [
+        69,
+        199,
+        181
+      ],
+      "rgba": [
+        69,
+        199,
+        181,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Stikine Plateau",
+      "rgb": [
+        107,
+        183,
+        86
+      ],
+      "rgba": [
+        107,
+        183,
+        86,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Kechika River Trench",
+      "rgb": [
+        106,
+        73,
+        211
+      ],
+      "rgba": [
+        106,
+        73,
+        211,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Southern Boreal Plateau",
+      "rgb": [
+        42,
+        44,
+        109
+      ],
+      "rgba": [
+        42,
+        44,
+        109,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Stikine Highland",
+      "rgb": [
+        143,
+        22,
+        58
+      ],
+      "rgba": [
+        143,
+        22,
+        58,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Clear Hills",
+      "rgb": [
+        196,
+        87,
+        36
+      ],
+      "rgba": [
+        196,
+        87,
+        36,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Sikanni Chief Upland",
+      "rgb": [
+        201,
+        121,
+        214
+      ],
+      "rgba": [
+        201,
+        121,
+        214,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Northern Skeena Mountains",
+      "rgb": [
+        26,
+        203,
+        40
+      ],
+      "rgba": [
+        26,
+        203,
+        40,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Halfway Plateau",
+      "rgb": [
+        4,
+        244,
+        152
+      ],
+      "rgba": [
+        4,
+        244,
+        152,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Eastern Skeena Mountains",
+      "rgb": [
+        47,
+        18,
+        245
+      ],
+      "rgba": [
+        47,
+        18,
+        245,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Peace Foothills",
+      "rgb": [
+        242,
+        86,
+        189
+      ],
+      "rgba": [
+        242,
+        86,
+        189,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Peace Lowland",
+      "rgb": [
+        168,
+        193,
+        117
+      ],
+      "rgba": [
+        168,
+        193,
+        117,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Southern Omineca Mountains",
+      "rgb": [
+        254,
+        44,
+        190
+      ],
+      "rgba": [
+        254,
+        44,
+        190,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Nass Basin",
+      "rgb": [
+        211,
+        86,
+        234
+      ],
+      "rgba": [
+        211,
+        86,
+        234,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Manson Plateau",
+      "rgb": [
+        65,
+        230,
+        1
+      ],
+      "rgba": [
+        65,
+        230,
+        1,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Southern Skeena Mountains",
+      "rgb": [
+        123,
+        170,
+        88
+      ],
+      "rgba": [
+        123,
+        170,
+        88,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Northern Hart Ranges",
+      "rgb": [
+        159,
+        116,
+        209
+      ],
+      "rgba": [
+        159,
+        116,
+        209,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Babine Upland",
+      "rgb": [
+        118,
+        142,
+        157
+      ],
+      "rgba": [
+        118,
+        142,
+        157,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "Cranberry Upland",
+      "rgb": [
+        158,
+        146,
+        145
+      ],
+      "rgba": [
+        158,
+        146,
+        145,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Nass Mountains",
+      "rgb": [
+        55,
+        193,
+        163
+      ],
+      "rgba": [
+        55,
+        193,
+        163,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "McGregor Plateau",
+      "rgb": [
+        45,
+        179,
+        249
+      ],
+      "rgba": [
+        45,
+        179,
+        249,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "Nechako Lowland",
+      "rgb": [
+        233,
+        92,
+        187
+      ],
+      "rgba": [
+        233,
+        92,
+        187,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "Dixon Entrance",
+      "rgb": [
+        96,
+        92,
+        231
+      ],
+      "rgba": [
+        96,
+        92,
+        231,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Sub-Arctic Pacific",
+      "rgb": [
+        30,
+        47,
+        62
+      ],
+      "rgba": [
+        30,
+        47,
+        62,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "Nechako Upland",
+      "rgb": [
+        9,
+        112,
+        37
+      ],
+      "rgba": [
+        9,
+        112,
+        37,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "Nazko Upland",
+      "rgb": [
+        10,
+        235,
+        208
+      ],
+      "rgba": [
+        10,
+        235,
+        208,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "Queen Charlotte Lowland",
+      "rgb": [
+        98,
+        139,
+        69
+      ],
+      "rgba": [
+        98,
+        139,
+        69,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "Kitimat Ranges",
+      "rgb": [
+        52,
+        2,
+        211
+      ],
+      "rgba": [
+        52,
+        2,
+        211,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "Quesnel Lowland",
+      "rgb": [
+        208,
+        160,
+        103
+      ],
+      "rgba": [
+        208,
+        160,
+        103,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "Quesnel Highland",
+      "rgb": [
+        99,
+        215,
+        41
+      ],
+      "rgba": [
+        99,
+        215,
+        41,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "Western Chilcotin Upland",
+      "rgb": [
+        7,
+        4,
+        220
+      ],
+      "rgba": [
+        7,
+        4,
+        220,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "Big Bend Trench",
+      "rgb": [
+        1,
+        238,
+        57
+      ],
+      "rgba": [
+        1,
+        238,
+        57,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "Cariboo Plateau",
+      "rgb": [
+        189,
+        78,
+        149
+      ],
+      "rgba": [
+        189,
+        78,
+        149,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "Western Chilcotin Ranges",
+      "rgb": [
+        165,
+        109,
+        196
+      ],
+      "rgba": [
+        165,
+        109,
+        196,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "Central Park Ranges",
+      "rgb": [
+        227,
+        118,
+        53
+      ],
+      "rgba": [
+        227,
+        118,
+        53,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "Chilcotin Plateau",
+      "rgb": [
+        9,
+        127,
+        33
+      ],
+      "rgba": [
+        9,
+        127,
+        33,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "Northern Kootenay Mountains",
+      "rgb": [
+        217,
+        225,
+        172
+      ],
+      "rgba": [
+        217,
+        225,
+        172,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "Cariboo Basin",
+      "rgb": [
+        31,
+        22,
+        173
+      ],
+      "rgba": [
+        31,
+        22,
+        173,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "Skidegate Plateau",
+      "rgb": [
+        242,
+        230,
+        78
+      ],
+      "rgba": [
+        242,
+        230,
+        78,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "Queen Charlotte Ranges",
+      "rgb": [
+        90,
+        74,
+        38
+      ],
+      "rgba": [
+        90,
+        74,
+        38,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "Fraser River Basin",
+      "rgb": [
+        130,
+        81,
+        43
+      ],
+      "rgba": [
+        130,
+        81,
+        43,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "Central Chilcotin Ranges",
+      "rgb": [
+        95,
+        82,
+        25
+      ],
+      "rgba": [
+        95,
+        82,
+        25,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "Southern Park Ranges",
+      "rgb": [
+        152,
+        15,
+        104
+      ],
+      "rgba": [
+        152,
+        15,
+        104,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "Central Pacific Ranges",
+      "rgb": [
+        46,
+        180,
+        212
+      ],
+      "rgba": [
+        46,
+        180,
+        212,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "Northern Thompson Upland",
+      "rgb": [
+        242,
+        152,
+        75
+      ],
+      "rgba": [
+        242,
+        152,
+        75,
+        220
+      ],
+      "value": 62
+    },
+    {
+      "label": "Upper Columbia Valley",
+      "rgb": [
+        40,
+        162,
+        202
+      ],
+      "rgba": [
+        40,
+        162,
+        202,
+        220
+      ],
+      "value": 63
+    },
+    {
+      "label": "Eastern Purcell Mountains",
+      "rgb": [
+        73,
+        123,
+        172
+      ],
+      "rgba": [
+        73,
+        123,
+        172,
+        220
+      ],
+      "value": 64
+    },
+    {
+      "label": "Tranquille Upland",
+      "rgb": [
+        245,
+        154,
+        194
+      ],
+      "rgba": [
+        245,
+        154,
+        194,
+        220
+      ],
+      "value": 65
+    },
+    {
+      "label": "North Coast Fjords",
+      "rgb": [
+        163,
+        141,
+        169
+      ],
+      "rgba": [
+        163,
+        141,
+        169,
+        220
+      ],
+      "value": 66
+    },
+    {
+      "label": "Pavilion Ranges",
+      "rgb": [
+        242,
+        231,
+        243
+      ],
+      "rgba": [
+        242,
+        231,
+        243,
+        220
+      ],
+      "value": 67
+    },
+    {
+      "label": "Central Columbia Mountains",
+      "rgb": [
+        25,
+        106,
+        68
+      ],
+      "rgba": [
+        25,
+        106,
+        68,
+        220
+      ],
+      "value": 68
+    },
+    {
+      "label": "Shuswap River Highland",
+      "rgb": [
+        68,
+        201,
+        150
+      ],
+      "rgba": [
+        68,
+        201,
+        150,
+        220
+      ],
+      "value": 69
+    },
+    {
+      "label": "Thompson Basin",
+      "rgb": [
+        93,
+        99,
+        166
+      ],
+      "rgba": [
+        93,
+        99,
+        166,
+        220
+      ],
+      "value": 70
+    },
+    {
+      "label": "Queen Charlotte Strait",
+      "rgb": [
+        197,
+        145,
+        91
+      ],
+      "rgba": [
+        197,
+        145,
+        91,
+        220
+      ],
+      "value": 71
+    },
+    {
+      "label": "Shuswap Basin",
+      "rgb": [
+        154,
+        132,
+        243
+      ],
+      "rgba": [
+        154,
+        132,
+        243,
+        220
+      ],
+      "value": 72
+    },
+    {
+      "label": "Southern Chilcotin Ranges",
+      "rgb": [
+        229,
+        173,
+        150
+      ],
+      "rgba": [
+        229,
+        173,
+        150,
+        220
+      ],
+      "value": 73
+    },
+    {
+      "label": "Elk Valley",
+      "rgb": [
+        176,
+        246,
+        18
+      ],
+      "rgba": [
+        176,
+        246,
+        18,
+        220
+      ],
+      "value": 74
+    },
+    {
+      "label": "Johnstone Strait",
+      "rgb": [
+        93,
+        236,
+        172
+      ],
+      "rgba": [
+        93,
+        236,
+        172,
+        220
+      ],
+      "value": 75
+    },
+    {
+      "label": "Vancouver Island Shelf",
+      "rgb": [
+        32,
+        144,
+        59
+      ],
+      "rgba": [
+        32,
+        144,
+        59,
+        220
+      ],
+      "value": 76
+    },
+    {
+      "label": "Eastern Pacific Ranges",
+      "rgb": [
+        201,
+        131,
+        35
+      ],
+      "rgba": [
+        201,
+        131,
+        35,
+        220
+      ],
+      "value": 77
+    },
+    {
+      "label": "Guichon Upland",
+      "rgb": [
+        189,
+        156,
+        141
+      ],
+      "rgba": [
+        189,
+        156,
+        141,
+        220
+      ],
+      "value": 78
+    },
+    {
+      "label": "Leeward Pacific Ranges",
+      "rgb": [
+        3,
+        224,
+        87
+      ],
+      "rgba": [
+        3,
+        224,
+        87,
+        220
+      ],
+      "value": 79
+    },
+    {
+      "label": "East Kootenay Trench",
+      "rgb": [
+        153,
+        62,
+        186
+      ],
+      "rgba": [
+        153,
+        62,
+        186,
+        220
+      ],
+      "value": 80
+    },
+    {
+      "label": "Nicola Basin",
+      "rgb": [
+        64,
+        3,
+        76
+      ],
+      "rgba": [
+        64,
+        3,
+        76,
+        220
+      ],
+      "value": 81
+    },
+    {
+      "label": "Northern Okanagan Basin",
+      "rgb": [
+        154,
+        157,
+        209
+      ],
+      "rgba": [
+        154,
+        157,
+        209,
+        220
+      ],
+      "value": 82
+    },
+    {
+      "label": "Western Okanagan Upland",
+      "rgb": [
+        143,
+        131,
+        126
+      ],
+      "rgba": [
+        143,
+        131,
+        126,
+        220
+      ],
+      "value": 83
+    },
+    {
+      "label": "Northern Island Mountains",
+      "rgb": [
+        37,
+        52,
+        117
+      ],
+      "rgba": [
+        37,
+        52,
+        117,
+        220
+      ],
+      "value": 84
+    },
+    {
+      "label": "Nahwitti Lowland",
+      "rgb": [
+        55,
+        145,
+        98
+      ],
+      "rgba": [
+        55,
+        145,
+        98,
+        220
+      ],
+      "value": 85
+    },
+    {
+      "label": "Leeward Island Mountains",
+      "rgb": [
+        228,
+        177,
+        242
+      ],
+      "rgba": [
+        228,
+        177,
+        242,
+        220
+      ],
+      "value": 86
+    },
+    {
+      "label": "Southern Purcell Mountains",
+      "rgb": [
+        31,
+        124,
+        118
+      ],
+      "rgba": [
+        31,
+        124,
+        118,
+        220
+      ],
+      "value": 87
+    },
+    {
+      "label": "Hozameen Range",
+      "rgb": [
+        66,
+        58,
+        19
+      ],
+      "rgba": [
+        66,
+        58,
+        19,
+        220
+      ],
+      "value": 88
+    },
+    {
+      "label": "Outer Fjordland",
+      "rgb": [
+        207,
+        61,
+        243
+      ],
+      "rgba": [
+        207,
+        61,
+        243,
+        220
+      ],
+      "value": 89
+    },
+    {
+      "label": "Nanaimo Lowland",
+      "rgb": [
+        40,
+        214,
+        50
+      ],
+      "rgba": [
+        40,
+        214,
+        50,
+        220
+      ],
+      "value": 90
+    },
+    {
+      "label": "Strait of Georgia",
+      "rgb": [
+        226,
+        23,
+        53
+      ],
+      "rgba": [
+        226,
+        23,
+        53,
+        220
+      ],
+      "value": 91
+    },
+    {
+      "label": "McGillivray Range",
+      "rgb": [
+        47,
+        177,
+        210
+      ],
+      "rgba": [
+        47,
+        177,
+        210,
+        220
+      ],
+      "value": 92
+    },
+    {
+      "label": "Southern Columbia Mountains",
+      "rgb": [
+        1,
+        65,
+        86
+      ],
+      "rgba": [
+        1,
+        65,
+        86,
+        220
+      ],
+      "value": 93
+    },
+    {
+      "label": "Flathead Valley",
+      "rgb": [
+        127,
+        102,
+        138
+      ],
+      "rgba": [
+        127,
+        102,
+        138,
+        220
+      ],
+      "value": 94
+    },
+    {
+      "label": "Crown of the Continent",
+      "rgb": [
+        244,
+        157,
+        28
+      ],
+      "rgba": [
+        244,
+        157,
+        28,
+        220
+      ],
+      "value": 95
+    },
+    {
+      "label": "Okanagan Range",
+      "rgb": [
+        87,
+        130,
+        205
+      ],
+      "rgba": [
+        87,
+        130,
+        205,
+        220
+      ],
+      "value": 96
+    },
+    {
+      "label": "Georgia Lowland",
+      "rgb": [
+        74,
+        162,
+        74
+      ],
+      "rgba": [
+        74,
+        162,
+        74,
+        220
+      ],
+      "value": 97
+    },
+    {
+      "label": "Southern Pacific Ranges",
+      "rgb": [
+        192,
+        228,
+        132
+      ],
+      "rgba": [
+        192,
+        228,
+        132,
+        220
+      ],
+      "value": 98
+    },
+    {
+      "label": "Fraser Lowland",
+      "rgb": [
+        212,
+        180,
+        193
+      ],
+      "rgba": [
+        212,
+        180,
+        193,
+        220
+      ],
+      "value": 99
+    },
+    {
+      "label": "Northwestern Cascade Ranges",
+      "rgb": [
+        200,
+        220,
+        152
+      ],
+      "rgba": [
+        200,
+        220,
+        152,
+        220
+      ],
+      "value": 100
+    },
+    {
+      "label": "Windward Island Mountains",
+      "rgb": [
+        249,
+        191,
+        175
+      ],
+      "rgba": [
+        249,
+        191,
+        175,
+        220
+      ],
+      "value": 101
+    },
+    {
+      "label": "Southern Gulf Islands",
+      "rgb": [
+        47,
+        238,
+        98
+      ],
+      "rgba": [
+        47,
+        238,
+        98,
+        220
+      ],
+      "value": 102
+    },
+    {
+      "label": "Juan de Fuca Strait",
+      "rgb": [
+        2,
+        238,
+        163
+      ],
+      "rgba": [
+        2,
+        238,
+        163,
+        220
+      ],
+      "value": 103
+    },
+    {
+      "label": "Tagish Highland",
+      "rgb": [
+        87,
+        110,
+        10
+      ],
+      "rgba": [
+        87,
+        110,
+        10,
+        220
+      ],
+      "value": 104
+    },
+    {
+      "label": "Teslin Plateau",
+      "rgb": [
+        225,
+        99,
+        167
+      ],
+      "rgba": [
+        225,
+        99,
+        167,
+        220
+      ],
+      "value": 105
+    },
+    {
+      "label": "Tahltan Highland",
+      "rgb": [
+        252,
+        186,
+        42
+      ],
+      "rgba": [
+        252,
+        186,
+        42,
+        220
+      ],
+      "value": 106
+    },
+    {
+      "label": "Central Boundary Ranges",
+      "rgb": [
+        203,
+        5,
+        204
+      ],
+      "rgba": [
+        203,
+        5,
+        204,
+        220
+      ],
+      "value": 107
+    },
+    {
+      "label": "Bowron Valley",
+      "rgb": [
+        22,
+        198,
+        177
+      ],
+      "rgba": [
+        22,
+        198,
+        177,
+        220
+      ],
+      "value": 108
+    },
+    {
+      "label": "Northern Okanagan Highland",
+      "rgb": [
+        154,
+        154,
+        102
+      ],
+      "rgba": [
+        154,
+        154,
+        102,
+        220
+      ],
+      "value": 109
+    },
+    {
+      "label": "Selkirk Foothills",
+      "rgb": [
+        92,
+        99,
+        67
+      ],
+      "rgba": [
+        92,
+        99,
+        67,
+        220
+      ],
+      "value": 110
+    },
+    {
+      "label": "Hart Foothills",
+      "rgb": [
+        244,
+        93,
+        2
+      ],
+      "rgba": [
+        244,
+        93,
+        2,
+        220
+      ],
+      "value": 111
+    },
+    {
+      "label": "Kiskatinaw Plateau",
+      "rgb": [
+        165,
+        140,
+        240
+      ],
+      "rgba": [
+        165,
+        140,
+        240,
+        220
+      ],
+      "value": 112
+    },
+    {
+      "label": "Southern Hart Ranges",
+      "rgb": [
+        7,
+        142,
+        223
+      ],
+      "rgba": [
+        7,
+        142,
+        223,
+        220
+      ],
+      "value": 113
+    },
+    {
+      "label": "Front Ranges",
+      "rgb": [
+        170,
+        229,
+        79
+      ],
+      "rgba": [
+        170,
+        229,
+        79,
+        220
+      ],
+      "value": 114
+    },
+    {
+      "label": "Upper Fraser Trench",
+      "rgb": [
+        180,
+        199,
+        178
+      ],
+      "rgba": [
+        180,
+        199,
+        178,
+        220
+      ],
+      "value": 115
+    },
+    {
+      "label": "Cariboo Mountains",
+      "rgb": [
+        92,
+        196,
+        109
+      ],
+      "rgba": [
+        92,
+        196,
+        109,
+        220
+      ],
+      "value": 116
+    },
+    {
+      "label": "Northern Park Ranges",
+      "rgb": [
+        134,
+        144,
+        114
+      ],
+      "rgba": [
+        134,
+        144,
+        114,
+        220
+      ],
+      "value": 117
+    },
+    {
+      "label": "Northern Pacific Ranges",
+      "rgb": [
+        83,
+        165,
+        57
+      ],
+      "rgba": [
+        83,
+        165,
+        57,
+        220
+      ],
+      "value": 118
+    },
+    {
+      "label": "Transitional Pacific",
+      "rgb": [
+        5,
+        64,
+        212
+      ],
+      "rgba": [
+        5,
+        64,
+        212,
+        220
+      ],
+      "value": 119
+    },
+    {
+      "label": "Hecate Lowland",
+      "rgb": [
+        108,
+        156,
+        56
+      ],
+      "rgba": [
+        108,
+        156,
+        56,
+        220
+      ],
+      "value": 120
+    },
+    {
+      "label": "Hecate Strait",
+      "rgb": [
+        175,
+        146,
+        149
+      ],
+      "rgba": [
+        175,
+        146,
+        149,
+        220
+      ],
+      "value": 121
+    },
+    {
+      "label": "Queen Charlotte Sound",
+      "rgb": [
+        177,
+        55,
+        34
+      ],
+      "rgba": [
+        177,
+        55,
+        34,
+        220
+      ],
+      "value": 122
+    },
+    {
+      "label": "Southern Boundary Ranges",
+      "rgb": [
+        162,
+        63,
+        176
+      ],
+      "rgba": [
+        162,
+        63,
+        176,
+        220
+      ],
+      "value": 123
+    },
+    {
+      "label": "Meziadin Mountains",
+      "rgb": [
+        130,
+        233,
+        150
+      ],
+      "rgba": [
+        130,
+        233,
+        150,
+        220
+      ],
+      "value": 124
+    },
+    {
+      "label": "Northern Omineca Mountains",
+      "rgb": [
+        209,
+        157,
+        94
+      ],
+      "rgba": [
+        209,
+        157,
+        94,
+        220
+      ],
+      "value": 125
+    },
+    {
+      "label": "Misinchinka Ranges",
+      "rgb": [
+        132,
+        249,
+        35
+      ],
+      "rgba": [
+        132,
+        249,
+        35,
+        220
+      ],
+      "value": 126
+    },
+    {
+      "label": "Parsnip Trench",
+      "rgb": [
+        241,
+        128,
+        179
+      ],
+      "rgba": [
+        241,
+        128,
+        179,
+        220
+      ],
+      "value": 127
+    },
+    {
+      "label": "Bulkley Basin",
+      "rgb": [
+        100,
+        212,
+        89
+      ],
+      "rgba": [
+        100,
+        212,
+        89,
+        220
+      ],
+      "value": 128
+    },
+    {
+      "label": "Bulkley Ranges",
+      "rgb": [
+        158,
+        217,
+        153
+      ],
+      "rgba": [
+        158,
+        217,
+        153,
+        220
+      ],
+      "value": 129
+    },
+    {
+      "label": "Continental Slope",
+      "rgb": [
+        114,
+        70,
+        54
+      ],
+      "rgba": [
+        114,
+        70,
+        54,
+        220
+      ],
+      "value": 130
+    },
+    {
+      "label": "Kimsquit Mountains",
+      "rgb": [
+        170,
+        245,
+        200
+      ],
+      "rgba": [
+        170,
+        245,
+        200,
+        220
+      ],
+      "value": 131
+    },
+    {
+      "label": "Finlay River Trench",
+      "rgb": [
+        64,
+        167,
+        0
+      ],
+      "rgba": [
+        64,
+        167,
+        0,
+        220
+      ],
+      "value": 132
+    },
+    {
+      "label": "Eastern Muskwa Ranges",
+      "rgb": [
+        99,
+        74,
+        63
+      ],
+      "rgba": [
+        99,
+        74,
+        63,
+        220
+      ],
+      "value": 133
+    },
+    {
+      "label": "Muskwa Foothills",
+      "rgb": [
+        20,
+        204,
+        41
+      ],
+      "rgba": [
+        20,
+        204,
+        41,
+        220
+      ],
+      "value": 134
+    },
+    {
+      "label": "Western Muskwa Ranges",
+      "rgb": [
+        170,
+        158,
+        198
+      ],
+      "rgba": [
+        170,
+        158,
+        198,
+        220
+      ],
+      "value": 135
+    },
+    {
+      "label": "Rabbit Plateau",
+      "rgb": [
+        8,
+        35,
+        192
+      ],
+      "rgba": [
+        8,
+        35,
+        192,
+        220
+      ],
+      "value": 136
+    },
+    {
+      "label": "Southern Okanogan Highland",
+      "rgb": [
+        43,
+        21,
+        66
+      ],
+      "rgba": [
+        43,
+        21,
+        66,
+        220
+      ],
+      "value": 137
+    },
+    {
+      "label": "Southern Okanogan Basin",
+      "rgb": [
+        222,
+        121,
+        23
+      ],
+      "rgba": [
+        222,
+        121,
+        23,
+        220
+      ],
+      "value": 138
+    },
+    {
+      "label": "Northern Shuswap Highland",
+      "rgb": [
+        56,
+        23,
+        240
+      ],
+      "rgba": [
+        56,
+        23,
+        240,
+        220
+      ],
+      "value": 139
+    }
+  ],
+  "visible_pixel_count": 30953,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

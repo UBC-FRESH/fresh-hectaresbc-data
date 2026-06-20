@@ -1,0 +1,232 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_adminunits_bcts/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_adminunits_bcts",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T03:49:40+00:00",
+  "internal_raster_path": "bcts.tiff",
+  "internal_wms_path": "bcts.wms.xml",
+  "manifest_path": "layers/dl_adminunits_bcts/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "bcts.tiff",
+    "legend_source_path": "bcts.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_adminunits_bcts",
+    "source_title": "BCTS Operating Areas",
+    "source_zip_path": "data_layers/adminunits_bcts.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/adminunits_bcts.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/adminunits_bcts.zip",
+  "title": "BCTS Operating Areas",
+  "value_class_count": 12,
+  "value_classes": [
+    {
+      "label": "TBA (Babine)",
+      "rgb": [
+        131,
+        171,
+        38
+      ],
+      "rgba": [
+        131,
+        171,
+        38,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "TCC (Cariboo-Chilcotin)",
+      "rgb": [
+        46,
+        68,
+        158
+      ],
+      "rgba": [
+        46,
+        68,
+        158,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "TCH (Chinnok)",
+      "rgb": [
+        237,
+        71,
+        74
+      ],
+      "rgba": [
+        237,
+        71,
+        74,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "TKA (Kamloops)",
+      "rgb": [
+        48,
+        171,
+        171
+      ],
+      "rgba": [
+        48,
+        171,
+        171,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "TKO (Kootenay)",
+      "rgb": [
+        171,
+        39,
+        131
+      ],
+      "rgba": [
+        171,
+        39,
+        131,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "TOC (Okanagan-Columbia)",
+      "rgb": [
+        145,
+        91,
+        19
+      ],
+      "rgba": [
+        145,
+        91,
+        19,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "TPG (Prince George)",
+      "rgb": [
+        50,
+        199,
+        112
+      ],
+      "rgba": [
+        50,
+        199,
+        112,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "TPL (Peace-Liard)",
+      "rgb": [
+        121,
+        54,
+        201
+      ],
+      "rgba": [
+        121,
+        54,
+        201,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "TSG (Strait of Georgia)",
+      "rgb": [
+        73,
+        139,
+        196
+      ],
+      "rgba": [
+        73,
+        139,
+        196,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "TSK (Skeena)",
+      "rgb": [
+        158,
+        63,
+        84
+      ],
+      "rgba": [
+        158,
+        63,
+        84,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "TSN (Stuart-Nechako)",
+      "rgb": [
+        78,
+        199,
+        48
+      ],
+      "rgba": [
+        78,
+        199,
+        48,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "TST (Seaward-tlasta)",
+      "rgb": [
+        230,
+        230,
+        0
+      ],
+      "rgba": [
+        230,
+        230,
+        0,
+        220
+      ],
+      "value": 12
+    }
+  ],
+  "visible_pixel_count": 3567,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

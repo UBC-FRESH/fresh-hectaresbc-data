@@ -1,0 +1,202 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_wettype_wettype/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_wettype_wettype",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:15:02+00:00",
+  "internal_raster_path": "wettype.tiff",
+  "internal_wms_path": "wettype.wms.xml",
+  "manifest_path": "layers/dl_wettype_wettype/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": 0.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "wettype.tiff",
+    "legend_source_path": "wettype.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_wettype_wettype",
+    "source_title": "Wetland Classifications",
+    "source_zip_path": "data_layers/wettype_wettype.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/wettype_wettype.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/wettype_wettype.zip",
+  "title": "Wetland Classifications",
+  "value_class_count": 10,
+  "value_classes": [
+    {
+      "label": "complex",
+      "rgb": [
+        165,
+        11,
+        94
+      ],
+      "rgba": [
+        165,
+        11,
+        94,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "large",
+      "rgb": [
+        247,
+        70,
+        138
+      ],
+      "rgba": [
+        247,
+        70,
+        138,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "large,complex",
+      "rgb": [
+        255,
+        96,
+        55
+      ],
+      "rgba": [
+        255,
+        96,
+        55,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "medium",
+      "rgb": [
+        255,
+        204,
+        51
+      ],
+      "rgba": [
+        255,
+        204,
+        51,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "medium,complex",
+      "rgb": [
+        204,
+        255,
+        0
+      ],
+      "rgba": [
+        204,
+        255,
+        0,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "medium,large",
+      "rgb": [
+        197,
+        225,
+        122
+      ],
+      "rgba": [
+        197,
+        225,
+        122,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "small",
+      "rgb": [
+        95,
+        167,
+        119
+      ],
+      "rgba": [
+        95,
+        167,
+        119,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "small,complex",
+      "rgb": [
+        0,
+        204,
+        204
+      ],
+      "rgba": [
+        0,
+        204,
+        204,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "small,large",
+      "rgb": [
+        21,
+        96,
+        219
+      ],
+      "rgba": [
+        21,
+        96,
+        219,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "small,medium",
+      "rgb": [
+        101,
+        45,
+        193
+      ],
+      "rgba": [
+        101,
+        45,
+        193,
+        220
+      ],
+      "value": 3
+    }
+  ],
+  "visible_pixel_count": 541,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

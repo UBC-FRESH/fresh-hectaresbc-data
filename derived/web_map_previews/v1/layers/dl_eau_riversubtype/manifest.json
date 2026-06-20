@@ -1,0 +1,412 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_eau_riversubtype/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_eau_riversubtype",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:07:58+00:00",
+  "internal_raster_path": "riversubtype.tiff",
+  "internal_wms_path": "riversubtype.wms.xml",
+  "manifest_path": "layers/dl_eau_riversubtype/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "riversubtype.tiff",
+    "legend_source_path": "riversubtype.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_eau_riversubtype",
+    "source_title": "River Classes/Ecosystem Types/Ecosystem Sub-Types",
+    "source_zip_path": "data_layers/eau_riversubtype.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/eau_riversubtype.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/eau_riversubtype.zip",
+  "title": "River Classes/Ecosystem Types/Ecosystem Sub-Types",
+  "value_class_count": 24,
+  "value_classes": [
+    {
+      "label": "H1a - High Relief, Coast Headwaters",
+      "rgb": [
+        137,
+        205,
+        102
+      ],
+      "rgba": [
+        137,
+        205,
+        102,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "H1b - Low Relief, Coast Headwaters",
+      "rgb": [
+        209,
+        255,
+        115
+      ],
+      "rgba": [
+        209,
+        255,
+        115,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "H2a - Interior, Low Relief Headwaters in the NE",
+      "rgb": [
+        255,
+        255,
+        190
+      ],
+      "rgba": [
+        255,
+        255,
+        190,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "H2b - Interior, Low Relief Headwaters in the Central Interior",
+      "rgb": [
+        255,
+        211,
+        127
+      ],
+      "rgba": [
+        255,
+        211,
+        127,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "H3a - Interior, High Relief Headwaters in the Southern Rockies and Coast Mountains",
+      "rgb": [
+        202,
+        122,
+        245
+      ],
+      "rgba": [
+        202,
+        122,
+        245,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "H3b - Interior, High Relief Headwaters in the Northern Rockies and Cassiar Mountains",
+      "rgb": [
+        122,
+        142,
+        245
+      ],
+      "rgba": [
+        122,
+        142,
+        245,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "H3c - Interior, Foothills Headwaters",
+      "rgb": [
+        245,
+        122,
+        182
+      ],
+      "rgba": [
+        245,
+        122,
+        182,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "T1a - High Relief, Coast Tributaries",
+      "rgb": [
+        56,
+        168,
+        0
+      ],
+      "rgba": [
+        56,
+        168,
+        0,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "T1b - Low Relief, Coast Tributaries",
+      "rgb": [
+        152,
+        230,
+        0
+      ],
+      "rgba": [
+        152,
+        230,
+        0,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "T2a - Interior, Low Relief Tributaries in the NE",
+      "rgb": [
+        255,
+        255,
+        115
+      ],
+      "rgba": [
+        255,
+        255,
+        115,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "T2b - Interior, Low Relief Tributaries in the Central Interior",
+      "rgb": [
+        255,
+        170,
+        0
+      ],
+      "rgba": [
+        255,
+        170,
+        0,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "T3a - Interior, High Relief Tributaries in the Southern Rockies and Coast Mountains",
+      "rgb": [
+        170,
+        102,
+        205
+      ],
+      "rgba": [
+        170,
+        102,
+        205,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "T3b - Interior, High Relief Tributaries in the Northern Rockies and Cassiar Mountains",
+      "rgb": [
+        102,
+        119,
+        205
+      ],
+      "rgba": [
+        102,
+        119,
+        205,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "T3c - Interior, Foothill Tributaries",
+      "rgb": [
+        205,
+        102,
+        153
+      ],
+      "rgba": [
+        205,
+        102,
+        153,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "M1 - Coast Mainstems",
+      "rgb": [
+        38,
+        115,
+        0
+      ],
+      "rgba": [
+        38,
+        115,
+        0,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "M2a - Interior, Low Relief Mainstems in NE",
+      "rgb": [
+        245,
+        230,
+        0
+      ],
+      "rgba": [
+        245,
+        230,
+        0,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "M2b - Interior, Low Relief Mainstems in the Central Interior",
+      "rgb": [
+        230,
+        152,
+        0
+      ],
+      "rgba": [
+        230,
+        152,
+        0,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "M3a - Interior, High Relief Mainstems in the Southern Rockies and Coast Mountains",
+      "rgb": [
+        112,
+        68,
+        137
+      ],
+      "rgba": [
+        112,
+        68,
+        137,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "M3b - Interior, High Relief Mainstems in the Northern Rockies and Cassiar Mountains",
+      "rgb": [
+        68,
+        79,
+        137
+      ],
+      "rgba": [
+        68,
+        79,
+        137,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "C1a - Exposed Outer Coast and Island Coastal Rivers",
+      "rgb": [
+        0,
+        197,
+        255
+      ],
+      "rgba": [
+        0,
+        197,
+        255,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "C1b - Sheltered Outer Coast and Island Coastal Rivers",
+      "rgb": [
+        190,
+        232,
+        244
+      ],
+      "rgba": [
+        190,
+        232,
+        244,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "C2a - Upper Inner Coast and Fjord Coastal Rivers",
+      "rgb": [
+        0,
+        230,
+        169
+      ],
+      "rgba": [
+        0,
+        230,
+        169,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "C2b - Lower Inner Coast and Fjord Coastal Rivers",
+      "rgb": [
+        115,
+        255,
+        223
+      ],
+      "rgba": [
+        115,
+        255,
+        223,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "-999 - Unclassified",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "rgba": [
+        255,
+        255,
+        255,
+        220
+      ],
+      "value": 1
+    }
+  ],
+  "visible_pixel_count": 20959,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

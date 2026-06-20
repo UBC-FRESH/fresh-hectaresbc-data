@@ -1,0 +1,562 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_wettype_ewcmosaic/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_wettype_ewcmosaic",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:36:38+00:00",
+  "internal_raster_path": "ewcmosaic.tiff",
+  "internal_wms_path": "ewcmosaic.wms.xml",
+  "manifest_path": "layers/dl_wettype_ewcmosaic/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "ewcmosaic.tiff",
+    "legend_source_path": "ewcmosaic.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_wettype_ewcmosaic",
+    "source_title": "Enhanced Wetland Classification",
+    "source_zip_path": "data_layers/wettype_ewcmosaic.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/wettype_ewcmosaic.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/wettype_ewcmosaic.zip",
+  "title": "Enhanced Wetland Classification",
+  "value_class_count": 34,
+  "value_classes": [
+    {
+      "label": "Conifer Swamp",
+      "rgb": [
+        255,
+        128,
+        0
+      ],
+      "rgba": [
+        255,
+        128,
+        0,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Conifer Swamp",
+      "rgb": [
+        255,
+        128,
+        0
+      ],
+      "rgba": [
+        255,
+        128,
+        0,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Deciduous swamp",
+      "rgb": [
+        255,
+        251,
+        50
+      ],
+      "rgba": [
+        255,
+        251,
+        50,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Deciduous swamp",
+      "rgb": [
+        255,
+        251,
+        50
+      ],
+      "rgba": [
+        255,
+        251,
+        50,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Deciduous swamp",
+      "rgb": [
+        255,
+        251,
+        50
+      ],
+      "rgba": [
+        255,
+        251,
+        50,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Nutrient Poor fen",
+      "rgb": [
+        52,
+        249,
+        0
+      ],
+      "rgba": [
+        52,
+        249,
+        0,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Nutrient Poor fen",
+      "rgb": [
+        52,
+        249,
+        0
+      ],
+      "rgba": [
+        52,
+        249,
+        0,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Nutrient Poor fen",
+      "rgb": [
+        52,
+        249,
+        0
+      ],
+      "rgba": [
+        52,
+        249,
+        0,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Nutrient Rich fen",
+      "rgb": [
+        26,
+        178,
+        255
+      ],
+      "rgba": [
+        26,
+        178,
+        255,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Nutrient Rich fen",
+      "rgb": [
+        26,
+        178,
+        255
+      ],
+      "rgba": [
+        26,
+        178,
+        255,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Nutrient Rich fen",
+      "rgb": [
+        26,
+        178,
+        255
+      ],
+      "rgba": [
+        26,
+        178,
+        255,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Treed bog",
+      "rgb": [
+        102,
+        76,
+        255
+      ],
+      "rgba": [
+        102,
+        76,
+        255,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Treed bog",
+      "rgb": [
+        102,
+        76,
+        255
+      ],
+      "rgba": [
+        102,
+        76,
+        255,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Treed bog",
+      "rgb": [
+        102,
+        76,
+        255
+      ],
+      "rgba": [
+        102,
+        76,
+        255,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Upland Conifer",
+      "rgb": [
+        230,
+        34,
+        51
+      ],
+      "rgba": [
+        230,
+        34,
+        51,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Upland Conifer",
+      "rgb": [
+        230,
+        34,
+        51
+      ],
+      "rgba": [
+        230,
+        34,
+        51,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Upland Deciduous",
+      "rgb": [
+        81,
+        14,
+        81
+      ],
+      "rgba": [
+        81,
+        14,
+        81,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Upland Deciduous",
+      "rgb": [
+        81,
+        14,
+        81
+      ],
+      "rgba": [
+        81,
+        14,
+        81,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 0
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Other",
+      "rgb": [
+        241,
+        60,
+        241
+      ],
+      "rgba": [
+        241,
+        60,
+        241,
+        220
+      ],
+      "value": 32
+    }
+  ],
+  "visible_pixel_count": 2457,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

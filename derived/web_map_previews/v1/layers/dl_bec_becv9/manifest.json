@@ -1,0 +1,3382 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_bec_becv9/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_bec_becv9",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:22:05+00:00",
+  "internal_raster_path": "becv9.tiff",
+  "internal_wms_path": "becv9.wms.xml",
+  "manifest_path": "layers/dl_bec_becv9/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "becv9.tiff",
+    "legend_source_path": "becv9.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_bec_becv9",
+    "source_title": "Biogeoclimatic Zone/Subzone/Variant/Phase (Version 9.0)",
+    "source_zip_path": "data_layers/bec_becv9.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/bec_becv9.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/bec_becv9.zip",
+  "title": "Biogeoclimatic Zone/Subzone/Variant/Phase (Version 9.0)",
+  "value_class_count": 222,
+  "value_classes": [
+    {
+      "label": "Boreal Altai Fescue Alpine (BAFA)",
+      "rgb": [
+        146,
+        49,
+        205
+      ],
+      "rgba": [
+        146,
+        49,
+        205,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Boreal Altai Fescue Alpine (BAFA)",
+      "rgb": [
+        146,
+        49,
+        205
+      ],
+      "rgba": [
+        146,
+        49,
+        205,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Boreal White and Black Spruce (BWBS)",
+      "rgb": [
+        133,
+        182,
+        93
+      ],
+      "rgba": [
+        133,
+        182,
+        93,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Boreal White and Black Spruce (BWBS)",
+      "rgb": [
+        133,
+        182,
+        93
+      ],
+      "rgba": [
+        133,
+        182,
+        93,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Boreal White and Black Spruce (BWBS)",
+      "rgb": [
+        133,
+        182,
+        93
+      ],
+      "rgba": [
+        133,
+        182,
+        93,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Boreal White and Black Spruce (BWBS)",
+      "rgb": [
+        133,
+        182,
+        93
+      ],
+      "rgba": [
+        133,
+        182,
+        93,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Boreal White and Black Spruce (BWBS)",
+      "rgb": [
+        133,
+        182,
+        93
+      ],
+      "rgba": [
+        133,
+        182,
+        93,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Boreal White and Black Spruce (BWBS)",
+      "rgb": [
+        133,
+        182,
+        93
+      ],
+      "rgba": [
+        133,
+        182,
+        93,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Boreal White and Black Spruce (BWBS)",
+      "rgb": [
+        133,
+        182,
+        93
+      ],
+      "rgba": [
+        133,
+        182,
+        93,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Bunchgrass (BG)",
+      "rgb": [
+        244,
+        218,
+        217
+      ],
+      "rgba": [
+        244,
+        218,
+        217,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Bunchgrass (BG)",
+      "rgb": [
+        244,
+        218,
+        217
+      ],
+      "rgba": [
+        244,
+        218,
+        217,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Bunchgrass (BG)",
+      "rgb": [
+        244,
+        218,
+        217
+      ],
+      "rgba": [
+        244,
+        218,
+        217,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Bunchgrass (BG)",
+      "rgb": [
+        244,
+        218,
+        217
+      ],
+      "rgba": [
+        244,
+        218,
+        217,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Bunchgrass (BG)",
+      "rgb": [
+        244,
+        218,
+        217
+      ],
+      "rgba": [
+        244,
+        218,
+        217,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Coastal Douglas-fir (CDF)",
+      "rgb": [
+        159,
+        234,
+        21
+      ],
+      "rgba": [
+        159,
+        234,
+        21,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Coastal Mountain-heather Alpine (CMA)",
+      "rgb": [
+        194,
+        210,
+        126
+      ],
+      "rgba": [
+        194,
+        210,
+        126,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Coastal Mountain-heather Alpine (CMA)",
+      "rgb": [
+        194,
+        210,
+        126
+      ],
+      "rgba": [
+        194,
+        210,
+        126,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Coastal Mountain-heather Alpine (CMA)",
+      "rgb": [
+        194,
+        210,
+        126
+      ],
+      "rgba": [
+        194,
+        210,
+        126,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "Coastal Western Hemlock (CWH)",
+      "rgb": [
+        77,
+        166,
+        164
+      ],
+      "rgba": [
+        77,
+        166,
+        164,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 62
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 63
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 64
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 65
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 66
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 67
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 68
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 69
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 70
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 71
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 72
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 73
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 74
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 75
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 76
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 77
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 78
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 79
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 80
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 81
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 82
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 83
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 84
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 85
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 86
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 87
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 88
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 89
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 90
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 91
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 92
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 93
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 94
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 95
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 96
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 97
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 98
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 99
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 100
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 101
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 102
+    },
+    {
+      "label": "Engelmann Spruce -- Subalpine Fir (ESSF)",
+      "rgb": [
+        202,
+        244,
+        108
+      ],
+      "rgba": [
+        202,
+        244,
+        108,
+        220
+      ],
+      "value": 103
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 104
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 105
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 106
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 107
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 108
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 109
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 110
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 111
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 112
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 113
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 114
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 115
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 116
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 117
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 118
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 119
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 120
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 121
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 122
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 123
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 124
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 125
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 126
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 127
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 128
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 129
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 130
+    },
+    {
+      "label": "Interior Cedar -- Hemlock (ICH)",
+      "rgb": [
+        90,
+        247,
+        140
+      ],
+      "rgba": [
+        90,
+        247,
+        140,
+        220
+      ],
+      "value": 131
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 132
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 133
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 134
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 135
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 136
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 137
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 138
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 139
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 140
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 141
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 142
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 143
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 144
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 145
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 146
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 147
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 148
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 149
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 150
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 151
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 152
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 153
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 154
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 155
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 156
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 157
+    },
+    {
+      "label": "Interior Douglas-fir (IDF)",
+      "rgb": [
+        42,
+        41,
+        50
+      ],
+      "rgba": [
+        42,
+        41,
+        50,
+        220
+      ],
+      "value": 158
+    },
+    {
+      "label": "Interior Mountain-heather Alpine (IMA)",
+      "rgb": [
+        168,
+        2,
+        10
+      ],
+      "rgba": [
+        168,
+        2,
+        10,
+        220
+      ],
+      "value": 159
+    },
+    {
+      "label": "Interior Mountain-heather Alpine (IMA)",
+      "rgb": [
+        168,
+        2,
+        10
+      ],
+      "rgba": [
+        168,
+        2,
+        10,
+        220
+      ],
+      "value": 160
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 169
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 170
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 171
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 172
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 173
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 174
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 175
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 176
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 177
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 178
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 179
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 180
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 181
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 182
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 183
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 184
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 185
+    },
+    {
+      "label": "Montane Spruce (MS)",
+      "rgb": [
+        244,
+        151,
+        139
+      ],
+      "rgba": [
+        244,
+        151,
+        139,
+        220
+      ],
+      "value": 186
+    },
+    {
+      "label": "Mountain Hemlock (MH)",
+      "rgb": [
+        253,
+        54,
+        4
+      ],
+      "rgba": [
+        253,
+        54,
+        4,
+        220
+      ],
+      "value": 161
+    },
+    {
+      "label": "Mountain Hemlock (MH)",
+      "rgb": [
+        253,
+        54,
+        4
+      ],
+      "rgba": [
+        253,
+        54,
+        4,
+        220
+      ],
+      "value": 162
+    },
+    {
+      "label": "Mountain Hemlock (MH)",
+      "rgb": [
+        253,
+        54,
+        4
+      ],
+      "rgba": [
+        253,
+        54,
+        4,
+        220
+      ],
+      "value": 163
+    },
+    {
+      "label": "Mountain Hemlock (MH)",
+      "rgb": [
+        253,
+        54,
+        4
+      ],
+      "rgba": [
+        253,
+        54,
+        4,
+        220
+      ],
+      "value": 164
+    },
+    {
+      "label": "Mountain Hemlock (MH)",
+      "rgb": [
+        253,
+        54,
+        4
+      ],
+      "rgba": [
+        253,
+        54,
+        4,
+        220
+      ],
+      "value": 165
+    },
+    {
+      "label": "Mountain Hemlock (MH)",
+      "rgb": [
+        253,
+        54,
+        4
+      ],
+      "rgba": [
+        253,
+        54,
+        4,
+        220
+      ],
+      "value": 166
+    },
+    {
+      "label": "Mountain Hemlock (MH)",
+      "rgb": [
+        253,
+        54,
+        4
+      ],
+      "rgba": [
+        253,
+        54,
+        4,
+        220
+      ],
+      "value": 167
+    },
+    {
+      "label": "Mountain Hemlock (MH)",
+      "rgb": [
+        253,
+        54,
+        4
+      ],
+      "rgba": [
+        253,
+        54,
+        4,
+        220
+      ],
+      "value": 168
+    },
+    {
+      "label": "Ponderosa Pine (PP)",
+      "rgb": [
+        71,
+        209,
+        65
+      ],
+      "rgba": [
+        71,
+        209,
+        65,
+        220
+      ],
+      "value": 187
+    },
+    {
+      "label": "Ponderosa Pine (PP)",
+      "rgb": [
+        71,
+        209,
+        65
+      ],
+      "rgba": [
+        71,
+        209,
+        65,
+        220
+      ],
+      "value": 188
+    },
+    {
+      "label": "Ponderosa Pine (PP)",
+      "rgb": [
+        71,
+        209,
+        65
+      ],
+      "rgba": [
+        71,
+        209,
+        65,
+        220
+      ],
+      "value": 189
+    },
+    {
+      "label": "Ponderosa Pine (PP)",
+      "rgb": [
+        71,
+        209,
+        65
+      ],
+      "rgba": [
+        71,
+        209,
+        65,
+        220
+      ],
+      "value": 190
+    },
+    {
+      "label": "Ponderosa Pine (PP)",
+      "rgb": [
+        71,
+        209,
+        65
+      ],
+      "rgba": [
+        71,
+        209,
+        65,
+        220
+      ],
+      "value": 191
+    },
+    {
+      "label": "Ponderosa Pine (PP)",
+      "rgb": [
+        71,
+        209,
+        65
+      ],
+      "rgba": [
+        71,
+        209,
+        65,
+        220
+      ],
+      "value": 192
+    },
+    {
+      "label": "Spruce -- Willow -- Birch (SWB)",
+      "rgb": [
+        202,
+        125,
+        231
+      ],
+      "rgba": [
+        202,
+        125,
+        231,
+        220
+      ],
+      "value": 217
+    },
+    {
+      "label": "Spruce -- Willow -- Birch (SWB)",
+      "rgb": [
+        202,
+        125,
+        231
+      ],
+      "rgba": [
+        202,
+        125,
+        231,
+        220
+      ],
+      "value": 218
+    },
+    {
+      "label": "Spruce -- Willow -- Birch (SWB)",
+      "rgb": [
+        202,
+        125,
+        231
+      ],
+      "rgba": [
+        202,
+        125,
+        231,
+        220
+      ],
+      "value": 219
+    },
+    {
+      "label": "Spruce -- Willow -- Birch (SWB)",
+      "rgb": [
+        202,
+        125,
+        231
+      ],
+      "rgba": [
+        202,
+        125,
+        231,
+        220
+      ],
+      "value": 220
+    },
+    {
+      "label": "Spruce -- Willow -- Birch (SWB)",
+      "rgb": [
+        202,
+        125,
+        231
+      ],
+      "rgba": [
+        202,
+        125,
+        231,
+        220
+      ],
+      "value": 221
+    },
+    {
+      "label": "Spruce -- Willow -- Birch (SWB)",
+      "rgb": [
+        202,
+        125,
+        231
+      ],
+      "rgba": [
+        202,
+        125,
+        231,
+        220
+      ],
+      "value": 222
+    },
+    {
+      "label": "Sub-Boreal Pine -- Spruce (SBPS)",
+      "rgb": [
+        160,
+        26,
+        200
+      ],
+      "rgba": [
+        160,
+        26,
+        200,
+        220
+      ],
+      "value": 193
+    },
+    {
+      "label": "Sub-Boreal Pine -- Spruce (SBPS)",
+      "rgb": [
+        160,
+        26,
+        200
+      ],
+      "rgba": [
+        160,
+        26,
+        200,
+        220
+      ],
+      "value": 194
+    },
+    {
+      "label": "Sub-Boreal Pine -- Spruce (SBPS)",
+      "rgb": [
+        160,
+        26,
+        200
+      ],
+      "rgba": [
+        160,
+        26,
+        200,
+        220
+      ],
+      "value": 195
+    },
+    {
+      "label": "Sub-Boreal Pine -- Spruce (SBPS)",
+      "rgb": [
+        160,
+        26,
+        200
+      ],
+      "rgba": [
+        160,
+        26,
+        200,
+        220
+      ],
+      "value": 196
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 197
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 198
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 199
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 200
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 201
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 202
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 203
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 204
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 205
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 206
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 207
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 208
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 209
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 210
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 211
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 212
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 213
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 214
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 215
+    },
+    {
+      "label": "Sub-Boreal Spruce (SBS)",
+      "rgb": [
+        191,
+        23,
+        185
+      ],
+      "rgba": [
+        191,
+        23,
+        185,
+        220
+      ],
+      "value": 216
+    }
+  ],
+  "visible_pixel_count": 22965,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

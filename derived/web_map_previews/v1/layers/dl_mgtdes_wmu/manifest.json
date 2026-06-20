@@ -1,0 +1,3037 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_mgtdes_wmu/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_mgtdes_wmu",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:10:29+00:00",
+  "internal_raster_path": "wmu.tiff",
+  "internal_wms_path": "wmu.wms.xml",
+  "manifest_path": "layers/dl_mgtdes_wmu/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "wmu.tiff",
+    "legend_source_path": "wmu.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_mgtdes_wmu",
+    "source_title": "Wildlife Management Units",
+    "source_zip_path": "data_layers/mgtdes_wmu.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/mgtdes_wmu.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/mgtdes_wmu.zip",
+  "title": "Wildlife Management Units",
+  "value_class_count": 199,
+  "value_classes": [
+    {
+      "label": "Vancouver Island - Southern Vancouver Island (1-1)",
+      "rgb": [
+        209,
+        25,
+        177
+      ],
+      "rgba": [
+        209,
+        25,
+        177,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Vancouver Island - Southern Vancouver Island (1-2)",
+      "rgb": [
+        254,
+        207,
+        129
+      ],
+      "rgba": [
+        254,
+        207,
+        129,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Vancouver Island - Southern Vancouver Island (1-3)",
+      "rgb": [
+        125,
+        37,
+        4
+      ],
+      "rgba": [
+        125,
+        37,
+        4,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Vancouver Island - Southern Vancouver Island (1-4)",
+      "rgb": [
+        121,
+        139,
+        67
+      ],
+      "rgba": [
+        121,
+        139,
+        67,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Vancouver Island - Southern Vancouver Island (1-5)",
+      "rgb": [
+        111,
+        162,
+        193
+      ],
+      "rgba": [
+        111,
+        162,
+        193,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Vancouver Island - Southern Vancouver Island (1-6)",
+      "rgb": [
+        59,
+        158,
+        62
+      ],
+      "rgba": [
+        59,
+        158,
+        62,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Vancouver Island - Southern Vancouver Island (1-7)",
+      "rgb": [
+        204,
+        145,
+        246
+      ],
+      "rgba": [
+        204,
+        145,
+        246,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Vancouver Island - Southern Vancouver Island (1-8)",
+      "rgb": [
+        192,
+        56,
+        0
+      ],
+      "rgba": [
+        192,
+        56,
+        0,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Vancouver Island - Northern Vancouver Island (1-9)",
+      "rgb": [
+        151,
+        40,
+        104
+      ],
+      "rgba": [
+        151,
+        40,
+        104,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Vancouver Island - Northern Vancouver Island (1-10)",
+      "rgb": [
+        102,
+        30,
+        102
+      ],
+      "rgba": [
+        102,
+        30,
+        102,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Vancouver Island - Northern Vancouver Island (1-11)",
+      "rgb": [
+        168,
+        215,
+        115
+      ],
+      "rgba": [
+        168,
+        215,
+        115,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Vancouver Island - Northern Vancouver Island (1-12)",
+      "rgb": [
+        70,
+        212,
+        1
+      ],
+      "rgba": [
+        70,
+        212,
+        1,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Vancouver Island - Northern Vancouver Island (1-13)",
+      "rgb": [
+        53,
+        161,
+        178
+      ],
+      "rgba": [
+        53,
+        161,
+        178,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Vancouver Island - Knight Inlet (1-14)",
+      "rgb": [
+        58,
+        120,
+        15
+      ],
+      "rgba": [
+        58,
+        120,
+        15,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Vancouver Island - Knight Inlet (1-15)",
+      "rgb": [
+        170,
+        4,
+        36
+      ],
+      "rgba": [
+        170,
+        4,
+        36,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-1)",
+      "rgb": [
+        199,
+        157,
+        117
+      ],
+      "rgba": [
+        199,
+        157,
+        117,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-2)",
+      "rgb": [
+        85,
+        145,
+        121
+      ],
+      "rgba": [
+        85,
+        145,
+        121,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-3)",
+      "rgb": [
+        189,
+        142,
+        113
+      ],
+      "rgba": [
+        189,
+        142,
+        113,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-4)",
+      "rgb": [
+        198,
+        126,
+        137
+      ],
+      "rgba": [
+        198,
+        126,
+        137,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Lower Mainland - South Coast (2-5)",
+      "rgb": [
+        200,
+        41,
+        165
+      ],
+      "rgba": [
+        200,
+        41,
+        165,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-6)",
+      "rgb": [
+        56,
+        186,
+        207
+      ],
+      "rgba": [
+        56,
+        186,
+        207,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-7)",
+      "rgb": [
+        219,
+        141,
+        19
+      ],
+      "rgba": [
+        219,
+        141,
+        19,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-8)",
+      "rgb": [
+        31,
+        73,
+        21
+      ],
+      "rgba": [
+        31,
+        73,
+        21,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-9)",
+      "rgb": [
+        193,
+        66,
+        193
+      ],
+      "rgba": [
+        193,
+        66,
+        193,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-10)",
+      "rgb": [
+        245,
+        127,
+        199
+      ],
+      "rgba": [
+        245,
+        127,
+        199,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-11)",
+      "rgb": [
+        158,
+        209,
+        229
+      ],
+      "rgba": [
+        158,
+        209,
+        229,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Lower Mainland - South Coast (2-12)",
+      "rgb": [
+        174,
+        254,
+        14
+      ],
+      "rgba": [
+        174,
+        254,
+        14,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Lower Mainland - South Coast (2-13)",
+      "rgb": [
+        212,
+        223,
+        133
+      ],
+      "rgba": [
+        212,
+        223,
+        133,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Lower Mainland - South Coast (2-14)",
+      "rgb": [
+        227,
+        53,
+        157
+      ],
+      "rgba": [
+        227,
+        53,
+        157,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Lower Mainland - South Coast (2-15)",
+      "rgb": [
+        136,
+        248,
+        218
+      ],
+      "rgba": [
+        136,
+        248,
+        218,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Lower Mainland - South Coast (2-16)",
+      "rgb": [
+        182,
+        55,
+        71
+      ],
+      "rgba": [
+        182,
+        55,
+        71,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-17)",
+      "rgb": [
+        57,
+        55,
+        80
+      ],
+      "rgba": [
+        57,
+        55,
+        80,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-18)",
+      "rgb": [
+        15,
+        167,
+        125
+      ],
+      "rgba": [
+        15,
+        167,
+        125,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Lower Mainland - Fraser Valley (2-19)",
+      "rgb": [
+        94,
+        55,
+        105
+      ],
+      "rgba": [
+        94,
+        55,
+        105,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Thompson - Nicola (3-12)",
+      "rgb": [
+        220,
+        45,
+        76
+      ],
+      "rgba": [
+        220,
+        45,
+        76,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "Thompson - Nicola (3-13)",
+      "rgb": [
+        194,
+        122,
+        79
+      ],
+      "rgba": [
+        194,
+        122,
+        79,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Thompson - Nicola (3-14)",
+      "rgb": [
+        84,
+        90,
+        72
+      ],
+      "rgba": [
+        84,
+        90,
+        72,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "Thompson - West Fraser (3-15)",
+      "rgb": [
+        203,
+        207,
+        149
+      ],
+      "rgba": [
+        203,
+        207,
+        149,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "Thompson - West Fraser (3-16)",
+      "rgb": [
+        45,
+        13,
+        108
+      ],
+      "rgba": [
+        45,
+        13,
+        108,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "Thompson - Bonaparte (3-17)",
+      "rgb": [
+        117,
+        99,
+        230
+      ],
+      "rgba": [
+        117,
+        99,
+        230,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Thompson - Nicola (3-18)",
+      "rgb": [
+        53,
+        11,
+        168
+      ],
+      "rgba": [
+        53,
+        11,
+        168,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "Thompson - Nicola (3-19)",
+      "rgb": [
+        94,
+        72,
+        155
+      ],
+      "rgba": [
+        94,
+        72,
+        155,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "Thompson - Nicola (3-20)",
+      "rgb": [
+        98,
+        186,
+        139
+      ],
+      "rgba": [
+        98,
+        186,
+        139,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "Thompson - Nicola (3-26)",
+      "rgb": [
+        115,
+        87,
+        209
+      ],
+      "rgba": [
+        115,
+        87,
+        209,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "Thompson - Bonaparte (3-27)",
+      "rgb": [
+        5,
+        145,
+        64
+      ],
+      "rgba": [
+        5,
+        145,
+        64,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "Thompson - Bonaparte (3-28)",
+      "rgb": [
+        94,
+        253,
+        57
+      ],
+      "rgba": [
+        94,
+        253,
+        57,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "Thompson - Bonaparte (3-29)",
+      "rgb": [
+        136,
+        61,
+        27
+      ],
+      "rgba": [
+        136,
+        61,
+        27,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "Thompson - Bonaparte (3-30)",
+      "rgb": [
+        188,
+        54,
+        223
+      ],
+      "rgba": [
+        188,
+        54,
+        223,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "Thompson - Bonaparte (3-31)",
+      "rgb": [
+        125,
+        78,
+        49
+      ],
+      "rgba": [
+        125,
+        78,
+        49,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "Thompson - West Fraser (3-32)",
+      "rgb": [
+        104,
+        115,
+        204
+      ],
+      "rgba": [
+        104,
+        115,
+        204,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "Thompson - West Fraser (3-33)",
+      "rgb": [
+        3,
+        18,
+        177
+      ],
+      "rgba": [
+        3,
+        18,
+        177,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "Thompson - North Thompson (3-34)",
+      "rgb": [
+        90,
+        109,
+        238
+      ],
+      "rgba": [
+        90,
+        109,
+        238,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "Thompson - North Thompson (3-35)",
+      "rgb": [
+        198,
+        20,
+        15
+      ],
+      "rgba": [
+        198,
+        20,
+        15,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "Thompson - North Thompson (3-36)",
+      "rgb": [
+        88,
+        53,
+        15
+      ],
+      "rgba": [
+        88,
+        53,
+        15,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "Thompson - North Thompson (3-37)",
+      "rgb": [
+        54,
+        227,
+        133
+      ],
+      "rgba": [
+        54,
+        227,
+        133,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "Thompson - North Thompson (3-38)",
+      "rgb": [
+        98,
+        44,
+        21
+      ],
+      "rgba": [
+        98,
+        44,
+        21,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "Thompson - North Thompson (3-39)",
+      "rgb": [
+        117,
+        134,
+        232
+      ],
+      "rgba": [
+        117,
+        134,
+        232,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "Thompson - North Thompson (3-40)",
+      "rgb": [
+        136,
+        91,
+        214
+      ],
+      "rgba": [
+        136,
+        91,
+        214,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "Thompson - North Thompson (3-41)",
+      "rgb": [
+        172,
+        119,
+        61
+      ],
+      "rgba": [
+        172,
+        119,
+        61,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "Thompson - North Thompson (3-42)",
+      "rgb": [
+        55,
+        43,
+        116
+      ],
+      "rgba": [
+        55,
+        43,
+        116,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "Thompson - North Thompson (3-43)",
+      "rgb": [
+        43,
+        24,
+        121
+      ],
+      "rgba": [
+        43,
+        24,
+        121,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "Thompson - North Thompson (3-44)",
+      "rgb": [
+        214,
+        30,
+        240
+      ],
+      "rgba": [
+        214,
+        30,
+        240,
+        220
+      ],
+      "value": 62
+    },
+    {
+      "label": "Thompson - North Thompson (3-45)",
+      "rgb": [
+        23,
+        75,
+        19
+      ],
+      "rgba": [
+        23,
+        75,
+        19,
+        220
+      ],
+      "value": 63
+    },
+    {
+      "label": "Thompson - North Thompson (3-46)",
+      "rgb": [
+        130,
+        31,
+        254
+      ],
+      "rgba": [
+        130,
+        31,
+        254,
+        220
+      ],
+      "value": 64
+    },
+    {
+      "label": "Kootenay - Fernie (4-1)",
+      "rgb": [
+        100,
+        152,
+        227
+      ],
+      "rgba": [
+        100,
+        152,
+        227,
+        220
+      ],
+      "value": 65
+    },
+    {
+      "label": "Kootenay - Fernie (4-2)",
+      "rgb": [
+        230,
+        134,
+        211
+      ],
+      "rgba": [
+        230,
+        134,
+        211,
+        220
+      ],
+      "value": 72
+    },
+    {
+      "label": "Kootenay - Cranbrook (4-3)",
+      "rgb": [
+        94,
+        141,
+        43
+      ],
+      "rgba": [
+        94,
+        141,
+        43,
+        220
+      ],
+      "value": 83
+    },
+    {
+      "label": "Kootenay - Cranbrook (4-4)",
+      "rgb": [
+        91,
+        231,
+        57
+      ],
+      "rgba": [
+        91,
+        231,
+        57,
+        220
+      ],
+      "value": 94
+    },
+    {
+      "label": "Kootenay - Cranbrook (4-5)",
+      "rgb": [
+        89,
+        145,
+        226
+      ],
+      "rgba": [
+        89,
+        145,
+        226,
+        220
+      ],
+      "value": 96
+    },
+    {
+      "label": "Kootenay - Nelson (4-6)",
+      "rgb": [
+        240,
+        225,
+        52
+      ],
+      "rgba": [
+        240,
+        225,
+        52,
+        220
+      ],
+      "value": 97
+    },
+    {
+      "label": "Kootenay - Nelson (4-7)",
+      "rgb": [
+        76,
+        64,
+        52
+      ],
+      "rgba": [
+        76,
+        64,
+        52,
+        220
+      ],
+      "value": 98
+    },
+    {
+      "label": "Kootenay - Nelson (4-8)",
+      "rgb": [
+        134,
+        2,
+        237
+      ],
+      "rgba": [
+        134,
+        2,
+        237,
+        220
+      ],
+      "value": 99
+    },
+    {
+      "label": "Kootenay - Nelson (4-9)",
+      "rgb": [
+        85,
+        188,
+        244
+      ],
+      "rgba": [
+        85,
+        188,
+        244,
+        220
+      ],
+      "value": 100
+    },
+    {
+      "label": "Kootenay - Nelson (4-14)",
+      "rgb": [
+        71,
+        154,
+        137
+      ],
+      "rgba": [
+        71,
+        154,
+        137,
+        220
+      ],
+      "value": 66
+    },
+    {
+      "label": "Kootenay - Nelson (4-15)",
+      "rgb": [
+        7,
+        72,
+        42
+      ],
+      "rgba": [
+        7,
+        72,
+        42,
+        220
+      ],
+      "value": 67
+    },
+    {
+      "label": "Kootenay - Nelson (4-16)",
+      "rgb": [
+        235,
+        230,
+        165
+      ],
+      "rgba": [
+        235,
+        230,
+        165,
+        220
+      ],
+      "value": 68
+    },
+    {
+      "label": "Kootenay - Nelson (4-17)",
+      "rgb": [
+        203,
+        19,
+        184
+      ],
+      "rgba": [
+        203,
+        19,
+        184,
+        220
+      ],
+      "value": 69
+    },
+    {
+      "label": "Kootenay - Nelson (4-18)",
+      "rgb": [
+        148,
+        135,
+        72
+      ],
+      "rgba": [
+        148,
+        135,
+        72,
+        220
+      ],
+      "value": 70
+    },
+    {
+      "label": "Kootenay - Nelson (4-19)",
+      "rgb": [
+        109,
+        69,
+        43
+      ],
+      "rgba": [
+        109,
+        69,
+        43,
+        220
+      ],
+      "value": 71
+    },
+    {
+      "label": "Kootenay - Cranbrook (4-20)",
+      "rgb": [
+        132,
+        146,
+        230
+      ],
+      "rgba": [
+        132,
+        146,
+        230,
+        220
+      ],
+      "value": 73
+    },
+    {
+      "label": "Kootenay - Fernie (4-21)",
+      "rgb": [
+        144,
+        8,
+        105
+      ],
+      "rgba": [
+        144,
+        8,
+        105,
+        220
+      ],
+      "value": 74
+    },
+    {
+      "label": "Kootenay - Fernie (4-22)",
+      "rgb": [
+        241,
+        23,
+        170
+      ],
+      "rgba": [
+        241,
+        23,
+        170,
+        220
+      ],
+      "value": 75
+    },
+    {
+      "label": "Kootenay - Fernie (4-23)",
+      "rgb": [
+        195,
+        184,
+        56
+      ],
+      "rgba": [
+        195,
+        184,
+        56,
+        220
+      ],
+      "value": 76
+    },
+    {
+      "label": "Kootenay - Fernie (4-24)",
+      "rgb": [
+        195,
+        168,
+        18
+      ],
+      "rgba": [
+        195,
+        168,
+        18,
+        220
+      ],
+      "value": 77
+    },
+    {
+      "label": "Kootenay - Fernie (4-25)",
+      "rgb": [
+        177,
+        138,
+        43
+      ],
+      "rgba": [
+        177,
+        138,
+        43,
+        220
+      ],
+      "value": 78
+    },
+    {
+      "label": "Kootenay - Cranbrook (4-26)",
+      "rgb": [
+        117,
+        246,
+        194
+      ],
+      "rgba": [
+        117,
+        246,
+        194,
+        220
+      ],
+      "value": 79
+    },
+    {
+      "label": "Kootenay - Revelstoke (4-27)",
+      "rgb": [
+        123,
+        87,
+        117
+      ],
+      "rgba": [
+        123,
+        87,
+        117,
+        220
+      ],
+      "value": 80
+    },
+    {
+      "label": "Kootenay - Revelstoke (4-28)",
+      "rgb": [
+        158,
+        109,
+        78
+      ],
+      "rgba": [
+        158,
+        109,
+        78,
+        220
+      ],
+      "value": 81
+    },
+    {
+      "label": "Kootenay - Revelstoke (4-29)",
+      "rgb": [
+        51,
+        210,
+        229
+      ],
+      "rgba": [
+        51,
+        210,
+        229,
+        220
+      ],
+      "value": 82
+    },
+    {
+      "label": "Kootenay - Revelstoke (4-30)",
+      "rgb": [
+        146,
+        92,
+        23
+      ],
+      "rgba": [
+        146,
+        92,
+        23,
+        220
+      ],
+      "value": 84
+    },
+    {
+      "label": "Kootenay - Revelstoke (4-31)",
+      "rgb": [
+        207,
+        19,
+        0
+      ],
+      "rgba": [
+        207,
+        19,
+        0,
+        220
+      ],
+      "value": 85
+    },
+    {
+      "label": "Kootenay - Revelstoke (4-32)",
+      "rgb": [
+        39,
+        162,
+        191
+      ],
+      "rgba": [
+        39,
+        162,
+        191,
+        220
+      ],
+      "value": 86
+    },
+    {
+      "label": "Kootenay - Revelstoke (4-33)",
+      "rgb": [
+        177,
+        60,
+        0
+      ],
+      "rgba": [
+        177,
+        60,
+        0,
+        220
+      ],
+      "value": 87
+    },
+    {
+      "label": "Kootenay - Golden (4-34)",
+      "rgb": [
+        85,
+        81,
+        152
+      ],
+      "rgba": [
+        85,
+        81,
+        152,
+        220
+      ],
+      "value": 88
+    },
+    {
+      "label": "Kootenay - Golden (4-35)",
+      "rgb": [
+        46,
+        49,
+        67
+      ],
+      "rgba": [
+        46,
+        49,
+        67,
+        220
+      ],
+      "value": 89
+    },
+    {
+      "label": "Kootenay - Golden (4-36)",
+      "rgb": [
+        19,
+        143,
+        87
+      ],
+      "rgba": [
+        19,
+        143,
+        87,
+        220
+      ],
+      "value": 90
+    },
+    {
+      "label": "Kootenay - Golden (4-37)",
+      "rgb": [
+        30,
+        108,
+        156
+      ],
+      "rgba": [
+        30,
+        108,
+        156,
+        220
+      ],
+      "value": 91
+    },
+    {
+      "label": "Kootenay - Revelstoke (4-38)",
+      "rgb": [
+        241,
+        119,
+        153
+      ],
+      "rgba": [
+        241,
+        119,
+        153,
+        220
+      ],
+      "value": 92
+    },
+    {
+      "label": "Kootenay - Revelstoke (4-39)",
+      "rgb": [
+        36,
+        41,
+        72
+      ],
+      "rgba": [
+        36,
+        41,
+        72,
+        220
+      ],
+      "value": 93
+    },
+    {
+      "label": "Kootenay - Golden (4-40)",
+      "rgb": [
+        109,
+        30,
+        19
+      ],
+      "rgba": [
+        109,
+        30,
+        19,
+        220
+      ],
+      "value": 95
+    },
+    {
+      "label": "Cariboo - Cariboo (5-1)",
+      "rgb": [
+        30,
+        78,
+        171
+      ],
+      "rgba": [
+        30,
+        78,
+        171,
+        220
+      ],
+      "value": 101
+    },
+    {
+      "label": "Cariboo - Cariboo (5-2)",
+      "rgb": [
+        237,
+        247,
+        204
+      ],
+      "rgba": [
+        237,
+        247,
+        204,
+        220
+      ],
+      "value": 109
+    },
+    {
+      "label": "Cariboo - South Chilcotin (5-3)",
+      "rgb": [
+        177,
+        94,
+        140
+      ],
+      "rgba": [
+        177,
+        94,
+        140,
+        220
+      ],
+      "value": 110
+    },
+    {
+      "label": "Cariboo - South Chilcotin (5-4)",
+      "rgb": [
+        117,
+        145,
+        64
+      ],
+      "rgba": [
+        117,
+        145,
+        64,
+        220
+      ],
+      "value": 111
+    },
+    {
+      "label": "Cariboo - South Chilcotin (5-5)",
+      "rgb": [
+        164,
+        73,
+        82
+      ],
+      "rgba": [
+        164,
+        73,
+        82,
+        220
+      ],
+      "value": 112
+    },
+    {
+      "label": "Cariboo - South Chilcotin (5-6)",
+      "rgb": [
+        114,
+        110,
+        58
+      ],
+      "rgba": [
+        114,
+        110,
+        58,
+        220
+      ],
+      "value": 113
+    },
+    {
+      "label": "Cariboo - Central Coast (5-7)",
+      "rgb": [
+        24,
+        53,
+        18
+      ],
+      "rgba": [
+        24,
+        53,
+        18,
+        220
+      ],
+      "value": 114
+    },
+    {
+      "label": "Cariboo - Central Coast (5-8)",
+      "rgb": [
+        159,
+        238,
+        74
+      ],
+      "rgba": [
+        159,
+        238,
+        74,
+        220
+      ],
+      "value": 115
+    },
+    {
+      "label": "Cariboo - Central Coast (5-9)",
+      "rgb": [
+        130,
+        154,
+        198
+      ],
+      "rgba": [
+        130,
+        154,
+        198,
+        220
+      ],
+      "value": 116
+    },
+    {
+      "label": "Cariboo - North Chilcotin (5-10)",
+      "rgb": [
+        56,
+        9,
+        133
+      ],
+      "rgba": [
+        56,
+        9,
+        133,
+        220
+      ],
+      "value": 102
+    },
+    {
+      "label": "Cariboo - Central Coast (5-11)",
+      "rgb": [
+        198,
+        138,
+        105
+      ],
+      "rgba": [
+        198,
+        138,
+        105,
+        220
+      ],
+      "value": 103
+    },
+    {
+      "label": "Cariboo - North Chilcotin (5-12)",
+      "rgb": [
+        47,
+        157,
+        236
+      ],
+      "rgba": [
+        47,
+        157,
+        236,
+        220
+      ],
+      "value": 104
+    },
+    {
+      "label": "Cariboo - North Chilcotin (5-13)",
+      "rgb": [
+        152,
+        231,
+        236
+      ],
+      "rgba": [
+        152,
+        231,
+        236,
+        220
+      ],
+      "value": 105
+    },
+    {
+      "label": "Cariboo - North Chilcotin (5-14)",
+      "rgb": [
+        157,
+        151,
+        78
+      ],
+      "rgba": [
+        157,
+        151,
+        78,
+        220
+      ],
+      "value": 106
+    },
+    {
+      "label": "Cariboo - Quesnel Highland (5-15)",
+      "rgb": [
+        120,
+        231,
+        13
+      ],
+      "rgba": [
+        120,
+        231,
+        13,
+        220
+      ],
+      "value": 107
+    },
+    {
+      "label": "Cariboo - Quesnel Highland (5-16)",
+      "rgb": [
+        48,
+        167,
+        69
+      ],
+      "rgba": [
+        48,
+        167,
+        69,
+        220
+      ],
+      "value": 108
+    },
+    {
+      "label": "Skeena - Upper Nechako (6-1)",
+      "rgb": [
+        222,
+        37,
+        70
+      ],
+      "rgba": [
+        222,
+        37,
+        70,
+        220
+      ],
+      "value": 117
+    },
+    {
+      "label": "Skeena - Upper Nechako (6-2)",
+      "rgb": [
+        251,
+        123,
+        105
+      ],
+      "rgba": [
+        251,
+        123,
+        105,
+        220
+      ],
+      "value": 128
+    },
+    {
+      "label": "Skeena - North Coast (6-3)",
+      "rgb": [
+        61,
+        160,
+        9
+      ],
+      "rgba": [
+        61,
+        160,
+        9,
+        220
+      ],
+      "value": 139
+    },
+    {
+      "label": "Skeena - Upper Skeena (6-30)",
+      "rgb": [
+        207,
+        73,
+        223
+      ],
+      "rgba": [
+        207,
+        73,
+        223,
+        220
+      ],
+      "value": 140
+    },
+    {
+      "label": "Omineca - Upper Fraser (7-1)",
+      "rgb": [
+        48,
+        201,
+        201
+      ],
+      "rgba": [
+        48,
+        201,
+        201,
+        220
+      ],
+      "value": 147
+    },
+    {
+      "label": "Omineca - Upper Fraser (7-2)",
+      "rgb": [
+        30,
+        122,
+        193
+      ],
+      "rgba": [
+        30,
+        122,
+        193,
+        220
+      ],
+      "value": 158
+    },
+    {
+      "label": "Omineca - Upper Fraser (7-3)",
+      "rgb": [
+        49,
+        120,
+        196
+      ],
+      "rgba": [
+        49,
+        120,
+        196,
+        220
+      ],
+      "value": 169
+    },
+    {
+      "label": "Omineca - Upper Fraser (7-4)",
+      "rgb": [
+        207,
+        71,
+        85
+      ],
+      "rgba": [
+        207,
+        71,
+        85,
+        220
+      ],
+      "value": 180
+    },
+    {
+      "label": "Omineca - Upper Fraser (7-5)",
+      "rgb": [
+        125,
+        149,
+        5
+      ],
+      "rgba": [
+        125,
+        149,
+        5,
+        220
+      ],
+      "value": 191
+    },
+    {
+      "label": "Omineca - Fort George (7-10)",
+      "rgb": [
+        253,
+        200,
+        214
+      ],
+      "rgba": [
+        253,
+        200,
+        214,
+        220
+      ],
+      "value": 148
+    },
+    {
+      "label": "Omineca - Fort George (7-11)",
+      "rgb": [
+        140,
+        210,
+        249
+      ],
+      "rgba": [
+        140,
+        210,
+        249,
+        220
+      ],
+      "value": 149
+    },
+    {
+      "label": "Omineca - Fort George (7-12)",
+      "rgb": [
+        34,
+        190,
+        38
+      ],
+      "rgba": [
+        34,
+        190,
+        38,
+        220
+      ],
+      "value": 150
+    },
+    {
+      "label": "Omineca - Fort George (7-13)",
+      "rgb": [
+        180,
+        90,
+        93
+      ],
+      "rgba": [
+        180,
+        90,
+        93,
+        220
+      ],
+      "value": 151
+    },
+    {
+      "label": "Omineca - Mcleod Lake (7-14)",
+      "rgb": [
+        176,
+        159,
+        147
+      ],
+      "rgba": [
+        176,
+        159,
+        147,
+        220
+      ],
+      "value": 152
+    },
+    {
+      "label": "Omineca - Fort George (7-15)",
+      "rgb": [
+        22,
+        82,
+        75
+      ],
+      "rgba": [
+        22,
+        82,
+        75,
+        220
+      ],
+      "value": 153
+    },
+    {
+      "label": "Omineca - Mcleod Lake (7-16)",
+      "rgb": [
+        74,
+        228,
+        211
+      ],
+      "rgba": [
+        74,
+        228,
+        211,
+        220
+      ],
+      "value": 154
+    },
+    {
+      "label": "Omineca - Upper Fraser (7-17)",
+      "rgb": [
+        72,
+        16,
+        124
+      ],
+      "rgba": [
+        72,
+        16,
+        124,
+        220
+      ],
+      "value": 155
+    },
+    {
+      "label": "Omineca - Upper Fraser (7-18)",
+      "rgb": [
+        56,
+        73,
+        28
+      ],
+      "rgba": [
+        56,
+        73,
+        28,
+        220
+      ],
+      "value": 156
+    },
+    {
+      "label": "Omineca - South Peace (7-19)",
+      "rgb": [
+        10,
+        216,
+        17
+      ],
+      "rgba": [
+        10,
+        216,
+        17,
+        220
+      ],
+      "value": 157
+    },
+    {
+      "label": "Omineca - South Peace (7-20)",
+      "rgb": [
+        218,
+        150,
+        236
+      ],
+      "rgba": [
+        218,
+        150,
+        236,
+        220
+      ],
+      "value": 159
+    },
+    {
+      "label": "Omineca - South Peace (7-21)",
+      "rgb": [
+        200,
+        154,
+        190
+      ],
+      "rgba": [
+        200,
+        154,
+        190,
+        220
+      ],
+      "value": 160
+    },
+    {
+      "label": "Omineca - South Peace (7-22)",
+      "rgb": [
+        3,
+        179,
+        124
+      ],
+      "rgba": [
+        3,
+        179,
+        124,
+        220
+      ],
+      "value": 161
+    },
+    {
+      "label": "Omineca - Mcleod Lake (7-23)",
+      "rgb": [
+        216,
+        79,
+        14
+      ],
+      "rgba": [
+        216,
+        79,
+        14,
+        220
+      ],
+      "value": 162
+    },
+    {
+      "label": "Omineca - Mcleod Lake (7-24)",
+      "rgb": [
+        7,
+        249,
+        125
+      ],
+      "rgba": [
+        7,
+        249,
+        125,
+        220
+      ],
+      "value": 163
+    },
+    {
+      "label": "Omineca - Mcleod Lake (7-25)",
+      "rgb": [
+        121,
+        165,
+        68
+      ],
+      "rgba": [
+        121,
+        165,
+        68,
+        220
+      ],
+      "value": 164
+    },
+    {
+      "label": "Omineca - Mcleod Lake (7-26)",
+      "rgb": [
+        44,
+        187,
+        208
+      ],
+      "rgba": [
+        44,
+        187,
+        208,
+        220
+      ],
+      "value": 165
+    },
+    {
+      "label": "Omineca - Omineca (7-27)",
+      "rgb": [
+        191,
+        203,
+        17
+      ],
+      "rgba": [
+        191,
+        203,
+        17,
+        220
+      ],
+      "value": 166
+    },
+    {
+      "label": "Omineca - Omineca (7-28)",
+      "rgb": [
+        91,
+        82,
+        226
+      ],
+      "rgba": [
+        91,
+        82,
+        226,
+        220
+      ],
+      "value": 167
+    },
+    {
+      "label": "Omineca - Omineca (7-29)",
+      "rgb": [
+        227,
+        245,
+        149
+      ],
+      "rgba": [
+        227,
+        245,
+        149,
+        220
+      ],
+      "value": 168
+    },
+    {
+      "label": "Omineca - Omineca (7-30)",
+      "rgb": [
+        57,
+        90,
+        226
+      ],
+      "rgba": [
+        57,
+        90,
+        226,
+        220
+      ],
+      "value": 170
+    },
+    {
+      "label": "Omineca - South Peace (7-31)",
+      "rgb": [
+        161,
+        228,
+        171
+      ],
+      "rgba": [
+        161,
+        228,
+        171,
+        220
+      ],
+      "value": 171
+    },
+    {
+      "label": "Omineca - North Peace (7-32)",
+      "rgb": [
+        70,
+        25,
+        208
+      ],
+      "rgba": [
+        70,
+        25,
+        208,
+        220
+      ],
+      "value": 172
+    },
+    {
+      "label": "Omineca - North Peace (7-33)",
+      "rgb": [
+        88,
+        139,
+        223
+      ],
+      "rgba": [
+        88,
+        139,
+        223,
+        220
+      ],
+      "value": 173
+    },
+    {
+      "label": "Omineca - North Peace (7-34)",
+      "rgb": [
+        117,
+        162,
+        252
+      ],
+      "rgba": [
+        117,
+        162,
+        252,
+        220
+      ],
+      "value": 174
+    },
+    {
+      "label": "Omineca - North Peace (7-35)",
+      "rgb": [
+        86,
+        24,
+        17
+      ],
+      "rgba": [
+        86,
+        24,
+        17,
+        220
+      ],
+      "value": 175
+    },
+    {
+      "label": "Omineca - Northeast Rockies (7-36)",
+      "rgb": [
+        227,
+        214,
+        61
+      ],
+      "rgba": [
+        227,
+        214,
+        61,
+        220
+      ],
+      "value": 176
+    },
+    {
+      "label": "Omineca - Upper Finlay (7-37)",
+      "rgb": [
+        51,
+        174,
+        251
+      ],
+      "rgba": [
+        51,
+        174,
+        251,
+        220
+      ],
+      "value": 177
+    },
+    {
+      "label": "Omineca - Omineca (7-38)",
+      "rgb": [
+        69,
+        126,
+        185
+      ],
+      "rgba": [
+        69,
+        126,
+        185,
+        220
+      ],
+      "value": 178
+    },
+    {
+      "label": "Omineca - Upper Finlay (7-39)",
+      "rgb": [
+        224,
+        78,
+        152
+      ],
+      "rgba": [
+        224,
+        78,
+        152,
+        220
+      ],
+      "value": 179
+    },
+    {
+      "label": "Omineca - Upper Finlay (7-40)",
+      "rgb": [
+        209,
+        170,
+        213
+      ],
+      "rgba": [
+        209,
+        170,
+        213,
+        220
+      ],
+      "value": 181
+    },
+    {
+      "label": "Omineca - Upper Finlay (7-41)",
+      "rgb": [
+        112,
+        98,
+        195
+      ],
+      "rgba": [
+        112,
+        98,
+        195,
+        220
+      ],
+      "value": 182
+    },
+    {
+      "label": "Omineca - Northeast Rockies (7-42)",
+      "rgb": [
+        126,
+        178,
+        150
+      ],
+      "rgba": [
+        126,
+        178,
+        150,
+        220
+      ],
+      "value": 183
+    },
+    {
+      "label": "Omineca - Northeast Rockies (7-43)",
+      "rgb": [
+        93,
+        71,
+        151
+      ],
+      "rgba": [
+        93,
+        71,
+        151,
+        220
+      ],
+      "value": 184
+    },
+    {
+      "label": "Omineca - North Peace (7-44)",
+      "rgb": [
+        19,
+        131,
+        164
+      ],
+      "rgba": [
+        19,
+        131,
+        164,
+        220
+      ],
+      "value": 185
+    },
+    {
+      "label": "Omineca - North Peace (7-45)",
+      "rgb": [
+        156,
+        166,
+        131
+      ],
+      "rgba": [
+        156,
+        166,
+        131,
+        220
+      ],
+      "value": 186
+    },
+    {
+      "label": "Omineca - North Peace (7-46)",
+      "rgb": [
+        165,
+        65,
+        240
+      ],
+      "rgba": [
+        165,
+        65,
+        240,
+        220
+      ],
+      "value": 187
+    },
+    {
+      "label": "Omineca - Fort Nelson (7-47)",
+      "rgb": [
+        239,
+        12,
+        156
+      ],
+      "rgba": [
+        239,
+        12,
+        156,
+        220
+      ],
+      "value": 188
+    },
+    {
+      "label": "Omineca - Fort Nelson (7-48)",
+      "rgb": [
+        75,
+        12,
+        225
+      ],
+      "rgba": [
+        75,
+        12,
+        225,
+        220
+      ],
+      "value": 189
+    },
+    {
+      "label": "Omineca - Fort Nelson (7-49)",
+      "rgb": [
+        124,
+        110,
+        228
+      ],
+      "rgba": [
+        124,
+        110,
+        228,
+        220
+      ],
+      "value": 190
+    },
+    {
+      "label": "Omineca - Northeast Rockies (7-50)",
+      "rgb": [
+        65,
+        217,
+        55
+      ],
+      "rgba": [
+        65,
+        217,
+        55,
+        220
+      ],
+      "value": 192
+    },
+    {
+      "label": "Omineca - Liard (7-51)",
+      "rgb": [
+        144,
+        192,
+        33
+      ],
+      "rgba": [
+        144,
+        192,
+        33,
+        220
+      ],
+      "value": 193
+    },
+    {
+      "label": "Omineca - Liard (7-52)",
+      "rgb": [
+        158,
+        184,
+        237
+      ],
+      "rgba": [
+        158,
+        184,
+        237,
+        220
+      ],
+      "value": 194
+    },
+    {
+      "label": "Omineca - Liard (7-53)",
+      "rgb": [
+        166,
+        77,
+        49
+      ],
+      "rgba": [
+        166,
+        77,
+        49,
+        220
+      ],
+      "value": 195
+    },
+    {
+      "label": "Omineca - Liard (7-54)",
+      "rgb": [
+        46,
+        183,
+        32
+      ],
+      "rgba": [
+        46,
+        183,
+        32,
+        220
+      ],
+      "value": 196
+    },
+    {
+      "label": "Omineca - Fort Nelson (7-55)",
+      "rgb": [
+        208,
+        145,
+        250
+      ],
+      "rgba": [
+        208,
+        145,
+        250,
+        220
+      ],
+      "value": 197
+    },
+    {
+      "label": "Omineca - Fort Nelson (7-56)",
+      "rgb": [
+        172,
+        206,
+        71
+      ],
+      "rgba": [
+        172,
+        206,
+        71,
+        220
+      ],
+      "value": 198
+    },
+    {
+      "label": "Omineca - Northeast Rockies (7-57)",
+      "rgb": [
+        183,
+        112,
+        240
+      ],
+      "rgba": [
+        183,
+        112,
+        240,
+        220
+      ],
+      "value": 199
+    },
+    {
+      "label": "Omineca - Northeast Rockies (7-58)",
+      "rgb": [
+        141,
+        218,
+        206
+      ],
+      "rgba": [
+        141,
+        218,
+        206,
+        220
+      ],
+      "value": 200
+    },
+    {
+      "label": "Omineca - Fort George (7-6)",
+      "rgb": [
+        198,
+        187,
+        96
+      ],
+      "rgba": [
+        198,
+        187,
+        96,
+        220
+      ],
+      "value": 201
+    },
+    {
+      "label": "Omineca - Fort George (7-7)",
+      "rgb": [
+        128,
+        152,
+        212
+      ],
+      "rgba": [
+        128,
+        152,
+        212,
+        220
+      ],
+      "value": 202
+    },
+    {
+      "label": "Omineca - Fort George (7-8)",
+      "rgb": [
+        84,
+        198,
+        151
+      ],
+      "rgba": [
+        84,
+        198,
+        151,
+        220
+      ],
+      "value": 203
+    },
+    {
+      "label": "Omineca - Fort George (7-9)",
+      "rgb": [
+        112,
+        56,
+        234
+      ],
+      "rgba": [
+        112,
+        56,
+        234,
+        220
+      ],
+      "value": 204
+    },
+    {
+      "label": "Okanagan - Okanagan (8-1)",
+      "rgb": [
+        197,
+        225,
+        85
+      ],
+      "rgba": [
+        197,
+        225,
+        85,
+        220
+      ],
+      "value": 205
+    },
+    {
+      "label": "Okanagan - Okanagan (8-2)",
+      "rgb": [
+        106,
+        102,
+        96
+      ],
+      "rgba": [
+        106,
+        102,
+        96,
+        220
+      ],
+      "value": 212
+    },
+    {
+      "label": "Okanagan - Similkameen (8-3)",
+      "rgb": [
+        152,
+        95,
+        121
+      ],
+      "rgba": [
+        152,
+        95,
+        121,
+        220
+      ],
+      "value": 219
+    },
+    {
+      "label": "Okanagan - Similkameen (8-4)",
+      "rgb": [
+        254,
+        126,
+        65
+      ],
+      "rgba": [
+        254,
+        126,
+        65,
+        220
+      ],
+      "value": 220
+    },
+    {
+      "label": "Okanagan - Similkameen (8-5)",
+      "rgb": [
+        208,
+        167,
+        219
+      ],
+      "rgba": [
+        208,
+        167,
+        219,
+        220
+      ],
+      "value": 221
+    },
+    {
+      "label": "Okanagan - Similkameen (8-6)",
+      "rgb": [
+        53,
+        48,
+        143
+      ],
+      "rgba": [
+        53,
+        48,
+        143,
+        220
+      ],
+      "value": 222
+    },
+    {
+      "label": "Okanagan - Similkameen (8-7)",
+      "rgb": [
+        221,
+        224,
+        111
+      ],
+      "rgba": [
+        221,
+        224,
+        111,
+        220
+      ],
+      "value": 223
+    },
+    {
+      "label": "Okanagan - Okanagan (8-8)",
+      "rgb": [
+        12,
+        74,
+        64
+      ],
+      "rgba": [
+        12,
+        74,
+        64,
+        220
+      ],
+      "value": 224
+    },
+    {
+      "label": "Okanagan - Okanagan (8-9)",
+      "rgb": [
+        157,
+        64,
+        93
+      ],
+      "rgba": [
+        157,
+        64,
+        93,
+        220
+      ],
+      "value": 225
+    },
+    {
+      "label": "Okanagan - Okanagan (8-10)",
+      "rgb": [
+        8,
+        195,
+        90
+      ],
+      "rgba": [
+        8,
+        195,
+        90,
+        220
+      ],
+      "value": 206
+    },
+    {
+      "label": "Okanagan - Okanagan (8-11)",
+      "rgb": [
+        87,
+        54,
+        105
+      ],
+      "rgba": [
+        87,
+        54,
+        105,
+        220
+      ],
+      "value": 207
+    },
+    {
+      "label": "Okanagan - Kettle (8-12)",
+      "rgb": [
+        21,
+        91,
+        24
+      ],
+      "rgba": [
+        21,
+        91,
+        24,
+        220
+      ],
+      "value": 208
+    },
+    {
+      "label": "Okanagan - Kettle (8-13)",
+      "rgb": [
+        105,
+        143,
+        95
+      ],
+      "rgba": [
+        105,
+        143,
+        95,
+        220
+      ],
+      "value": 209
+    },
+    {
+      "label": "Okanagan - Kettle (8-14)",
+      "rgb": [
+        227,
+        208,
+        95
+      ],
+      "rgba": [
+        227,
+        208,
+        95,
+        220
+      ],
+      "value": 210
+    },
+    {
+      "label": "Okanagan - Kettle (8-15)",
+      "rgb": [
+        153,
+        116,
+        120
+      ],
+      "rgba": [
+        153,
+        116,
+        120,
+        220
+      ],
+      "value": 211
+    },
+    {
+      "label": "Okanagan - Okanagan (8-21)",
+      "rgb": [
+        217,
+        238,
+        0
+      ],
+      "rgba": [
+        217,
+        238,
+        0,
+        220
+      ],
+      "value": 213
+    },
+    {
+      "label": "Okanagan - Okanagan (8-22)",
+      "rgb": [
+        229,
+        198,
+        126
+      ],
+      "rgba": [
+        229,
+        198,
+        126,
+        220
+      ],
+      "value": 214
+    },
+    {
+      "label": "Okanagan - Monashee (8-23)",
+      "rgb": [
+        217,
+        235,
+        241
+      ],
+      "rgba": [
+        217,
+        235,
+        241,
+        220
+      ],
+      "value": 215
+    },
+    {
+      "label": "Okanagan - Monashee (8-24)",
+      "rgb": [
+        8,
+        208,
+        184
+      ],
+      "rgba": [
+        8,
+        208,
+        184,
+        220
+      ],
+      "value": 216
+    },
+    {
+      "label": "Okanagan - Monashee (8-25)",
+      "rgb": [
+        221,
+        101,
+        23
+      ],
+      "rgba": [
+        221,
+        101,
+        23,
+        220
+      ],
+      "value": 217
+    },
+    {
+      "label": "Okanagan - Okanagan (8-26)",
+      "rgb": [
+        232,
+        37,
+        140
+      ],
+      "rgba": [
+        232,
+        37,
+        140,
+        220
+      ],
+      "value": 218
+    }
+  ],
+  "visible_pixel_count": 16782,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "artifact_count": 2163,
+  "artifact_root": "derived/web_map_previews/v1",
+  "failure_count": 20,
+  "generated_at": "2026-06-20T04:45:26+00:00",
+  "max_size": 256,
+  "processed_count": 2183,
+  "requested_count": 2183,
+  "schema_version": 1,
+  "started_at": "2026-06-20T04:43:59+00:00",
+  "status_counts": {
+    "already_present": 2163,
+    "not_previewable": 20
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_species_caribourecov/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_species_caribourecov",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:11:56+00:00",
+  "internal_raster_path": "caribourecov.tiff",
+  "internal_wms_path": "caribourecov.wms.xml",
+  "manifest_path": "layers/dl_species_caribourecov/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "caribourecov.tiff",
+    "legend_source_path": "caribourecov.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_species_caribourecov",
+    "source_title": "Mountain Caribou Recovery Areas",
+    "source_zip_path": "data_layers/species_caribourecov.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/species_caribourecov.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/species_caribourecov.zip",
+  "title": "Mountain Caribou Recovery Areas",
+  "value_class_count": 12,
+  "value_classes": [
+    {
+      "label": "Cariboo - Fraser",
+      "rgb": [
+        39,
+        69,
+        229
+      ],
+      "rgba": [
+        39,
+        69,
+        229,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Central Kootenay",
+      "rgb": [
+        113,
+        110,
+        140
+      ],
+      "rgba": [
+        113,
+        110,
+        140,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Hart Ranges",
+      "rgb": [
+        1,
+        109,
+        214
+      ],
+      "rgba": [
+        1,
+        109,
+        214,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Kinbasket",
+      "rgb": [
+        106,
+        59,
+        170
+      ],
+      "rgba": [
+        106,
+        59,
+        170,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Mount Robson",
+      "rgb": [
+        12,
+        235,
+        71
+      ],
+      "rgba": [
+        12,
+        235,
+        71,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Quesnel Highland",
+      "rgb": [
+        206,
+        118,
+        249
+      ],
+      "rgba": [
+        206,
+        118,
+        249,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Revelstoke - Shushwap",
+      "rgb": [
+        37,
+        138,
+        123
+      ],
+      "rgba": [
+        37,
+        138,
+        123,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Southeast Kootenay",
+      "rgb": [
+        254,
+        139,
+        134
+      ],
+      "rgba": [
+        254,
+        139,
+        134,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "South Monashee",
+      "rgb": [
+        110,
+        162,
+        160
+      ],
+      "rgba": [
+        110,
+        162,
+        160,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Southwest Kootenay",
+      "rgb": [
+        103,
+        133,
+        240
+      ],
+      "rgba": [
+        103,
+        133,
+        240,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Wells Gray - Thompson",
+      "rgb": [
+        238,
+        155,
+        169
+      ],
+      "rgba": [
+        238,
+        155,
+        169,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Unclassified",
+      "rgb": [
+        63,
+        82,
+        48
+      ],
+      "rgba": [
+        63,
+        82,
+        48,
+        220
+      ],
+      "value": 11
+    }
+  ],
+  "visible_pixel_count": 3064,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

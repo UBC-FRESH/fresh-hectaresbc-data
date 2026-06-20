@@ -1,0 +1,292 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_mgtdes_proposedcaribou/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_mgtdes_proposedcaribou",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:10:04+00:00",
+  "internal_raster_path": "proposedcaribou.tiff",
+  "internal_wms_path": "proposedcaribou.wms.xml",
+  "manifest_path": "layers/dl_mgtdes_proposedcaribou/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "proposedcaribou.tiff",
+    "legend_source_path": "proposedcaribou.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_mgtdes_proposedcaribou",
+    "source_title": "Caribou - Proposed Core Areas",
+    "source_zip_path": "data_layers/mgtdes_proposedcaribou.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/mgtdes_proposedcaribou.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/mgtdes_proposedcaribou.zip",
+  "title": "Caribou - Proposed Core Areas",
+  "value_class_count": 16,
+  "value_classes": [
+    {
+      "label": "Calendar",
+      "rgb": [
+        13,
+        75,
+        250
+      ],
+      "rgba": [
+        13,
+        75,
+        250,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Capot-Blanc",
+      "rgb": [
+        178,
+        162,
+        242
+      ],
+      "rgba": [
+        178,
+        162,
+        242,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Chinchaga North",
+      "rgb": [
+        158,
+        35,
+        193
+      ],
+      "rgba": [
+        158,
+        35,
+        193,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Clarke",
+      "rgb": [
+        49,
+        222,
+        250
+      ],
+      "rgba": [
+        49,
+        222,
+        250,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Etsho",
+      "rgb": [
+        197,
+        225,
+        185
+      ],
+      "rgba": [
+        197,
+        225,
+        185,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Etthithun",
+      "rgb": [
+        146,
+        63,
+        119
+      ],
+      "rgba": [
+        146,
+        63,
+        119,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Fort Nelson",
+      "rgb": [
+        180,
+        229,
+        7
+      ],
+      "rgba": [
+        180,
+        229,
+        7,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Fortune",
+      "rgb": [
+        87,
+        80,
+        24
+      ],
+      "rgba": [
+        87,
+        80,
+        24,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Kiwigana",
+      "rgb": [
+        66,
+        220,
+        15
+      ],
+      "rgba": [
+        66,
+        220,
+        15,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Kotcho",
+      "rgb": [
+        91,
+        92,
+        83
+      ],
+      "rgba": [
+        91,
+        92,
+        83,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Milligan",
+      "rgb": [
+        18,
+        212,
+        236
+      ],
+      "rgba": [
+        18,
+        212,
+        236,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Paradise",
+      "rgb": [
+        48,
+        174,
+        75
+      ],
+      "rgba": [
+        48,
+        174,
+        75,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Parker",
+      "rgb": [
+        249,
+        11,
+        188
+      ],
+      "rgba": [
+        249,
+        11,
+        188,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Prophet",
+      "rgb": [
+        39,
+        219,
+        42
+      ],
+      "rgba": [
+        39,
+        219,
+        42,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Shush Creek",
+      "rgb": [
+        193,
+        72,
+        209
+      ],
+      "rgba": [
+        193,
+        72,
+        209,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Tsea",
+      "rgb": [
+        195,
+        246,
+        235
+      ],
+      "rgba": [
+        195,
+        246,
+        235,
+        220
+      ],
+      "value": 16
+    }
+  ],
+  "visible_pixel_count": 569,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

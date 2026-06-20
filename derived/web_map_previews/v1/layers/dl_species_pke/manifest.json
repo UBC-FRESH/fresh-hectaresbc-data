@@ -1,0 +1,247 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_species_pke/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_species_pke",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:12:07+00:00",
+  "internal_raster_path": "pke.tiff",
+  "internal_wms_path": "pke.wms.xml",
+  "manifest_path": "layers/dl_species_pke/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "pke.tiff",
+    "legend_source_path": "pke.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_species_pke",
+    "source_title": "Salmon - Even Year Pink",
+    "source_zip_path": "data_layers/species_pke.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/species_pke.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/species_pke.zip",
+  "title": "Salmon - Even Year Pink",
+  "value_class_count": 13,
+  "value_classes": [
+    {
+      "label": "East Queen Charlotte Islands",
+      "rgb": [
+        138,
+        28,
+        52
+      ],
+      "rgba": [
+        138,
+        28,
+        52,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Georgia Strait",
+      "rgb": [
+        236,
+        187,
+        64
+      ],
+      "rgba": [
+        236,
+        187,
+        64,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Hecate Lowlands",
+      "rgb": [
+        92,
+        239,
+        116
+      ],
+      "rgba": [
+        92,
+        239,
+        116,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Hecate Strait-Fjords",
+      "rgb": [
+        69,
+        48,
+        137
+      ],
+      "rgba": [
+        69,
+        48,
+        137,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Middle-Upper Skeena",
+      "rgb": [
+        59,
+        44,
+        187
+      ],
+      "rgba": [
+        59,
+        44,
+        187,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Nass-Skeena Estuary",
+      "rgb": [
+        247,
+        68,
+        140
+      ],
+      "rgba": [
+        247,
+        68,
+        140,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "North Queen Charlotte Islands",
+      "rgb": [
+        212,
+        201,
+        138
+      ],
+      "rgba": [
+        212,
+        201,
+        138,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Northwest Vancouver Island",
+      "rgb": [
+        178,
+        113,
+        171
+      ],
+      "rgba": [
+        178,
+        113,
+        171,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Southern Fjords",
+      "rgb": [
+        136,
+        107,
+        209
+      ],
+      "rgba": [
+        136,
+        107,
+        209,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Transboundary Fjords",
+      "rgb": [
+        32,
+        237,
+        163
+      ],
+      "rgba": [
+        32,
+        237,
+        163,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Upper Nass",
+      "rgb": [
+        243,
+        187,
+        8
+      ],
+      "rgba": [
+        243,
+        187,
+        8,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "West Queen Charlotte Islands",
+      "rgb": [
+        25,
+        231,
+        219
+      ],
+      "rgba": [
+        25,
+        231,
+        219,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "West Vancouver Island",
+      "rgb": [
+        183,
+        186,
+        135
+      ],
+      "rgba": [
+        183,
+        186,
+        135,
+        220
+      ],
+      "value": 13
+    }
+  ],
+  "visible_pixel_count": 6014,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

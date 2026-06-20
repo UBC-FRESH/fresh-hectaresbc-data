@@ -1,0 +1,172 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_landuse_recopps/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_landuse_recopps",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:08:17+00:00",
+  "internal_raster_path": "recopps.tiff",
+  "internal_wms_path": "recopps.wms.xml",
+  "manifest_path": "layers/dl_landuse_recopps/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "recopps.tiff",
+    "legend_source_path": "recopps.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_landuse_recopps",
+    "source_title": "Recreational Opportunity Spectrum Inventory",
+    "source_zip_path": "data_layers/landuse_recopps.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/landuse_recopps.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/landuse_recopps.zip",
+  "title": "Recreational Opportunity Spectrum Inventory",
+  "value_class_count": 8,
+  "value_classes": [
+    {
+      "label": "Primitive",
+      "rgb": [
+        38,
+        135,
+        85
+      ],
+      "rgba": [
+        38,
+        135,
+        85,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Roaded Modified",
+      "rgb": [
+        103,
+        103,
+        103
+      ],
+      "rgba": [
+        103,
+        103,
+        103,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Roaded Natural",
+      "rgb": [
+        200,
+        200,
+        255
+      ],
+      "rgba": [
+        200,
+        200,
+        255,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Rural",
+      "rgb": [
+        144,
+        167,
+        101
+      ],
+      "rgba": [
+        144,
+        167,
+        101,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Semi-primitive Motorized",
+      "rgb": [
+        178,
+        234,
+        236
+      ],
+      "rgba": [
+        178,
+        234,
+        236,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Semi-primitive Non-Motorized",
+      "rgb": [
+        113,
+        18,
+        113
+      ],
+      "rgba": [
+        113,
+        18,
+        113,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Unclassified",
+      "rgb": [
+        184,
+        37,
+        209
+      ],
+      "rgba": [
+        184,
+        37,
+        209,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Urban",
+      "rgb": [
+        242,
+        73,
+        40
+      ],
+      "rgba": [
+        242,
+        73,
+        40,
+        220
+      ],
+      "value": 8
+    }
+  ],
+  "visible_pixel_count": 22966,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_mgtdes_wma/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_mgtdes_wma",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:10:23+00:00",
+  "internal_raster_path": "wma.tiff",
+  "internal_wms_path": "wma.wms.xml",
+  "manifest_path": "layers/dl_mgtdes_wma/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "wma.tiff",
+    "legend_source_path": "wma.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_mgtdes_wma",
+    "source_title": "Wildlife Management Areas",
+    "source_zip_path": "data_layers/mgtdes_wma.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/mgtdes_wma.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/mgtdes_wma.zip",
+  "title": "Wildlife Management Areas",
+  "value_class_count": 32,
+  "value_classes": [
+    {
+      "label": "BERT BRINK WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        31,
+        32,
+        129
+      ],
+      "rgba": [
+        31,
+        32,
+        129,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "BOUNDARY BAY WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        209,
+        57,
+        8
+      ],
+      "rgba": [
+        209,
+        57,
+        8,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "CHILANKO MARSH WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        20,
+        105,
+        221
+      ],
+      "rgba": [
+        20,
+        105,
+        221,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "CLUXEWE WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        31,
+        217,
+        4
+      ],
+      "rgba": [
+        31,
+        217,
+        4,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "COLUMBIA WETLANDS WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        173,
+        138,
+        177
+      ],
+      "rgba": [
+        173,
+        138,
+        177,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "COQUITLAM RIVER WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        120,
+        115,
+        117
+      ],
+      "rgba": [
+        120,
+        115,
+        117,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "CRANBERRY MARSH/STARRATT WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        122,
+        8,
+        144
+      ],
+      "rgba": [
+        122,
+        8,
+        144,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "CRESTON VALLEY WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        204,
+        143,
+        184
+      ],
+      "rgba": [
+        204,
+        143,
+        184,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "DEWDROP-ROSSEAU WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        176,
+        174,
+        154
+      ],
+      "rgba": [
+        176,
+        174,
+        154,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "EAST SIDE COLUMBIA LAKE WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        20,
+        133,
+        209
+      ],
+      "rgba": [
+        20,
+        133,
+        209,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "GREEN MOUNTAIN WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        104,
+        171,
+        86
+      ],
+      "rgba": [
+        104,
+        171,
+        86,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "HAMLING LAKES WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        213,
+        254,
+        250
+      ],
+      "rgba": [
+        213,
+        254,
+        250,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "LAZO MARSH-NORTH EAST COMOX",
+      "rgb": [
+        136,
+        176,
+        96
+      ],
+      "rgba": [
+        136,
+        176,
+        96,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "LIMESTONE ISLANDS WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        229,
+        27,
+        237
+      ],
+      "rgba": [
+        229,
+        27,
+        237,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "MCTAGGART-COWAN WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        236,
+        24,
+        245
+      ],
+      "rgba": [
+        236,
+        24,
+        245,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "MIDGE CREEK WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        131,
+        21,
+        55
+      ],
+      "rgba": [
+        131,
+        21,
+        55,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "PARKSVILLE-QUALICUM BEACH WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        89,
+        252,
+        84
+      ],
+      "rgba": [
+        89,
+        252,
+        84,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "PEMBERTON WETLANDS WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        227,
+        45,
+        158
+      ],
+      "rgba": [
+        227,
+        45,
+        158,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "PITT-ADDINGTON MARSH WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        64,
+        253,
+        92
+      ],
+      "rgba": [
+        64,
+        253,
+        92,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "QUATSE ESTUARY WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        175,
+        248,
+        38
+      ],
+      "rgba": [
+        175,
+        248,
+        38,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "REEF ISLAND WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        31,
+        203,
+        121
+      ],
+      "rgba": [
+        31,
+        203,
+        121,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "ROBERTS BANK WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        202,
+        139,
+        68
+      ],
+      "rgba": [
+        202,
+        139,
+        68,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "SERPENTINE WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        5,
+        108,
+        24
+      ],
+      "rgba": [
+        5,
+        108,
+        24,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "SKEDANS ISLAND WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        139,
+        83,
+        49
+      ],
+      "rgba": [
+        139,
+        83,
+        49,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "SKWELWIL'EM SQUAMISH ESTUARY",
+      "rgb": [
+        216,
+        109,
+        200
+      ],
+      "rgba": [
+        216,
+        109,
+        200,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "SOUTH ARM MARSHES WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        173,
+        20,
+        96
+      ],
+      "rgba": [
+        173,
+        20,
+        96,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "SOUTH OKANAGAN WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        54,
+        139,
+        238
+      ],
+      "rgba": [
+        54,
+        139,
+        238,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "STELLAKO RIVER WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        60,
+        86,
+        192
+      ],
+      "rgba": [
+        60,
+        86,
+        192,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "STURGEON BANK WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        227,
+        240,
+        116
+      ],
+      "rgba": [
+        227,
+        240,
+        116,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "TODAGIN WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        105,
+        157,
+        168
+      ],
+      "rgba": [
+        105,
+        157,
+        168,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "TOFINO MUDFLATS WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        86,
+        167,
+        49
+      ],
+      "rgba": [
+        86,
+        167,
+        49,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "TRANQUILLE WILDLIFE MANAGEMENT AREA",
+      "rgb": [
+        127,
+        107,
+        71
+      ],
+      "rgba": [
+        127,
+        107,
+        71,
+        220
+      ],
+      "value": 32
+    }
+  ],
+  "visible_pixel_count": 56,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

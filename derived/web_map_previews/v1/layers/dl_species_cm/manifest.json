@@ -1,0 +1,637 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_species_cm/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_species_cm",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:11:59+00:00",
+  "internal_raster_path": "cm.tiff",
+  "internal_wms_path": "cm.wms.xml",
+  "manifest_path": "layers/dl_species_cm/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "cm.tiff",
+    "legend_source_path": "cm.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_species_cm",
+    "source_title": "Salmon - Chum",
+    "source_zip_path": "data_layers/species_cm.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/species_cm.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/species_cm.zip",
+  "title": "Salmon - Chum",
+  "value_class_count": 39,
+  "value_classes": [
+    {
+      "label": "Bella Colla-Dean Rivers",
+      "rgb": [
+        105,
+        94,
+        168
+      ],
+      "rgba": [
+        105,
+        94,
+        168,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Bella Coola River-Late",
+      "rgb": [
+        101,
+        243,
+        93
+      ],
+      "rgba": [
+        101,
+        243,
+        93,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Bute Inlet",
+      "rgb": [
+        228,
+        238,
+        67
+      ],
+      "rgba": [
+        228,
+        238,
+        67,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Douglas-Gardner",
+      "rgb": [
+        220,
+        219,
+        248
+      ],
+      "rgba": [
+        220,
+        219,
+        248,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "East QCI",
+      "rgb": [
+        9,
+        61,
+        230
+      ],
+      "rgba": [
+        9,
+        61,
+        230,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Fraser Canyon",
+      "rgb": [
+        223,
+        113,
+        107
+      ],
+      "rgba": [
+        223,
+        113,
+        107,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Georgia Strait",
+      "rgb": [
+        88,
+        85,
+        181
+      ],
+      "rgba": [
+        88,
+        85,
+        181,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Hecate Lowlands",
+      "rgb": [
+        67,
+        159,
+        114
+      ],
+      "rgba": [
+        67,
+        159,
+        114,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Howe Sound-Burrard Inlet",
+      "rgb": [
+        41,
+        165,
+        19
+      ],
+      "rgba": [
+        41,
+        165,
+        19,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Loughborough",
+      "rgb": [
+        31,
+        2,
+        221
+      ],
+      "rgba": [
+        31,
+        2,
+        221,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Lower Fraser",
+      "rgb": [
+        235,
+        217,
+        31
+      ],
+      "rgba": [
+        235,
+        217,
+        31,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Lower Liard",
+      "rgb": [
+        11,
+        87,
+        174
+      ],
+      "rgba": [
+        11,
+        87,
+        174,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Lower Nass",
+      "rgb": [
+        144,
+        26,
+        124
+      ],
+      "rgba": [
+        144,
+        26,
+        124,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Lower Skeena",
+      "rgb": [
+        184,
+        223,
+        92
+      ],
+      "rgba": [
+        184,
+        223,
+        92,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Lower Stikine",
+      "rgb": [
+        7,
+        117,
+        105
+      ],
+      "rgba": [
+        7,
+        117,
+        105,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Lynn Canal",
+      "rgb": [
+        252,
+        108,
+        155
+      ],
+      "rgba": [
+        252,
+        108,
+        155,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Middle Skeena",
+      "rgb": [
+        101,
+        7,
+        148
+      ],
+      "rgba": [
+        101,
+        7,
+        148,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Mussel-Kynock",
+      "rgb": [
+        214,
+        173,
+        95
+      ],
+      "rgba": [
+        214,
+        173,
+        95,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Northeast Vancouver Island",
+      "rgb": [
+        166,
+        211,
+        2
+      ],
+      "rgba": [
+        166,
+        211,
+        2,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "North QCI",
+      "rgb": [
+        138,
+        245,
+        198
+      ],
+      "rgba": [
+        138,
+        245,
+        198,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "North QCI-Stanley Creek",
+      "rgb": [
+        29,
+        178,
+        155
+      ],
+      "rgba": [
+        29,
+        178,
+        155,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Northwest Vancouver Island",
+      "rgb": [
+        189,
+        37,
+        146
+      ],
+      "rgba": [
+        189,
+        37,
+        146,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Portland Canal-Observatory",
+      "rgb": [
+        22,
+        174,
+        214
+      ],
+      "rgba": [
+        22,
+        174,
+        214,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Portland Inlet",
+      "rgb": [
+        152,
+        121,
+        206
+      ],
+      "rgba": [
+        152,
+        121,
+        206,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Rivers Inlet",
+      "rgb": [
+        253,
+        76,
+        164
+      ],
+      "rgba": [
+        253,
+        76,
+        164,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Skeena Estuary",
+      "rgb": [
+        58,
+        53,
+        117
+      ],
+      "rgba": [
+        58,
+        53,
+        117,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Skidegate",
+      "rgb": [
+        132,
+        167,
+        69
+      ],
+      "rgba": [
+        132,
+        167,
+        69,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Smith Inlet",
+      "rgb": [
+        238,
+        158,
+        96
+      ],
+      "rgba": [
+        238,
+        158,
+        96,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Southern Coastal Streams",
+      "rgb": [
+        210,
+        177,
+        70
+      ],
+      "rgba": [
+        210,
+        177,
+        70,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Southwest Vancouver Island",
+      "rgb": [
+        64,
+        16,
+        155
+      ],
+      "rgba": [
+        64,
+        16,
+        155,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Spiller-Fitz-Hugh-Burke",
+      "rgb": [
+        26,
+        116,
+        149
+      ],
+      "rgba": [
+        26,
+        116,
+        149,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Taku",
+      "rgb": [
+        254,
+        52,
+        13
+      ],
+      "rgba": [
+        254,
+        52,
+        13,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Teslin",
+      "rgb": [
+        126,
+        23,
+        180
+      ],
+      "rgba": [
+        126,
+        23,
+        180,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Unuk",
+      "rgb": [
+        177,
+        181,
+        164
+      ],
+      "rgba": [
+        177,
+        181,
+        164,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Upper Knight",
+      "rgb": [
+        130,
+        32,
+        122
+      ],
+      "rgba": [
+        130,
+        32,
+        122,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "Upper Skeena",
+      "rgb": [
+        231,
+        67,
+        93
+      ],
+      "rgba": [
+        231,
+        67,
+        93,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "Wannock",
+      "rgb": [
+        132,
+        13,
+        88
+      ],
+      "rgba": [
+        132,
+        13,
+        88,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "West QCI",
+      "rgb": [
+        136,
+        91,
+        3
+      ],
+      "rgba": [
+        136,
+        91,
+        3,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Whiting",
+      "rgb": [
+        254,
+        68,
+        58
+      ],
+      "rgba": [
+        254,
+        68,
+        58,
+        220
+      ],
+      "value": 39
+    }
+  ],
+  "visible_pixel_count": 8234,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

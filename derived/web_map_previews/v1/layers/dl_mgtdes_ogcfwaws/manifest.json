@@ -1,0 +1,1282 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_mgtdes_ogcfwaws/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_mgtdes_ogcfwaws",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:09:43+00:00",
+  "internal_raster_path": "ogcfwaws.tiff",
+  "internal_wms_path": "ogcfwaws.wms.xml",
+  "manifest_path": "layers/dl_mgtdes_ogcfwaws/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "ogcfwaws.tiff",
+    "legend_source_path": "ogcfwaws.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_mgtdes_ogcfwaws",
+    "source_title": "Liard and Hay River OGC/FWA Hybrid Watersheds",
+    "source_zip_path": "data_layers/mgtdes_ogcfwaws.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/mgtdes_ogcfwaws.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/mgtdes_ogcfwaws.zip",
+  "title": "Liard and Hay River OGC/FWA Hybrid Watersheds",
+  "value_class_count": 82,
+  "value_classes": [
+    {
+      "label": "Beaver River",
+      "rgb": [
+        141,
+        240,
+        150
+      ],
+      "rgba": [
+        141,
+        240,
+        150,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Blueberry River",
+      "rgb": [
+        154,
+        44,
+        63
+      ],
+      "rgba": [
+        154,
+        44,
+        63,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Blue River",
+      "rgb": [
+        252,
+        21,
+        129
+      ],
+      "rgba": [
+        252,
+        21,
+        129,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Burnt River",
+      "rgb": [
+        152,
+        45,
+        193
+      ],
+      "rgba": [
+        152,
+        45,
+        193,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Cache Creek",
+      "rgb": [
+        65,
+        220,
+        117
+      ],
+      "rgba": [
+        65,
+        220,
+        117,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Cameron River",
+      "rgb": [
+        216,
+        183,
+        79
+      ],
+      "rgba": [
+        216,
+        183,
+        79,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Capot-Blanc River",
+      "rgb": [
+        154,
+        68,
+        50
+      ],
+      "rgba": [
+        154,
+        68,
+        50,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Chinchaga River",
+      "rgb": [
+        198,
+        71,
+        87
+      ],
+      "rgba": [
+        198,
+        71,
+        87,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Chowade River",
+      "rgb": [
+        222,
+        40,
+        186
+      ],
+      "rgba": [
+        222,
+        40,
+        186,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Coal River",
+      "rgb": [
+        10,
+        236,
+        213
+      ],
+      "rgba": [
+        10,
+        236,
+        213,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Cry Lake",
+      "rgb": [
+        154,
+        154,
+        233
+      ],
+      "rgba": [
+        154,
+        154,
+        233,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Dease Lake",
+      "rgb": [
+        215,
+        44,
+        210
+      ],
+      "rgba": [
+        215,
+        44,
+        210,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Dease River",
+      "rgb": [
+        148,
+        113,
+        141
+      ],
+      "rgba": [
+        148,
+        113,
+        141,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Doig River",
+      "rgb": [
+        225,
+        68,
+        127
+      ],
+      "rgba": [
+        225,
+        68,
+        127,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Dunedin River",
+      "rgb": [
+        8,
+        144,
+        235
+      ],
+      "rgba": [
+        8,
+        144,
+        235,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "East Kiskatinaw River",
+      "rgb": [
+        17,
+        62,
+        126
+      ],
+      "rgba": [
+        17,
+        62,
+        126,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Farrell Creek",
+      "rgb": [
+        27,
+        134,
+        83
+      ],
+      "rgba": [
+        27,
+        134,
+        83,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Fontas River",
+      "rgb": [
+        242,
+        222,
+        136
+      ],
+      "rgba": [
+        242,
+        222,
+        136,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Frog River",
+      "rgb": [
+        253,
+        90,
+        214
+      ],
+      "rgba": [
+        253,
+        90,
+        214,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Gataga River",
+      "rgb": [
+        155,
+        232,
+        14
+      ],
+      "rgba": [
+        155,
+        232,
+        14,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Graham River",
+      "rgb": [
+        114,
+        214,
+        13
+      ],
+      "rgba": [
+        114,
+        214,
+        13,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Grayling River",
+      "rgb": [
+        80,
+        226,
+        105
+      ],
+      "rgba": [
+        80,
+        226,
+        105,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Hay River",
+      "rgb": [
+        81,
+        198,
+        115
+      ],
+      "rgba": [
+        81,
+        198,
+        115,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Kahntah River",
+      "rgb": [
+        122,
+        66,
+        50
+      ],
+      "rgba": [
+        122,
+        66,
+        50,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Kiwigana River",
+      "rgb": [
+        70,
+        214,
+        70
+      ],
+      "rgba": [
+        70,
+        214,
+        70,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Klua River",
+      "rgb": [
+        228,
+        43,
+        82
+      ],
+      "rgba": [
+        228,
+        43,
+        82,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Kyklo River",
+      "rgb": [
+        230,
+        61,
+        109
+      ],
+      "rgba": [
+        230,
+        61,
+        109,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Liard River",
+      "rgb": [
+        192,
+        146,
+        129
+      ],
+      "rgba": [
+        192,
+        146,
+        129,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Little Rancheria River",
+      "rgb": [
+        111,
+        211,
+        79
+      ],
+      "rgba": [
+        111,
+        211,
+        79,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Lower Beatton River",
+      "rgb": [
+        191,
+        199,
+        211
+      ],
+      "rgba": [
+        191,
+        199,
+        211,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Lower Fort Nelson River",
+      "rgb": [
+        170,
+        197,
+        8
+      ],
+      "rgba": [
+        170,
+        197,
+        8,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Lower Halfway River",
+      "rgb": [
+        19,
+        253,
+        130
+      ],
+      "rgba": [
+        19,
+        253,
+        130,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Lower Kechika River",
+      "rgb": [
+        101,
+        244,
+        139
+      ],
+      "rgba": [
+        101,
+        244,
+        139,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Lower Kiskatinaw River",
+      "rgb": [
+        206,
+        64,
+        101
+      ],
+      "rgba": [
+        206,
+        64,
+        101,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Lower Kotcho River",
+      "rgb": [
+        164,
+        169,
+        250
+      ],
+      "rgba": [
+        164,
+        169,
+        250,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "Lower Liard River",
+      "rgb": [
+        210,
+        131,
+        224
+      ],
+      "rgba": [
+        210,
+        131,
+        224,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Lower Muskwa River",
+      "rgb": [
+        16,
+        137,
+        237
+      ],
+      "rgba": [
+        16,
+        137,
+        237,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "Lower Peace River",
+      "rgb": [
+        156,
+        251,
+        162
+      ],
+      "rgba": [
+        156,
+        251,
+        162,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "Lower Petitot River",
+      "rgb": [
+        232,
+        2,
+        201
+      ],
+      "rgba": [
+        232,
+        2,
+        201,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "Lower Pine River",
+      "rgb": [
+        82,
+        206,
+        163
+      ],
+      "rgba": [
+        82,
+        206,
+        163,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Lower Prophet River",
+      "rgb": [
+        115,
+        200,
+        54
+      ],
+      "rgba": [
+        115,
+        200,
+        54,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "Lower Sikanni Chief River",
+      "rgb": [
+        132,
+        187,
+        88
+      ],
+      "rgba": [
+        132,
+        187,
+        88,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "Lower Toad River",
+      "rgb": [
+        27,
+        9,
+        128
+      ],
+      "rgba": [
+        27,
+        9,
+        128,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "Lynx Creek",
+      "rgb": [
+        25,
+        210,
+        245
+      ],
+      "rgba": [
+        25,
+        210,
+        245,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "Middle Beatton River",
+      "rgb": [
+        117,
+        236,
+        21
+      ],
+      "rgba": [
+        117,
+        236,
+        21,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "Middle Dease River",
+      "rgb": [
+        125,
+        6,
+        180
+      ],
+      "rgba": [
+        125,
+        6,
+        180,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "Middle Fort Nelson River",
+      "rgb": [
+        76,
+        104,
+        198
+      ],
+      "rgba": [
+        76,
+        104,
+        198,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "Middle Kiskatinaw River",
+      "rgb": [
+        152,
+        22,
+        206
+      ],
+      "rgba": [
+        152,
+        22,
+        206,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "Middle Liard River",
+      "rgb": [
+        54,
+        252,
+        48
+      ],
+      "rgba": [
+        54,
+        252,
+        48,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "Middle Muskwa River",
+      "rgb": [
+        24,
+        140,
+        180
+      ],
+      "rgba": [
+        24,
+        140,
+        180,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "Middle Petitot River",
+      "rgb": [
+        192,
+        5,
+        33
+      ],
+      "rgba": [
+        192,
+        5,
+        33,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "Middle Prophet River",
+      "rgb": [
+        4,
+        87,
+        2
+      ],
+      "rgba": [
+        4,
+        87,
+        2,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "Middle Sikanni Chief River",
+      "rgb": [
+        143,
+        99,
+        210
+      ],
+      "rgba": [
+        143,
+        99,
+        210,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "Milligan Creek",
+      "rgb": [
+        78,
+        78,
+        234
+      ],
+      "rgba": [
+        78,
+        78,
+        234,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "Moberly River",
+      "rgb": [
+        38,
+        0,
+        174
+      ],
+      "rgba": [
+        38,
+        0,
+        174,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "Muncho River",
+      "rgb": [
+        211,
+        85,
+        60
+      ],
+      "rgba": [
+        211,
+        85,
+        60,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "Murray River",
+      "rgb": [
+        183,
+        6,
+        104
+      ],
+      "rgba": [
+        183,
+        6,
+        104,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "Peace Arm",
+      "rgb": [
+        175,
+        94,
+        59
+      ],
+      "rgba": [
+        175,
+        94,
+        59,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "Pouce Coupe River",
+      "rgb": [
+        225,
+        40,
+        55
+      ],
+      "rgba": [
+        225,
+        40,
+        55,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "Racing River",
+      "rgb": [
+        85,
+        62,
+        149
+      ],
+      "rgba": [
+        85,
+        62,
+        149,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "Sahdoanah River",
+      "rgb": [
+        95,
+        237,
+        165
+      ],
+      "rgba": [
+        95,
+        237,
+        165,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "Sahtaneh River",
+      "rgb": [
+        229,
+        140,
+        197
+      ],
+      "rgba": [
+        229,
+        140,
+        197,
+        220
+      ],
+      "value": 62
+    },
+    {
+      "label": "Shekilie River",
+      "rgb": [
+        26,
+        137,
+        66
+      ],
+      "rgba": [
+        26,
+        137,
+        66,
+        220
+      ],
+      "value": 63
+    },
+    {
+      "label": "Smoky River",
+      "rgb": [
+        56,
+        26,
+        40
+      ],
+      "rgba": [
+        56,
+        26,
+        40,
+        220
+      ],
+      "value": 64
+    },
+    {
+      "label": "Snake River",
+      "rgb": [
+        173,
+        247,
+        241
+      ],
+      "rgba": [
+        173,
+        247,
+        241,
+        220
+      ],
+      "value": 65
+    },
+    {
+      "label": "Sukunka River",
+      "rgb": [
+        178,
+        214,
+        36
+      ],
+      "rgba": [
+        178,
+        214,
+        36,
+        220
+      ],
+      "value": 66
+    },
+    {
+      "label": "Tsea River",
+      "rgb": [
+        176,
+        106,
+        249
+      ],
+      "rgba": [
+        176,
+        106,
+        249,
+        220
+      ],
+      "value": 67
+    },
+    {
+      "label": "Turnagain River",
+      "rgb": [
+        197,
+        151,
+        45
+      ],
+      "rgba": [
+        197,
+        151,
+        45,
+        220
+      ],
+      "value": 68
+    },
+    {
+      "label": "Upper Beatton River",
+      "rgb": [
+        63,
+        250,
+        64
+      ],
+      "rgba": [
+        63,
+        250,
+        64,
+        220
+      ],
+      "value": 69
+    },
+    {
+      "label": "Upper Fort Nelson River",
+      "rgb": [
+        133,
+        68,
+        141
+      ],
+      "rgba": [
+        133,
+        68,
+        141,
+        220
+      ],
+      "value": 70
+    },
+    {
+      "label": "Upper Halfway",
+      "rgb": [
+        147,
+        157,
+        167
+      ],
+      "rgba": [
+        147,
+        157,
+        167,
+        220
+      ],
+      "value": 71
+    },
+    {
+      "label": "Upper Kechika River",
+      "rgb": [
+        155,
+        155,
+        139
+      ],
+      "rgba": [
+        155,
+        155,
+        139,
+        220
+      ],
+      "value": 72
+    },
+    {
+      "label": "Upper Kotcho River",
+      "rgb": [
+        104,
+        104,
+        44
+      ],
+      "rgba": [
+        104,
+        104,
+        44,
+        220
+      ],
+      "value": 73
+    },
+    {
+      "label": "Upper Liard River",
+      "rgb": [
+        210,
+        23,
+        213
+      ],
+      "rgba": [
+        210,
+        23,
+        213,
+        220
+      ],
+      "value": 74
+    },
+    {
+      "label": "Upper Muskwa River",
+      "rgb": [
+        172,
+        238,
+        55
+      ],
+      "rgba": [
+        172,
+        238,
+        55,
+        220
+      ],
+      "value": 75
+    },
+    {
+      "label": "Upper Peace River",
+      "rgb": [
+        180,
+        183,
+        242
+      ],
+      "rgba": [
+        180,
+        183,
+        242,
+        220
+      ],
+      "value": 76
+    },
+    {
+      "label": "Upper Petitot River",
+      "rgb": [
+        238,
+        230,
+        66
+      ],
+      "rgba": [
+        238,
+        230,
+        66,
+        220
+      ],
+      "value": 77
+    },
+    {
+      "label": "Upper Pine River",
+      "rgb": [
+        125,
+        29,
+        30
+      ],
+      "rgba": [
+        125,
+        29,
+        30,
+        220
+      ],
+      "value": 78
+    },
+    {
+      "label": "Upper Prophet River",
+      "rgb": [
+        48,
+        120,
+        220
+      ],
+      "rgba": [
+        48,
+        120,
+        220,
+        220
+      ],
+      "value": 79
+    },
+    {
+      "label": "Upper Sikanni Chief River",
+      "rgb": [
+        182,
+        254,
+        44
+      ],
+      "rgba": [
+        182,
+        254,
+        44,
+        220
+      ],
+      "value": 80
+    },
+    {
+      "label": "Upper Toad River",
+      "rgb": [
+        221,
+        42,
+        168
+      ],
+      "rgba": [
+        221,
+        42,
+        168,
+        220
+      ],
+      "value": 81
+    },
+    {
+      "label": "West Kiskatinaw River",
+      "rgb": [
+        200,
+        2,
+        39
+      ],
+      "rgba": [
+        200,
+        2,
+        39,
+        220
+      ],
+      "value": 82
+    }
+  ],
+  "visible_pixel_count": 4687,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

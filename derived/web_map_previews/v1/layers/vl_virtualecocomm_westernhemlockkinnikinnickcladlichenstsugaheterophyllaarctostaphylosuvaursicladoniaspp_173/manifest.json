@@ -1,0 +1,51 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/vl_virtualecocomm_westernhemlockkinnikinnickcladlichenstsugaheterophyllaarctostaphylosuvaursicladoniaspp_173/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "vl_virtualecocomm_westernhemlockkinnikinnickcladlichenstsugaheterophyllaarctostaphylosuvaursicladoniaspp_173",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:16:52+00:00",
+  "internal_raster_path": "virtualecocomm.westernhemlockkinnikinnickcladlichenstsugaheterophyllaarctostaphylosuvaursicladoniaspp.173.tiff",
+  "internal_wms_path": "",
+  "manifest_path": "layers/vl_virtualecocomm_westernhemlockkinnikinnickcladlichenstsugaheterophyllaarctostaphylosuvaursicladoniaspp_173/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "virtualecocomm.westernhemlockkinnikinnickcladlichenstsugaheterophyllaarctostaphylosuvaursicladoniaspp.173.tiff",
+    "legend_source_path": "",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "vl_virtualecocomm_westernhemlockkinnikinnickcladlichenstsugaheterophyllaarctostaphylosuvaursicladoniaspp_173",
+    "source_title": "western hemlock / kinnikinnick / clad lichens (Tsuga heterophylla / Arctostaphylos uva-ursi / Cladonia spp.)",
+    "source_zip_path": "virtual_layers/virtualecocomm.westernhemlockkinnikinnickcladlichenstsugaheterophyllaarctostaphylosuvaursicladoniaspp.173.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/virtual_layers/virtualecocomm.westernhemlockkinnikinnickcladlichenstsugaheterophyllaarctostaphylosuvaursicladoniaspp.173.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "virtual_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "virtual_layers/virtualecocomm.westernhemlockkinnikinnickcladlichenstsugaheterophyllaarctostaphylosuvaursicladoniaspp.173.zip",
+  "title": "western hemlock / kinnikinnick / clad lichens (Tsuga heterophylla / Arctostaphylos uva-ursi / Cladonia spp.)",
+  "value_class_count": 0,
+  "value_classes": [],
+  "visible_pixel_count": 20967,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

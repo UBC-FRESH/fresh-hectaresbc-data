@@ -1,0 +1,307 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_soils_pmdep/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_soils_pmdep",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:11:48+00:00",
+  "internal_raster_path": "pmdep.tiff",
+  "internal_wms_path": "pmdep.wms.xml",
+  "manifest_path": "layers/dl_soils_pmdep/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "pmdep.tiff",
+    "legend_source_path": "pmdep.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_soils_pmdep",
+    "source_title": "Parent Material Mode of Deposition",
+    "source_zip_path": "data_layers/soils_pmdep.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/soils_pmdep.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/soils_pmdep.zip",
+  "title": "Parent Material Mode of Deposition",
+  "value_class_count": 17,
+  "value_classes": [
+    {
+      "label": "Non applicable (#)",
+      "rgb": [
+        167,
+        160,
+        86
+      ],
+      "rgba": [
+        167,
+        160,
+        86,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Fibric Sphagnum (11)",
+      "rgb": [
+        177,
+        207,
+        213
+      ],
+      "rgba": [
+        177,
+        207,
+        213,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Mesic Woody Forest (23)",
+      "rgb": [
+        239,
+        23,
+        197
+      ],
+      "rgba": [
+        239,
+        23,
+        197,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Alluvial (A)",
+      "rgb": [
+        201,
+        243,
+        72
+      ],
+      "rgba": [
+        201,
+        243,
+        72,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Bog (B)",
+      "rgb": [
+        121,
+        88,
+        234
+      ],
+      "rgba": [
+        121,
+        88,
+        234,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Colluvial (C)",
+      "rgb": [
+        159,
+        176,
+        191
+      ],
+      "rgba": [
+        159,
+        176,
+        191,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Eolian (E)",
+      "rgb": [
+        118,
+        106,
+        216
+      ],
+      "rgba": [
+        118,
+        106,
+        216,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Fluvioglacial (F)",
+      "rgb": [
+        52,
+        13,
+        239
+      ],
+      "rgba": [
+        52,
+        13,
+        239,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Folic (I)",
+      "rgb": [
+        161,
+        241,
+        148
+      ],
+      "rgba": [
+        161,
+        241,
+        148,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Lacustrine (L)",
+      "rgb": [
+        206,
+        209,
+        195
+      ],
+      "rgba": [
+        206,
+        209,
+        195,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Morainal (M)",
+      "rgb": [
+        181,
+        191,
+        88
+      ],
+      "rgba": [
+        181,
+        191,
+        88,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Fen (N)",
+      "rgb": [
+        199,
+        229,
+        253
+      ],
+      "rgba": [
+        199,
+        229,
+        253,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Organic (O)",
+      "rgb": [
+        204,
+        36,
+        57
+      ],
+      "rgba": [
+        204,
+        36,
+        57,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Rock (R)",
+      "rgb": [
+        173,
+        176,
+        172
+      ],
+      "rgba": [
+        173,
+        176,
+        172,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Undifferentiated (U)",
+      "rgb": [
+        216,
+        27,
+        51
+      ],
+      "rgba": [
+        216,
+        27,
+        51,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Volcanic (V)",
+      "rgb": [
+        94,
+        247,
+        96
+      ],
+      "rgba": [
+        94,
+        247,
+        96,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Marine (W)",
+      "rgb": [
+        70,
+        157,
+        48
+      ],
+      "rgba": [
+        70,
+        157,
+        48,
+        220
+      ],
+      "value": 17
+    }
+  ],
+  "visible_pixel_count": 21843,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

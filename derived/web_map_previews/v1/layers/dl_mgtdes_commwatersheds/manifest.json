@@ -1,0 +1,7042 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_mgtdes_commwatersheds/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_mgtdes_commwatersheds",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:09:37+00:00",
+  "internal_raster_path": "commwatersheds.tiff",
+  "internal_wms_path": "commwatersheds.wms.xml",
+  "manifest_path": "layers/dl_mgtdes_commwatersheds/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "commwatersheds.tiff",
+    "legend_source_path": "commwatersheds.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_mgtdes_commwatersheds",
+    "source_title": "Community Watersheds",
+    "source_zip_path": "data_layers/mgtdes_commwatersheds.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/mgtdes_commwatersheds.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/mgtdes_commwatersheds.zip",
+  "title": "Community Watersheds",
+  "value_class_count": 466,
+  "value_classes": [
+    {
+      "label": "ABEL COMMUNITY WATERSHED (300.001)",
+      "rgb": [
+        134,
+        77,
+        63
+      ],
+      "rgba": [
+        134,
+        77,
+        63,
+        220
+      ],
+      "value": 138
+    },
+    {
+      "label": "ADAMS SPRING COMMUNITY WATERSHED (100.122)",
+      "rgb": [
+        2,
+        128,
+        32
+      ],
+      "rgba": [
+        2,
+        128,
+        32,
+        220
+      ],
+      "value": 72
+    },
+    {
+      "label": "AFFLECK COMMUNITY WATERSHED (320.002)",
+      "rgb": [
+        205,
+        225,
+        129
+      ],
+      "rgba": [
+        205,
+        225,
+        129,
+        220
+      ],
+      "value": 214
+    },
+    {
+      "label": "AGNEW COMMUNITY WATERSHED (119.001)",
+      "rgb": [
+        124,
+        30,
+        125
+      ],
+      "rgba": [
+        124,
+        30,
+        125,
+        220
+      ],
+      "value": 83
+    },
+    {
+      "label": "ALBERTA COMMUNITY WATERSHED (900.003)",
+      "rgb": [
+        218,
+        223,
+        100
+      ],
+      "rgba": [
+        218,
+        223,
+        100,
+        220
+      ],
+      "value": 330
+    },
+    {
+      "label": "ALOCIN COMMUNITY WATERSHED (120.030)",
+      "rgb": [
+        216,
+        92,
+        210
+      ],
+      "rgba": [
+        216,
+        92,
+        210,
+        220
+      ],
+      "value": 102
+    },
+    {
+      "label": "ALPHA COMMUNITY WATERSHED (900.005)",
+      "rgb": [
+        30,
+        80,
+        164
+      ],
+      "rgba": [
+        30,
+        80,
+        164,
+        220
+      ],
+      "value": 331
+    },
+    {
+      "label": "ANDERSON COMMUNITY WATERSHED (310.003)",
+      "rgb": [
+        55,
+        68,
+        222
+      ],
+      "rgba": [
+        55,
+        68,
+        222,
+        220
+      ],
+      "value": 173
+    },
+    {
+      "label": "ANDERSON COMMUNITY WATERSHED (340.002)",
+      "rgb": [
+        173,
+        117,
+        55
+      ],
+      "rgba": [
+        173,
+        117,
+        55,
+        220
+      ],
+      "value": 223
+    },
+    {
+      "label": "ANDERSON COMMUNITY WATERSHED (FLO.001)",
+      "rgb": [
+        4,
+        245,
+        133
+      ],
+      "rgba": [
+        4,
+        245,
+        133,
+        220
+      ],
+      "value": 445
+    },
+    {
+      "label": "ANDREWS COMMUNITY WATERSHED (930.001)",
+      "rgb": [
+        71,
+        0,
+        204
+      ],
+      "rgba": [
+        71,
+        0,
+        204,
+        220
+      ],
+      "value": 402
+    },
+    {
+      "label": "ANGEL COMMUNITY WATERSHED (340.003)",
+      "rgb": [
+        225,
+        58,
+        115
+      ],
+      "rgba": [
+        225,
+        58,
+        115,
+        220
+      ],
+      "value": 224
+    },
+    {
+      "label": "ANGLEMONT COMMUNITY WATERSHED (128.002)",
+      "rgb": [
+        142,
+        112,
+        112
+      ],
+      "rgba": [
+        142,
+        112,
+        112,
+        220
+      ],
+      "value": 103
+    },
+    {
+      "label": "ARROW COMMUNITY WATERSHED (340.007)",
+      "rgb": [
+        15,
+        129,
+        13
+      ],
+      "rgba": [
+        15,
+        129,
+        13,
+        220
+      ],
+      "value": 225
+    },
+    {
+      "label": "ASCAPHUS COMMUNITY WATERSHED (100.002)",
+      "rgb": [
+        213,
+        21,
+        222
+      ],
+      "rgba": [
+        213,
+        21,
+        222,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "ASHBURNHAM COMMUNITY WATERSHED (920.002)",
+      "rgb": [
+        102,
+        106,
+        254
+      ],
+      "rgba": [
+        102,
+        106,
+        254,
+        220
+      ],
+      "value": 374
+    },
+    {
+      "label": "ASHDOWN COMMUNITY WATERSHED (920.003)",
+      "rgb": [
+        16,
+        225,
+        156
+      ],
+      "rgba": [
+        16,
+        225,
+        156,
+        220
+      ],
+      "value": 375
+    },
+    {
+      "label": "AVOLA COMMUNITY WATERSHED (129.003)",
+      "rgb": [
+        177,
+        119,
+        27
+      ],
+      "rgba": [
+        177,
+        119,
+        27,
+        220
+      ],
+      "value": 125
+    },
+    {
+      "label": "AXE COMMUNITY WATERSHED (500.001)",
+      "rgb": [
+        105,
+        61,
+        186
+      ],
+      "rgba": [
+        105,
+        61,
+        186,
+        220
+      ],
+      "value": 324
+    },
+    {
+      "label": "AYLARD COMMUNITY WATERSHED (340.008)",
+      "rgb": [
+        16,
+        190,
+        111
+      ],
+      "rgba": [
+        16,
+        190,
+        111,
+        220
+      ],
+      "value": 226
+    },
+    {
+      "label": "BAERG COMMUNITY WATERSHED (300.064)",
+      "rgb": [
+        24,
+        216,
+        217
+      ],
+      "rgba": [
+        24,
+        216,
+        217,
+        220
+      ],
+      "value": 169
+    },
+    {
+      "label": "BALL PARK COMMUNITY WATERSHED (TEX.004)",
+      "rgb": [
+        20,
+        196,
+        227
+      ],
+      "rgba": [
+        20,
+        196,
+        227,
+        220
+      ],
+      "value": 466
+    },
+    {
+      "label": "BANON COMMUNITY WATERSHED (920.004)",
+      "rgb": [
+        246,
+        235,
+        194
+      ],
+      "rgba": [
+        246,
+        235,
+        194,
+        220
+      ],
+      "value": 376
+    },
+    {
+      "label": "BARRON COMMUNITY WATERSHED (920.005)",
+      "rgb": [
+        140,
+        62,
+        241
+      ],
+      "rgba": [
+        140,
+        62,
+        241,
+        220
+      ],
+      "value": 377
+    },
+    {
+      "label": "BARTLETT COMMUNITY WATERSHED (340.010)",
+      "rgb": [
+        143,
+        220,
+        93
+      ],
+      "rgba": [
+        143,
+        220,
+        93,
+        220
+      ],
+      "value": 227
+    },
+    {
+      "label": "BARTON COMMUNITY WATERSHED (930.002)",
+      "rgb": [
+        54,
+        20,
+        157
+      ],
+      "rgba": [
+        54,
+        20,
+        157,
+        220
+      ],
+      "value": 403
+    },
+    {
+      "label": "BASS COMMUNITY WATERSHED (128.003)",
+      "rgb": [
+        118,
+        112,
+        41
+      ],
+      "rgba": [
+        118,
+        112,
+        41,
+        220
+      ],
+      "value": 104
+    },
+    {
+      "label": "BASTION COMMUNITY WATERSHED (128.006)",
+      "rgb": [
+        254,
+        217,
+        106
+      ],
+      "rgba": [
+        254,
+        217,
+        106,
+        220
+      ],
+      "value": 107
+    },
+    {
+      "label": "BATH COMMUNITY WATERSHED (300.005)",
+      "rgb": [
+        46,
+        96,
+        14
+      ],
+      "rgba": [
+        46,
+        96,
+        14,
+        220
+      ],
+      "value": 139
+    },
+    {
+      "label": "BATYS COMMUNITY WATERSHED (340.011)",
+      "rgb": [
+        192,
+        227,
+        141
+      ],
+      "rgba": [
+        192,
+        227,
+        141,
+        220
+      ],
+      "value": 228
+    },
+    {
+      "label": "BELL COMMUNITY WATERSHED (310.009)",
+      "rgb": [
+        141,
+        215,
+        71
+      ],
+      "rgba": [
+        141,
+        215,
+        71,
+        220
+      ],
+      "value": 175
+    },
+    {
+      "label": "BIRD COMMUNITY WATERSHED (340.159)",
+      "rgb": [
+        154,
+        83,
+        32
+      ],
+      "rgba": [
+        154,
+        83,
+        32,
+        220
+      ],
+      "value": 286
+    },
+    {
+      "label": "BIRD COMMUNITY WATERSHED (920.006)",
+      "rgb": [
+        64,
+        134,
+        203
+      ],
+      "rgba": [
+        64,
+        134,
+        203,
+        220
+      ],
+      "value": 378
+    },
+    {
+      "label": "BJERKNESS COMMUNITY WATERSHED (340.012)",
+      "rgb": [
+        143,
+        154,
+        217
+      ],
+      "rgba": [
+        143,
+        154,
+        217,
+        220
+      ],
+      "value": 229
+    },
+    {
+      "label": "BLACKBIRD COMMUNITY WATERSHED (100.057)",
+      "rgb": [
+        131,
+        2,
+        107
+      ],
+      "rgba": [
+        131,
+        2,
+        107,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "BLACKCOMB COMMUNITY WATERSHED (119.002)",
+      "rgb": [
+        146,
+        37,
+        127
+      ],
+      "rgba": [
+        146,
+        37,
+        127,
+        220
+      ],
+      "value": 84
+    },
+    {
+      "label": "BLUNT COMMUNITY WATERSHED (340.013)",
+      "rgb": [
+        52,
+        158,
+        13
+      ],
+      "rgba": [
+        52,
+        158,
+        13,
+        220
+      ],
+      "value": 230
+    },
+    {
+      "label": "BOARDMAN COMMUNITY WATERSHED (349.002)",
+      "rgb": [
+        126,
+        30,
+        89
+      ],
+      "rgba": [
+        126,
+        30,
+        89,
+        220
+      ],
+      "value": 288
+    },
+    {
+      "label": "BOIVIN COMMUNITY WATERSHED (349.003)",
+      "rgb": [
+        189,
+        62,
+        126
+      ],
+      "rgba": [
+        189,
+        62,
+        126,
+        220
+      ],
+      "value": 289
+    },
+    {
+      "label": "BOURKE COMMUNITY WATERSHED (340.014)",
+      "rgb": [
+        53,
+        146,
+        193
+      ],
+      "rgba": [
+        53,
+        146,
+        193,
+        220
+      ],
+      "value": 231
+    },
+    {
+      "label": "BOWYER COMMUNITY WATERSHED (BOY.001)",
+      "rgb": [
+        121,
+        4,
+        58
+      ],
+      "rgba": [
+        121,
+        4,
+        58,
+        220
+      ],
+      "value": 442
+    },
+    {
+      "label": "BRADLEY COMMUNITY WATERSHED (340.015)",
+      "rgb": [
+        245,
+        7,
+        237
+      ],
+      "rgba": [
+        245,
+        7,
+        237,
+        220
+      ],
+      "value": 232
+    },
+    {
+      "label": "BRASH COMMUNITY WATERSHED (128.039)",
+      "rgb": [
+        109,
+        49,
+        191
+      ],
+      "rgba": [
+        109,
+        49,
+        191,
+        220
+      ],
+      "value": 120
+    },
+    {
+      "label": "BREW COMMUNITY WATERSHED (900.074)",
+      "rgb": [
+        154,
+        143,
+        3
+      ],
+      "rgba": [
+        154,
+        143,
+        3,
+        220
+      ],
+      "value": 359
+    },
+    {
+      "label": "BRIDES COMMUNITY WATERSHED (320.004)",
+      "rgb": [
+        40,
+        192,
+        114
+      ],
+      "rgba": [
+        40,
+        192,
+        114,
+        220
+      ],
+      "value": 215
+    },
+    {
+      "label": "BRIDGE COMMUNITY WATERSHED (360.001)",
+      "rgb": [
+        26,
+        140,
+        56
+      ],
+      "rgba": [
+        26,
+        140,
+        56,
+        220
+      ],
+      "value": 299
+    },
+    {
+      "label": "BROOK COMMUNITY WATERSHED (120.004)",
+      "rgb": [
+        157,
+        38,
+        166
+      ],
+      "rgba": [
+        157,
+        38,
+        166,
+        220
+      ],
+      "value": 92
+    },
+    {
+      "label": "BROOKS COMMUNITY WATERSHED (340.016)",
+      "rgb": [
+        201,
+        10,
+        244
+      ],
+      "rgba": [
+        201,
+        10,
+        244,
+        220
+      ],
+      "value": 233
+    },
+    {
+      "label": "BROTHER COMMUNITY WATERSHED (MEA.001)",
+      "rgb": [
+        30,
+        153,
+        142
+      ],
+      "rgba": [
+        30,
+        153,
+        142,
+        220
+      ],
+      "value": 454
+    },
+    {
+      "label": "BROUSE COMMUNITY WATERSHED (300.009)",
+      "rgb": [
+        84,
+        98,
+        29
+      ],
+      "rgba": [
+        84,
+        98,
+        29,
+        220
+      ],
+      "value": 140
+    },
+    {
+      "label": "B.X. COMMUNITY WATERSHED (310.008)",
+      "rgb": [
+        23,
+        76,
+        228
+      ],
+      "rgba": [
+        23,
+        76,
+        228,
+        220
+      ],
+      "value": 174
+    },
+    {
+      "label": "BYERS COMMUNITY WATERSHED (BOW.001)",
+      "rgb": [
+        105,
+        249,
+        184
+      ],
+      "rgba": [
+        105,
+        249,
+        184,
+        220
+      ],
+      "value": 430
+    },
+    {
+      "label": "CABLE COMMUNITY WATERSHED (310.100)",
+      "rgb": [
+        88,
+        55,
+        185
+      ],
+      "rgba": [
+        88,
+        55,
+        185,
+        220
+      ],
+      "value": 213
+    },
+    {
+      "label": "CALBICK COMMUNITY WATERSHED (930.003)",
+      "rgb": [
+        175,
+        101,
+        180
+      ],
+      "rgba": [
+        175,
+        101,
+        180,
+        220
+      ],
+      "value": 404
+    },
+    {
+      "label": "CAMERON COMMUNITY WATERSHED (340.019)",
+      "rgb": [
+        54,
+        117,
+        42
+      ],
+      "rgba": [
+        54,
+        117,
+        42,
+        220
+      ],
+      "value": 234
+    },
+    {
+      "label": "CAMP RUN COMMUNITY WATERSHED (340.021)",
+      "rgb": [
+        252,
+        177,
+        61
+      ],
+      "rgba": [
+        252,
+        177,
+        61,
+        220
+      ],
+      "value": 235
+    },
+    {
+      "label": "CAMPSITE COMMUNITY WATERSHED (970.003)",
+      "rgb": [
+        174,
+        107,
+        134
+      ],
+      "rgba": [
+        174,
+        107,
+        134,
+        220
+      ],
+      "value": 429
+    },
+    {
+      "label": "CANNELL LAKE COMMUNITY WATERSHED (100.119)",
+      "rgb": [
+        122,
+        68,
+        171
+      ],
+      "rgba": [
+        122,
+        68,
+        171,
+        220
+      ],
+      "value": 70
+    },
+    {
+      "label": "CANYON COMMUNITY WATERSHED (460.003)",
+      "rgb": [
+        21,
+        144,
+        140
+      ],
+      "rgba": [
+        21,
+        144,
+        140,
+        220
+      ],
+      "value": 317
+    },
+    {
+      "label": "CAPILANO COMMUNITY WATERSHED (900.080)",
+      "rgb": [
+        113,
+        152,
+        210
+      ],
+      "rgba": [
+        113,
+        152,
+        210,
+        220
+      ],
+      "value": 360
+    },
+    {
+      "label": "CARIBOU COMMUNITY WATERSHED (300.062)",
+      "rgb": [
+        116,
+        46,
+        5
+      ],
+      "rgba": [
+        116,
+        46,
+        5,
+        220
+      ],
+      "value": 167
+    },
+    {
+      "label": "CARKNER COMMUNITY WATERSHED (BOW.002)",
+      "rgb": [
+        62,
+        144,
+        189
+      ],
+      "rgba": [
+        62,
+        144,
+        189,
+        220
+      ],
+      "value": 431
+    },
+    {
+      "label": "CASINO COMMUNITY WATERSHED (300.011)",
+      "rgb": [
+        86,
+        114,
+        142
+      ],
+      "rgba": [
+        86,
+        114,
+        142,
+        220
+      ],
+      "value": 141
+    },
+    {
+      "label": "CATILINE COMMUNITY WATERSHED (119.020)",
+      "rgb": [
+        115,
+        89,
+        66
+      ],
+      "rgba": [
+        115,
+        89,
+        66,
+        220
+      ],
+      "value": 90
+    },
+    {
+      "label": "CENTRE COMMUNITY WATERSHED (100.006)",
+      "rgb": [
+        161,
+        53,
+        42
+      ],
+      "rgba": [
+        161,
+        53,
+        42,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "CHAPMAN COMMUNITY WATERSHED (900.008)",
+      "rgb": [
+        231,
+        68,
+        229
+      ],
+      "rgba": [
+        231,
+        68,
+        229,
+        220
+      ],
+      "value": 332
+    },
+    {
+      "label": "CHARLES COMMUNITY WATERSHED (900.009)",
+      "rgb": [
+        127,
+        52,
+        177
+      ],
+      "rgba": [
+        127,
+        52,
+        177,
+        220
+      ],
+      "value": 333
+    },
+    {
+      "label": "CHARTERS COMMUNITY WATERSHED (930.037)",
+      "rgb": [
+        143,
+        161,
+        227
+      ],
+      "rgba": [
+        143,
+        161,
+        227,
+        220
+      ],
+      "value": 422
+    },
+    {
+      "label": "CHICAGO COMMUNITY WATERSHED (400.005)",
+      "rgb": [
+        206,
+        236,
+        85
+      ],
+      "rgba": [
+        206,
+        236,
+        85,
+        220
+      ],
+      "value": 302
+    },
+    {
+      "label": "CHINA COMMUNITY WATERSHED (300.012)",
+      "rgb": [
+        101,
+        141,
+        58
+      ],
+      "rgba": [
+        101,
+        141,
+        58,
+        220
+      ],
+      "value": 142
+    },
+    {
+      "label": "CHINA COMMUNITY WATERSHED (930.004)",
+      "rgb": [
+        230,
+        251,
+        147
+      ],
+      "rgba": [
+        230,
+        251,
+        147,
+        220
+      ],
+      "value": 405
+    },
+    {
+      "label": "CHOATE COMMUNITY WATERSHED (100.098)",
+      "rgb": [
+        123,
+        119,
+        136
+      ],
+      "rgba": [
+        123,
+        119,
+        136,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "CHUTE COMMUNITY WATERSHED (310.012)",
+      "rgb": [
+        112,
+        103,
+        140
+      ],
+      "rgba": [
+        112,
+        103,
+        140,
+        220
+      ],
+      "value": 176
+    },
+    {
+      "label": "CLAYTON COMMUNITY WATERSHED (340.024)",
+      "rgb": [
+        176,
+        15,
+        232
+      ],
+      "rgba": [
+        176,
+        15,
+        232,
+        220
+      ],
+      "value": 236
+    },
+    {
+      "label": "CLIMAX COMMUNITY WATERSHED (340.025)",
+      "rgb": [
+        73,
+        225,
+        49
+      ],
+      "rgba": [
+        73,
+        225,
+        49,
+        220
+      ],
+      "value": 237
+    },
+    {
+      "label": "CLINTON COMMUNITY WATERSHED (120.007)",
+      "rgb": [
+        178,
+        254,
+        72
+      ],
+      "rgba": [
+        178,
+        254,
+        72,
+        220
+      ],
+      "value": 93
+    },
+    {
+      "label": "CLOSE COMMUNITY WATERSHED (MEA.002)",
+      "rgb": [
+        187,
+        31,
+        248
+      ],
+      "rgba": [
+        187,
+        31,
+        248,
+        220
+      ],
+      "value": 455
+    },
+    {
+      "label": "COHEN COMMUNITY WATERSHED (110.001)",
+      "rgb": [
+        136,
+        111,
+        135
+      ],
+      "rgba": [
+        136,
+        111,
+        135,
+        220
+      ],
+      "value": 78
+    },
+    {
+      "label": "COLD COMMUNITY WATERSHED (930.005)",
+      "rgb": [
+        92,
+        182,
+        164
+      ],
+      "rgba": [
+        92,
+        182,
+        164,
+        220
+      ],
+      "value": 406
+    },
+    {
+      "label": "COLD SPRING COMMUNITY WATERSHED (300.013)",
+      "rgb": [
+        219,
+        223,
+        194
+      ],
+      "rgba": [
+        219,
+        223,
+        194,
+        220
+      ],
+      "value": 143
+    },
+    {
+      "label": "COLDSTREAM COMMUNITY WATERSHED (310.013)",
+      "rgb": [
+        13,
+        67,
+        137
+      ],
+      "rgba": [
+        13,
+        67,
+        137,
+        220
+      ],
+      "value": 177
+    },
+    {
+      "label": "COMMUNITY CREEK COMMUNITY WATERSHED (900.012)",
+      "rgb": [
+        93,
+        108,
+        49
+      ],
+      "rgba": [
+        93,
+        108,
+        49,
+        220
+      ],
+      "value": 334
+    },
+    {
+      "label": "CORNING COMMUNITY WATERSHED (128.005)",
+      "rgb": [
+        251,
+        2,
+        179
+      ],
+      "rgba": [
+        251,
+        2,
+        179,
+        220
+      ],
+      "value": 106
+    },
+    {
+      "label": "CORNWALL COMMUNITY WATERSHED (120.009)",
+      "rgb": [
+        90,
+        21,
+        61
+      ],
+      "rgba": [
+        90,
+        21,
+        61,
+        220
+      ],
+      "value": 94
+    },
+    {
+      "label": "CORYA COMMUNITY WATERSHED (460.004)",
+      "rgb": [
+        141,
+        161,
+        154
+      ],
+      "rgba": [
+        141,
+        161,
+        154,
+        220
+      ],
+      "value": 318
+    },
+    {
+      "label": "COUNCIL COMMUNITY WATERSHED (930.038)",
+      "rgb": [
+        169,
+        217,
+        60
+      ],
+      "rgba": [
+        169,
+        217,
+        60,
+        220
+      ],
+      "value": 423
+    },
+    {
+      "label": "COUNTLESS COMMUNITY WATERSHED (100.058)",
+      "rgb": [
+        234,
+        206,
+        92
+      ],
+      "rgba": [
+        234,
+        206,
+        92,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "COUSTEAU COMMUNITY WATERSHED (930.006)",
+      "rgb": [
+        65,
+        250,
+        86
+      ],
+      "rgba": [
+        65,
+        250,
+        86,
+        220
+      ],
+      "value": 407
+    },
+    {
+      "label": "COUTLIE COMMUNITY WATERSHED (100.008)",
+      "rgb": [
+        232,
+        99,
+        225
+      ],
+      "rgba": [
+        232,
+        99,
+        225,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "CRANBY COMMUNITY WATERSHED (TEX.001)",
+      "rgb": [
+        124,
+        33,
+        1
+      ],
+      "rgba": [
+        124,
+        33,
+        1,
+        220
+      ],
+      "value": 464
+    },
+    {
+      "label": "CUMMINGS COMMUNITY WATERSHED (349.004)",
+      "rgb": [
+        102,
+        14,
+        205
+      ],
+      "rgba": [
+        102,
+        14,
+        205,
+        220
+      ],
+      "value": 290
+    },
+    {
+      "label": "CUPOLA COMMUNITY WATERSHED (100.097)",
+      "rgb": [
+        55,
+        228,
+        129
+      ],
+      "rgba": [
+        55,
+        228,
+        129,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "CURRIE COMMUNITY WATERSHED (128.008)",
+      "rgb": [
+        72,
+        230,
+        52
+      ],
+      "rgba": [
+        72,
+        230,
+        52,
+        220
+      ],
+      "value": 108
+    },
+    {
+      "label": "DAKOTA COMMUNITY WATERSHED (900.013)",
+      "rgb": [
+        82,
+        26,
+        130
+      ],
+      "rgba": [
+        82,
+        26,
+        130,
+        220
+      ],
+      "value": 335
+    },
+    {
+      "label": "DALE COMMUNITY WATERSHED (470.001)",
+      "rgb": [
+        223,
+        203,
+        59
+      ],
+      "rgba": [
+        223,
+        203,
+        59,
+        220
+      ],
+      "value": 322
+    },
+    {
+      "label": "D'ARCY COMMUNITY WATERSHED (100.059)",
+      "rgb": [
+        59,
+        47,
+        220
+      ],
+      "rgba": [
+        59,
+        47,
+        220,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "DAVIS COMMUNITY WATERSHED (340.032)",
+      "rgb": [
+        104,
+        9,
+        141
+      ],
+      "rgba": [
+        104,
+        9,
+        141,
+        220
+      ],
+      "value": 238
+    },
+    {
+      "label": "DECEPTION COMMUNITY WATERSHED (930.029)",
+      "rgb": [
+        38,
+        224,
+        239
+      ],
+      "rgba": [
+        38,
+        224,
+        239,
+        220
+      ],
+      "value": 421
+    },
+    {
+      "label": "DEEP COMMUNITY WATERSHED (430.001)",
+      "rgb": [
+        32,
+        116,
+        97
+      ],
+      "rgba": [
+        32,
+        116,
+        97,
+        220
+      ],
+      "value": 312
+    },
+    {
+      "label": "DEER COMMUNITY WATERSHED (300.068)",
+      "rgb": [
+        155,
+        22,
+        32
+      ],
+      "rgba": [
+        155,
+        22,
+        32,
+        220
+      ],
+      "value": 171
+    },
+    {
+      "label": "DEINER COMMUNITY WATERSHED (100.010)",
+      "rgb": [
+        57,
+        71,
+        160
+      ],
+      "rgba": [
+        57,
+        71,
+        160,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "DENHAM COMMUNITY WATERSHED (920.022)",
+      "rgb": [
+        25,
+        2,
+        42
+      ],
+      "rgba": [
+        25,
+        2,
+        42,
+        220
+      ],
+      "value": 379
+    },
+    {
+      "label": "DEROCHE COMMUNITY WATERSHED (100.011)",
+      "rgb": [
+        145,
+        174,
+        188
+      ],
+      "rgba": [
+        145,
+        174,
+        188,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "DESMOND COMMUNITY WATERSHED (920.023)",
+      "rgb": [
+        157,
+        210,
+        125
+      ],
+      "rgba": [
+        157,
+        210,
+        125,
+        220
+      ],
+      "value": 380
+    },
+    {
+      "label": "DICKEY COMMUNITY WATERSHED (100.060)",
+      "rgb": [
+        109,
+        224,
+        184
+      ],
+      "rgba": [
+        109,
+        224,
+        184,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "DICKSAM COMMUNITY WATERSHED (100.061)",
+      "rgb": [
+        197,
+        105,
+        137
+      ],
+      "rgba": [
+        197,
+        105,
+        137,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "DILLARD COMMUNITY WATERSHED (310.014)",
+      "rgb": [
+        115,
+        170,
+        126
+      ],
+      "rgba": [
+        115,
+        170,
+        126,
+        220
+      ],
+      "value": 178
+    },
+    {
+      "label": "DODGE COMMUNITY WATERSHED (DIG.001)",
+      "rgb": [
+        3,
+        136,
+        220
+      ],
+      "rgba": [
+        3,
+        136,
+        220,
+        220
+      ],
+      "value": 444
+    },
+    {
+      "label": "DOG COMMUNITY WATERSHED (300.071)",
+      "rgb": [
+        124,
+        227,
+        95
+      ],
+      "rgba": [
+        124,
+        227,
+        95,
+        220
+      ],
+      "value": 172
+    },
+    {
+      "label": "DOLAN COMMUNITY WATERSHED (300.061)",
+      "rgb": [
+        119,
+        214,
+        72
+      ],
+      "rgba": [
+        119,
+        214,
+        72,
+        220
+      ],
+      "value": 166
+    },
+    {
+      "label": "DOMINION COMMUNITY WATERSHED (100.090)",
+      "rgb": [
+        8,
+        137,
+        199
+      ],
+      "rgba": [
+        8,
+        137,
+        199,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "DOMITIAN CREEK COMMUNITY WATERSHED (110.006)",
+      "rgb": [
+        50,
+        240,
+        108
+      ],
+      "rgba": [
+        50,
+        240,
+        108,
+        220
+      ],
+      "value": 81
+    },
+    {
+      "label": "DORMAN COMMUNITY WATERSHED (BOW.003)",
+      "rgb": [
+        225,
+        195,
+        70
+      ],
+      "rgba": [
+        225,
+        195,
+        70,
+        220
+      ],
+      "value": 432
+    },
+    {
+      "label": "DOYLE COMMUNITY WATERSHED (970.001)",
+      "rgb": [
+        40,
+        165,
+        238
+      ],
+      "rgba": [
+        40,
+        165,
+        238,
+        220
+      ],
+      "value": 427
+    },
+    {
+      "label": "DRACHMANN COMMUNITY WATERSHED (100.012)",
+      "rgb": [
+        117,
+        129,
+        161
+      ],
+      "rgba": [
+        117,
+        129,
+        161,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "DRAKE COMMUNITY WATERSHED (420.001)",
+      "rgb": [
+        253,
+        92,
+        203
+      ],
+      "rgba": [
+        253,
+        92,
+        203,
+        220
+      ],
+      "value": 310
+    },
+    {
+      "label": "DRY GULCH COMMUNITY WATERSHED (300.065)",
+      "rgb": [
+        36,
+        131,
+        145
+      ],
+      "rgba": [
+        36,
+        131,
+        145,
+        220
+      ],
+      "value": 170
+    },
+    {
+      "label": "DUCK COMMUNITY WATERSHED (340.033)",
+      "rgb": [
+        39,
+        155,
+        175
+      ],
+      "rgba": [
+        39,
+        155,
+        175,
+        220
+      ],
+      "value": 239
+    },
+    {
+      "label": "DUHAMEL COMMUNITY WATERSHED (340.034)",
+      "rgb": [
+        94,
+        159,
+        241
+      ],
+      "rgba": [
+        94,
+        159,
+        241,
+        220
+      ],
+      "value": 240
+    },
+    {
+      "label": "DUNVILLE COMMUNITY WATERSHED (100.013)",
+      "rgb": [
+        95,
+        193,
+        18
+      ],
+      "rgba": [
+        95,
+        193,
+        18,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "DUTCHMAN COMMUNITY WATERSHED (900.015)",
+      "rgb": [
+        106,
+        213,
+        69
+      ],
+      "rgba": [
+        106,
+        213,
+        69,
+        220
+      ],
+      "value": 336
+    },
+    {
+      "label": "DUTEAU COMMUNITY WATERSHED (128.040)",
+      "rgb": [
+        27,
+        18,
+        170
+      ],
+      "rgba": [
+        27,
+        18,
+        170,
+        220
+      ],
+      "value": 121
+    },
+    {
+      "label": "DYSART COMMUNITY WATERSHED (900.094)",
+      "rgb": [
+        205,
+        19,
+        205
+      ],
+      "rgba": [
+        205,
+        19,
+        205,
+        220
+      ],
+      "value": 363
+    },
+    {
+      "label": "EAGLE COMMUNITY WATERSHED (340.037)",
+      "rgb": [
+        10,
+        82,
+        130
+      ],
+      "rgba": [
+        10,
+        82,
+        130,
+        220
+      ],
+      "value": 241
+    },
+    {
+      "label": "EAST CANOE COMMUNITY WATERSHED (128.009)",
+      "rgb": [
+        1,
+        241,
+        217
+      ],
+      "rgba": [
+        1,
+        241,
+        217,
+        220
+      ],
+      "value": 109
+    },
+    {
+      "label": "EDAND COMMUNITY WATERSHED (100.091)",
+      "rgb": [
+        140,
+        25,
+        8
+      ],
+      "rgba": [
+        140,
+        25,
+        8,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "EDDY COMMUNITY WATERSHED (BOW.004)",
+      "rgb": [
+        180,
+        91,
+        62
+      ],
+      "rgba": [
+        180,
+        91,
+        62,
+        220
+      ],
+      "value": 433
+    },
+    {
+      "label": "EDMESTON COMMUNITY WATERSHED (100.101)",
+      "rgb": [
+        5,
+        165,
+        254
+      ],
+      "rgba": [
+        5,
+        165,
+        254,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "EDNA COMMUNITY WATERSHED (100.102)",
+      "rgb": [
+        237,
+        0,
+        33
+      ],
+      "rgba": [
+        237,
+        0,
+        33,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "ELBOW COMMUNITY WATERSHED (110.104)",
+      "rgb": [
+        187,
+        197,
+        157
+      ],
+      "rgba": [
+        187,
+        197,
+        157,
+        220
+      ],
+      "value": 82
+    },
+    {
+      "label": "ELGOOD COMMUNITY WATERSHED (300.020)",
+      "rgb": [
+        182,
+        69,
+        31
+      ],
+      "rgba": [
+        182,
+        69,
+        31,
+        220
+      ],
+      "value": 144
+    },
+    {
+      "label": "ELK COMMUNITY WATERSHED (100.015)",
+      "rgb": [
+        192,
+        166,
+        155
+      ],
+      "rgba": [
+        192,
+        166,
+        155,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "ELLIS COMMUNITY WATERSHED (310.018)",
+      "rgb": [
+        0,
+        213,
+        92
+      ],
+      "rgba": [
+        0,
+        213,
+        92,
+        220
+      ],
+      "value": 179
+    },
+    {
+      "label": "ENEEKSAGILAGUAW COMMUNITY WATERSHED (400.007)",
+      "rgb": [
+        83,
+        111,
+        79
+      ],
+      "rgba": [
+        83,
+        111,
+        79,
+        220
+      ],
+      "value": 303
+    },
+    {
+      "label": "ENGINEERS COMMUNITY WATERSHED (100.016)",
+      "rgb": [
+        35,
+        118,
+        16
+      ],
+      "rgba": [
+        35,
+        118,
+        16,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "ENGLISHMAN COMMUNITY WATERSHED (920.026)",
+      "rgb": [
+        74,
+        247,
+        87
+      ],
+      "rgba": [
+        74,
+        247,
+        87,
+        220
+      ],
+      "value": 381
+    },
+    {
+      "label": "EXPLOSIVES COMMUNITY WATERSHED (BOW.005)",
+      "rgb": [
+        140,
+        70,
+        199
+      ],
+      "rgba": [
+        140,
+        70,
+        199,
+        220
+      ],
+      "value": 434
+    },
+    {
+      "label": "FAIRY COMMUNITY WATERSHED (349.006)",
+      "rgb": [
+        23,
+        84,
+        228
+      ],
+      "rgba": [
+        23,
+        84,
+        228,
+        220
+      ],
+      "value": 292
+    },
+    {
+      "label": "FALLS COMMUNITY WATERSHED (340.043)",
+      "rgb": [
+        110,
+        99,
+        106
+      ],
+      "rgba": [
+        110,
+        99,
+        106,
+        220
+      ],
+      "value": 242
+    },
+    {
+      "label": "FARLEIGH COMMUNITY WATERSHED (310.019)",
+      "rgb": [
+        123,
+        114,
+        110
+      ],
+      "rgba": [
+        123,
+        114,
+        110,
+        220
+      ],
+      "value": 180
+    },
+    {
+      "label": "FERGUSSON COMMUNITY WATERSHED (100.062)",
+      "rgb": [
+        0,
+        171,
+        139
+      ],
+      "rgba": [
+        0,
+        171,
+        139,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "FIN COMMUNITY WATERSHED (100.017)",
+      "rgb": [
+        243,
+        140,
+        208
+      ],
+      "rgba": [
+        243,
+        140,
+        208,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "FIRCOM COMMUNITY WATERSHED (GAM.002)",
+      "rgb": [
+        251,
+        8,
+        135
+      ],
+      "rgba": [
+        251,
+        8,
+        135,
+        220
+      ],
+      "value": 447
+    },
+    {
+      "label": "FIVE MILE COMMUNITY WATERSHED (340.046)",
+      "rgb": [
+        129,
+        209,
+        237
+      ],
+      "rgba": [
+        129,
+        209,
+        237,
+        220
+      ],
+      "value": 243
+    },
+    {
+      "label": "FLAPJACK COMMUNITY WATERSHED (100.104)",
+      "rgb": [
+        99,
+        196,
+        82
+      ],
+      "rgba": [
+        99,
+        196,
+        82,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "FLETCHER COMMUNITY WATERSHED (340.047)",
+      "rgb": [
+        197,
+        92,
+        236
+      ],
+      "rgba": [
+        197,
+        92,
+        236,
+        220
+      ],
+      "value": 244
+    },
+    {
+      "label": "FLOYD COMMUNITY WATERSHED (340.049)",
+      "rgb": [
+        106,
+        4,
+        26
+      ],
+      "rgba": [
+        106,
+        4,
+        26,
+        220
+      ],
+      "value": 245
+    },
+    {
+      "label": "FORSTER COMMUNITY WATERSHED (300.021)",
+      "rgb": [
+        62,
+        207,
+        68
+      ],
+      "rgba": [
+        62,
+        207,
+        68,
+        220
+      ],
+      "value": 145
+    },
+    {
+      "label": "FORTUNE COMMUNITY WATERSHED (128.041)",
+      "rgb": [
+        69,
+        215,
+        244
+      ],
+      "rgba": [
+        69,
+        215,
+        244,
+        220
+      ],
+      "value": 122
+    },
+    {
+      "label": "FOSTER COMMUNITY WATERSHED (340.051)",
+      "rgb": [
+        172,
+        168,
+        81
+      ],
+      "rgba": [
+        172,
+        168,
+        81,
+        220
+      ],
+      "value": 246
+    },
+    {
+      "label": "FOUNTAIN COMMUNITY WATERSHED (100.063)",
+      "rgb": [
+        70,
+        117,
+        7
+      ],
+      "rgba": [
+        70,
+        117,
+        7,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "FOUR MILE COMMUNITY WATERSHED (340.052)",
+      "rgb": [
+        49,
+        119,
+        68
+      ],
+      "rgba": [
+        49,
+        119,
+        68,
+        220
+      ],
+      "value": 247
+    },
+    {
+      "label": "FRENCH COMMUNITY WATERSHED (920.027)",
+      "rgb": [
+        236,
+        80,
+        51
+      ],
+      "rgba": [
+        236,
+        80,
+        51,
+        220
+      ],
+      "value": 382
+    },
+    {
+      "label": "FRUITVALE COMMUNITY WATERSHED (300.022)",
+      "rgb": [
+        209,
+        209,
+        163
+      ],
+      "rgba": [
+        209,
+        209,
+        163,
+        220
+      ],
+      "value": 146
+    },
+    {
+      "label": "GABION COMMUNITY WATERSHED (910.007)",
+      "rgb": [
+        15,
+        76,
+        232
+      ],
+      "rgba": [
+        15,
+        76,
+        232,
+        220
+      ],
+      "value": 369
+    },
+    {
+      "label": "GAMBIER COMMUNITY WATERSHED (GAM.001)",
+      "rgb": [
+        35,
+        205,
+        162
+      ],
+      "rgba": [
+        35,
+        205,
+        162,
+        220
+      ],
+      "value": 446
+    },
+    {
+      "label": "GANDER COMMUNITY WATERSHED (340.054)",
+      "rgb": [
+        11,
+        21,
+        196
+      ],
+      "rgba": [
+        11,
+        21,
+        196,
+        220
+      ],
+      "value": 248
+    },
+    {
+      "label": "GEORGE COMMUNITY WATERSHED (100.064)",
+      "rgb": [
+        46,
+        248,
+        30
+      ],
+      "rgba": [
+        46,
+        248,
+        30,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "GIBBS COMMUNITY WATERSHED (910.001)",
+      "rgb": [
+        6,
+        229,
+        159
+      ],
+      "rgba": [
+        6,
+        229,
+        159,
+        220
+      ],
+      "value": 365
+    },
+    {
+      "label": "GINNARD COMMUNITY WATERSHED (MEA.003)",
+      "rgb": [
+        163,
+        186,
+        62
+      ],
+      "rgba": [
+        163,
+        186,
+        62,
+        220
+      ],
+      "value": 456
+    },
+    {
+      "label": "GITZYON COMMUNITY WATERSHED (500.002)",
+      "rgb": [
+        0,
+        201,
+        1
+      ],
+      "rgba": [
+        0,
+        201,
+        1,
+        220
+      ],
+      "value": 325
+    },
+    {
+      "label": "GLADE COMMUNITY WATERSHED (340.058)",
+      "rgb": [
+        113,
+        11,
+        180
+      ],
+      "rgba": [
+        113,
+        11,
+        180,
+        220
+      ],
+      "value": 249
+    },
+    {
+      "label": "GLADWIN COMMUNITY WATERSHED (120.011)",
+      "rgb": [
+        200,
+        102,
+        15
+      ],
+      "rgba": [
+        200,
+        102,
+        15,
+        220
+      ],
+      "value": 95
+    },
+    {
+      "label": "GLANZIER COMMUNITY WATERSHED (128.042)",
+      "rgb": [
+        205,
+        97,
+        0
+      ],
+      "rgba": [
+        205,
+        97,
+        0,
+        220
+      ],
+      "value": 123
+    },
+    {
+      "label": "GLENCAIRN COMMUNITY WATERSHED (340.059)",
+      "rgb": [
+        144,
+        96,
+        243
+      ],
+      "rgba": [
+        144,
+        96,
+        243,
+        220
+      ],
+      "value": 250
+    },
+    {
+      "label": "GOLD COMMUNITY WATERSHED (349.008)",
+      "rgb": [
+        45,
+        18,
+        1
+      ],
+      "rgba": [
+        45,
+        18,
+        1,
+        220
+      ],
+      "value": 293
+    },
+    {
+      "label": "GOLDSTREAM COMMUNITY WATERSHED (920.090)",
+      "rgb": [
+        124,
+        34,
+        0
+      ],
+      "rgba": [
+        124,
+        34,
+        0,
+        220
+      ],
+      "value": 399
+    },
+    {
+      "label": "GORDON COMMUNITY WATERSHED (128.011)",
+      "rgb": [
+        233,
+        59,
+        125
+      ],
+      "rgba": [
+        233,
+        59,
+        125,
+        220
+      ],
+      "value": 110
+    },
+    {
+      "label": "GOSSEN COMMUNITY WATERSHED (400.012)",
+      "rgb": [
+        82,
+        237,
+        146
+      ],
+      "rgba": [
+        82,
+        237,
+        146,
+        220
+      ],
+      "value": 308
+    },
+    {
+      "label": "GOUDIE COMMUNITY WATERSHED (930.008)",
+      "rgb": [
+        10,
+        130,
+        36
+      ],
+      "rgba": [
+        10,
+        130,
+        36,
+        220
+      ],
+      "value": 408
+    },
+    {
+      "label": "GRAFTON CREEK COMMUNITY WATERSHED (BOW.016)",
+      "rgb": [
+        221,
+        22,
+        114
+      ],
+      "rgba": [
+        221,
+        22,
+        114,
+        220
+      ],
+      "value": 441
+    },
+    {
+      "label": "GRAY COMMUNITY WATERSHED (900.020)",
+      "rgb": [
+        146,
+        83,
+        138
+      ],
+      "rgba": [
+        146,
+        83,
+        138,
+        220
+      ],
+      "value": 337
+    },
+    {
+      "label": "GREELEY COMMUNITY WATERSHED (360.003)",
+      "rgb": [
+        140,
+        193,
+        176
+      ],
+      "rgba": [
+        140,
+        193,
+        176,
+        220
+      ],
+      "value": 300
+    },
+    {
+      "label": "GREER COMMUNITY WATERSHED (900.021)",
+      "rgb": [
+        41,
+        183,
+        212
+      ],
+      "rgba": [
+        41,
+        183,
+        212,
+        220
+      ],
+      "value": 338
+    },
+    {
+      "label": "GUILD COMMUNITY WATERSHED (BOW.008)",
+      "rgb": [
+        63,
+        190,
+        12
+      ],
+      "rgba": [
+        63,
+        190,
+        12,
+        220
+      ],
+      "value": 435
+    },
+    {
+      "label": "GURNEY COMMUNITY WATERSHED (100.019)",
+      "rgb": [
+        50,
+        250,
+        67
+      ],
+      "rgba": [
+        50,
+        250,
+        67,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "GWILLIM COMMUNITY WATERSHED (340.062)",
+      "rgb": [
+        253,
+        63,
+        250
+      ],
+      "rgba": [
+        253,
+        63,
+        250,
+        220
+      ],
+      "value": 251
+    },
+    {
+      "label": "HACKETT COMMUNITY WATERSHED (310.021)",
+      "rgb": [
+        58,
+        98,
+        85
+      ],
+      "rgba": [
+        58,
+        98,
+        85,
+        220
+      ],
+      "value": 181
+    },
+    {
+      "label": "HADLEY COMMUNITY WATERSHED (LAS.001)",
+      "rgb": [
+        41,
+        97,
+        185
+      ],
+      "rgba": [
+        41,
+        97,
+        185,
+        220
+      ],
+      "value": 453
+    },
+    {
+      "label": "HAGGARD LAKE COMMUNITY WATERSHED (930.009)",
+      "rgb": [
+        249,
+        44,
+        183
+      ],
+      "rgba": [
+        249,
+        44,
+        183,
+        220
+      ],
+      "value": 409
+    },
+    {
+      "label": "HALFWAY COMMUNITY WATERSHED (300.026)",
+      "rgb": [
+        117,
+        167,
+        188
+      ],
+      "rgba": [
+        117,
+        167,
+        188,
+        220
+      ],
+      "value": 147
+    },
+    {
+      "label": "HALLISEY COMMUNITY WATERSHED (100.022)",
+      "rgb": [
+        165,
+        209,
+        117
+      ],
+      "rgba": [
+        165,
+        209,
+        117,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "HAMILTON COMMUNITY WATERSHED (360.004)",
+      "rgb": [
+        108,
+        225,
+        114
+      ],
+      "rgba": [
+        108,
+        225,
+        114,
+        220
+      ],
+      "value": 301
+    },
+    {
+      "label": "HANNA COMMUNITY WATERSHED (300.027)",
+      "rgb": [
+        143,
+        37,
+        238
+      ],
+      "rgba": [
+        143,
+        37,
+        238,
+        220
+      ],
+      "value": 148
+    },
+    {
+      "label": "HANSEN COMMUNITY WATERSHED (340.063)",
+      "rgb": [
+        221,
+        45,
+        142
+      ],
+      "rgba": [
+        221,
+        45,
+        142,
+        220
+      ],
+      "value": 252
+    },
+    {
+      "label": "HARBOTT COMMUNITY WATERSHED (STU.001)",
+      "rgb": [
+        214,
+        98,
+        143
+      ],
+      "rgba": [
+        214,
+        98,
+        143,
+        220
+      ],
+      "value": 463
+    },
+    {
+      "label": "HAROLD COMMUNITY WATERSHED (100.086)",
+      "rgb": [
+        134,
+        89,
+        149
+      ],
+      "rgba": [
+        134,
+        89,
+        149,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "HARVEY COMMUNITY WATERSHED (900.024)",
+      "rgb": [
+        33,
+        225,
+        195
+      ],
+      "rgba": [
+        33,
+        225,
+        195,
+        220
+      ],
+      "value": 339
+    },
+    {
+      "label": "HASCHEAK COMMUNITY WATERSHED (129.007)",
+      "rgb": [
+        233,
+        139,
+        248
+      ],
+      "rgba": [
+        233,
+        139,
+        248,
+        220
+      ],
+      "value": 126
+    },
+    {
+      "label": "HASLAM/LANG COMMUNITY WATERSHED (900.034)",
+      "rgb": [
+        96,
+        215,
+        5
+      ],
+      "rgba": [
+        96,
+        215,
+        5,
+        220
+      ],
+      "value": 343
+    },
+    {
+      "label": "HATCHERY COMMUNITY WATERSHED (420.002)",
+      "rgb": [
+        236,
+        12,
+        178
+      ],
+      "rgba": [
+        236,
+        12,
+        178,
+        220
+      ],
+      "value": 311
+    },
+    {
+      "label": "HEART COMMUNITY WATERSHED (300.063)",
+      "rgb": [
+        14,
+        151,
+        81
+      ],
+      "rgba": [
+        14,
+        151,
+        81,
+        220
+      ],
+      "value": 168
+    },
+    {
+      "label": "HELENA COMMUNITY WATERSHED (900.027)",
+      "rgb": [
+        180,
+        230,
+        248
+      ],
+      "rgba": [
+        180,
+        230,
+        248,
+        220
+      ],
+      "value": 341
+    },
+    {
+      "label": "HENDRYX COMMUNITY WATERSHED (340.065)",
+      "rgb": [
+        74,
+        54,
+        138
+      ],
+      "rgba": [
+        74,
+        54,
+        138,
+        220
+      ],
+      "value": 253
+    },
+    {
+      "label": "HOBSON COMMUNITY WATERSHED (128.013)",
+      "rgb": [
+        107,
+        120,
+        79
+      ],
+      "rgba": [
+        107,
+        120,
+        79,
+        220
+      ],
+      "value": 111
+    },
+    {
+      "label": "HOLLAND COMMUNITY WATERSHED (920.032)",
+      "rgb": [
+        25,
+        241,
+        138
+      ],
+      "rgba": [
+        25,
+        241,
+        138,
+        220
+      ],
+      "value": 383
+    },
+    {
+      "label": "HONEYMOON COMMUNITY WATERSHED (BOW.010)",
+      "rgb": [
+        129,
+        177,
+        112
+      ],
+      "rgba": [
+        129,
+        177,
+        112,
+        220
+      ],
+      "value": 436
+    },
+    {
+      "label": "HONNA RIVER COMMUNITY WATERSHED (GRA.001)",
+      "rgb": [
+        98,
+        76,
+        122
+      ],
+      "rgba": [
+        98,
+        76,
+        122,
+        220
+      ],
+      "value": 449
+    },
+    {
+      "label": "HOPE COMMUNITY WATERSHED (310.023)",
+      "rgb": [
+        26,
+        10,
+        137
+      ],
+      "rgba": [
+        26,
+        10,
+        137,
+        220
+      ],
+      "value": 182
+    },
+    {
+      "label": "HUDSON COMMUNITY WATERSHED (128.014)",
+      "rgb": [
+        191,
+        229,
+        124
+      ],
+      "rgba": [
+        191,
+        229,
+        124,
+        220
+      ],
+      "value": 112
+    },
+    {
+      "label": "HUMPHRIES COMMUNITY WATERSHED (340.067)",
+      "rgb": [
+        168,
+        178,
+        194
+      ],
+      "rgba": [
+        168,
+        178,
+        194,
+        220
+      ],
+      "value": 254
+    },
+    {
+      "label": "HYDRAULIC COMMUNITY WATERSHED (310.025)",
+      "rgb": [
+        254,
+        104,
+        74
+      ],
+      "rgba": [
+        254,
+        104,
+        74,
+        220
+      ],
+      "value": 183
+    },
+    {
+      "label": "ICHILAKA COMMUNITY WATERSHED (100.106)",
+      "rgb": [
+        170,
+        60,
+        163
+      ],
+      "rgba": [
+        170,
+        60,
+        163,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "INDIAN COMMUNITY WATERSHED (340.068)",
+      "rgb": [
+        253,
+        108,
+        202
+      ],
+      "rgba": [
+        253,
+        108,
+        202,
+        220
+      ],
+      "value": 255
+    },
+    {
+      "label": "INKAWTHIA COMMUNITY WATERSHED (100.107)",
+      "rgb": [
+        167,
+        89,
+        178
+      ],
+      "rgba": [
+        167,
+        89,
+        178,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "INKLYULNKINATKO COMMUNITY WATERSHED (100.210)",
+      "rgb": [
+        8,
+        60,
+        27
+      ],
+      "rgba": [
+        8,
+        60,
+        27,
+        220
+      ],
+      "value": 74
+    },
+    {
+      "label": "INTLPAM COMMUNITY WATERSHED (100.067)",
+      "rgb": [
+        168,
+        94,
+        77
+      ],
+      "rgba": [
+        168,
+        94,
+        77,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "IRISH COMMUNITY WATERSHED (310.026)",
+      "rgb": [
+        226,
+        86,
+        10
+      ],
+      "rgba": [
+        226,
+        86,
+        10,
+        220
+      ],
+      "value": 184
+    },
+    {
+      "label": "ITATSOO COMMUNITY WATERSHED (930.010)",
+      "rgb": [
+        104,
+        135,
+        187
+      ],
+      "rgba": [
+        104,
+        135,
+        187,
+        220
+      ],
+      "value": 410
+    },
+    {
+      "label": "JAMIESON COMMUNITY WATERSHED (100.023)",
+      "rgb": [
+        97,
+        234,
+        149
+      ],
+      "rgba": [
+        97,
+        234,
+        149,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "JARVIS COMMUNITY WATERSHED (340.069)",
+      "rgb": [
+        25,
+        54,
+        238
+      ],
+      "rgba": [
+        25,
+        54,
+        238,
+        220
+      ],
+      "value": 256
+    },
+    {
+      "label": "JEFFERD COMMUNITY WATERSHED (900.031)",
+      "rgb": [
+        188,
+        34,
+        77
+      ],
+      "rgba": [
+        188,
+        34,
+        77,
+        220
+      ],
+      "value": 342
+    },
+    {
+      "label": "JIMMIES COMMUNITY WATERSHED (120.015)",
+      "rgb": [
+        111,
+        166,
+        78
+      ],
+      "rgba": [
+        111,
+        166,
+        78,
+        220
+      ],
+      "value": 96
+    },
+    {
+      "label": "JOHN BROWN COMMUNITY WATERSHED (460.005)",
+      "rgb": [
+        187,
+        25,
+        70
+      ],
+      "rgba": [
+        187,
+        25,
+        70,
+        220
+      ],
+      "value": 319
+    },
+    {
+      "label": "JOHN HART COMMUNITY WATERSHED (920.049)",
+      "rgb": [
+        21,
+        107,
+        196
+      ],
+      "rgba": [
+        21,
+        107,
+        196,
+        220
+      ],
+      "value": 390
+    },
+    {
+      "label": "JOSEPH COMMUNITY WATERSHED (349.009)",
+      "rgb": [
+        204,
+        83,
+        95
+      ],
+      "rgba": [
+        204,
+        83,
+        95,
+        220
+      ],
+      "value": 294
+    },
+    {
+      "label": "JOSEPHINE COMMUNITY WATERSHED (BOW.011)",
+      "rgb": [
+        32,
+        174,
+        192
+      ],
+      "rgba": [
+        32,
+        174,
+        192,
+        220
+      ],
+      "value": 437
+    },
+    {
+      "label": "JUNIPER COMMUNITY WATERSHED (450.005)",
+      "rgb": [
+        76,
+        131,
+        226
+      ],
+      "rgba": [
+        76,
+        131,
+        226,
+        220
+      ],
+      "value": 316
+    },
+    {
+      "label": "KAS MIINTL AM HAWAK COMMUNITY WATERSHED (500.003)",
+      "rgb": [
+        36,
+        60,
+        77
+      ],
+      "rgba": [
+        36,
+        60,
+        77,
+        220
+      ],
+      "value": 326
+    },
+    {
+      "label": "KATHRYN COMMUNITY WATERSHED (100.024)",
+      "rgb": [
+        224,
+        252,
+        70
+      ],
+      "rgba": [
+        224,
+        252,
+        70,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "KELLY COMMUNITY WATERSHED (300.029)",
+      "rgb": [
+        63,
+        180,
+        168
+      ],
+      "rgba": [
+        63,
+        180,
+        168,
+        220
+      ],
+      "value": 149
+    },
+    {
+      "label": "KELOWNA COMMUNITY WATERSHED (310.028)",
+      "rgb": [
+        166,
+        65,
+        99
+      ],
+      "rgba": [
+        166,
+        65,
+        99,
+        220
+      ],
+      "value": 185
+    },
+    {
+      "label": "KEMP COMMUNITY WATERSHED (340.073)",
+      "rgb": [
+        81,
+        20,
+        247
+      ],
+      "rgba": [
+        81,
+        20,
+        247,
+        220
+      ],
+      "value": 257
+    },
+    {
+      "label": "KEMP LAKE COMMUNITY WATERSHED (930.011)",
+      "rgb": [
+        98,
+        136,
+        16
+      ],
+      "rgba": [
+        98,
+        136,
+        16,
+        220
+      ],
+      "value": 411
+    },
+    {
+      "label": "KENDRY COMMUNITY WATERSHED (128.043)",
+      "rgb": [
+        190,
+        249,
+        132
+      ],
+      "rgba": [
+        190,
+        249,
+        132,
+        220
+      ],
+      "value": 124
+    },
+    {
+      "label": "KENWORTHY COMMUNITY WATERSHED (100.026)",
+      "rgb": [
+        197,
+        36,
+        70
+      ],
+      "rgba": [
+        197,
+        36,
+        70,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "KEREMEOS COMMUNITY WATERSHED (310.029)",
+      "rgb": [
+        44,
+        25,
+        160
+      ],
+      "rgba": [
+        44,
+        25,
+        160,
+        220
+      ],
+      "value": 186
+    },
+    {
+      "label": "KIMBERLEY COMMUNITY WATERSHED (349.010)",
+      "rgb": [
+        145,
+        51,
+        222
+      ],
+      "rgba": [
+        145,
+        51,
+        222,
+        220
+      ],
+      "value": 295
+    },
+    {
+      "label": "KING EDWARD (DEER) COMMUNITY WATERSHED (310.095)",
+      "rgb": [
+        208,
+        215,
+        86
+      ],
+      "rgba": [
+        208,
+        215,
+        86,
+        220
+      ],
+      "value": 211
+    },
+    {
+      "label": "KITSEGUEKLA CREEK COMMUNITY WATERSHED (450.001)",
+      "rgb": [
+        37,
+        79,
+        17
+      ],
+      "rgba": [
+        37,
+        79,
+        17,
+        220
+      ],
+      "value": 315
+    },
+    {
+      "label": "KLEANZA(SINGLEHURST) COMMUNITY WATERSHED (400.011)",
+      "rgb": [
+        171,
+        134,
+        232
+      ],
+      "rgba": [
+        171,
+        134,
+        232,
+        220
+      ],
+      "value": 307
+    },
+    {
+      "label": "KLEEF COMMUNITY WATERSHED (340.075)",
+      "rgb": [
+        23,
+        237,
+        47
+      ],
+      "rgba": [
+        23,
+        237,
+        47,
+        220
+      ],
+      "value": 258
+    },
+    {
+      "label": "KLIM COMMUNITY WATERSHED (310.030)",
+      "rgb": [
+        65,
+        156,
+        240
+      ],
+      "rgba": [
+        65,
+        156,
+        240,
+        220
+      ],
+      "value": 187
+    },
+    {
+      "label": "KLO COMMUNITY WATERSHED (310.031)",
+      "rgb": [
+        135,
+        162,
+        26
+      ],
+      "rgba": [
+        135,
+        162,
+        26,
+        220
+      ],
+      "value": 188
+    },
+    {
+      "label": "KNOX COMMUNITY WATERSHED (100.028)",
+      "rgb": [
+        164,
+        205,
+        109
+      ],
+      "rgba": [
+        164,
+        205,
+        109,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "KOPP COMMUNITY WATERSHED (100.029)",
+      "rgb": [
+        18,
+        190,
+        229
+      ],
+      "rgba": [
+        18,
+        190,
+        229,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "KRULY COMMUNITY WATERSHED (128.004)",
+      "rgb": [
+        118,
+        6,
+        151
+      ],
+      "rgba": [
+        118,
+        6,
+        151,
+        220
+      ],
+      "value": 105
+    },
+    {
+      "label": "KUSKANAX COMMUNITY WATERSHED (300.030)",
+      "rgb": [
+        209,
+        185,
+        1
+      ],
+      "rgba": [
+        209,
+        185,
+        1,
+        220
+      ],
+      "value": 150
+    },
+    {
+      "label": "KWAKIUTL COMMUNITY WATERSHED (CAM.001)",
+      "rgb": [
+        104,
+        177,
+        154
+      ],
+      "rgba": [
+        104,
+        177,
+        154,
+        220
+      ],
+      "value": 443
+    },
+    {
+      "label": "KWINSHATIN COMMUNITY WATERSHED (120.017)",
+      "rgb": [
+        84,
+        129,
+        44
+      ],
+      "rgba": [
+        84,
+        129,
+        44,
+        220
+      ],
+      "value": 97
+    },
+    {
+      "label": "LA FRANCE COMMUNITY WATERSHED (340.076)",
+      "rgb": [
+        135,
+        78,
+        181
+      ],
+      "rgba": [
+        135,
+        78,
+        181,
+        220
+      ],
+      "value": 259
+    },
+    {
+      "label": "LAMBLY COMMUNITY WATERSHED (310.032)",
+      "rgb": [
+        243,
+        114,
+        133
+      ],
+      "rgba": [
+        243,
+        114,
+        133,
+        220
+      ],
+      "value": 189
+    },
+    {
+      "label": "LAURENA COMMUNITY WATERSHED (GAM.003)",
+      "rgb": [
+        191,
+        75,
+        119
+      ],
+      "rgba": [
+        191,
+        75,
+        119,
+        220
+      ],
+      "value": 448
+    },
+    {
+      "label": "LEECH COMMUNITY WATERSHED (930.040)",
+      "rgb": [
+        143,
+        38,
+        100
+      ],
+      "rgba": [
+        143,
+        38,
+        100,
+        220
+      ],
+      "value": 424
+    },
+    {
+      "label": "LEE COMMUNITY WATERSHED (310.034)",
+      "rgb": [
+        158,
+        136,
+        67
+      ],
+      "rgba": [
+        158,
+        136,
+        67,
+        220
+      ],
+      "value": 190
+    },
+    {
+      "label": "LEONIE COMMUNITY WATERSHED (129.009)",
+      "rgb": [
+        137,
+        122,
+        195
+      ],
+      "rgba": [
+        137,
+        122,
+        195,
+        220
+      ],
+      "value": 127
+    },
+    {
+      "label": "LITTLE QUALICUM COMMUNITY WATERSHED (920.039)",
+      "rgb": [
+        182,
+        237,
+        156
+      ],
+      "rgba": [
+        182,
+        237,
+        156,
+        220
+      ],
+      "value": 384
+    },
+    {
+      "label": "LITTLE QUARRY LAKE COMMUNITY WATERSHED (NEL.002)",
+      "rgb": [
+        245,
+        128,
+        184
+      ],
+      "rgba": [
+        245,
+        128,
+        184,
+        220
+      ],
+      "value": 461
+    },
+    {
+      "label": "LOCKHART COMMUNITY WATERSHED (340.083)",
+      "rgb": [
+        228,
+        133,
+        177
+      ],
+      "rgba": [
+        228,
+        133,
+        177,
+        220
+      ],
+      "value": 260
+    },
+    {
+      "label": "LONGUEVAL COMMUNITY WATERSHED (340.084)",
+      "rgb": [
+        223,
+        253,
+        236
+      ],
+      "rgba": [
+        223,
+        253,
+        236,
+        220
+      ],
+      "value": 261
+    },
+    {
+      "label": "LUXOR COMMUNITY WATERSHED (300.034)",
+      "rgb": [
+        141,
+        101,
+        45
+      ],
+      "rgba": [
+        141,
+        101,
+        45,
+        220
+      ],
+      "value": 151
+    },
+    {
+      "label": "LYTTON COMMUNITY WATERSHED (100.068)",
+      "rgb": [
+        210,
+        61,
+        27
+      ],
+      "rgba": [
+        210,
+        61,
+        27,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "MACAULAY COMMUNITY WATERSHED (300.035)",
+      "rgb": [
+        99,
+        198,
+        1
+      ],
+      "rgba": [
+        99,
+        198,
+        1,
+        220
+      ],
+      "value": 152
+    },
+    {
+      "label": "MACK COMMUNITY WATERSHED (930.012)",
+      "rgb": [
+        239,
+        82,
+        193
+      ],
+      "rgba": [
+        239,
+        82,
+        193,
+        220
+      ],
+      "value": 412
+    },
+    {
+      "label": "MACSWEEN COMMUNITY WATERSHED (100.031)",
+      "rgb": [
+        250,
+        121,
+        44
+      ],
+      "rgba": [
+        250,
+        121,
+        44,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "MADIAS COMMUNITY WATERSHED (300.037)",
+      "rgb": [
+        19,
+        107,
+        48
+      ],
+      "rgba": [
+        19,
+        107,
+        48,
+        220
+      ],
+      "value": 153
+    },
+    {
+      "label": "MADS COMMUNITY WATERSHED (300.038)",
+      "rgb": [
+        190,
+        217,
+        154
+      ],
+      "rgba": [
+        190,
+        217,
+        154,
+        220
+      ],
+      "value": 154
+    },
+    {
+      "label": "MAGNESIA COMMUNITY WATERSHED (900.037)",
+      "rgb": [
+        8,
+        209,
+        93
+      ],
+      "rgba": [
+        8,
+        209,
+        93,
+        220
+      ],
+      "value": 344
+    },
+    {
+      "label": "MAID COMMUNITY WATERSHED (310.035)",
+      "rgb": [
+        19,
+        231,
+        150
+      ],
+      "rgba": [
+        19,
+        231,
+        150,
+        220
+      ],
+      "value": 191
+    },
+    {
+      "label": "MALACHAN COMMUNITY WATERSHED (930.013)",
+      "rgb": [
+        174,
+        40,
+        217
+      ],
+      "rgba": [
+        174,
+        40,
+        217,
+        220
+      ],
+      "value": 413
+    },
+    {
+      "label": "MALAHAT COMMUNITY WATERSHED (920.040)",
+      "rgb": [
+        132,
+        220,
+        53
+      ],
+      "rgba": [
+        132,
+        220,
+        53,
+        220
+      ],
+      "value": 385
+    },
+    {
+      "label": "MALKIN COMMUNITY WATERSHED (BOW.012)",
+      "rgb": [
+        252,
+        249,
+        83
+      ],
+      "rgba": [
+        252,
+        249,
+        83,
+        220
+      ],
+      "value": 438
+    },
+    {
+      "label": "MARK COMMUNITY WATERSHED (349.013)",
+      "rgb": [
+        186,
+        142,
+        98
+      ],
+      "rgba": [
+        186,
+        142,
+        98,
+        220
+      ],
+      "value": 296
+    },
+    {
+      "label": "MARTIN COMMUNITY WATERSHED (910.003)",
+      "rgb": [
+        248,
+        18,
+        13
+      ],
+      "rgba": [
+        248,
+        18,
+        13,
+        220
+      ],
+      "value": 366
+    },
+    {
+      "label": "MARTINSON COMMUNITY WATERSHED (100.092)",
+      "rgb": [
+        204,
+        144,
+        99
+      ],
+      "rgba": [
+        204,
+        144,
+        99,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "MARY VINE COMMUNITY WATERSHED (930.041)",
+      "rgb": [
+        228,
+        30,
+        167
+      ],
+      "rgba": [
+        228,
+        30,
+        167,
+        220
+      ],
+      "value": 425
+    },
+    {
+      "label": "MASHITER COMMUNITY WATERSHED (900.040)",
+      "rgb": [
+        17,
+        164,
+        241
+      ],
+      "rgba": [
+        17,
+        164,
+        241,
+        220
+      ],
+      "value": 345
+    },
+    {
+      "label": "MATTHEW COMMUNITY WATERSHED (349.015)",
+      "rgb": [
+        105,
+        109,
+        28
+      ],
+      "rgba": [
+        105,
+        109,
+        28,
+        220
+      ],
+      "value": 297
+    },
+    {
+      "label": "MCCULLOCK CREEK COMMUNITY WATERSHED (119.011)",
+      "rgb": [
+        110,
+        6,
+        144
+      ],
+      "rgba": [
+        110,
+        6,
+        144,
+        220
+      ],
+      "value": 89
+    },
+    {
+      "label": "MCDERMID COMMUNITY WATERSHED (340.090)",
+      "rgb": [
+        38,
+        168,
+        97
+      ],
+      "rgba": [
+        38,
+        168,
+        97,
+        220
+      ],
+      "value": 262
+    },
+    {
+      "label": "MCDONALD COMMUNITY WATERSHED (340.091)",
+      "rgb": [
+        125,
+        34,
+        15
+      ],
+      "rgba": [
+        125,
+        34,
+        15,
+        220
+      ],
+      "value": 263
+    },
+    {
+      "label": "MCDOUGALL COMMUNITY WATERSHED (129.011)",
+      "rgb": [
+        62,
+        66,
+        31
+      ],
+      "rgba": [
+        62,
+        66,
+        31,
+        220
+      ],
+      "value": 128
+    },
+    {
+      "label": "MCFARLAND COMMUNITY WATERSHED (930.014)",
+      "rgb": [
+        11,
+        29,
+        168
+      ],
+      "rgba": [
+        11,
+        29,
+        168,
+        220
+      ],
+      "value": 414
+    },
+    {
+      "label": "MCFAYDEN COMMUNITY WATERSHED (340.093)",
+      "rgb": [
+        42,
+        53,
+        167
+      ],
+      "rgba": [
+        42,
+        53,
+        167,
+        220
+      ],
+      "value": 264
+    },
+    {
+      "label": "MCGREGOR COMMUNITY WATERSHED (340.094)",
+      "rgb": [
+        160,
+        162,
+        57
+      ],
+      "rgba": [
+        160,
+        162,
+        57,
+        220
+      ],
+      "value": 265
+    },
+    {
+      "label": "MCINTYRE COMMUNITY WATERSHED (100.085)",
+      "rgb": [
+        102,
+        115,
+        119
+      ],
+      "rgba": [
+        102,
+        115,
+        119,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "MCKAY COMMUNITY WATERSHED (100.109)",
+      "rgb": [
+        205,
+        109,
+        162
+      ],
+      "rgba": [
+        205,
+        109,
+        162,
+        220
+      ],
+      "value": 62
+    },
+    {
+      "label": "MCKELVIE COMMUNITY WATERSHED (930.015)",
+      "rgb": [
+        15,
+        186,
+        114
+      ],
+      "rgba": [
+        15,
+        186,
+        114,
+        220
+      ],
+      "value": 415
+    },
+    {
+      "label": "MCKINNEY COMMUNITY WATERSHED (320.012)",
+      "rgb": [
+        105,
+        210,
+        188
+      ],
+      "rgba": [
+        105,
+        210,
+        188,
+        220
+      ],
+      "value": 216
+    },
+    {
+      "label": "MCNAIR COMMUNITY WATERSHED (900.042)",
+      "rgb": [
+        90,
+        178,
+        118
+      ],
+      "rgba": [
+        90,
+        178,
+        118,
+        220
+      ],
+      "value": 346
+    },
+    {
+      "label": "MCNALLY COMMUNITY WATERSHED (300.039)",
+      "rgb": [
+        37,
+        28,
+        56
+      ],
+      "rgba": [
+        37,
+        28,
+        56,
+        220
+      ],
+      "value": 155
+    },
+    {
+      "label": "MCNEILL LAKE COMMUNITY WATERSHED (900.026)",
+      "rgb": [
+        120,
+        112,
+        83
+      ],
+      "rgba": [
+        120,
+        112,
+        83,
+        220
+      ],
+      "value": 340
+    },
+    {
+      "label": "MEADE COMMUNITY WATERSHED (920.042)",
+      "rgb": [
+        252,
+        205,
+        206
+      ],
+      "rgba": [
+        252,
+        205,
+        206,
+        220
+      ],
+      "value": 386
+    },
+    {
+      "label": "MEARES COMMUNITY WATERSHED (MEA.004)",
+      "rgb": [
+        77,
+        67,
+        242
+      ],
+      "rgba": [
+        77,
+        67,
+        242,
+        220
+      ],
+      "value": 457
+    },
+    {
+      "label": "MEIGHAN COMMUNITY WATERSHED (310.038)",
+      "rgb": [
+        8,
+        7,
+        79
+      ],
+      "rgba": [
+        8,
+        7,
+        79,
+        220
+      ],
+      "value": 192
+    },
+    {
+      "label": "MELLOTT CREEK COMMUNITY WATERSHED (100.212)",
+      "rgb": [
+        237,
+        172,
+        52
+      ],
+      "rgba": [
+        237,
+        172,
+        52,
+        220
+      ],
+      "value": 76
+    },
+    {
+      "label": "MERCANTILE COMMUNITY WATERSHED (930.016)",
+      "rgb": [
+        68,
+        189,
+        5
+      ],
+      "rgba": [
+        68,
+        189,
+        5,
+        220
+      ],
+      "value": 416
+    },
+    {
+      "label": "MILLER CREEK COMMUNITY WATERSHED (349.005)",
+      "rgb": [
+        196,
+        12,
+        100
+      ],
+      "rgba": [
+        196,
+        12,
+        100,
+        220
+      ],
+      "value": 291
+    },
+    {
+      "label": "MILNE COMMUNITY WATERSHED (900.044)",
+      "rgb": [
+        14,
+        216,
+        180
+      ],
+      "rgba": [
+        14,
+        216,
+        180,
+        220
+      ],
+      "value": 347
+    },
+    {
+      "label": "MINERAL COMMUNITY WATERSHED (900.045)",
+      "rgb": [
+        93,
+        93,
+        228
+      ],
+      "rgba": [
+        93,
+        93,
+        228,
+        220
+      ],
+      "value": 348
+    },
+    {
+      "label": "MISSION COMMUNITY WATERSHED (310.039)",
+      "rgb": [
+        59,
+        6,
+        249
+      ],
+      "rgba": [
+        59,
+        6,
+        249,
+        220
+      ],
+      "value": 193
+    },
+    {
+      "label": "MONTIZAMBERT COMMUNITY WATERSHED (900.046)",
+      "rgb": [
+        188,
+        219,
+        228
+      ],
+      "rgba": [
+        188,
+        219,
+        228,
+        220
+      ],
+      "value": 349
+    },
+    {
+      "label": "MOODY COMMUNITY WATERSHED (320.013)",
+      "rgb": [
+        69,
+        93,
+        105
+      ],
+      "rgba": [
+        69,
+        93,
+        105,
+        220
+      ],
+      "value": 217
+    },
+    {
+      "label": "MORTIMER COMMUNITY WATERSHED (340.098)",
+      "rgb": [
+        66,
+        111,
+        178
+      ],
+      "rgba": [
+        66,
+        111,
+        178,
+        220
+      ],
+      "value": 266
+    },
+    {
+      "label": "MOSSOM COMMUNITY WATERSHED (900.048)",
+      "rgb": [
+        207,
+        235,
+        153
+      ],
+      "rgba": [
+        207,
+        235,
+        153,
+        220
+      ],
+      "value": 350
+    },
+    {
+      "label": "MURRAY COMMUNITY WATERSHED (120.021)",
+      "rgb": [
+        234,
+        188,
+        59
+      ],
+      "rgba": [
+        234,
+        188,
+        59,
+        220
+      ],
+      "value": 98
+    },
+    {
+      "label": "NARAMATA COMMUNITY WATERSHED (310.040)",
+      "rgb": [
+        151,
+        167,
+        2
+      ],
+      "rgba": [
+        151,
+        167,
+        2,
+        220
+      ],
+      "value": 194
+    },
+    {
+      "label": "NEKLIPTUM CREEK (NORTH CHANNEL) (100.230)",
+      "rgb": [
+        58,
+        89,
+        25
+      ],
+      "rgba": [
+        58,
+        89,
+        25,
+        220
+      ],
+      "value": 77
+    },
+    {
+      "label": "NELSON COMMUNITY WATERSHED (129.012)",
+      "rgb": [
+        182,
+        174,
+        78
+      ],
+      "rgba": [
+        182,
+        174,
+        78,
+        220
+      ],
+      "value": 129
+    },
+    {
+      "label": "NELSON COMMUNITY WATERSHED (900.051)",
+      "rgb": [
+        64,
+        220,
+        140
+      ],
+      "rgba": [
+        64,
+        220,
+        140,
+        220
+      ],
+      "value": 351
+    },
+    {
+      "label": "NEMAIA COMMUNITY WATERSHED (150.005)",
+      "rgb": [
+        206,
+        212,
+        22
+      ],
+      "rgba": [
+        206,
+        212,
+        22,
+        220
+      ],
+      "value": 136
+    },
+    {
+      "label": "NEPUCHIN COMMUNITY WATERSHED (100.072)",
+      "rgb": [
+        238,
+        13,
+        78
+      ],
+      "rgba": [
+        238,
+        13,
+        78,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "NEVIN COMMUNITY WATERSHED (100.034)",
+      "rgb": [
+        131,
+        54,
+        118
+      ],
+      "rgba": [
+        131,
+        54,
+        118,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "NEWCASTLE COMMUNITY WATERSHED (920.044)",
+      "rgb": [
+        137,
+        176,
+        51
+      ],
+      "rgba": [
+        137,
+        176,
+        51,
+        220
+      ],
+      "value": 387
+    },
+    {
+      "label": "NEWMAN CREEK COMMUNITY WATERSHED (900.082)",
+      "rgb": [
+        74,
+        198,
+        239
+      ],
+      "rgba": [
+        74,
+        198,
+        239,
+        220
+      ],
+      "value": 362
+    },
+    {
+      "label": "NEWSOME COMMUNITY WATERSHED (128.019)",
+      "rgb": [
+        134,
+        176,
+        226
+      ],
+      "rgba": [
+        134,
+        176,
+        226,
+        220
+      ],
+      "value": 113
+    },
+    {
+      "label": "NIKAIA COMMUNITY WATERSHED (100.073)",
+      "rgb": [
+        106,
+        187,
+        251
+      ],
+      "rgba": [
+        106,
+        187,
+        251,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "NILE COMMUNITY WATERSHED (920.045)",
+      "rgb": [
+        167,
+        168,
+        63
+      ],
+      "rgba": [
+        167,
+        168,
+        63,
+        220
+      ],
+      "value": 388
+    },
+    {
+      "label": "NORNS COMMUNITY WATERSHED (300.042)",
+      "rgb": [
+        128,
+        6,
+        15
+      ],
+      "rgba": [
+        128,
+        6,
+        15,
+        220
+      ],
+      "value": 156
+    },
+    {
+      "label": "NORRIS COMMUNITY WATERSHED (310.041)",
+      "rgb": [
+        131,
+        184,
+        77
+      ],
+      "rgba": [
+        131,
+        184,
+        77,
+        220
+      ],
+      "value": 195
+    },
+    {
+      "label": "NORRISH COMMUNITY WATERSHED (100.035)",
+      "rgb": [
+        166,
+        169,
+        124
+      ],
+      "rgba": [
+        166,
+        169,
+        124,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "NORTH QUAEE COMMUNITY WATERSHED (900.001)",
+      "rgb": [
+        224,
+        158,
+        92
+      ],
+      "rgba": [
+        224,
+        158,
+        92,
+        220
+      ],
+      "value": 328
+    },
+    {
+      "label": "NUMBER ONE COMMUNITY WATERSHED (MEA.005)",
+      "rgb": [
+        60,
+        78,
+        93
+      ],
+      "rgba": [
+        60,
+        78,
+        93,
+        220
+      ],
+      "value": 458
+    },
+    {
+      "label": "OLALLA COMMUNITY WATERSHED (310.044)",
+      "rgb": [
+        98,
+        254,
+        108
+      ],
+      "rgba": [
+        98,
+        254,
+        108,
+        220
+      ],
+      "value": 196
+    },
+    {
+      "label": "OMIN COMMUNITY WATERSHED (100.211)",
+      "rgb": [
+        84,
+        162,
+        230
+      ],
+      "rgba": [
+        84,
+        162,
+        230,
+        220
+      ],
+      "value": 75
+    },
+    {
+      "label": "ONE & ONE QUARTER COMMUNITY WATERSHED (100.036)",
+      "rgb": [
+        78,
+        133,
+        14
+      ],
+      "rgba": [
+        78,
+        133,
+        14,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "OPTIMIST COMMUNITY WATERSHED (BOW.014)",
+      "rgb": [
+        108,
+        20,
+        247
+      ],
+      "rgba": [
+        108,
+        20,
+        247,
+        220
+      ],
+      "value": 440
+    },
+    {
+      "label": "OR COMMUNITY WATERSHED (100.037)",
+      "rgb": [
+        11,
+        206,
+        138
+      ],
+      "rgba": [
+        11,
+        206,
+        138,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "OVERTON COMMUNITY WATERSHED (320.015)",
+      "rgb": [
+        237,
+        244,
+        24
+      ],
+      "rgba": [
+        237,
+        244,
+        24,
+        220
+      ],
+      "value": 218
+    },
+    {
+      "label": "OYAMA COMMUNITY WATERSHED (310.045)",
+      "rgb": [
+        73,
+        250,
+        63
+      ],
+      "rgba": [
+        73,
+        250,
+        63,
+        220
+      ],
+      "value": 197
+    },
+    {
+      "label": "OYSTER COMMUNITY WATERSHED (920.047)",
+      "rgb": [
+        134,
+        195,
+        164
+      ],
+      "rgba": [
+        134,
+        195,
+        164,
+        220
+      ],
+      "value": 389
+    },
+    {
+      "label": "PALMER COMMUNITY WATERSHED (300.043)",
+      "rgb": [
+        157,
+        231,
+        39
+      ],
+      "rgba": [
+        157,
+        231,
+        39,
+        220
+      ],
+      "value": 157
+    },
+    {
+      "label": "PARENT CREEK COMMUNITY WATERSHED (100.120)",
+      "rgb": [
+        122,
+        121,
+        183
+      ],
+      "rgba": [
+        122,
+        121,
+        183,
+        220
+      ],
+      "value": 71
+    },
+    {
+      "label": "PAUL COMMUNITY WATERSHED (129.015)",
+      "rgb": [
+        251,
+        163,
+        79
+      ],
+      "rgba": [
+        251,
+        163,
+        79,
+        220
+      ],
+      "value": 131
+    },
+    {
+      "label": "PAUL LAKE COMMUNITY WATERSHED (129.014)",
+      "rgb": [
+        86,
+        137,
+        149
+      ],
+      "rgba": [
+        86,
+        137,
+        149,
+        220
+      ],
+      "value": 130
+    },
+    {
+      "label": "PEACHLAND COMMUNITY WATERSHED (310.047)",
+      "rgb": [
+        156,
+        247,
+        24
+      ],
+      "rgba": [
+        156,
+        247,
+        24,
+        220
+      ],
+      "value": 198
+    },
+    {
+      "label": "PEMBERTON COMMUNITY WATERSHED (119.004)",
+      "rgb": [
+        164,
+        160,
+        232
+      ],
+      "rgba": [
+        164,
+        160,
+        232,
+        220
+      ],
+      "value": 85
+    },
+    {
+      "label": "PENTICTON COMMUNITY WATERSHED (310.048)",
+      "rgb": [
+        55,
+        73,
+        187
+      ],
+      "rgba": [
+        55,
+        73,
+        187,
+        220
+      ],
+      "value": 199
+    },
+    {
+      "label": "PEQ COMMUNITY WATERSHED (119.005)",
+      "rgb": [
+        247,
+        152,
+        219
+      ],
+      "rgba": [
+        247,
+        152,
+        219,
+        220
+      ],
+      "value": 86
+    },
+    {
+      "label": "PETERSEN COMMUNITY WATERSHED (300.044)",
+      "rgb": [
+        14,
+        99,
+        4
+      ],
+      "rgba": [
+        14,
+        99,
+        4,
+        220
+      ],
+      "value": 158
+    },
+    {
+      "label": "PETERSON COMMUNITY WATERSHED (129.018)",
+      "rgb": [
+        214,
+        109,
+        101
+      ],
+      "rgba": [
+        214,
+        109,
+        101,
+        220
+      ],
+      "value": 132
+    },
+    {
+      "label": "PICKNEY COMMUNITY WATERSHED (100.040)",
+      "rgb": [
+        3,
+        30,
+        223
+      ],
+      "rgba": [
+        3,
+        30,
+        223,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "POOLEY COMMUNITY WATERSHED (310.049)",
+      "rgb": [
+        103,
+        124,
+        156
+      ],
+      "rgba": [
+        103,
+        124,
+        156,
+        220
+      ],
+      "value": 200
+    },
+    {
+      "label": "POWERS COMMUNITY WATERSHED (310.090)",
+      "rgb": [
+        203,
+        78,
+        35
+      ],
+      "rgba": [
+        203,
+        78,
+        35,
+        220
+      ],
+      "value": 210
+    },
+    {
+      "label": "PRESIDENT COMMUNITY WATERSHED (100.075)",
+      "rgb": [
+        114,
+        143,
+        27
+      ],
+      "rgba": [
+        114,
+        143,
+        27,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "PRIEST LAKE COMMUNITY WATERSHED (TEX.003)",
+      "rgb": [
+        120,
+        156,
+        118
+      ],
+      "rgba": [
+        120,
+        156,
+        118,
+        220
+      ],
+      "value": 465
+    },
+    {
+      "label": "PRITCHARD COMMUNITY WATERSHED (100.096)",
+      "rgb": [
+        216,
+        92,
+        10
+      ],
+      "rgba": [
+        216,
+        92,
+        10,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "PROCTER COMMUNITY WATERSHED (340.106)",
+      "rgb": [
+        56,
+        177,
+        86
+      ],
+      "rgba": [
+        56,
+        177,
+        86,
+        220
+      ],
+      "value": 267
+    },
+    {
+      "label": "PUNTLEDGE COMMUNITY WATERSHED (920.054)",
+      "rgb": [
+        251,
+        137,
+        123
+      ],
+      "rgba": [
+        251,
+        137,
+        123,
+        220
+      ],
+      "value": 391
+    },
+    {
+      "label": "PYE COMMUNITY WATERSHED (300.045)",
+      "rgb": [
+        67,
+        139,
+        157
+      ],
+      "rgba": [
+        67,
+        139,
+        157,
+        220
+      ],
+      "value": 159
+    },
+    {
+      "label": "QUAEE COMMUNITY WATERSHED (900.002)",
+      "rgb": [
+        123,
+        217,
+        105
+      ],
+      "rgba": [
+        123,
+        217,
+        105,
+        220
+      ],
+      "value": 329
+    },
+    {
+      "label": "QUARTZ COMMUNITY WATERSHED (330.003)",
+      "rgb": [
+        243,
+        171,
+        107
+      ],
+      "rgba": [
+        243,
+        171,
+        107,
+        220
+      ],
+      "value": 222
+    },
+    {
+      "label": "QUEEN CHARLOTTE CITY COMMUNITY WATERSHED (GRA.007)",
+      "rgb": [
+        195,
+        169,
+        250
+      ],
+      "rgba": [
+        195,
+        169,
+        250,
+        220
+      ],
+      "value": 452
+    },
+    {
+      "label": "QUINMAS COMMUNITY WATERSHED (470.002)",
+      "rgb": [
+        163,
+        218,
+        83
+      ],
+      "rgba": [
+        163,
+        218,
+        83,
+        220
+      ],
+      "value": 323
+    },
+    {
+      "label": "RAM COMMUNITY WATERSHED (920.059)",
+      "rgb": [
+        21,
+        232,
+        23
+      ],
+      "rgba": [
+        21,
+        232,
+        23,
+        220
+      ],
+      "value": 392
+    },
+    {
+      "label": "RANCHER COMMUNITY WATERSHED (310.051)",
+      "rgb": [
+        117,
+        111,
+        11
+      ],
+      "rgba": [
+        117,
+        111,
+        11,
+        220
+      ],
+      "value": 201
+    },
+    {
+      "label": "RASHDELL COMMUNITY WATERSHED (340.109)",
+      "rgb": [
+        227,
+        251,
+        27
+      ],
+      "rgba": [
+        227,
+        251,
+        27,
+        220
+      ],
+      "value": 268
+    },
+    {
+      "label": "RESERVE COMMUNITY WATERSHED (349.016)",
+      "rgb": [
+        64,
+        173,
+        48
+      ],
+      "rgba": [
+        64,
+        173,
+        48,
+        220
+      ],
+      "value": 298
+    },
+    {
+      "label": "RETASKET COMMUNITY WATERSHED (100.076)",
+      "rgb": [
+        153,
+        171,
+        193
+      ],
+      "rgba": [
+        153,
+        171,
+        193,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "RIDEAU COMMUNITY WATERSHED (119.006)",
+      "rgb": [
+        153,
+        71,
+        164
+      ],
+      "rgba": [
+        153,
+        71,
+        164,
+        220
+      ],
+      "value": 87
+    },
+    {
+      "label": "RIM ROCK COMMUNITY WATERSHED (150.006)",
+      "rgb": [
+        160,
+        151,
+        116
+      ],
+      "rgba": [
+        160,
+        151,
+        116,
+        220
+      ],
+      "value": 137
+    },
+    {
+      "label": "ROBINSON COMMUNITY WATERSHED (310.052)",
+      "rgb": [
+        78,
+        90,
+        111
+      ],
+      "rgba": [
+        78,
+        90,
+        111,
+        220
+      ],
+      "value": 202
+    },
+    {
+      "label": "ROGOWSKI COMMUNITY WATERSHED (119.097)",
+      "rgb": [
+        206,
+        29,
+        169
+      ],
+      "rgba": [
+        206,
+        29,
+        169,
+        220
+      ],
+      "value": 91
+    },
+    {
+      "label": "ROSEN COMMUNITY WATERSHED (129.021)",
+      "rgb": [
+        251,
+        179,
+        3
+      ],
+      "rgba": [
+        251,
+        179,
+        3,
+        220
+      ],
+      "value": 133
+    },
+    {
+      "label": "ROSE VALLEY COMMUNITY WATERSHED (310.053)",
+      "rgb": [
+        164,
+        18,
+        246
+      ],
+      "rgba": [
+        164,
+        18,
+        246,
+        220
+      ],
+      "value": 203
+    },
+    {
+      "label": "ROSSWOOD(CLEAR CR) COMMUNITY WATERSHED (430.003)",
+      "rgb": [
+        25,
+        70,
+        32
+      ],
+      "rgba": [
+        25,
+        70,
+        32,
+        220
+      ],
+      "value": 314
+    },
+    {
+      "label": "ROVER COMMUNITY WATERSHED (340.160)",
+      "rgb": [
+        138,
+        20,
+        81
+      ],
+      "rgba": [
+        138,
+        20,
+        81,
+        220
+      ],
+      "value": 287
+    },
+    {
+      "label": "RUNDLE COMMUNITY WATERSHED (900.057)",
+      "rgb": [
+        33,
+        145,
+        248
+      ],
+      "rgba": [
+        33,
+        145,
+        248,
+        220
+      ],
+      "value": 352
+    },
+    {
+      "label": "RUSSELL COMMUNITY WATERSHED (129.022)",
+      "rgb": [
+        206,
+        219,
+        84
+      ],
+      "rgba": [
+        206,
+        219,
+        84,
+        220
+      ],
+      "value": 134
+    },
+    {
+      "label": "RUSSELL COMMUNITY WATERSHED (340.114)",
+      "rgb": [
+        60,
+        19,
+        96
+      ],
+      "rgba": [
+        60,
+        19,
+        96,
+        220
+      ],
+      "value": 269
+    },
+    {
+      "label": "SANCA COMMUNITY WATERSHED (340.115)",
+      "rgb": [
+        39,
+        188,
+        223
+      ],
+      "rgba": [
+        39,
+        188,
+        223,
+        220
+      ],
+      "value": 270
+    },
+    {
+      "label": "SANDSTONE COMMUNITY WATERSHED (310.099)",
+      "rgb": [
+        129,
+        0,
+        0
+      ],
+      "rgba": [
+        129,
+        0,
+        0,
+        220
+      ],
+      "value": 212
+    },
+    {
+      "label": "SANDY COMMUNITY WATERSHED (340.116)",
+      "rgb": [
+        158,
+        81,
+        165
+      ],
+      "rgba": [
+        158,
+        81,
+        165,
+        220
+      ],
+      "value": 271
+    },
+    {
+      "label": "SASQUATCH COMMUNITY WATERSHED (110.003)",
+      "rgb": [
+        158,
+        29,
+        226
+      ],
+      "rgba": [
+        158,
+        29,
+        226,
+        220
+      ],
+      "value": 79
+    },
+    {
+      "label": "SCHKAM LAKE COMMUNITY WATERSHED (100.124)",
+      "rgb": [
+        45,
+        65,
+        88
+      ],
+      "rgba": [
+        45,
+        65,
+        88,
+        220
+      ],
+      "value": 73
+    },
+    {
+      "label": "SELOUS COMMUNITY WATERSHED (340.119)",
+      "rgb": [
+        103,
+        167,
+        120
+      ],
+      "rgba": [
+        103,
+        167,
+        120,
+        220
+      ],
+      "value": 272
+    },
+    {
+      "label": "SERVICE COMMUNITY WATERSHED (100.111)",
+      "rgb": [
+        188,
+        235,
+        254
+      ],
+      "rgba": [
+        188,
+        235,
+        254,
+        220
+      ],
+      "value": 63
+    },
+    {
+      "label": "SEYMOUR COMMUNITY WATERSHED (900.081)",
+      "rgb": [
+        50,
+        156,
+        165
+      ],
+      "rgba": [
+        50,
+        156,
+        165,
+        220
+      ],
+      "value": 361
+    },
+    {
+      "label": "SHARP COMMUNITY WATERSHED (MEA.006)",
+      "rgb": [
+        95,
+        10,
+        32
+      ],
+      "rgba": [
+        95,
+        10,
+        32,
+        220
+      ],
+      "value": 459
+    },
+    {
+      "label": "SHAWATLAN WOODWORTH COMMUNITY WATERSHED (910.010)",
+      "rgb": [
+        165,
+        114,
+        163
+      ],
+      "rgba": [
+        165,
+        114,
+        163,
+        220
+      ],
+      "value": 370
+    },
+    {
+      "label": "SHAWNIGAN COMMUNITY WATERSHED (920.061)",
+      "rgb": [
+        197,
+        145,
+        87
+      ],
+      "rgba": [
+        197,
+        145,
+        87,
+        220
+      ],
+      "value": 393
+    },
+    {
+      "label": "SHINGLE COMMUNITY WATERSHED (310.057)",
+      "rgb": [
+        243,
+        122,
+        191
+      ],
+      "rgba": [
+        243,
+        122,
+        191,
+        220
+      ],
+      "value": 204
+    },
+    {
+      "label": "SHINGLE COMMUNITY WATERSHED (NPE.002)",
+      "rgb": [
+        245,
+        53,
+        107
+      ],
+      "rgba": [
+        245,
+        53,
+        107,
+        220
+      ],
+      "value": 462
+    },
+    {
+      "label": "SICAMOUS COMMUNITY WATERSHED (128.023)",
+      "rgb": [
+        46,
+        239,
+        220
+      ],
+      "rgba": [
+        46,
+        239,
+        220,
+        220
+      ],
+      "value": 114
+    },
+    {
+      "label": "SIKEDAKH COMMUNITY WATERSHED (400.008)",
+      "rgb": [
+        183,
+        142,
+        164
+      ],
+      "rgba": [
+        183,
+        142,
+        164,
+        220
+      ],
+      "value": 304
+    },
+    {
+      "label": "SILVER COMMUNITY WATERSHED (128.025)",
+      "rgb": [
+        86,
+        179,
+        192
+      ],
+      "rgba": [
+        86,
+        179,
+        192,
+        220
+      ],
+      "value": 115
+    },
+    {
+      "label": "SILVER COMMUNITY WATERSHED (900.059)",
+      "rgb": [
+        131,
+        144,
+        214
+      ],
+      "rgba": [
+        131,
+        144,
+        214,
+        220
+      ],
+      "value": 353
+    },
+    {
+      "label": "SITKUM COMMUNITY WATERSHED (340.125)",
+      "rgb": [
+        197,
+        52,
+        50
+      ],
+      "rgba": [
+        197,
+        52,
+        50,
+        220
+      ],
+      "value": 273
+    },
+    {
+      "label": "SIX MILE COMMUNITY WATERSHED (120.023)",
+      "rgb": [
+        100,
+        50,
+        148
+      ],
+      "rgba": [
+        100,
+        50,
+        148,
+        220
+      ],
+      "value": 99
+    },
+    {
+      "label": "SKEEMIS COMMUNITY WATERSHED (100.112)",
+      "rgb": [
+        48,
+        117,
+        52
+      ],
+      "rgba": [
+        48,
+        117,
+        52,
+        220
+      ],
+      "value": 64
+    },
+    {
+      "label": "SKIING BROOK COMMUNITY WATERSHED (320.019)",
+      "rgb": [
+        44,
+        135,
+        248
+      ],
+      "rgba": [
+        44,
+        135,
+        248,
+        220
+      ],
+      "value": 219
+    },
+    {
+      "label": "SKOWOOTUM COMMUNITY WATERSHED (129.023)",
+      "rgb": [
+        184,
+        68,
+        90
+      ],
+      "rgba": [
+        184,
+        68,
+        90,
+        220
+      ],
+      "value": 135
+    },
+    {
+      "label": "SKUAGAM COMMUNITY WATERSHED (120.024)",
+      "rgb": [
+        139,
+        23,
+        96
+      ],
+      "rgba": [
+        139,
+        23,
+        96,
+        220
+      ],
+      "value": 100
+    },
+    {
+      "label": "SLARKEDUS COMMUNITY WATERSHED (GRA.002)",
+      "rgb": [
+        47,
+        26,
+        200
+      ],
+      "rgba": [
+        47,
+        26,
+        200,
+        220
+      ],
+      "value": 450
+    },
+    {
+      "label": "SLIAMMON LAKE COMMUNITY WATERSHED (900.060)",
+      "rgb": [
+        152,
+        17,
+        74
+      ],
+      "rgba": [
+        152,
+        17,
+        74,
+        220
+      ],
+      "value": 354
+    },
+    {
+      "label": "SMALLWOOD COMMUNITY WATERSHED (340.127)",
+      "rgb": [
+        166,
+        29,
+        145
+      ],
+      "rgba": [
+        166,
+        29,
+        145,
+        220
+      ],
+      "value": 274
+    },
+    {
+      "label": "SMOKY COMMUNITY WATERSHED (340.128)",
+      "rgb": [
+        223,
+        46,
+        198
+      ],
+      "rgba": [
+        223,
+        46,
+        198,
+        220
+      ],
+      "value": 275
+    },
+    {
+      "label": "SNOOTLI COMMUNITY WATERSHED (910.004)",
+      "rgb": [
+        132,
+        138,
+        239
+      ],
+      "rgba": [
+        132,
+        138,
+        239,
+        220
+      ],
+      "value": 367
+    },
+    {
+      "label": "SOOKE LAKE COMMUNITY WATERSHED (930.042)",
+      "rgb": [
+        154,
+        133,
+        143
+      ],
+      "rgba": [
+        154,
+        133,
+        143,
+        220
+      ],
+      "value": 426
+    },
+    {
+      "label": "SOPHY COMMUNITY WATERSHED (300.049)",
+      "rgb": [
+        116,
+        197,
+        99
+      ],
+      "rgba": [
+        116,
+        197,
+        99,
+        220
+      ],
+      "value": 160
+    },
+    {
+      "label": "SOUTH BLUNT COMMUNITY WATERSHED (340.129)",
+      "rgb": [
+        125,
+        27,
+        133
+      ],
+      "rgba": [
+        125,
+        27,
+        133,
+        220
+      ],
+      "value": 276
+    },
+    {
+      "label": "SOUTHBRIGHT COMMUNITY WATERSHED (100.045)",
+      "rgb": [
+        70,
+        224,
+        220
+      ],
+      "rgba": [
+        70,
+        224,
+        220,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "SOUTH MURPHY COMMUNITY WATERSHED (300.050)",
+      "rgb": [
+        235,
+        41,
+        52
+      ],
+      "rgba": [
+        235,
+        41,
+        52,
+        220
+      ],
+      "value": 161
+    },
+    {
+      "label": "SOUTH NANAIMO COMMUNITY WATERSHED (920.064)",
+      "rgb": [
+        207,
+        115,
+        217
+      ],
+      "rgba": [
+        207,
+        115,
+        217,
+        220
+      ],
+      "value": 394
+    },
+    {
+      "label": "SOUTH RYKERT COMMUNITY WATERSHED (340.130)",
+      "rgb": [
+        147,
+        88,
+        75
+      ],
+      "rgba": [
+        147,
+        88,
+        75,
+        220
+      ],
+      "value": 277
+    },
+    {
+      "label": "SPRING COMMUNITY WATERSHED (100.046)",
+      "rgb": [
+        8,
+        15,
+        117
+      ],
+      "rgba": [
+        8,
+        15,
+        117,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "SPRING COMMUNITY WATERSHED (430.002)",
+      "rgb": [
+        29,
+        5,
+        158
+      ],
+      "rgba": [
+        29,
+        5,
+        158,
+        220
+      ],
+      "value": 313
+    },
+    {
+      "label": "SPRINGER COMMUNITY WATERSHED (340.131)",
+      "rgb": [
+        62,
+        183,
+        99
+      ],
+      "rgba": [
+        62,
+        183,
+        99,
+        220
+      ],
+      "value": 278
+    },
+    {
+      "label": "SPROAT COMMUNITY WATERSHED (930.021)",
+      "rgb": [
+        83,
+        171,
+        12
+      ],
+      "rgba": [
+        83,
+        171,
+        12,
+        220
+      ],
+      "value": 417
+    },
+    {
+      "label": "SPRUCE COMMUNITY WATERSHED (100.079)",
+      "rgb": [
+        63,
+        89,
+        171
+      ],
+      "rgba": [
+        63,
+        89,
+        171,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "STATION COMMUNITY WATERSHED (460.011)",
+      "rgb": [
+        46,
+        124,
+        19
+      ],
+      "rgba": [
+        46,
+        124,
+        19,
+        220
+      ],
+      "value": 320
+    },
+    {
+      "label": "STAWAMUS COMMUNITY WATERSHED (900.062)",
+      "rgb": [
+        146,
+        65,
+        82
+      ],
+      "rgba": [
+        146,
+        65,
+        82,
+        220
+      ],
+      "value": 355
+    },
+    {
+      "label": "STOCKING LAKE COMMUNITY WATERSHED (920.065)",
+      "rgb": [
+        241,
+        198,
+        99
+      ],
+      "rgba": [
+        241,
+        198,
+        99,
+        220
+      ],
+      "value": 395
+    },
+    {
+      "label": "STORMY COMMUNITY WATERSHED (100.113)",
+      "rgb": [
+        5,
+        245,
+        9
+      ],
+      "rgba": [
+        5,
+        245,
+        9,
+        220
+      ],
+      "value": 65
+    },
+    {
+      "label": "STOYOMA COMMUNITY WATERSHED (100.114)",
+      "rgb": [
+        253,
+        69,
+        181
+      ],
+      "rgba": [
+        253,
+        69,
+        181,
+        220
+      ],
+      "value": 66
+    },
+    {
+      "label": "STUMAUN COMMUNITY WATERSHED (910.011)",
+      "rgb": [
+        133,
+        195,
+        73
+      ],
+      "rgba": [
+        133,
+        195,
+        73,
+        220
+      ],
+      "value": 371
+    },
+    {
+      "label": "SUGSAW LAKE COMMUNITY WATERSHED (930.023)",
+      "rgb": [
+        169,
+        82,
+        127
+      ],
+      "rgba": [
+        169,
+        82,
+        127,
+        220
+      ],
+      "value": 418
+    },
+    {
+      "label": "SULLIVAN COMMUNITY WATERSHED (340.132)",
+      "rgb": [
+        241,
+        13,
+        200
+      ],
+      "rgba": [
+        241,
+        13,
+        200,
+        220
+      ],
+      "value": 279
+    },
+    {
+      "label": "SUNSHINE COMMUNITY WATERSHED (900.064)",
+      "rgb": [
+        41,
+        118,
+        137
+      ],
+      "rgba": [
+        41,
+        118,
+        137,
+        220
+      ],
+      "value": 356
+    },
+    {
+      "label": "SUTHERLAND COMMUNITY WATERSHED (320.020)",
+      "rgb": [
+        79,
+        234,
+        44
+      ],
+      "rgba": [
+        79,
+        234,
+        44,
+        220
+      ],
+      "value": 220
+    },
+    {
+      "label": "SUTHERLAND COMMUNITY WATERSHED (340.133)",
+      "rgb": [
+        172,
+        51,
+        213
+      ],
+      "rgba": [
+        172,
+        51,
+        213,
+        220
+      ],
+      "value": 280
+    },
+    {
+      "label": "SWAYNE COMMUNITY WATERSHED (310.062)",
+      "rgb": [
+        0,
+        143,
+        188
+      ],
+      "rgba": [
+        0,
+        143,
+        188,
+        220
+      ],
+      "value": 205
+    },
+    {
+      "label": "SWIFT COMMUNITY WATERSHED (100.094)",
+      "rgb": [
+        48,
+        187,
+        230
+      ],
+      "rgba": [
+        48,
+        187,
+        230,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "TALKYNAH COMMUNITY WATERSHED (920.068)",
+      "rgb": [
+        93,
+        0,
+        130
+      ],
+      "rgba": [
+        93,
+        0,
+        130,
+        220
+      ],
+      "value": 396
+    },
+    {
+      "label": "TARUNDL COMMUNITY WATERSHED (GRA.004)",
+      "rgb": [
+        171,
+        171,
+        206
+      ],
+      "rgba": [
+        171,
+        171,
+        206,
+        220
+      ],
+      "value": 451
+    },
+    {
+      "label": "TASTSQUAN COMMUNITY WATERSHED (910.005)",
+      "rgb": [
+        115,
+        47,
+        158
+      ],
+      "rgba": [
+        115,
+        47,
+        158,
+        220
+      ],
+      "value": 368
+    },
+    {
+      "label": "TATLEY COMMUNITY WATERSHED (300.053)",
+      "rgb": [
+        102,
+        157,
+        120
+      ],
+      "rgba": [
+        102,
+        157,
+        120,
+        220
+      ],
+      "value": 162
+    },
+    {
+      "label": "TAYNTON COMMUNITY WATERSHED (300.054)",
+      "rgb": [
+        214,
+        214,
+        152
+      ],
+      "rgba": [
+        214,
+        214,
+        152,
+        220
+      ],
+      "value": 163
+    },
+    {
+      "label": "TEETZEL COMMUNITY WATERSHED (340.138)",
+      "rgb": [
+        144,
+        253,
+        237
+      ],
+      "rgba": [
+        144,
+        253,
+        237,
+        220
+      ],
+      "value": 281
+    },
+    {
+      "label": "TELEGRAPH COMMUNITY WATERSHED (600.001)",
+      "rgb": [
+        28,
+        171,
+        62
+      ],
+      "rgba": [
+        28,
+        171,
+        62,
+        220
+      ],
+      "value": 327
+    },
+    {
+      "label": "TEN LINK COMMUNITY WATERSHED (400.009)",
+      "rgb": [
+        110,
+        121,
+        47
+      ],
+      "rgba": [
+        110,
+        121,
+        47,
+        220
+      ],
+      "value": 305
+    },
+    {
+      "label": "TERMINAL COMMUNITY WATERSHED (BOW.013)",
+      "rgb": [
+        133,
+        60,
+        131
+      ],
+      "rgba": [
+        133,
+        60,
+        131,
+        220
+      ],
+      "value": 439
+    },
+    {
+      "label": "THE RIVULET COMMUNITY WATERSHED (340.139)",
+      "rgb": [
+        177,
+        233,
+        77
+      ],
+      "rgba": [
+        177,
+        233,
+        77,
+        220
+      ],
+      "value": 282
+    },
+    {
+      "label": "THOMAS COMMUNITY WATERSHED (310.064)",
+      "rgb": [
+        114,
+        34,
+        151
+      ],
+      "rgba": [
+        114,
+        34,
+        151,
+        220
+      ],
+      "value": 206
+    },
+    {
+      "label": "THULIN LAKE COMMUNITY WATERSHED (900.066)",
+      "rgb": [
+        169,
+        106,
+        182
+      ],
+      "rgba": [
+        169,
+        106,
+        182,
+        220
+      ],
+      "value": 357
+    },
+    {
+      "label": "THUNDERBIRD COMMUNITY WATERSHED (110.004)",
+      "rgb": [
+        140,
+        139,
+        244
+      ],
+      "rgba": [
+        140,
+        139,
+        244,
+        220
+      ],
+      "value": 80
+    },
+    {
+      "label": "TOOPS COMMUNITY WATERSHED (128.029)",
+      "rgb": [
+        103,
+        135,
+        160
+      ],
+      "rgba": [
+        103,
+        135,
+        160,
+        220
+      ],
+      "value": 116
+    },
+    {
+      "label": "TOPPING COMMUNITY WATERSHED (300.056)",
+      "rgb": [
+        118,
+        174,
+        95
+      ],
+      "rgba": [
+        118,
+        174,
+        95,
+        220
+      ],
+      "value": 164
+    },
+    {
+      "label": "TOWN COMMUNITY WATERSHED (100.081)",
+      "rgb": [
+        236,
+        0,
+        80
+      ],
+      "rgba": [
+        236,
+        0,
+        80,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "TRANQUILLE COMMUNITY WATERSHED (120.028)",
+      "rgb": [
+        92,
+        168,
+        152
+      ],
+      "rgba": [
+        92,
+        168,
+        152,
+        220
+      ],
+      "value": 101
+    },
+    {
+      "label": "TRAPPING CREEK COMMUNITY WATERSHED (320.021)",
+      "rgb": [
+        12,
+        82,
+        166
+      ],
+      "rgba": [
+        12,
+        82,
+        166,
+        220
+      ],
+      "value": 221
+    },
+    {
+      "label": "TREPANIER COMMUNITY WATERSHED (310.065)",
+      "rgb": [
+        102,
+        143,
+        58
+      ],
+      "rgba": [
+        102,
+        143,
+        58,
+        220
+      ],
+      "value": 207
+    },
+    {
+      "label": "TRITE COMMUNITY WATERSHED (970.002)",
+      "rgb": [
+        9,
+        56,
+        141
+      ],
+      "rgba": [
+        9,
+        56,
+        141,
+        220
+      ],
+      "value": 428
+    },
+    {
+      "label": "TROLL COMMUNITY WATERSHED (100.087)",
+      "rgb": [
+        113,
+        57,
+        177
+      ],
+      "rgba": [
+        113,
+        57,
+        177,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "TROUT COMMUNITY WATERSHED (310.080)",
+      "rgb": [
+        237,
+        141,
+        210
+      ],
+      "rgba": [
+        237,
+        141,
+        210,
+        220
+      ],
+      "value": 209
+    },
+    {
+      "label": "TSULQUATE COMMUNITY WATERSHED (920.069)",
+      "rgb": [
+        65,
+        215,
+        58
+      ],
+      "rgba": [
+        65,
+        215,
+        58,
+        220
+      ],
+      "value": 397
+    },
+    {
+      "label": "TWENTYONE MILE COMMUNITY WATERSHED (119.007)",
+      "rgb": [
+        132,
+        217,
+        205
+      ],
+      "rgba": [
+        132,
+        217,
+        205,
+        220
+      ],
+      "value": 88
+    },
+    {
+      "label": "TWIN BAYS COMMUNITY WATERSHED (340.143)",
+      "rgb": [
+        226,
+        136,
+        188
+      ],
+      "rgba": [
+        226,
+        136,
+        188,
+        220
+      ],
+      "value": 283
+    },
+    {
+      "label": "TWO MILE COMMUNITY WATERSHED (100.115)",
+      "rgb": [
+        183,
+        83,
+        206
+      ],
+      "rgba": [
+        183,
+        83,
+        206,
+        220
+      ],
+      "value": 67
+    },
+    {
+      "label": "TWO MILE COMMUNITY WATERSHED (460.012)",
+      "rgb": [
+        45,
+        216,
+        252
+      ],
+      "rgba": [
+        45,
+        216,
+        252,
+        220
+      ],
+      "value": 321
+    },
+    {
+      "label": "URMSTON COMMUNITY WATERSHED (340.146)",
+      "rgb": [
+        131,
+        110,
+        115
+      ],
+      "rgba": [
+        131,
+        110,
+        115,
+        220
+      ],
+      "value": 284
+    },
+    {
+      "label": "USK (SKOVENS BROOK) COMMUNITY WATERSHED (400.013)",
+      "rgb": [
+        38,
+        186,
+        144
+      ],
+      "rgba": [
+        38,
+        186,
+        144,
+        220
+      ],
+      "value": 309
+    },
+    {
+      "label": "UTILITY COMMUNITY WATERSHED (920.070)",
+      "rgb": [
+        145,
+        117,
+        66
+      ],
+      "rgba": [
+        145,
+        117,
+        66,
+        220
+      ],
+      "value": 398
+    },
+    {
+      "label": "VERNON COMMUNITY WATERSHED (310.072)",
+      "rgb": [
+        21,
+        15,
+        142
+      ],
+      "rgba": [
+        21,
+        15,
+        142,
+        220
+      ],
+      "value": 208
+    },
+    {
+      "label": "VIKING COMMUNITY WATERSHED (100.116)",
+      "rgb": [
+        128,
+        30,
+        29
+      ],
+      "rgba": [
+        128,
+        30,
+        29,
+        220
+      ],
+      "value": 68
+    },
+    {
+      "label": "VIRGINIA COMMUNITY WATERSHED (400.010)",
+      "rgb": [
+        27,
+        139,
+        137
+      ],
+      "rgba": [
+        27,
+        139,
+        137,
+        220
+      ],
+      "value": 306
+    },
+    {
+      "label": "VOLKERT COMMUNITY WATERSHED (100.049)",
+      "rgb": [
+        57,
+        236,
+        245
+      ],
+      "rgba": [
+        57,
+        236,
+        245,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "WADE COMMUNITY WATERSHED (128.030)",
+      "rgb": [
+        111,
+        62,
+        242
+      ],
+      "rgba": [
+        111,
+        62,
+        242,
+        220
+      ],
+      "value": 117
+    },
+    {
+      "label": "WATHL COMMUNITY WATERSHED (910.012)",
+      "rgb": [
+        69,
+        120,
+        115
+      ],
+      "rgba": [
+        69,
+        120,
+        115,
+        220
+      ],
+      "value": 372
+    },
+    {
+      "label": "WATT COMMUNITY WATERSHED (100.050)",
+      "rgb": [
+        183,
+        245,
+        72
+      ],
+      "rgba": [
+        183,
+        245,
+        72,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "WATTS COMMUNITY WATERSHED (340.147)",
+      "rgb": [
+        84,
+        176,
+        78
+      ],
+      "rgba": [
+        84,
+        176,
+        78,
+        220
+      ],
+      "value": 285
+    },
+    {
+      "label": "WAUGH COMMUNITY WATERSHED (920.091)",
+      "rgb": [
+        177,
+        43,
+        210
+      ],
+      "rgba": [
+        177,
+        43,
+        210,
+        220
+      ],
+      "value": 400
+    },
+    {
+      "label": "WAUGH LAKE COMMUNITY WATERSHED (900.100)",
+      "rgb": [
+        206,
+        71,
+        79
+      ],
+      "rgba": [
+        206,
+        71,
+        79,
+        220
+      ],
+      "value": 364
+    },
+    {
+      "label": "WEETMAN COMMUNITY WATERSHED (100.088)",
+      "rgb": [
+        89,
+        128,
+        35
+      ],
+      "rgba": [
+        89,
+        128,
+        35,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "WELLS COMMUNITY WATERSHED (100.051)",
+      "rgb": [
+        126,
+        193,
+        59
+      ],
+      "rgba": [
+        126,
+        193,
+        59,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "WEST LAKE COMMUNITY WATERSHED (NEL.001)",
+      "rgb": [
+        27,
+        128,
+        165
+      ],
+      "rgba": [
+        27,
+        128,
+        165,
+        220
+      ],
+      "value": 460
+    },
+    {
+      "label": "WEST LITTLE SHEEP COMMUNITY WATERSHED (300.059)",
+      "rgb": [
+        70,
+        80,
+        24
+      ],
+      "rgba": [
+        70,
+        80,
+        24,
+        220
+      ],
+      "value": 165
+    },
+    {
+      "label": "WHISTLER COMMUNITY WATERSHED (900.068)",
+      "rgb": [
+        32,
+        64,
+        82
+      ],
+      "rgba": [
+        32,
+        64,
+        82,
+        220
+      ],
+      "value": 358
+    },
+    {
+      "label": "WHITE CLIFF COMMUNITY WATERSHED (128.033)",
+      "rgb": [
+        204,
+        176,
+        186
+      ],
+      "rgba": [
+        204,
+        176,
+        186,
+        220
+      ],
+      "value": 118
+    },
+    {
+      "label": "WILFRED COMMUNITY WATERSHED (930.024)",
+      "rgb": [
+        220,
+        180,
+        133
+      ],
+      "rgba": [
+        220,
+        180,
+        133,
+        220
+      ],
+      "value": 419
+    },
+    {
+      "label": "WILLIAM COMMUNITY WATERSHED (930.025)",
+      "rgb": [
+        254,
+        60,
+        232
+      ],
+      "rgba": [
+        254,
+        60,
+        232,
+        220
+      ],
+      "value": 420
+    },
+    {
+      "label": "WISEMAN COMMUNITY WATERSHED (128.034)",
+      "rgb": [
+        129,
+        125,
+        230
+      ],
+      "rgba": [
+        129,
+        125,
+        230,
+        220
+      ],
+      "value": 119
+    },
+    {
+      "label": "WOLF COMMUNITY WATERSHED (910.013)",
+      "rgb": [
+        246,
+        137,
+        48
+      ],
+      "rgba": [
+        246,
+        137,
+        48,
+        220
+      ],
+      "value": 373
+    },
+    {
+      "label": "YALE COMMUNITY WATERSHED (100.054)",
+      "rgb": [
+        122,
+        67,
+        235
+      ],
+      "rgba": [
+        122,
+        67,
+        235,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "YOUBOU COMMUNITY WATERSHED (920.100)",
+      "rgb": [
+        183,
+        104,
+        160
+      ],
+      "rgba": [
+        183,
+        104,
+        160,
+        220
+      ],
+      "value": 401
+    },
+    {
+      "label": "YOUNG CREEK COMMUNITY WATERSHED (100.118)",
+      "rgb": [
+        70,
+        132,
+        200
+      ],
+      "rgba": [
+        70,
+        132,
+        200,
+        220
+      ],
+      "value": 69
+    }
+  ],
+  "visible_pixel_count": 320,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

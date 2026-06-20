@@ -1,0 +1,1492 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_vri19_species/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_vri19_species",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:35:58+00:00",
+  "internal_raster_path": "species.tiff",
+  "internal_wms_path": "species.wms.xml",
+  "manifest_path": "layers/dl_vri19_species/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "species.tiff",
+    "legend_source_path": "species.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_vri19_species",
+    "source_title": "Species - All",
+    "source_zip_path": "data_layers/vri19_species.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/vri19_species.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/vri19_species.zip",
+  "title": "Species - All",
+  "value_class_count": 96,
+  "value_classes": [
+    {
+      "label": "Unknown",
+      "rgb": [
+        90,
+        38,
+        126
+      ],
+      "rgba": [
+        90,
+        38,
+        126,
+        220
+      ],
+      "value": 89
+    },
+    {
+      "label": "Unknown",
+      "rgb": [
+        90,
+        38,
+        126
+      ],
+      "rgba": [
+        90,
+        38,
+        126,
+        220
+      ],
+      "value": 90
+    },
+    {
+      "label": "Unknown",
+      "rgb": [
+        90,
+        38,
+        126
+      ],
+      "rgba": [
+        90,
+        38,
+        126,
+        220
+      ],
+      "value": 91
+    },
+    {
+      "label": "Unknown",
+      "rgb": [
+        90,
+        38,
+        126
+      ],
+      "rgba": [
+        90,
+        38,
+        126,
+        220
+      ],
+      "value": 94
+    },
+    {
+      "label": "Unknown",
+      "rgb": [
+        90,
+        38,
+        126
+      ],
+      "rgba": [
+        90,
+        38,
+        126,
+        220
+      ],
+      "value": 95
+    },
+    {
+      "label": "Unknown",
+      "rgb": [
+        90,
+        38,
+        126
+      ],
+      "rgba": [
+        90,
+        38,
+        126,
+        220
+      ],
+      "value": 96
+    },
+    {
+      "label": "Oak",
+      "rgb": [
+        173,
+        71,
+        123
+      ],
+      "rgba": [
+        173,
+        71,
+        123,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "Oak",
+      "rgb": [
+        173,
+        71,
+        123
+      ],
+      "rgba": [
+        173,
+        71,
+        123,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "Balsam",
+      "rgb": [
+        195,
+        110,
+        78
+      ],
+      "rgba": [
+        195,
+        110,
+        78,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Balsam",
+      "rgb": [
+        195,
+        110,
+        78
+      ],
+      "rgba": [
+        195,
+        110,
+        78,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Balsam",
+      "rgb": [
+        195,
+        110,
+        78
+      ],
+      "rgba": [
+        195,
+        110,
+        78,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Balsam",
+      "rgb": [
+        195,
+        110,
+        78
+      ],
+      "rgba": [
+        195,
+        110,
+        78,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Balsam",
+      "rgb": [
+        195,
+        110,
+        78
+      ],
+      "rgba": [
+        195,
+        110,
+        78,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Balsam",
+      "rgb": [
+        195,
+        110,
+        78
+      ],
+      "rgba": [
+        195,
+        110,
+        78,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Balsam",
+      "rgb": [
+        195,
+        110,
+        78
+      ],
+      "rgba": [
+        195,
+        110,
+        78,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Willow",
+      "rgb": [
+        228,
+        253,
+        41
+      ],
+      "rgba": [
+        228,
+        253,
+        41,
+        220
+      ],
+      "value": 82
+    },
+    {
+      "label": "Willow",
+      "rgb": [
+        228,
+        253,
+        41
+      ],
+      "rgba": [
+        228,
+        253,
+        41,
+        220
+      ],
+      "value": 83
+    },
+    {
+      "label": "Willow",
+      "rgb": [
+        228,
+        253,
+        41
+      ],
+      "rgba": [
+        228,
+        253,
+        41,
+        220
+      ],
+      "value": 84
+    },
+    {
+      "label": "Willow",
+      "rgb": [
+        228,
+        253,
+        41
+      ],
+      "rgba": [
+        228,
+        253,
+        41,
+        220
+      ],
+      "value": 86
+    },
+    {
+      "label": "Willow",
+      "rgb": [
+        228,
+        253,
+        41
+      ],
+      "rgba": [
+        228,
+        253,
+        41,
+        220
+      ],
+      "value": 87
+    },
+    {
+      "label": "Willow",
+      "rgb": [
+        228,
+        253,
+        41
+      ],
+      "rgba": [
+        228,
+        253,
+        41,
+        220
+      ],
+      "value": 88
+    },
+    {
+      "label": "Willow",
+      "rgb": [
+        228,
+        253,
+        41
+      ],
+      "rgba": [
+        228,
+        253,
+        41,
+        220
+      ],
+      "value": 85
+    },
+    {
+      "label": "Black Spruce",
+      "rgb": [
+        148,
+        200,
+        230
+      ],
+      "rgba": [
+        148,
+        200,
+        230,
+        220
+      ],
+      "value": 65
+    },
+    {
+      "label": "Lodgepole Pine",
+      "rgb": [
+        147,
+        216,
+        48
+      ],
+      "rgba": [
+        147,
+        216,
+        48,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "Lodgepole Pine",
+      "rgb": [
+        147,
+        216,
+        48
+      ],
+      "rgba": [
+        147,
+        216,
+        48,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "Lodgepole Pine",
+      "rgb": [
+        147,
+        216,
+        48
+      ],
+      "rgba": [
+        147,
+        216,
+        48,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "Lodgepole Pine",
+      "rgb": [
+        147,
+        216,
+        48
+      ],
+      "rgba": [
+        147,
+        216,
+        48,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "Douglas-Fir",
+      "rgb": [
+        160,
+        99,
+        159
+      ],
+      "rgba": [
+        160,
+        99,
+        159,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Douglas-Fir",
+      "rgb": [
+        160,
+        99,
+        159
+      ],
+      "rgba": [
+        160,
+        99,
+        159,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Maple",
+      "rgb": [
+        140,
+        109,
+        248
+      ],
+      "rgba": [
+        140,
+        109,
+        248,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "Maple",
+      "rgb": [
+        140,
+        109,
+        248
+      ],
+      "rgba": [
+        140,
+        109,
+        248,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "Yellow Cedar",
+      "rgb": [
+        21,
+        138,
+        150
+      ],
+      "rgba": [
+        21,
+        138,
+        150,
+        220
+      ],
+      "value": 92
+    },
+    {
+      "label": "Yellow Cedar",
+      "rgb": [
+        21,
+        138,
+        150
+      ],
+      "rgba": [
+        21,
+        138,
+        150,
+        220
+      ],
+      "value": 93
+    },
+    {
+      "label": "Misc",
+      "rgb": [
+        115,
+        79,
+        208
+      ],
+      "rgba": [
+        115,
+        79,
+        208,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Misc",
+      "rgb": [
+        115,
+        79,
+        208
+      ],
+      "rgba": [
+        115,
+        79,
+        208,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Misc",
+      "rgb": [
+        115,
+        79,
+        208
+      ],
+      "rgba": [
+        115,
+        79,
+        208,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "Misc",
+      "rgb": [
+        115,
+        79,
+        208
+      ],
+      "rgba": [
+        115,
+        79,
+        208,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "Misc",
+      "rgb": [
+        115,
+        79,
+        208
+      ],
+      "rgba": [
+        115,
+        79,
+        208,
+        220
+      ],
+      "value": 62
+    },
+    {
+      "label": "Misc",
+      "rgb": [
+        115,
+        79,
+        208
+      ],
+      "rgba": [
+        115,
+        79,
+        208,
+        220
+      ],
+      "value": 76
+    },
+    {
+      "label": "Misc",
+      "rgb": [
+        115,
+        79,
+        208
+      ],
+      "rgba": [
+        115,
+        79,
+        208,
+        220
+      ],
+      "value": 77
+    },
+    {
+      "label": "Misc",
+      "rgb": [
+        115,
+        79,
+        208
+      ],
+      "rgba": [
+        115,
+        79,
+        208,
+        220
+      ],
+      "value": 78
+    },
+    {
+      "label": "Misc",
+      "rgb": [
+        115,
+        79,
+        208
+      ],
+      "rgba": [
+        115,
+        79,
+        208,
+        220
+      ],
+      "value": 79
+    },
+    {
+      "label": "Misc",
+      "rgb": [
+        115,
+        79,
+        208
+      ],
+      "rgba": [
+        115,
+        79,
+        208,
+        220
+      ],
+      "value": 80
+    },
+    {
+      "label": "Misc",
+      "rgb": [
+        115,
+        79,
+        208
+      ],
+      "rgba": [
+        115,
+        79,
+        208,
+        220
+      ],
+      "value": 81
+    },
+    {
+      "label": "Hemlock",
+      "rgb": [
+        197,
+        3,
+        192
+      ],
+      "rgba": [
+        197,
+        3,
+        192,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Hemlock",
+      "rgb": [
+        197,
+        3,
+        192
+      ],
+      "rgba": [
+        197,
+        3,
+        192,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "Hemlock",
+      "rgb": [
+        197,
+        3,
+        192
+      ],
+      "rgba": [
+        197,
+        3,
+        192,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Hemlock",
+      "rgb": [
+        197,
+        3,
+        192
+      ],
+      "rgba": [
+        197,
+        3,
+        192,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "Hemlock",
+      "rgb": [
+        197,
+        3,
+        192
+      ],
+      "rgba": [
+        197,
+        3,
+        192,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "Juniper",
+      "rgb": [
+        80,
+        14,
+        141
+      ],
+      "rgba": [
+        80,
+        14,
+        141,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "Interior Douglas-Fir",
+      "rgb": [
+        201,
+        241,
+        46
+      ],
+      "rgba": [
+        201,
+        241,
+        46,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Larch",
+      "rgb": [
+        69,
+        209,
+        251
+      ],
+      "rgba": [
+        69,
+        209,
+        251,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Larch",
+      "rgb": [
+        69,
+        209,
+        251
+      ],
+      "rgba": [
+        69,
+        209,
+        251,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "Larch",
+      "rgb": [
+        69,
+        209,
+        251
+      ],
+      "rgba": [
+        69,
+        209,
+        251,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "Larch",
+      "rgb": [
+        69,
+        209,
+        251
+      ],
+      "rgba": [
+        69,
+        209,
+        251,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "Larch",
+      "rgb": [
+        69,
+        209,
+        251
+      ],
+      "rgba": [
+        69,
+        209,
+        251,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "Yellow Pine",
+      "rgb": [
+        14,
+        254,
+        229
+      ],
+      "rgba": [
+        14,
+        254,
+        229,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "Spruce",
+      "rgb": [
+        250,
+        172,
+        160
+      ],
+      "rgba": [
+        250,
+        172,
+        160,
+        220
+      ],
+      "value": 63
+    },
+    {
+      "label": "Spruce Hybrid",
+      "rgb": [
+        182,
+        134,
+        229
+      ],
+      "rgba": [
+        182,
+        134,
+        229,
+        220
+      ],
+      "value": 70
+    },
+    {
+      "label": "Spruce Hybrid",
+      "rgb": [
+        182,
+        134,
+        229
+      ],
+      "rgba": [
+        182,
+        134,
+        229,
+        220
+      ],
+      "value": 71
+    },
+    {
+      "label": "Spruce Hybrid",
+      "rgb": [
+        182,
+        134,
+        229
+      ],
+      "rgba": [
+        182,
+        134,
+        229,
+        220
+      ],
+      "value": 72
+    },
+    {
+      "label": "Spruce Hybrid",
+      "rgb": [
+        182,
+        134,
+        229
+      ],
+      "rgba": [
+        182,
+        134,
+        229,
+        220
+      ],
+      "value": 73
+    },
+    {
+      "label": "Spruce Hybrid",
+      "rgb": [
+        182,
+        134,
+        229
+      ],
+      "rgba": [
+        182,
+        134,
+        229,
+        220
+      ],
+      "value": 74
+    },
+    {
+      "label": "Spruce Hybrid",
+      "rgb": [
+        182,
+        134,
+        229
+      ],
+      "rgba": [
+        182,
+        134,
+        229,
+        220
+      ],
+      "value": 75
+    },
+    {
+      "label": "Stika Spruce",
+      "rgb": [
+        45,
+        213,
+        112
+      ],
+      "rgba": [
+        45,
+        213,
+        112,
+        220
+      ],
+      "value": 68
+    },
+    {
+      "label": "White Spruce",
+      "rgb": [
+        231,
+        107,
+        80
+      ],
+      "rgba": [
+        231,
+        107,
+        80,
+        220
+      ],
+      "value": 69
+    },
+    {
+      "label": "Norway Spruce",
+      "rgb": [
+        14,
+        253,
+        142
+      ],
+      "rgba": [
+        14,
+        253,
+        142,
+        220
+      ],
+      "value": 67
+    },
+    {
+      "label": "Norway Spruce",
+      "rgb": [
+        14,
+        253,
+        142
+      ],
+      "rgba": [
+        14,
+        253,
+        142,
+        220
+      ],
+      "value": 64
+    },
+    {
+      "label": "Pine",
+      "rgb": [
+        108,
+        13,
+        126
+      ],
+      "rgba": [
+        108,
+        13,
+        126,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "Pine",
+      "rgb": [
+        108,
+        13,
+        126
+      ],
+      "rgba": [
+        108,
+        13,
+        126,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "Pine",
+      "rgb": [
+        108,
+        13,
+        126
+      ],
+      "rgba": [
+        108,
+        13,
+        126,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "Pine",
+      "rgb": [
+        108,
+        13,
+        126
+      ],
+      "rgba": [
+        108,
+        13,
+        126,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "Pine",
+      "rgb": [
+        108,
+        13,
+        126
+      ],
+      "rgba": [
+        108,
+        13,
+        126,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "Pine",
+      "rgb": [
+        108,
+        13,
+        126
+      ],
+      "rgba": [
+        108,
+        13,
+        126,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "Alder",
+      "rgb": [
+        238,
+        109,
+        134
+      ],
+      "rgba": [
+        238,
+        109,
+        134,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Alder",
+      "rgb": [
+        238,
+        109,
+        134
+      ],
+      "rgba": [
+        238,
+        109,
+        134,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Alder",
+      "rgb": [
+        238,
+        109,
+        134
+      ],
+      "rgba": [
+        238,
+        109,
+        134,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Alder",
+      "rgb": [
+        238,
+        109,
+        134
+      ],
+      "rgba": [
+        238,
+        109,
+        134,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Birch",
+      "rgb": [
+        7,
+        52,
+        249
+      ],
+      "rgba": [
+        7,
+        52,
+        249,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Birch",
+      "rgb": [
+        7,
+        52,
+        249
+      ],
+      "rgba": [
+        7,
+        52,
+        249,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Birch",
+      "rgb": [
+        7,
+        52,
+        249
+      ],
+      "rgba": [
+        7,
+        52,
+        249,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Birch",
+      "rgb": [
+        7,
+        52,
+        249
+      ],
+      "rgba": [
+        7,
+        52,
+        249,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Birch",
+      "rgb": [
+        7,
+        52,
+        249
+      ],
+      "rgba": [
+        7,
+        52,
+        249,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Birch",
+      "rgb": [
+        7,
+        52,
+        249
+      ],
+      "rgba": [
+        7,
+        52,
+        249,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Birch",
+      "rgb": [
+        7,
+        52,
+        249
+      ],
+      "rgba": [
+        7,
+        52,
+        249,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Birch",
+      "rgb": [
+        7,
+        52,
+        249
+      ],
+      "rgba": [
+        7,
+        52,
+        249,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Coastal Douglas-Fir",
+      "rgb": [
+        14,
+        90,
+        14
+      ],
+      "rgba": [
+        14,
+        90,
+        14,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Cedar",
+      "rgb": [
+        224,
+        215,
+        139
+      ],
+      "rgba": [
+        224,
+        215,
+        139,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Cedar",
+      "rgb": [
+        224,
+        215,
+        139
+      ],
+      "rgba": [
+        224,
+        215,
+        139,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Engleman Spruce",
+      "rgb": [
+        73,
+        236,
+        190
+      ],
+      "rgba": [
+        73,
+        236,
+        190,
+        220
+      ],
+      "value": 66
+    },
+    {
+      "label": "Aspen-Cottonwood",
+      "rgb": [
+        29,
+        95,
+        244
+      ],
+      "rgba": [
+        29,
+        95,
+        244,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Aspen-Cottonwood",
+      "rgb": [
+        29,
+        95,
+        244
+      ],
+      "rgba": [
+        29,
+        95,
+        244,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Aspen-Cottonwood",
+      "rgb": [
+        29,
+        95,
+        244
+      ],
+      "rgba": [
+        29,
+        95,
+        244,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Aspen-Cottonwood",
+      "rgb": [
+        29,
+        95,
+        244
+      ],
+      "rgba": [
+        29,
+        95,
+        244,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Aspen-Cottonwood",
+      "rgb": [
+        29,
+        95,
+        244
+      ],
+      "rgba": [
+        29,
+        95,
+        244,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Aspen-Cottonwood",
+      "rgb": [
+        29,
+        95,
+        244
+      ],
+      "rgba": [
+        29,
+        95,
+        244,
+        220
+      ],
+      "value": 6
+    }
+  ],
+  "visible_pixel_count": 14405,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

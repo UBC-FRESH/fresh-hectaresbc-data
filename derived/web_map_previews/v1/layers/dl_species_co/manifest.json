@@ -1,0 +1,712 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_species_co/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_species_co",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:12:00+00:00",
+  "internal_raster_path": "co.tiff",
+  "internal_wms_path": "co.wms.xml",
+  "manifest_path": "layers/dl_species_co/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "co.tiff",
+    "legend_source_path": "co.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_species_co",
+    "source_title": "Salmon - Coho",
+    "source_zip_path": "data_layers/species_co.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/species_co.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/species_co.zip",
+  "title": "Salmon - Coho",
+  "value_class_count": 44,
+  "value_classes": [
+    {
+      "label": "Alsek River",
+      "rgb": [
+        81,
+        63,
+        215
+      ],
+      "rgba": [
+        81,
+        63,
+        215,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Bella Coola-Dean Rivers",
+      "rgb": [
+        123,
+        168,
+        134
+      ],
+      "rgba": [
+        123,
+        168,
+        134,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Boundary Bay",
+      "rgb": [
+        93,
+        123,
+        135
+      ],
+      "rgba": [
+        93,
+        123,
+        135,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Brim-Wahoo",
+      "rgb": [
+        244,
+        0,
+        168
+      ],
+      "rgba": [
+        244,
+        0,
+        168,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Clayoquot",
+      "rgb": [
+        226,
+        210,
+        8
+      ],
+      "rgba": [
+        226,
+        210,
+        8,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Douglas Channel-Kitimat Arm",
+      "rgb": [
+        27,
+        222,
+        179
+      ],
+      "rgba": [
+        27,
+        222,
+        179,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "East Vancouver Island-Georgia Strait",
+      "rgb": [
+        119,
+        110,
+        28
+      ],
+      "rgba": [
+        119,
+        110,
+        28,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "East Vancouver Island-Johnstone Strait-Southern Fjords",
+      "rgb": [
+        164,
+        108,
+        221
+      ],
+      "rgba": [
+        164,
+        108,
+        221,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Fraser Canyon",
+      "rgb": [
+        41,
+        183,
+        243
+      ],
+      "rgba": [
+        41,
+        183,
+        243,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Georgia Strait Mainland",
+      "rgb": [
+        221,
+        171,
+        14
+      ],
+      "rgba": [
+        221,
+        171,
+        14,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Hecate Strait Mainland",
+      "rgb": [
+        112,
+        165,
+        74
+      ],
+      "rgba": [
+        112,
+        165,
+        74,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Homathko-Klinaklini Rivers",
+      "rgb": [
+        3,
+        199,
+        84
+      ],
+      "rgba": [
+        3,
+        199,
+        84,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Howe Sound-Burrard Inlet",
+      "rgb": [
+        195,
+        90,
+        149
+      ],
+      "rgba": [
+        195,
+        90,
+        149,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Juan de Fuca-Pachena",
+      "rgb": [
+        116,
+        57,
+        76
+      ],
+      "rgba": [
+        116,
+        57,
+        76,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Lillooet",
+      "rgb": [
+        93,
+        73,
+        47
+      ],
+      "rgba": [
+        93,
+        73,
+        47,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Lower Fraser-A",
+      "rgb": [
+        49,
+        62,
+        64
+      ],
+      "rgba": [
+        49,
+        62,
+        64,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Lower Fraser-B",
+      "rgb": [
+        144,
+        174,
+        49
+      ],
+      "rgba": [
+        144,
+        174,
+        49,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Lower Nass",
+      "rgb": [
+        203,
+        83,
+        137
+      ],
+      "rgba": [
+        203,
+        83,
+        137,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Lower Skeena",
+      "rgb": [
+        195,
+        83,
+        129
+      ],
+      "rgba": [
+        195,
+        83,
+        129,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Lower Stikine",
+      "rgb": [
+        211,
+        18,
+        168
+      ],
+      "rgba": [
+        211,
+        18,
+        168,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Lower Thompson",
+      "rgb": [
+        158,
+        27,
+        223
+      ],
+      "rgba": [
+        158,
+        27,
+        223,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Lynn Canal",
+      "rgb": [
+        71,
+        217,
+        95
+      ],
+      "rgba": [
+        71,
+        217,
+        95,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Middle Fraser",
+      "rgb": [
+        108,
+        187,
+        5
+      ],
+      "rgba": [
+        108,
+        187,
+        5,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Middle Skeena",
+      "rgb": [
+        238,
+        16,
+        93
+      ],
+      "rgba": [
+        238,
+        16,
+        93,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Mussel-Kynoch",
+      "rgb": [
+        32,
+        194,
+        222
+      ],
+      "rgba": [
+        32,
+        194,
+        222,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Nahwitti Lowland",
+      "rgb": [
+        250,
+        131,
+        15
+      ],
+      "rgba": [
+        250,
+        131,
+        15,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Northern Coastal Streams",
+      "rgb": [
+        179,
+        251,
+        95
+      ],
+      "rgba": [
+        179,
+        251,
+        95,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "North Thompson",
+      "rgb": [
+        6,
+        94,
+        28
+      ],
+      "rgba": [
+        6,
+        94,
+        28,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Portland Sound-Observatory Inlet-Portland Canal",
+      "rgb": [
+        151,
+        178,
+        209
+      ],
+      "rgba": [
+        151,
+        178,
+        209,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "QCI-East",
+      "rgb": [
+        155,
+        242,
+        205
+      ],
+      "rgba": [
+        155,
+        242,
+        205,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "QCI-Graham Island Lowlands",
+      "rgb": [
+        195,
+        179,
+        155
+      ],
+      "rgba": [
+        195,
+        179,
+        155,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "QCI-West",
+      "rgb": [
+        228,
+        161,
+        103
+      ],
+      "rgba": [
+        228,
+        161,
+        103,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "Rivers Inlet",
+      "rgb": [
+        224,
+        130,
+        163
+      ],
+      "rgba": [
+        224,
+        130,
+        163,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Skeena Estuary",
+      "rgb": [
+        168,
+        101,
+        69
+      ],
+      "rgba": [
+        168,
+        101,
+        69,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Smith Inlet",
+      "rgb": [
+        50,
+        245,
+        162
+      ],
+      "rgba": [
+        50,
+        245,
+        162,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "Southern Coastal Streams-Queen Charlotte Strait-Johnstone Strait-Southern Fjords",
+      "rgb": [
+        170,
+        8,
+        179
+      ],
+      "rgba": [
+        170,
+        8,
+        179,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "South Thompson",
+      "rgb": [
+        30,
+        140,
+        207
+      ],
+      "rgba": [
+        30,
+        140,
+        207,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Taku River",
+      "rgb": [
+        102,
+        222,
+        74
+      ],
+      "rgba": [
+        102,
+        222,
+        74,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "undefined",
+      "rgb": [
+        169,
+        124,
+        82
+      ],
+      "rgba": [
+        169,
+        124,
+        82,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "Unuk River",
+      "rgb": [
+        94,
+        7,
+        38
+      ],
+      "rgba": [
+        94,
+        7,
+        38,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Upper Nass",
+      "rgb": [
+        168,
+        199,
+        24
+      ],
+      "rgba": [
+        168,
+        199,
+        24,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "Upper Skeena",
+      "rgb": [
+        135,
+        79,
+        73
+      ],
+      "rgba": [
+        135,
+        79,
+        73,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "West Vancouver Island",
+      "rgb": [
+        124,
+        65,
+        252
+      ],
+      "rgba": [
+        124,
+        65,
+        252,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "Whiting River",
+      "rgb": [
+        190,
+        91,
+        190
+      ],
+      "rgba": [
+        190,
+        91,
+        190,
+        220
+      ],
+      "value": 42
+    }
+  ],
+  "visible_pixel_count": 10767,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

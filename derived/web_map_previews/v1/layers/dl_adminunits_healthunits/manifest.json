@@ -1,0 +1,1387 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_adminunits_healthunits/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_adminunits_healthunits",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T03:51:10+00:00",
+  "internal_raster_path": "healthunits.tiff",
+  "internal_wms_path": "healthunits.wms.xml",
+  "manifest_path": "layers/dl_adminunits_healthunits/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "healthunits.tiff",
+    "legend_source_path": "healthunits.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_adminunits_healthunits",
+    "source_title": "Local Health Area Boundaries",
+    "source_zip_path": "data_layers/adminunits_healthunits.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/adminunits_healthunits.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/adminunits_healthunits.zip",
+  "title": "Local Health Area Boundaries",
+  "value_class_count": 89,
+  "value_classes": [
+    {
+      "label": "100 Mile House",
+      "rgb": [
+        99,
+        25,
+        173
+      ],
+      "rgba": [
+        99,
+        25,
+        173,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Abbotsford",
+      "rgb": [
+        140,
+        29,
+        44
+      ],
+      "rgba": [
+        140,
+        29,
+        44,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Agassiz-Harrison",
+      "rgb": [
+        21,
+        141,
+        133
+      ],
+      "rgba": [
+        21,
+        141,
+        133,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Alberni",
+      "rgb": [
+        91,
+        59,
+        17
+      ],
+      "rgba": [
+        91,
+        59,
+        17,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Armstrong-Spallumcheen",
+      "rgb": [
+        205,
+        87,
+        163
+      ],
+      "rgba": [
+        205,
+        87,
+        163,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Arrow Lakes",
+      "rgb": [
+        68,
+        197,
+        126
+      ],
+      "rgba": [
+        68,
+        197,
+        126,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Bella Coola Valley",
+      "rgb": [
+        216,
+        114,
+        73
+      ],
+      "rgba": [
+        216,
+        114,
+        73,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Burnaby",
+      "rgb": [
+        170,
+        78,
+        224
+      ],
+      "rgba": [
+        170,
+        78,
+        224,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Burns Lake",
+      "rgb": [
+        90,
+        87,
+        225
+      ],
+      "rgba": [
+        90,
+        87,
+        225,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Campbell River",
+      "rgb": [
+        233,
+        242,
+        63
+      ],
+      "rgba": [
+        233,
+        242,
+        63,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Cariboo-Chilcotin",
+      "rgb": [
+        12,
+        136,
+        196
+      ],
+      "rgba": [
+        12,
+        136,
+        196,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Castlegar",
+      "rgb": [
+        58,
+        76,
+        207
+      ],
+      "rgba": [
+        58,
+        76,
+        207,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Central Coast",
+      "rgb": [
+        94,
+        128,
+        177
+      ],
+      "rgba": [
+        94,
+        128,
+        177,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Central Okanagan",
+      "rgb": [
+        106,
+        39,
+        208
+      ],
+      "rgba": [
+        106,
+        39,
+        208,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Chilliwack",
+      "rgb": [
+        195,
+        73,
+        89
+      ],
+      "rgba": [
+        195,
+        73,
+        89,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "City Centre",
+      "rgb": [
+        56,
+        230,
+        90
+      ],
+      "rgba": [
+        56,
+        230,
+        90,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Coquitlam",
+      "rgb": [
+        185,
+        2,
+        133
+      ],
+      "rgba": [
+        185,
+        2,
+        133,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Courtenay",
+      "rgb": [
+        17,
+        35,
+        100
+      ],
+      "rgba": [
+        17,
+        35,
+        100,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Cowichan",
+      "rgb": [
+        62,
+        41,
+        109
+      ],
+      "rgba": [
+        62,
+        41,
+        109,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Cranbrook",
+      "rgb": [
+        240,
+        176,
+        110
+      ],
+      "rgba": [
+        240,
+        176,
+        110,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Creston",
+      "rgb": [
+        4,
+        137,
+        218
+      ],
+      "rgba": [
+        4,
+        137,
+        218,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Delta",
+      "rgb": [
+        193,
+        211,
+        196
+      ],
+      "rgba": [
+        193,
+        211,
+        196,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Downtown Eastside",
+      "rgb": [
+        137,
+        225,
+        161
+      ],
+      "rgba": [
+        137,
+        225,
+        161,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Enderby",
+      "rgb": [
+        150,
+        0,
+        240
+      ],
+      "rgba": [
+        150,
+        0,
+        240,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Fernie",
+      "rgb": [
+        235,
+        229,
+        98
+      ],
+      "rgba": [
+        235,
+        229,
+        98,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Fort Nelson",
+      "rgb": [
+        131,
+        98,
+        66
+      ],
+      "rgba": [
+        131,
+        98,
+        66,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Golden",
+      "rgb": [
+        212,
+        172,
+        9
+      ],
+      "rgba": [
+        212,
+        172,
+        9,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Grand Forks",
+      "rgb": [
+        199,
+        225,
+        187
+      ],
+      "rgba": [
+        199,
+        225,
+        187,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Greater Victoria",
+      "rgb": [
+        26,
+        213,
+        228
+      ],
+      "rgba": [
+        26,
+        213,
+        228,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Gulf Islands",
+      "rgb": [
+        121,
+        157,
+        198
+      ],
+      "rgba": [
+        121,
+        157,
+        198,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Hope",
+      "rgb": [
+        7,
+        70,
+        33
+      ],
+      "rgba": [
+        7,
+        70,
+        33,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Howe Sound",
+      "rgb": [
+        183,
+        42,
+        158
+      ],
+      "rgba": [
+        183,
+        42,
+        158,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Kamloops",
+      "rgb": [
+        2,
+        154,
+        112
+      ],
+      "rgba": [
+        2,
+        154,
+        112,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Keremeos",
+      "rgb": [
+        92,
+        138,
+        144
+      ],
+      "rgba": [
+        92,
+        138,
+        144,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Kettle Valley",
+      "rgb": [
+        247,
+        209,
+        154
+      ],
+      "rgba": [
+        247,
+        209,
+        154,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "Kimberley",
+      "rgb": [
+        237,
+        135,
+        53
+      ],
+      "rgba": [
+        237,
+        135,
+        53,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Kitimat",
+      "rgb": [
+        243,
+        6,
+        170
+      ],
+      "rgba": [
+        243,
+        6,
+        170,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "Kootenay Lake",
+      "rgb": [
+        222,
+        33,
+        38
+      ],
+      "rgba": [
+        222,
+        33,
+        38,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "Ladysmith",
+      "rgb": [
+        165,
+        230,
+        223
+      ],
+      "rgba": [
+        165,
+        230,
+        223,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "Lake Cowichan",
+      "rgb": [
+        227,
+        228,
+        25
+      ],
+      "rgba": [
+        227,
+        228,
+        25,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Langley",
+      "rgb": [
+        160,
+        16,
+        148
+      ],
+      "rgba": [
+        160,
+        16,
+        148,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "Lillooet",
+      "rgb": [
+        55,
+        245,
+        94
+      ],
+      "rgba": [
+        55,
+        245,
+        94,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "Maple Ridge",
+      "rgb": [
+        6,
+        56,
+        29
+      ],
+      "rgba": [
+        6,
+        56,
+        29,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "Merritt",
+      "rgb": [
+        42,
+        191,
+        208
+      ],
+      "rgba": [
+        42,
+        191,
+        208,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "Midtown",
+      "rgb": [
+        252,
+        132,
+        168
+      ],
+      "rgba": [
+        252,
+        132,
+        168,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "Mission",
+      "rgb": [
+        142,
+        103,
+        140
+      ],
+      "rgba": [
+        142,
+        103,
+        140,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "Nanaimo",
+      "rgb": [
+        215,
+        216,
+        118
+      ],
+      "rgba": [
+        215,
+        216,
+        118,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "Nechako",
+      "rgb": [
+        77,
+        43,
+        129
+      ],
+      "rgba": [
+        77,
+        43,
+        129,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "Nelson",
+      "rgb": [
+        212,
+        222,
+        17
+      ],
+      "rgba": [
+        212,
+        222,
+        17,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "New Westminster",
+      "rgb": [
+        221,
+        27,
+        181
+      ],
+      "rgba": [
+        221,
+        27,
+        181,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "Nisga'a",
+      "rgb": [
+        209,
+        115,
+        240
+      ],
+      "rgba": [
+        209,
+        115,
+        240,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "North East",
+      "rgb": [
+        214,
+        216,
+        174
+      ],
+      "rgba": [
+        214,
+        216,
+        174,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "North Thompson",
+      "rgb": [
+        93,
+        65,
+        124
+      ],
+      "rgba": [
+        93,
+        65,
+        124,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "North Vancouver",
+      "rgb": [
+        114,
+        69,
+        152
+      ],
+      "rgba": [
+        114,
+        69,
+        152,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "Peace River North",
+      "rgb": [
+        125,
+        198,
+        62
+      ],
+      "rgba": [
+        125,
+        198,
+        62,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "Peace River South",
+      "rgb": [
+        202,
+        193,
+        66
+      ],
+      "rgba": [
+        202,
+        193,
+        66,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "Penticton",
+      "rgb": [
+        119,
+        232,
+        112
+      ],
+      "rgba": [
+        119,
+        232,
+        112,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "Powell River",
+      "rgb": [
+        118,
+        114,
+        251
+      ],
+      "rgba": [
+        118,
+        114,
+        251,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "Prince George",
+      "rgb": [
+        21,
+        132,
+        224
+      ],
+      "rgba": [
+        21,
+        132,
+        224,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "Prince Rupert",
+      "rgb": [
+        167,
+        159,
+        85
+      ],
+      "rgba": [
+        167,
+        159,
+        85,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "Princeton",
+      "rgb": [
+        192,
+        244,
+        185
+      ],
+      "rgba": [
+        192,
+        244,
+        185,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "Qualicum",
+      "rgb": [
+        56,
+        187,
+        28
+      ],
+      "rgba": [
+        56,
+        187,
+        28,
+        220
+      ],
+      "value": 62
+    },
+    {
+      "label": "Queen Charlotte",
+      "rgb": [
+        214,
+        237,
+        50
+      ],
+      "rgba": [
+        214,
+        237,
+        50,
+        220
+      ],
+      "value": 63
+    },
+    {
+      "label": "Quesnel",
+      "rgb": [
+        176,
+        97,
+        224
+      ],
+      "rgba": [
+        176,
+        97,
+        224,
+        220
+      ],
+      "value": 64
+    },
+    {
+      "label": "Revelstoke",
+      "rgb": [
+        154,
+        197,
+        91
+      ],
+      "rgba": [
+        154,
+        197,
+        91,
+        220
+      ],
+      "value": 65
+    },
+    {
+      "label": "Richmond",
+      "rgb": [
+        9,
+        37,
+        72
+      ],
+      "rgba": [
+        9,
+        37,
+        72,
+        220
+      ],
+      "value": 66
+    },
+    {
+      "label": "Saanich",
+      "rgb": [
+        189,
+        61,
+        197
+      ],
+      "rgba": [
+        189,
+        61,
+        197,
+        220
+      ],
+      "value": 67
+    },
+    {
+      "label": "Salmon Arm",
+      "rgb": [
+        227,
+        167,
+        153
+      ],
+      "rgba": [
+        227,
+        167,
+        153,
+        220
+      ],
+      "value": 68
+    },
+    {
+      "label": "Smithers",
+      "rgb": [
+        9,
+        4,
+        213
+      ],
+      "rgba": [
+        9,
+        4,
+        213,
+        220
+      ],
+      "value": 69
+    },
+    {
+      "label": "Snow Country",
+      "rgb": [
+        160,
+        110,
+        209
+      ],
+      "rgba": [
+        160,
+        110,
+        209,
+        220
+      ],
+      "value": 70
+    },
+    {
+      "label": "Sooke",
+      "rgb": [
+        186,
+        147,
+        190
+      ],
+      "rgba": [
+        186,
+        147,
+        190,
+        220
+      ],
+      "value": 71
+    },
+    {
+      "label": "South Cariboo",
+      "rgb": [
+        59,
+        137,
+        151
+      ],
+      "rgba": [
+        59,
+        137,
+        151,
+        220
+      ],
+      "value": 72
+    },
+    {
+      "label": "Southern Okanagan",
+      "rgb": [
+        101,
+        59,
+        115
+      ],
+      "rgba": [
+        101,
+        59,
+        115,
+        220
+      ],
+      "value": 73
+    },
+    {
+      "label": "South Surrey/White Rock",
+      "rgb": [
+        222,
+        17,
+        49
+      ],
+      "rgba": [
+        222,
+        17,
+        49,
+        220
+      ],
+      "value": 74
+    },
+    {
+      "label": "South Vancouver",
+      "rgb": [
+        141,
+        215,
+        56
+      ],
+      "rgba": [
+        141,
+        215,
+        56,
+        220
+      ],
+      "value": 75
+    },
+    {
+      "label": "Stikine",
+      "rgb": [
+        179,
+        97,
+        192
+      ],
+      "rgba": [
+        179,
+        97,
+        192,
+        220
+      ],
+      "value": 76
+    },
+    {
+      "label": "Summerland",
+      "rgb": [
+        220,
+        28,
+        37
+      ],
+      "rgba": [
+        220,
+        28,
+        37,
+        220
+      ],
+      "value": 77
+    },
+    {
+      "label": "Sunshine Coast",
+      "rgb": [
+        3,
+        246,
+        201
+      ],
+      "rgba": [
+        3,
+        246,
+        201,
+        220
+      ],
+      "value": 78
+    },
+    {
+      "label": "Surrey",
+      "rgb": [
+        171,
+        44,
+        170
+      ],
+      "rgba": [
+        171,
+        44,
+        170,
+        220
+      ],
+      "value": 79
+    },
+    {
+      "label": "Telegraph Creek",
+      "rgb": [
+        238,
+        251,
+        56
+      ],
+      "rgba": [
+        238,
+        251,
+        56,
+        220
+      ],
+      "value": 80
+    },
+    {
+      "label": "Terrace",
+      "rgb": [
+        31,
+        147,
+        253
+      ],
+      "rgba": [
+        31,
+        147,
+        253,
+        220
+      ],
+      "value": 81
+    },
+    {
+      "label": "Trail",
+      "rgb": [
+        152,
+        125,
+        40
+      ],
+      "rgba": [
+        152,
+        125,
+        40,
+        220
+      ],
+      "value": 82
+    },
+    {
+      "label": "Upper Skeena",
+      "rgb": [
+        211,
+        23,
+        66
+      ],
+      "rgba": [
+        211,
+        23,
+        66,
+        220
+      ],
+      "value": 83
+    },
+    {
+      "label": "Vancouver Island North",
+      "rgb": [
+        11,
+        2,
+        26
+      ],
+      "rgba": [
+        11,
+        2,
+        26,
+        220
+      ],
+      "value": 84
+    },
+    {
+      "label": "Vancouver Island West",
+      "rgb": [
+        152,
+        254,
+        35
+      ],
+      "rgba": [
+        152,
+        254,
+        35,
+        220
+      ],
+      "value": 85
+    },
+    {
+      "label": "Vernon",
+      "rgb": [
+        61,
+        239,
+        211
+      ],
+      "rgba": [
+        61,
+        239,
+        211,
+        220
+      ],
+      "value": 86
+    },
+    {
+      "label": "Westside",
+      "rgb": [
+        108,
+        206,
+        195
+      ],
+      "rgba": [
+        108,
+        206,
+        195,
+        220
+      ],
+      "value": 87
+    },
+    {
+      "label": "West Vancouver-Bowen Island",
+      "rgb": [
+        76,
+        112,
+        20
+      ],
+      "rgba": [
+        76,
+        112,
+        20,
+        220
+      ],
+      "value": 88
+    },
+    {
+      "label": "Windermere",
+      "rgb": [
+        132,
+        5,
+        151
+      ],
+      "rgba": [
+        132,
+        5,
+        151,
+        220
+      ],
+      "value": 89
+    }
+  ],
+  "visible_pixel_count": 20999,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

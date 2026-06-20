@@ -1,0 +1,1012 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_mgtdes_wha/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_mgtdes_wha",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:10:16+00:00",
+  "internal_raster_path": "wha.tiff",
+  "internal_wms_path": "wha.wms.xml",
+  "manifest_path": "layers/dl_mgtdes_wha/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "wha.tiff",
+    "legend_source_path": "wha.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_mgtdes_wha",
+    "source_title": "Wildlife Habitat Areas",
+    "source_zip_path": "data_layers/mgtdes_wha.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/mgtdes_wha.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/mgtdes_wha.zip",
+  "title": "Wildlife Habitat Areas",
+  "value_class_count": 64,
+  "value_classes": [
+    {
+      "label": "American White Pelican",
+      "rgb": [
+        122,
+        90,
+        182
+      ],
+      "rgba": [
+        122,
+        90,
+        182,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Ancient Murrelet",
+      "rgb": [
+        204,
+        232,
+        170
+      ],
+      "rgba": [
+        204,
+        232,
+        170,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Ancient Murrelet/Cassin's Auklet",
+      "rgb": [
+        235,
+        32,
+        241
+      ],
+      "rgba": [
+        235,
+        32,
+        241,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Antelope-brush/bluebunch wheatgrass",
+      "rgb": [
+        173,
+        61,
+        136
+      ],
+      "rgba": [
+        173,
+        61,
+        136,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Antelope_brush/Needle-and-thread grass & Lewis's Woodpecker",
+      "rgb": [
+        254,
+        4,
+        206
+      ],
+      "rgba": [
+        254,
+        4,
+        206,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Antelope_brush/Needle-and-thread grass & Tiger Salamander",
+      "rgb": [
+        153,
+        35,
+        250
+      ],
+      "rgba": [
+        153,
+        35,
+        250,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Antelope_brush/Needle-and-thread grass",
+      "rgb": [
+        164,
+        41,
+        35
+      ],
+      "rgba": [
+        164,
+        41,
+        35,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Badger & Great Basin Spadefoot",
+      "rgb": [
+        78,
+        179,
+        227
+      ],
+      "rgba": [
+        78,
+        179,
+        227,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Badger",
+      "rgb": [
+        242,
+        121,
+        95
+      ],
+      "rgba": [
+        242,
+        121,
+        95,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Bighorn Sheep",
+      "rgb": [
+        103,
+        42,
+        102
+      ],
+      "rgba": [
+        103,
+        42,
+        102,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Black-Throated Green warbler",
+      "rgb": [
+        197,
+        252,
+        245
+      ],
+      "rgba": [
+        197,
+        252,
+        245,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Boreal Caribou",
+      "rgb": [
+        76,
+        206,
+        75
+      ],
+      "rgba": [
+        76,
+        206,
+        75,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Brewer's Sparrow",
+      "rgb": [
+        111,
+        166,
+        70
+      ],
+      "rgba": [
+        111,
+        166,
+        70,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Cassin's Auklet",
+      "rgb": [
+        6,
+        19,
+        178
+      ],
+      "rgba": [
+        6,
+        19,
+        178,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Coastal Tailed Frog",
+      "rgb": [
+        139,
+        144,
+        244
+      ],
+      "rgba": [
+        139,
+        144,
+        244,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Connecticut warbler",
+      "rgb": [
+        12,
+        115,
+        95
+      ],
+      "rgba": [
+        12,
+        115,
+        95,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Douglas-fir/Garry oak-oniongrass",
+      "rgb": [
+        197,
+        200,
+        234
+      ],
+      "rgba": [
+        197,
+        200,
+        234,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Douglas-fir/snowberry/balsamroot",
+      "rgb": [
+        175,
+        30,
+        162
+      ],
+      "rgba": [
+        175,
+        30,
+        162,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Fisher",
+      "rgb": [
+        7,
+        244,
+        8
+      ],
+      "rgba": [
+        7,
+        244,
+        8,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Flammulated Owl",
+      "rgb": [
+        230,
+        125,
+        138
+      ],
+      "rgba": [
+        230,
+        125,
+        138,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Gillette's Checkerspot",
+      "rgb": [
+        90,
+        0,
+        201
+      ],
+      "rgba": [
+        90,
+        0,
+        201,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Great Basin Spadefoot",
+      "rgb": [
+        220,
+        17,
+        64
+      ],
+      "rgba": [
+        220,
+        17,
+        64,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Grizzly Bear & Coastal Tailed Frog",
+      "rgb": [
+        251,
+        92,
+        253
+      ],
+      "rgba": [
+        251,
+        92,
+        253,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Grizzly Bear & Marbled Murrelet",
+      "rgb": [
+        180,
+        143,
+        29
+      ],
+      "rgba": [
+        180,
+        143,
+        29,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Grizzly Bear & Mountain Beaver",
+      "rgb": [
+        94,
+        130,
+        94
+      ],
+      "rgba": [
+        94,
+        130,
+        94,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Grizzly Bear & Rocky Mountain Tailed Frog",
+      "rgb": [
+        208,
+        183,
+        212
+      ],
+      "rgba": [
+        208,
+        183,
+        212,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Grizzly Bear",
+      "rgb": [
+        228,
+        103,
+        118
+      ],
+      "rgba": [
+        228,
+        103,
+        118,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Lewis's Woodpecker & Long-billed Curlew",
+      "rgb": [
+        117,
+        207,
+        245
+      ],
+      "rgba": [
+        117,
+        207,
+        245,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Lewis's Woodpecker & Sage Thrasher",
+      "rgb": [
+        197,
+        81,
+        253
+      ],
+      "rgba": [
+        197,
+        81,
+        253,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Lewis's Woodpecker & Tiger Salamander",
+      "rgb": [
+        128,
+        242,
+        57
+      ],
+      "rgba": [
+        128,
+        242,
+        57,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Lewis's Woodpecker",
+      "rgb": [
+        214,
+        0,
+        27
+      ],
+      "rgba": [
+        214,
+        0,
+        27,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Long-billed Curlew & Lewis's Woodpecker",
+      "rgb": [
+        163,
+        172,
+        240
+      ],
+      "rgba": [
+        163,
+        172,
+        240,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Long-billed Curlew",
+      "rgb": [
+        25,
+        148,
+        82
+      ],
+      "rgba": [
+        25,
+        148,
+        82,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Marbled Murrelet",
+      "rgb": [
+        175,
+        33,
+        146
+      ],
+      "rgba": [
+        175,
+        33,
+        146,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Mountain Beaver",
+      "rgb": [
+        182,
+        165,
+        81
+      ],
+      "rgba": [
+        182,
+        165,
+        81,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "Mountain Caribou & Grizzly Bear",
+      "rgb": [
+        227,
+        202,
+        135
+      ],
+      "rgba": [
+        227,
+        202,
+        135,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "Mountain Caribou",
+      "rgb": [
+        147,
+        5,
+        110
+      ],
+      "rgba": [
+        147,
+        5,
+        110,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Mountain Goat",
+      "rgb": [
+        29,
+        49,
+        193
+      ],
+      "rgba": [
+        29,
+        49,
+        193,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "Northern Caribou & American White Pelican",
+      "rgb": [
+        68,
+        242,
+        99
+      ],
+      "rgba": [
+        68,
+        242,
+        99,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Northern Caribou",
+      "rgb": [
+        198,
+        97,
+        206
+      ],
+      "rgba": [
+        198,
+        97,
+        206,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "Pacific Tailed Frog",
+      "rgb": [
+        201,
+        14,
+        237
+      ],
+      "rgba": [
+        201,
+        14,
+        237,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "Pacific Watershrew",
+      "rgb": [
+        201,
+        9,
+        232
+      ],
+      "rgba": [
+        201,
+        9,
+        232,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "Ponderosa pine - Black cottonwood - Snowberry",
+      "rgb": [
+        184,
+        133,
+        27
+      ],
+      "rgba": [
+        184,
+        133,
+        27,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "Red-legged frog",
+      "rgb": [
+        22,
+        250,
+        199
+      ],
+      "rgba": [
+        22,
+        250,
+        199,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "Rocky Mountain Tailed Frog",
+      "rgb": [
+        7,
+        206,
+        32
+      ],
+      "rgba": [
+        7,
+        206,
+        32,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "Sage Thrasher",
+      "rgb": [
+        144,
+        53,
+        208
+      ],
+      "rgba": [
+        144,
+        53,
+        208,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "Sandhill Crane",
+      "rgb": [
+        116,
+        220,
+        145
+      ],
+      "rgba": [
+        116,
+        220,
+        145,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "Scouler's corydalis",
+      "rgb": [
+        86,
+        65,
+        184
+      ],
+      "rgba": [
+        86,
+        65,
+        184,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "Spotted Bat",
+      "rgb": [
+        181,
+        190,
+        37
+      ],
+      "rgba": [
+        181,
+        190,
+        37,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "Spotted Owl & Grizzly Bear",
+      "rgb": [
+        85,
+        150,
+        150
+      ],
+      "rgba": [
+        85,
+        150,
+        150,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "Spotted Owl & Pacific Watershrew",
+      "rgb": [
+        76,
+        42,
+        206
+      ],
+      "rgba": [
+        76,
+        42,
+        206,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "Spotted Owl",
+      "rgb": [
+        180,
+        118,
+        111
+      ],
+      "rgba": [
+        180,
+        118,
+        111,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "Stickleback",
+      "rgb": [
+        79,
+        118,
+        153
+      ],
+      "rgba": [
+        79,
+        118,
+        153,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "Tall Bugbane & Pacific Watershrew",
+      "rgb": [
+        152,
+        210,
+        38
+      ],
+      "rgba": [
+        152,
+        210,
+        38,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "Tall Bugbane",
+      "rgb": [
+        199,
+        2,
+        156
+      ],
+      "rgba": [
+        199,
+        2,
+        156,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "Tiger Salamander",
+      "rgb": [
+        28,
+        53,
+        71
+      ],
+      "rgba": [
+        28,
+        53,
+        71,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "Western Screech Owl & Douglas-fir/snowberry/balsamroot",
+      "rgb": [
+        161,
+        167,
+        223
+      ],
+      "rgba": [
+        161,
+        167,
+        223,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "Western Screech Owl & Grizzly Bear",
+      "rgb": [
+        100,
+        58,
+        127
+      ],
+      "rgba": [
+        100,
+        58,
+        127,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "Western Screech Owl & Rocky Mountain Tailed Frog",
+      "rgb": [
+        236,
+        178,
+        13
+      ],
+      "rgba": [
+        236,
+        178,
+        13,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "Western Screech Owl",
+      "rgb": [
+        79,
+        231,
+        22
+      ],
+      "rgba": [
+        79,
+        231,
+        22,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "White-headed Woodpecker",
+      "rgb": [
+        173,
+        179,
+        178
+      ],
+      "rgba": [
+        173,
+        179,
+        178,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "Williamson's Sapsucker & Grizzly Bear",
+      "rgb": [
+        2,
+        83,
+        85
+      ],
+      "rgba": [
+        2,
+        83,
+        85,
+        220
+      ],
+      "value": 63
+    },
+    {
+      "label": "Williamson's Sapsucker",
+      "rgb": [
+        4,
+        46,
+        120
+      ],
+      "rgba": [
+        4,
+        46,
+        120,
+        220
+      ],
+      "value": 62
+    },
+    {
+      "label": "Yellow-breasted Chat",
+      "rgb": [
+        91,
+        34,
+        180
+      ],
+      "rgba": [
+        91,
+        34,
+        180,
+        220
+      ],
+      "value": 64
+    }
+  ],
+  "visible_pixel_count": 771,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_ecosec_natureserve_ecoreg/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_ecosec_natureserve_ecoreg",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:07:50+00:00",
+  "internal_raster_path": "natureserve_ecoreg.tiff",
+  "internal_wms_path": "natureserve_ecoreg.wms.xml",
+  "manifest_path": "layers/dl_ecosec_natureserve_ecoreg/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "natureserve_ecoreg.tiff",
+    "legend_source_path": "natureserve_ecoreg.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_ecosec_natureserve_ecoreg",
+    "source_title": "NatureServe Ecoregions",
+    "source_zip_path": "data_layers/ecosec_natureserve_ecoreg.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/ecosec_natureserve_ecoreg.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/ecosec_natureserve_ecoreg.zip",
+  "title": "NatureServe Ecoregions",
+  "value_class_count": 22,
+  "value_classes": [
+    {
+      "label": "Alaska Range",
+      "rgb": [
+        110,
+        169,
+        186
+      ],
+      "rgba": [
+        110,
+        169,
+        186,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Aspen Parkland",
+      "rgb": [
+        212,
+        123,
+        88
+      ],
+      "rgba": [
+        212,
+        123,
+        88,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Boreal Cordillera",
+      "rgb": [
+        218,
+        63,
+        29
+      ],
+      "rgba": [
+        218,
+        63,
+        29,
+        220
+      ],
+      "value": 73
+    },
+    {
+      "label": "Boreal Plains",
+      "rgb": [
+        148,
+        86,
+        135
+      ],
+      "rgba": [
+        148,
+        86,
+        135,
+        220
+      ],
+      "value": 74
+    },
+    {
+      "label": "Boreal Shield",
+      "rgb": [
+        18,
+        200,
+        145
+      ],
+      "rgba": [
+        18,
+        200,
+        145,
+        220
+      ],
+      "value": 75
+    },
+    {
+      "label": "Canadian Rocky Mountains",
+      "rgb": [
+        126,
+        145,
+        189
+      ],
+      "rgba": [
+        126,
+        145,
+        189,
+        220
+      ],
+      "value": 91
+    },
+    {
+      "label": "Columbia Plateau",
+      "rgb": [
+        64,
+        12,
+        14
+      ],
+      "rgba": [
+        64,
+        12,
+        14,
+        220
+      ],
+      "value": 167
+    },
+    {
+      "label": "East Cascades - Modoc Plateau",
+      "rgb": [
+        170,
+        196,
+        227
+      ],
+      "rgba": [
+        170,
+        196,
+        227,
+        220
+      ],
+      "value": 204
+    },
+    {
+      "label": "Fescue-Mixed Grass Prairie",
+      "rgb": [
+        144,
+        184,
+        130
+      ],
+      "rgba": [
+        144,
+        184,
+        130,
+        220
+      ],
+      "value": 251
+    },
+    {
+      "label": "Gulf Of Alaska Mountains And Fjordlands",
+      "rgb": [
+        151,
+        221,
+        154
+      ],
+      "rgba": [
+        151,
+        221,
+        154,
+        220
+      ],
+      "value": 282
+    },
+    {
+      "label": "Middle Rockies - Blue Mountains",
+      "rgb": [
+        181,
+        250,
+        220
+      ],
+      "rgba": [
+        181,
+        250,
+        220,
+        220
+      ],
+      "value": 432
+    },
+    {
+      "label": "Montane Cordillera",
+      "rgb": [
+        4,
+        144,
+        81
+      ],
+      "rgba": [
+        4,
+        144,
+        81,
+        220
+      ],
+      "value": 442
+    },
+    {
+      "label": "North Cascades",
+      "rgb": [
+        19,
+        192,
+        194
+      ],
+      "rgba": [
+        19,
+        192,
+        194,
+        220
+      ],
+      "value": 475
+    },
+    {
+      "label": "Okanagan",
+      "rgb": [
+        226,
+        66,
+        47
+      ],
+      "rgba": [
+        226,
+        66,
+        47,
+        220
+      ],
+      "value": 523
+    },
+    {
+      "label": "Pacific Northwest Coast",
+      "rgb": [
+        150,
+        245,
+        47
+      ],
+      "rgba": [
+        150,
+        245,
+        47,
+        220
+      ],
+      "value": 532
+    },
+    {
+      "label": "Rock And Ice: Antarctic",
+      "rgb": [
+        236,
+        175,
+        132
+      ],
+      "rgba": [
+        236,
+        175,
+        132,
+        220
+      ],
+      "value": 580
+    },
+    {
+      "label": "S.E. Alaska - B.C. Coastal Forest And Mountains",
+      "rgb": [
+        203,
+        237,
+        212
+      ],
+      "rgba": [
+        203,
+        237,
+        212,
+        220
+      ],
+      "value": 605
+    },
+    {
+      "label": "Taiga Cordillera",
+      "rgb": [
+        127,
+        48,
+        181
+      ],
+      "rgba": [
+        127,
+        48,
+        181,
+        220
+      ],
+      "value": 709
+    },
+    {
+      "label": "Taiga Plains",
+      "rgb": [
+        124,
+        245,
+        155
+      ],
+      "rgba": [
+        124,
+        245,
+        155,
+        220
+      ],
+      "value": 710
+    },
+    {
+      "label": "West Cascades",
+      "rgb": [
+        79,
+        152,
+        41
+      ],
+      "rgba": [
+        79,
+        152,
+        41,
+        220
+      ],
+      "value": 772
+    },
+    {
+      "label": "Western Taiga Shield",
+      "rgb": [
+        133,
+        214,
+        17
+      ],
+      "rgba": [
+        133,
+        214,
+        17,
+        220
+      ],
+      "value": 787
+    },
+    {
+      "label": "Willamette Valley - Puget Trough - Georgia Basin: Temperate Conifer Forests",
+      "rgb": [
+        62,
+        182,
+        182
+      ],
+      "rgba": [
+        62,
+        182,
+        182,
+        220
+      ],
+      "value": 795
+    }
+  ],
+  "visible_pixel_count": 40794,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

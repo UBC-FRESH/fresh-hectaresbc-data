@@ -1,0 +1,2437 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_adminunits_municipalities/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_adminunits_municipalities",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T03:57:24+00:00",
+  "internal_raster_path": "municipalities.tiff",
+  "internal_wms_path": "municipalities.wms.xml",
+  "manifest_path": "layers/dl_adminunits_municipalities/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "municipalities.tiff",
+    "legend_source_path": "municipalities.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_adminunits_municipalities",
+    "source_title": "Municipalities",
+    "source_zip_path": "data_layers/adminunits_municipalities.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/adminunits_municipalities.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/adminunits_municipalities.zip",
+  "title": "Municipalities",
+  "value_class_count": 159,
+  "value_classes": [
+    {
+      "label": "100 MILE HOUSE",
+      "rgb": [
+        107,
+        49,
+        66
+      ],
+      "rgba": [
+        107,
+        49,
+        66,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "ABBOTSFORD",
+      "rgb": [
+        83,
+        169,
+        157
+      ],
+      "rgba": [
+        83,
+        169,
+        157,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "ALERT BAY",
+      "rgb": [
+        235,
+        47,
+        252
+      ],
+      "rgba": [
+        235,
+        47,
+        252,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "ANMORE",
+      "rgb": [
+        248,
+        101,
+        211
+      ],
+      "rgba": [
+        248,
+        101,
+        211,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "ARMSTRONG",
+      "rgb": [
+        43,
+        58,
+        26
+      ],
+      "rgba": [
+        43,
+        58,
+        26,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "ASHCROFT",
+      "rgb": [
+        57,
+        145,
+        113
+      ],
+      "rgba": [
+        57,
+        145,
+        113,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "BARRIERE",
+      "rgb": [
+        203,
+        217,
+        248
+      ],
+      "rgba": [
+        203,
+        217,
+        248,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "BELCARRA",
+      "rgb": [
+        112,
+        154,
+        221
+      ],
+      "rgba": [
+        112,
+        154,
+        221,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "BOWEN ISLAND",
+      "rgb": [
+        44,
+        18,
+        93
+      ],
+      "rgba": [
+        44,
+        18,
+        93,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "BURNABY",
+      "rgb": [
+        102,
+        89,
+        81
+      ],
+      "rgba": [
+        102,
+        89,
+        81,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "BURNS LAKE",
+      "rgb": [
+        211,
+        235,
+        95
+      ],
+      "rgba": [
+        211,
+        235,
+        95,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "CACHE CREEK",
+      "rgb": [
+        56,
+        171,
+        203
+      ],
+      "rgba": [
+        56,
+        171,
+        203,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "CAMPBELL RIVER",
+      "rgb": [
+        116,
+        240,
+        162
+      ],
+      "rgba": [
+        116,
+        240,
+        162,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "CANAL FLATS",
+      "rgb": [
+        228,
+        119,
+        181
+      ],
+      "rgba": [
+        228,
+        119,
+        181,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "CASTLEGAR",
+      "rgb": [
+        138,
+        1,
+        22
+      ],
+      "rgba": [
+        138,
+        1,
+        22,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "CENTRAL SAANICH",
+      "rgb": [
+        126,
+        168,
+        168
+      ],
+      "rgba": [
+        126,
+        168,
+        168,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "CHASE",
+      "rgb": [
+        115,
+        43,
+        46
+      ],
+      "rgba": [
+        115,
+        43,
+        46,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "CHETWYND",
+      "rgb": [
+        210,
+        69,
+        243
+      ],
+      "rgba": [
+        210,
+        69,
+        243,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "CHILLIWACK",
+      "rgb": [
+        135,
+        138,
+        251
+      ],
+      "rgba": [
+        135,
+        138,
+        251,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "CLEARWATER",
+      "rgb": [
+        66,
+        116,
+        253
+      ],
+      "rgba": [
+        66,
+        116,
+        253,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "CLINTON",
+      "rgb": [
+        23,
+        254,
+        97
+      ],
+      "rgba": [
+        23,
+        254,
+        97,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "COLDSTREAM",
+      "rgb": [
+        244,
+        92,
+        96
+      ],
+      "rgba": [
+        244,
+        92,
+        96,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "COLWOOD",
+      "rgb": [
+        230,
+        195,
+        229
+      ],
+      "rgba": [
+        230,
+        195,
+        229,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "COMOX",
+      "rgb": [
+        55,
+        5,
+        128
+      ],
+      "rgba": [
+        55,
+        5,
+        128,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "COQUITLAM",
+      "rgb": [
+        20,
+        168,
+        33
+      ],
+      "rgba": [
+        20,
+        168,
+        33,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "COURTENAY",
+      "rgb": [
+        236,
+        106,
+        153
+      ],
+      "rgba": [
+        236,
+        106,
+        153,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "CRANBROOK",
+      "rgb": [
+        20,
+        53,
+        84
+      ],
+      "rgba": [
+        20,
+        53,
+        84,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "CRESTON",
+      "rgb": [
+        50,
+        92,
+        234
+      ],
+      "rgba": [
+        50,
+        92,
+        234,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "CUMBERLAND",
+      "rgb": [
+        212,
+        31,
+        156
+      ],
+      "rgba": [
+        212,
+        31,
+        156,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "DAWSON CREEK",
+      "rgb": [
+        188,
+        20,
+        28
+      ],
+      "rgba": [
+        188,
+        20,
+        28,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "DELTA",
+      "rgb": [
+        100,
+        251,
+        13
+      ],
+      "rgba": [
+        100,
+        251,
+        13,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "DISTRICT OF HIGHLANDS",
+      "rgb": [
+        225,
+        6,
+        30
+      ],
+      "rgba": [
+        225,
+        6,
+        30,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "DUNCAN",
+      "rgb": [
+        227,
+        249,
+        169
+      ],
+      "rgba": [
+        227,
+        249,
+        169,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "ELKFORD",
+      "rgb": [
+        67,
+        222,
+        155
+      ],
+      "rgba": [
+        67,
+        222,
+        155,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "ENDERBY",
+      "rgb": [
+        149,
+        165,
+        232
+      ],
+      "rgba": [
+        149,
+        165,
+        232,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "ESQUIMALT",
+      "rgb": [
+        33,
+        225,
+        230
+      ],
+      "rgba": [
+        33,
+        225,
+        230,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "FERNIE",
+      "rgb": [
+        112,
+        112,
+        126
+      ],
+      "rgba": [
+        112,
+        112,
+        126,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "FORT NELSON",
+      "rgb": [
+        161,
+        172,
+        224
+      ],
+      "rgba": [
+        161,
+        172,
+        224,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "FORT ST. JAMES",
+      "rgb": [
+        110,
+        91,
+        15
+      ],
+      "rgba": [
+        110,
+        91,
+        15,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "FORT ST. JOHN",
+      "rgb": [
+        242,
+        62,
+        139
+      ],
+      "rgba": [
+        242,
+        62,
+        139,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "FRASER LAKE",
+      "rgb": [
+        106,
+        106,
+        220
+      ],
+      "rgba": [
+        106,
+        106,
+        220,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "FRUITVALE",
+      "rgb": [
+        89,
+        155,
+        248
+      ],
+      "rgba": [
+        89,
+        155,
+        248,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "GIBSONS",
+      "rgb": [
+        236,
+        116,
+        196
+      ],
+      "rgba": [
+        236,
+        116,
+        196,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "GOLDEN",
+      "rgb": [
+        20,
+        207,
+        250
+      ],
+      "rgba": [
+        20,
+        207,
+        250,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "GOLD RIVER",
+      "rgb": [
+        115,
+        101,
+        92
+      ],
+      "rgba": [
+        115,
+        101,
+        92,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "GRAND FORKS",
+      "rgb": [
+        123,
+        102,
+        235
+      ],
+      "rgba": [
+        123,
+        102,
+        235,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "GRANISLE",
+      "rgb": [
+        40,
+        243,
+        185
+      ],
+      "rgba": [
+        40,
+        243,
+        185,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "GREENWOOD",
+      "rgb": [
+        76,
+        3,
+        79
+      ],
+      "rgba": [
+        76,
+        3,
+        79,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "HARRISON HOT SPRINGS",
+      "rgb": [
+        71,
+        49,
+        124
+      ],
+      "rgba": [
+        71,
+        49,
+        124,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "HAZELTON",
+      "rgb": [
+        229,
+        65,
+        227
+      ],
+      "rgba": [
+        229,
+        65,
+        227,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "HOPE",
+      "rgb": [
+        49,
+        220,
+        178
+      ],
+      "rgba": [
+        49,
+        220,
+        178,
+        220
+      ],
+      "value": 51
+    },
+    {
+      "label": "HOUSTON",
+      "rgb": [
+        252,
+        204,
+        102
+      ],
+      "rgba": [
+        252,
+        204,
+        102,
+        220
+      ],
+      "value": 52
+    },
+    {
+      "label": "HUDSON'S HOPE",
+      "rgb": [
+        62,
+        161,
+        176
+      ],
+      "rgba": [
+        62,
+        161,
+        176,
+        220
+      ],
+      "value": 53
+    },
+    {
+      "label": "INVERMERE",
+      "rgb": [
+        134,
+        16,
+        162
+      ],
+      "rgba": [
+        134,
+        16,
+        162,
+        220
+      ],
+      "value": 54
+    },
+    {
+      "label": "KAMLOOPS",
+      "rgb": [
+        235,
+        64,
+        7
+      ],
+      "rgba": [
+        235,
+        64,
+        7,
+        220
+      ],
+      "value": 55
+    },
+    {
+      "label": "KASLO",
+      "rgb": [
+        85,
+        116,
+        111
+      ],
+      "rgba": [
+        85,
+        116,
+        111,
+        220
+      ],
+      "value": 56
+    },
+    {
+      "label": "KELOWNA",
+      "rgb": [
+        220,
+        143,
+        59
+      ],
+      "rgba": [
+        220,
+        143,
+        59,
+        220
+      ],
+      "value": 57
+    },
+    {
+      "label": "KENT",
+      "rgb": [
+        85,
+        233,
+        194
+      ],
+      "rgba": [
+        85,
+        233,
+        194,
+        220
+      ],
+      "value": 58
+    },
+    {
+      "label": "KEREMEOS",
+      "rgb": [
+        36,
+        173,
+        202
+      ],
+      "rgba": [
+        36,
+        173,
+        202,
+        220
+      ],
+      "value": 59
+    },
+    {
+      "label": "KIMBERLEY",
+      "rgb": [
+        65,
+        68,
+        103
+      ],
+      "rgba": [
+        65,
+        68,
+        103,
+        220
+      ],
+      "value": 60
+    },
+    {
+      "label": "KITIMAT",
+      "rgb": [
+        247,
+        28,
+        39
+      ],
+      "rgba": [
+        247,
+        28,
+        39,
+        220
+      ],
+      "value": 61
+    },
+    {
+      "label": "LADYSMITH",
+      "rgb": [
+        141,
+        59,
+        198
+      ],
+      "rgba": [
+        141,
+        59,
+        198,
+        220
+      ],
+      "value": 62
+    },
+    {
+      "label": "LAKE COUNTRY",
+      "rgb": [
+        24,
+        242,
+        98
+      ],
+      "rgba": [
+        24,
+        242,
+        98,
+        220
+      ],
+      "value": 63
+    },
+    {
+      "label": "LAKE COWICHAN",
+      "rgb": [
+        243,
+        36,
+        64
+      ],
+      "rgba": [
+        243,
+        36,
+        64,
+        220
+      ],
+      "value": 64
+    },
+    {
+      "label": "LANGFORD",
+      "rgb": [
+        198,
+        131,
+        170
+      ],
+      "rgba": [
+        198,
+        131,
+        170,
+        220
+      ],
+      "value": 65
+    },
+    {
+      "label": "LANGLEY (CITY)",
+      "rgb": [
+        92,
+        127,
+        226
+      ],
+      "rgba": [
+        92,
+        127,
+        226,
+        220
+      ],
+      "value": 66
+    },
+    {
+      "label": "LANGLEY (DISTRICT)",
+      "rgb": [
+        50,
+        215,
+        103
+      ],
+      "rgba": [
+        50,
+        215,
+        103,
+        220
+      ],
+      "value": 67
+    },
+    {
+      "label": "LANTZVILLE",
+      "rgb": [
+        116,
+        7,
+        130
+      ],
+      "rgba": [
+        116,
+        7,
+        130,
+        220
+      ],
+      "value": 68
+    },
+    {
+      "label": "LILLOOET",
+      "rgb": [
+        46,
+        168,
+        135
+      ],
+      "rgba": [
+        46,
+        168,
+        135,
+        220
+      ],
+      "value": 69
+    },
+    {
+      "label": "LIONS BAY",
+      "rgb": [
+        166,
+        56,
+        248
+      ],
+      "rgba": [
+        166,
+        56,
+        248,
+        220
+      ],
+      "value": 70
+    },
+    {
+      "label": "LOGAN LAKE",
+      "rgb": [
+        225,
+        251,
+        168
+      ],
+      "rgba": [
+        225,
+        251,
+        168,
+        220
+      ],
+      "value": 71
+    },
+    {
+      "label": "LUMBY",
+      "rgb": [
+        221,
+        30,
+        168
+      ],
+      "rgba": [
+        221,
+        30,
+        168,
+        220
+      ],
+      "value": 72
+    },
+    {
+      "label": "LYTTON",
+      "rgb": [
+        128,
+        68,
+        243
+      ],
+      "rgba": [
+        128,
+        68,
+        243,
+        220
+      ],
+      "value": 73
+    },
+    {
+      "label": "MACKENZIE",
+      "rgb": [
+        48,
+        42,
+        111
+      ],
+      "rgba": [
+        48,
+        42,
+        111,
+        220
+      ],
+      "value": 74
+    },
+    {
+      "label": "MAPLE RIDGE",
+      "rgb": [
+        142,
+        253,
+        212
+      ],
+      "rgba": [
+        142,
+        253,
+        212,
+        220
+      ],
+      "value": 75
+    },
+    {
+      "label": "MASSETT",
+      "rgb": [
+        234,
+        127,
+        167
+      ],
+      "rgba": [
+        234,
+        127,
+        167,
+        220
+      ],
+      "value": 76
+    },
+    {
+      "label": "MCBRIDE",
+      "rgb": [
+        7,
+        245,
+        102
+      ],
+      "rgba": [
+        7,
+        245,
+        102,
+        220
+      ],
+      "value": 77
+    },
+    {
+      "label": "MERRITT",
+      "rgb": [
+        235,
+        179,
+        162
+      ],
+      "rgba": [
+        235,
+        179,
+        162,
+        220
+      ],
+      "value": 78
+    },
+    {
+      "label": "METCHOSIN",
+      "rgb": [
+        194,
+        254,
+        238
+      ],
+      "rgba": [
+        194,
+        254,
+        238,
+        220
+      ],
+      "value": 79
+    },
+    {
+      "label": "MIDWAY",
+      "rgb": [
+        150,
+        94,
+        124
+      ],
+      "rgba": [
+        150,
+        94,
+        124,
+        220
+      ],
+      "value": 80
+    },
+    {
+      "label": "MISSION",
+      "rgb": [
+        250,
+        86,
+        23
+      ],
+      "rgba": [
+        250,
+        86,
+        23,
+        220
+      ],
+      "value": 81
+    },
+    {
+      "label": "MONTROSE",
+      "rgb": [
+        40,
+        48,
+        169
+      ],
+      "rgba": [
+        40,
+        48,
+        169,
+        220
+      ],
+      "value": 82
+    },
+    {
+      "label": "NAKUSP",
+      "rgb": [
+        41,
+        66,
+        217
+      ],
+      "rgba": [
+        41,
+        66,
+        217,
+        220
+      ],
+      "value": 83
+    },
+    {
+      "label": "NANAIMO",
+      "rgb": [
+        163,
+        113,
+        166
+      ],
+      "rgba": [
+        163,
+        113,
+        166,
+        220
+      ],
+      "value": 84
+    },
+    {
+      "label": "NELSON",
+      "rgb": [
+        164,
+        121,
+        238
+      ],
+      "rgba": [
+        164,
+        121,
+        238,
+        220
+      ],
+      "value": 85
+    },
+    {
+      "label": "NEW DENVER",
+      "rgb": [
+        94,
+        205,
+        166
+      ],
+      "rgba": [
+        94,
+        205,
+        166,
+        220
+      ],
+      "value": 86
+    },
+    {
+      "label": "NEW HAZELTON",
+      "rgb": [
+        36,
+        223,
+        234
+      ],
+      "rgba": [
+        36,
+        223,
+        234,
+        220
+      ],
+      "value": 87
+    },
+    {
+      "label": "NEW WEST",
+      "rgb": [
+        135,
+        67,
+        145
+      ],
+      "rgba": [
+        135,
+        67,
+        145,
+        220
+      ],
+      "value": 88
+    },
+    {
+      "label": "NORTH COWICHAN",
+      "rgb": [
+        60,
+        115,
+        1
+      ],
+      "rgba": [
+        60,
+        115,
+        1,
+        220
+      ],
+      "value": 89
+    },
+    {
+      "label": "NORTH SAANICH",
+      "rgb": [
+        164,
+        53,
+        126
+      ],
+      "rgba": [
+        164,
+        53,
+        126,
+        220
+      ],
+      "value": 90
+    },
+    {
+      "label": "NORTH VAN (CITY)",
+      "rgb": [
+        25,
+        169,
+        244
+      ],
+      "rgba": [
+        25,
+        169,
+        244,
+        220
+      ],
+      "value": 91
+    },
+    {
+      "label": "NORTH VAN (DISTRICT)",
+      "rgb": [
+        210,
+        153,
+        143
+      ],
+      "rgba": [
+        210,
+        153,
+        143,
+        220
+      ],
+      "value": 92
+    },
+    {
+      "label": "OAK BAY",
+      "rgb": [
+        172,
+        137,
+        16
+      ],
+      "rgba": [
+        172,
+        137,
+        16,
+        220
+      ],
+      "value": 93
+    },
+    {
+      "label": "OLIVER",
+      "rgb": [
+        93,
+        204,
+        34
+      ],
+      "rgba": [
+        93,
+        204,
+        34,
+        220
+      ],
+      "value": 94
+    },
+    {
+      "label": "OSOYOOS",
+      "rgb": [
+        186,
+        232,
+        252
+      ],
+      "rgba": [
+        186,
+        232,
+        252,
+        220
+      ],
+      "value": 95
+    },
+    {
+      "label": "PARKSVILLE",
+      "rgb": [
+        42,
+        179,
+        73
+      ],
+      "rgba": [
+        42,
+        179,
+        73,
+        220
+      ],
+      "value": 96
+    },
+    {
+      "label": "PEACHLAND",
+      "rgb": [
+        238,
+        204,
+        87
+      ],
+      "rgba": [
+        238,
+        204,
+        87,
+        220
+      ],
+      "value": 97
+    },
+    {
+      "label": "PEMBERTON",
+      "rgb": [
+        88,
+        10,
+        191
+      ],
+      "rgba": [
+        88,
+        10,
+        191,
+        220
+      ],
+      "value": 98
+    },
+    {
+      "label": "PENTICTON",
+      "rgb": [
+        91,
+        140,
+        89
+      ],
+      "rgba": [
+        91,
+        140,
+        89,
+        220
+      ],
+      "value": 99
+    },
+    {
+      "label": "PITT MEADOWS",
+      "rgb": [
+        194,
+        175,
+        208
+      ],
+      "rgba": [
+        194,
+        175,
+        208,
+        220
+      ],
+      "value": 100
+    },
+    {
+      "label": "PORT ALBERNI",
+      "rgb": [
+        64,
+        213,
+        203
+      ],
+      "rgba": [
+        64,
+        213,
+        203,
+        220
+      ],
+      "value": 101
+    },
+    {
+      "label": "PORT ALICE",
+      "rgb": [
+        52,
+        25,
+        111
+      ],
+      "rgba": [
+        52,
+        25,
+        111,
+        220
+      ],
+      "value": 102
+    },
+    {
+      "label": "PORT CLEMENTS",
+      "rgb": [
+        241,
+        175,
+        38
+      ],
+      "rgba": [
+        241,
+        175,
+        38,
+        220
+      ],
+      "value": 103
+    },
+    {
+      "label": "PORT COQUITLAM",
+      "rgb": [
+        16,
+        73,
+        123
+      ],
+      "rgba": [
+        16,
+        73,
+        123,
+        220
+      ],
+      "value": 104
+    },
+    {
+      "label": "PORT EDWARD",
+      "rgb": [
+        139,
+        58,
+        118
+      ],
+      "rgba": [
+        139,
+        58,
+        118,
+        220
+      ],
+      "value": 105
+    },
+    {
+      "label": "PORT HARDY",
+      "rgb": [
+        98,
+        32,
+        237
+      ],
+      "rgba": [
+        98,
+        32,
+        237,
+        220
+      ],
+      "value": 106
+    },
+    {
+      "label": "PORT MCNEILL",
+      "rgb": [
+        119,
+        178,
+        232
+      ],
+      "rgba": [
+        119,
+        178,
+        232,
+        220
+      ],
+      "value": 107
+    },
+    {
+      "label": "PORT MOODY",
+      "rgb": [
+        69,
+        125,
+        105
+      ],
+      "rgba": [
+        69,
+        125,
+        105,
+        220
+      ],
+      "value": 108
+    },
+    {
+      "label": "POUCE COUPE",
+      "rgb": [
+        90,
+        246,
+        56
+      ],
+      "rgba": [
+        90,
+        246,
+        56,
+        220
+      ],
+      "value": 109
+    },
+    {
+      "label": "POWELL RIVER",
+      "rgb": [
+        126,
+        194,
+        48
+      ],
+      "rgba": [
+        126,
+        194,
+        48,
+        220
+      ],
+      "value": 110
+    },
+    {
+      "label": "PRINCE GEORGE",
+      "rgb": [
+        135,
+        249,
+        213
+      ],
+      "rgba": [
+        135,
+        249,
+        213,
+        220
+      ],
+      "value": 111
+    },
+    {
+      "label": "PRINCE RUPERT",
+      "rgb": [
+        202,
+        214,
+        248
+      ],
+      "rgba": [
+        202,
+        214,
+        248,
+        220
+      ],
+      "value": 112
+    },
+    {
+      "label": "PRINCETON",
+      "rgb": [
+        253,
+        226,
+        104
+      ],
+      "rgba": [
+        253,
+        226,
+        104,
+        220
+      ],
+      "value": 113
+    },
+    {
+      "label": "QUALICUM BEACH",
+      "rgb": [
+        37,
+        141,
+        137
+      ],
+      "rgba": [
+        37,
+        141,
+        137,
+        220
+      ],
+      "value": 114
+    },
+    {
+      "label": "QUEEN CHARLOTTE (VILLAGE)",
+      "rgb": [
+        216,
+        53,
+        17
+      ],
+      "rgba": [
+        216,
+        53,
+        17,
+        220
+      ],
+      "value": 115
+    },
+    {
+      "label": "QUESNEL",
+      "rgb": [
+        8,
+        214,
+        211
+      ],
+      "rgba": [
+        8,
+        214,
+        211,
+        220
+      ],
+      "value": 116
+    },
+    {
+      "label": "RADIUM HOT SPRINGS",
+      "rgb": [
+        86,
+        119,
+        49
+      ],
+      "rgba": [
+        86,
+        119,
+        49,
+        220
+      ],
+      "value": 117
+    },
+    {
+      "label": "REVELSTOKE",
+      "rgb": [
+        147,
+        234,
+        179
+      ],
+      "rgba": [
+        147,
+        234,
+        179,
+        220
+      ],
+      "value": 118
+    },
+    {
+      "label": "RICHMOND",
+      "rgb": [
+        121,
+        166,
+        2
+      ],
+      "rgba": [
+        121,
+        166,
+        2,
+        220
+      ],
+      "value": 119
+    },
+    {
+      "label": "ROSSLAND",
+      "rgb": [
+        51,
+        24,
+        70
+      ],
+      "rgba": [
+        51,
+        24,
+        70,
+        220
+      ],
+      "value": 120
+    },
+    {
+      "label": "SAANICH",
+      "rgb": [
+        237,
+        205,
+        96
+      ],
+      "rgba": [
+        237,
+        205,
+        96,
+        220
+      ],
+      "value": 121
+    },
+    {
+      "label": "SALMO",
+      "rgb": [
+        50,
+        198,
+        15
+      ],
+      "rgba": [
+        50,
+        198,
+        15,
+        220
+      ],
+      "value": 122
+    },
+    {
+      "label": "SALMON ARM",
+      "rgb": [
+        77,
+        117,
+        2
+      ],
+      "rgba": [
+        77,
+        117,
+        2,
+        220
+      ],
+      "value": 123
+    },
+    {
+      "label": "SAYWARD",
+      "rgb": [
+        97,
+        127,
+        250
+      ],
+      "rgba": [
+        97,
+        127,
+        250,
+        220
+      ],
+      "value": 124
+    },
+    {
+      "label": "SECHELT",
+      "rgb": [
+        144,
+        222,
+        130
+      ],
+      "rgba": [
+        144,
+        222,
+        130,
+        220
+      ],
+      "value": 125
+    },
+    {
+      "label": "SICAMOUS",
+      "rgb": [
+        119,
+        102,
+        115
+      ],
+      "rgba": [
+        119,
+        102,
+        115,
+        220
+      ],
+      "value": 126
+    },
+    {
+      "label": "SIDNEY",
+      "rgb": [
+        225,
+        249,
+        76
+      ],
+      "rgba": [
+        225,
+        249,
+        76,
+        220
+      ],
+      "value": 127
+    },
+    {
+      "label": "SILVERTON",
+      "rgb": [
+        123,
+        108,
+        155
+      ],
+      "rgba": [
+        123,
+        108,
+        155,
+        220
+      ],
+      "value": 128
+    },
+    {
+      "label": "SLOCAN",
+      "rgb": [
+        113,
+        70,
+        95
+      ],
+      "rgba": [
+        113,
+        70,
+        95,
+        220
+      ],
+      "value": 129
+    },
+    {
+      "label": "SMITHERS",
+      "rgb": [
+        103,
+        137,
+        145
+      ],
+      "rgba": [
+        103,
+        137,
+        145,
+        220
+      ],
+      "value": 130
+    },
+    {
+      "label": "SOOKE",
+      "rgb": [
+        64,
+        49,
+        216
+      ],
+      "rgba": [
+        64,
+        49,
+        216,
+        220
+      ],
+      "value": 131
+    },
+    {
+      "label": "SPALLUMCHEEN",
+      "rgb": [
+        223,
+        249,
+        17
+      ],
+      "rgba": [
+        223,
+        249,
+        17,
+        220
+      ],
+      "value": 132
+    },
+    {
+      "label": "SPARWOOD",
+      "rgb": [
+        37,
+        178,
+        144
+      ],
+      "rgba": [
+        37,
+        178,
+        144,
+        220
+      ],
+      "value": 133
+    },
+    {
+      "label": "SQUAMISH",
+      "rgb": [
+        135,
+        111,
+        139
+      ],
+      "rgba": [
+        135,
+        111,
+        139,
+        220
+      ],
+      "value": 134
+    },
+    {
+      "label": "STEWART",
+      "rgb": [
+        114,
+        132,
+        198
+      ],
+      "rgba": [
+        114,
+        132,
+        198,
+        220
+      ],
+      "value": 135
+    },
+    {
+      "label": "SUMMERLAND",
+      "rgb": [
+        165,
+        223,
+        212
+      ],
+      "rgba": [
+        165,
+        223,
+        212,
+        220
+      ],
+      "value": 136
+    },
+    {
+      "label": "SURREY",
+      "rgb": [
+        140,
+        151,
+        85
+      ],
+      "rgba": [
+        140,
+        151,
+        85,
+        220
+      ],
+      "value": 137
+    },
+    {
+      "label": "TAHSIS",
+      "rgb": [
+        216,
+        27,
+        205
+      ],
+      "rgba": [
+        216,
+        27,
+        205,
+        220
+      ],
+      "value": 138
+    },
+    {
+      "label": "TAYLOR",
+      "rgb": [
+        240,
+        31,
+        96
+      ],
+      "rgba": [
+        240,
+        31,
+        96,
+        220
+      ],
+      "value": 139
+    },
+    {
+      "label": "TELKWA",
+      "rgb": [
+        227,
+        112,
+        14
+      ],
+      "rgba": [
+        227,
+        112,
+        14,
+        220
+      ],
+      "value": 140
+    },
+    {
+      "label": "TERRACE",
+      "rgb": [
+        155,
+        33,
+        116
+      ],
+      "rgba": [
+        155,
+        33,
+        116,
+        220
+      ],
+      "value": 141
+    },
+    {
+      "label": "TOFINO",
+      "rgb": [
+        140,
+        175,
+        18
+      ],
+      "rgba": [
+        140,
+        175,
+        18,
+        220
+      ],
+      "value": 142
+    },
+    {
+      "label": "TRAIL",
+      "rgb": [
+        175,
+        132,
+        179
+      ],
+      "rgba": [
+        175,
+        132,
+        179,
+        220
+      ],
+      "value": 143
+    },
+    {
+      "label": "TUMBLER RIDGE",
+      "rgb": [
+        143,
+        181,
+        161
+      ],
+      "rgba": [
+        143,
+        181,
+        161,
+        220
+      ],
+      "value": 144
+    },
+    {
+      "label": "UCLUELET",
+      "rgb": [
+        33,
+        0,
+        80
+      ],
+      "rgba": [
+        33,
+        0,
+        80,
+        220
+      ],
+      "value": 145
+    },
+    {
+      "label": "VALEMOUNT",
+      "rgb": [
+        58,
+        172,
+        229
+      ],
+      "rgba": [
+        58,
+        172,
+        229,
+        220
+      ],
+      "value": 146
+    },
+    {
+      "label": "VANCOUVER",
+      "rgb": [
+        213,
+        109,
+        135
+      ],
+      "rgba": [
+        213,
+        109,
+        135,
+        220
+      ],
+      "value": 147
+    },
+    {
+      "label": "VANDERHOOF",
+      "rgb": [
+        240,
+        198,
+        53
+      ],
+      "rgba": [
+        240,
+        198,
+        53,
+        220
+      ],
+      "value": 148
+    },
+    {
+      "label": "VERNON",
+      "rgb": [
+        187,
+        58,
+        120
+      ],
+      "rgba": [
+        187,
+        58,
+        120,
+        220
+      ],
+      "value": 149
+    },
+    {
+      "label": "VICTORIA",
+      "rgb": [
+        189,
+        223,
+        58
+      ],
+      "rgba": [
+        189,
+        223,
+        58,
+        220
+      ],
+      "value": 150
+    },
+    {
+      "label": "VIEW ROYAL",
+      "rgb": [
+        227,
+        163,
+        225
+      ],
+      "rgba": [
+        227,
+        163,
+        225,
+        220
+      ],
+      "value": 151
+    },
+    {
+      "label": "WARFIELD",
+      "rgb": [
+        172,
+        0,
+        13
+      ],
+      "rgba": [
+        172,
+        0,
+        13,
+        220
+      ],
+      "value": 152
+    },
+    {
+      "label": "WELLS",
+      "rgb": [
+        226,
+        183,
+        150
+      ],
+      "rgba": [
+        226,
+        183,
+        150,
+        220
+      ],
+      "value": 153
+    },
+    {
+      "label": "WESTSIDE",
+      "rgb": [
+        14,
+        6,
+        194
+      ],
+      "rgba": [
+        14,
+        6,
+        194,
+        220
+      ],
+      "value": 154
+    },
+    {
+      "label": "WEST VANCOUVER",
+      "rgb": [
+        24,
+        3,
+        54
+      ],
+      "rgba": [
+        24,
+        3,
+        54,
+        220
+      ],
+      "value": 155
+    },
+    {
+      "label": "WHISTLER",
+      "rgb": [
+        7,
+        21,
+        39
+      ],
+      "rgba": [
+        7,
+        21,
+        39,
+        220
+      ],
+      "value": 156
+    },
+    {
+      "label": "WHITE ROCK",
+      "rgb": [
+        248,
+        13,
+        217
+      ],
+      "rgba": [
+        248,
+        13,
+        217,
+        220
+      ],
+      "value": 157
+    },
+    {
+      "label": "WILLIAMS LAKE",
+      "rgb": [
+        246,
+        23,
+        194
+      ],
+      "rgba": [
+        246,
+        23,
+        194,
+        220
+      ],
+      "value": 158
+    },
+    {
+      "label": "ZEBALLOS",
+      "rgb": [
+        103,
+        178,
+        121
+      ],
+      "rgba": [
+        103,
+        178,
+        121,
+        220
+      ],
+      "value": 159
+    }
+  ],
+  "visible_pixel_count": 307,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

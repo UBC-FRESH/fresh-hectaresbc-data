@@ -1,0 +1,187 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_adminunits_moeregionsesd/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_adminunits_moeregionsesd",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T03:57:14+00:00",
+  "internal_raster_path": "moeregionsesd.tiff",
+  "internal_wms_path": "moeregionsesd.wms.xml",
+  "manifest_path": "layers/dl_adminunits_moeregionsesd/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "moeregionsesd.tiff",
+    "legend_source_path": "moeregionsesd.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_adminunits_moeregionsesd",
+    "source_title": "Ministry of Environment Regions (Environmental Stewardship Division)",
+    "source_zip_path": "data_layers/adminunits_moeregionsesd.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/adminunits_moeregionsesd.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/adminunits_moeregionsesd.zip",
+  "title": "Ministry of Environment Regions (Environmental Stewardship Division)",
+  "value_class_count": 9,
+  "value_classes": [
+    {
+      "label": "Cariboo",
+      "rgb": [
+        174,
+        95,
+        12
+      ],
+      "rgba": [
+        174,
+        95,
+        12,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Kootenay",
+      "rgb": [
+        106,
+        75,
+        161
+      ],
+      "rgba": [
+        106,
+        75,
+        161,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Lower Mainland",
+      "rgb": [
+        227,
+        226,
+        177
+      ],
+      "rgba": [
+        227,
+        226,
+        177,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Okanagan",
+      "rgb": [
+        166,
+        125,
+        29
+      ],
+      "rgba": [
+        166,
+        125,
+        29,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Omineca",
+      "rgb": [
+        192,
+        106,
+        127
+      ],
+      "rgba": [
+        192,
+        106,
+        127,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Peace",
+      "rgb": [
+        120,
+        62,
+        182
+      ],
+      "rgba": [
+        120,
+        62,
+        182,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Skeena",
+      "rgb": [
+        29,
+        81,
+        248
+      ],
+      "rgba": [
+        29,
+        81,
+        248,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Thompson",
+      "rgb": [
+        77,
+        247,
+        160
+      ],
+      "rgba": [
+        77,
+        247,
+        160,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Vancouver Island",
+      "rgb": [
+        4,
+        87,
+        124
+      ],
+      "rgba": [
+        4,
+        87,
+        124,
+        220
+      ],
+      "value": 9
+    }
+  ],
+  "visible_pixel_count": 23396,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

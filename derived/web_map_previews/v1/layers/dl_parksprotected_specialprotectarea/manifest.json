@@ -1,0 +1,202 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_parksprotected_specialprotectarea/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_parksprotected_specialprotectarea",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:11:30+00:00",
+  "internal_raster_path": "specialprotectarea.tiff",
+  "internal_wms_path": "specialprotectarea.wms.xml",
+  "manifest_path": "layers/dl_parksprotected_specialprotectarea/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "specialprotectarea.tiff",
+    "legend_source_path": "specialprotectarea.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_parksprotected_specialprotectarea",
+    "source_title": "FADM - Special Protection Area",
+    "source_zip_path": "data_layers/parksprotected_specialprotectarea.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/parksprotected_specialprotectarea.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/parksprotected_specialprotectarea.zip",
+  "title": "FADM - Special Protection Area",
+  "value_class_count": 10,
+  "value_classes": [
+    {
+      "label": "Braden Site 1",
+      "rgb": [
+        60,
+        165,
+        40
+      ],
+      "rgba": [
+        60,
+        165,
+        40,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Braden Site 2",
+      "rgb": [
+        88,
+        69,
+        160
+      ],
+      "rgba": [
+        88,
+        69,
+        160,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Broughton",
+      "rgb": [
+        42,
+        182,
+        60
+      ],
+      "rgba": [
+        42,
+        182,
+        60,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Gil",
+      "rgb": [
+        249,
+        71,
+        112
+      ],
+      "rgba": [
+        249,
+        71,
+        112,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Great Bear Rainforest",
+      "rgb": [
+        61,
+        145,
+        58
+      ],
+      "rgba": [
+        61,
+        145,
+        58,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Green",
+      "rgb": [
+        58,
+        30,
+        212
+      ],
+      "rgba": [
+        58,
+        30,
+        212,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Kimsquit",
+      "rgb": [
+        56,
+        247,
+        244
+      ],
+      "rgba": [
+        56,
+        247,
+        244,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "King Island",
+      "rgb": [
+        10,
+        195,
+        74
+      ],
+      "rgba": [
+        10,
+        195,
+        74,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Kitsault",
+      "rgb": [
+        203,
+        48,
+        42
+      ],
+      "rgba": [
+        203,
+        48,
+        42,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Thurlow",
+      "rgb": [
+        146,
+        79,
+        101
+      ],
+      "rgba": [
+        146,
+        79,
+        101,
+        220
+      ],
+      "value": 10
+    }
+  ],
+  "visible_pixel_count": 2384,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

@@ -1,0 +1,817 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_species_caribou/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_species_caribou",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:34:06+00:00",
+  "internal_raster_path": "caribou.tiff",
+  "internal_wms_path": "caribou.wms.xml",
+  "manifest_path": "layers/dl_species_caribou/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "caribou.tiff",
+    "legend_source_path": "caribou.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_species_caribou",
+    "source_title": "Caribou",
+    "source_zip_path": "data_layers/species_caribou.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/species_caribou.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/species_caribou.zip",
+  "title": "Caribou",
+  "value_class_count": 51,
+  "value_classes": [
+    {
+      "label": "Boreal and Northern",
+      "rgb": [
+        97,
+        11,
+        65
+      ],
+      "rgba": [
+        97,
+        11,
+        65,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Boreal and Traces",
+      "rgb": [
+        204,
+        36,
+        89
+      ],
+      "rgba": [
+        204,
+        36,
+        89,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Extinct",
+      "rgb": [
+        255,
+        170,
+        255
+      ],
+      "rgba": [
+        255,
+        170,
+        255,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Extirpated",
+      "rgb": [
+        15,
+        106,
+        183
+      ],
+      "rgba": [
+        15,
+        106,
+        183,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Mountain",
+      "rgb": [
+        204,
+        0,
+        0
+      ],
+      "rgba": [
+        204,
+        0,
+        0,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 37
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 38
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 39
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 40
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 41
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 42
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 43
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 44
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 45
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 46
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 47
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 48
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 49
+    },
+    {
+      "label": "Northern",
+      "rgb": [
+        195,
+        211,
+        242
+      ],
+      "rgba": [
+        195,
+        211,
+        242,
+        220
+      ],
+      "value": 50
+    },
+    {
+      "label": "Traces",
+      "rgb": [
+        143,
+        209,
+        131
+      ],
+      "rgba": [
+        143,
+        209,
+        131,
+        220
+      ],
+      "value": 51
+    }
+  ],
+  "visible_pixel_count": 15022,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

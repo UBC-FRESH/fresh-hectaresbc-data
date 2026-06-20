@@ -1,0 +1,397 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_soils_devel/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_soils_devel",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:11:48+00:00",
+  "internal_raster_path": "devel.tiff",
+  "internal_wms_path": "devel.wms.xml",
+  "manifest_path": "layers/dl_soils_devel/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "devel.tiff",
+    "legend_source_path": "devel.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_soils_devel",
+    "source_title": "Soil Development",
+    "source_zip_path": "data_layers/soils_devel.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/soils_devel.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/soils_devel.zip",
+  "title": "Soil Development",
+  "value_class_count": 23,
+  "value_classes": [
+    {
+      "label": "Non-applicable (#)",
+      "rgb": [
+        175,
+        36,
+        88
+      ],
+      "rgba": [
+        175,
+        36,
+        88,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Folisol (2)",
+      "rgb": [
+        228,
+        233,
+        207
+      ],
+      "rgba": [
+        228,
+        233,
+        207,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Podzolic Gray Luvisolic (3)",
+      "rgb": [
+        226,
+        229,
+        193
+      ],
+      "rgba": [
+        226,
+        229,
+        193,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Brown Chernozemic (A)",
+      "rgb": [
+        22,
+        130,
+        179
+      ],
+      "rgba": [
+        22,
+        130,
+        179,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Dark Brown Chernozemic  (B)",
+      "rgb": [
+        37,
+        96,
+        114
+      ],
+      "rgba": [
+        37,
+        96,
+        114,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Black Chernozemic (C)",
+      "rgb": [
+        187,
+        154,
+        74
+      ],
+      "rgba": [
+        187,
+        154,
+        74,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Dark Gray Chernozemic or Dark Gray Luvisolic (D)",
+      "rgb": [
+        13,
+        126,
+        62
+      ],
+      "rgba": [
+        13,
+        126,
+        62,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Gray Luvisolic (F)",
+      "rgb": [
+        232,
+        219,
+        185
+      ],
+      "rgba": [
+        232,
+        219,
+        185,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Brunisolic Gray Luvisolic (I)",
+      "rgb": [
+        130,
+        177,
+        26
+      ],
+      "rgba": [
+        130,
+        177,
+        26,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Black Solonetzic (J)",
+      "rgb": [
+        30,
+        21,
+        226
+      ],
+      "rgba": [
+        30,
+        21,
+        226,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Gray Solonetzic (K)",
+      "rgb": [
+        212,
+        187,
+        96
+      ],
+      "rgba": [
+        212,
+        187,
+        96,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Melanic Brunisolic (L)",
+      "rgb": [
+        53,
+        90,
+        186
+      ],
+      "rgba": [
+        53,
+        90,
+        186,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Eutric Brunisolic (M)",
+      "rgb": [
+        79,
+        14,
+        17
+      ],
+      "rgba": [
+        79,
+        14,
+        17,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Sombric Brunisolic (N)",
+      "rgb": [
+        195,
+        31,
+        159
+      ],
+      "rgba": [
+        195,
+        31,
+        159,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Organic Cryosolic (O)",
+      "rgb": [
+        67,
+        204,
+        204
+      ],
+      "rgba": [
+        67,
+        204,
+        204,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Dystric Brunisolic (P)",
+      "rgb": [
+        28,
+        178,
+        121
+      ],
+      "rgba": [
+        28,
+        178,
+        121,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Regosolic (R)",
+      "rgb": [
+        212,
+        171,
+        58
+      ],
+      "rgba": [
+        212,
+        171,
+        58,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Gleysolic (U)",
+      "rgb": [
+        48,
+        205,
+        53
+      ],
+      "rgba": [
+        48,
+        205,
+        53,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Ferro-Humic Podzolic (V)",
+      "rgb": [
+        161,
+        6,
+        175
+      ],
+      "rgba": [
+        161,
+        6,
+        175,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Humo-Ferric Podzolic (W)",
+      "rgb": [
+        142,
+        103,
+        170
+      ],
+      "rgba": [
+        142,
+        103,
+        170,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Fibrisol (X)",
+      "rgb": [
+        233,
+        38,
+        120
+      ],
+      "rgba": [
+        233,
+        38,
+        120,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Mesisol (Y)",
+      "rgb": [
+        112,
+        129,
+        121
+      ],
+      "rgba": [
+        112,
+        129,
+        121,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Humisol (Z)",
+      "rgb": [
+        1,
+        127,
+        83
+      ],
+      "rgba": [
+        1,
+        127,
+        83,
+        220
+      ],
+      "value": 23
+    }
+  ],
+  "visible_pixel_count": 21843,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

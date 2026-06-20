@@ -1,0 +1,397 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_landuse_btm/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_landuse_btm",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:08:04+00:00",
+  "internal_raster_path": "btm.tiff",
+  "internal_wms_path": "btm.wms.xml",
+  "manifest_path": "layers/dl_landuse_btm/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": 0.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "btm.tiff",
+    "legend_source_path": "btm.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_landuse_btm",
+    "source_title": "Baseline Thematic Mapping",
+    "source_zip_path": "data_layers/landuse_btm.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/landuse_btm.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/landuse_btm.zip",
+  "title": "Baseline Thematic Mapping",
+  "value_class_count": 23,
+  "value_classes": [
+    {
+      "label": "Agriculture (AGR)",
+      "rgb": [
+        0,
+        255,
+        153
+      ],
+      "rgba": [
+        0,
+        255,
+        153,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Alpine (ALP)",
+      "rgb": [
+        128,
+        128,
+        128
+      ],
+      "rgba": [
+        128,
+        128,
+        128,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Barren Surfaces (BARE)",
+      "rgb": [
+        250,
+        142,
+        219
+      ],
+      "rgba": [
+        250,
+        142,
+        219,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Estuaries(EST)",
+      "rgb": [
+        237,
+        228,
+        111
+      ],
+      "rgba": [
+        237,
+        228,
+        111,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Fresh Water (LAKE, RIV, WFRE)",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "rgba": [
+        0,
+        0,
+        255,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Glaciers and Snow (ICE)",
+      "rgb": [
+        115,
+        186,
+        203
+      ],
+      "rgba": [
+        115,
+        186,
+        203,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Highways(HWY)",
+      "rgb": [
+        55,
+        30,
+        116
+      ],
+      "rgba": [
+        55,
+        30,
+        116,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Mining (MINE)",
+      "rgb": [
+        46,
+        231,
+        250
+      ],
+      "rgba": [
+        46,
+        231,
+        250,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Old Forest (FO)",
+      "rgb": [
+        58,
+        106,
+        67
+      ],
+      "rgba": [
+        58,
+        106,
+        67,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Outside B.C. (NONE)",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "rgba": [
+        255,
+        255,
+        255,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Range Lands (RANG)",
+      "rgb": [
+        173,
+        221,
+        179
+      ],
+      "rgba": [
+        173,
+        221,
+        179,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Recently Burned (BURN)",
+      "rgb": [
+        239,
+        155,
+        155
+      ],
+      "rgba": [
+        239,
+        155,
+        155,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Recently Logged (LOG)",
+      "rgb": [
+        169,
+        148,
+        127
+      ],
+      "rgba": [
+        169,
+        148,
+        127,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Recreation Activities (REC)",
+      "rgb": [
+        254,
+        133,
+        42
+      ],
+      "rgba": [
+        254,
+        133,
+        42,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Residential Agriculture Mixtures (AGMX)",
+      "rgb": [
+        249,
+        196,
+        48
+      ],
+      "rgba": [
+        249,
+        196,
+        48,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Salt Water (WSAL)",
+      "rgb": [
+        41,
+        189,
+        255
+      ],
+      "rgba": [
+        41,
+        189,
+        255,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Selectively Logged (LOGS)",
+      "rgb": [
+        131,
+        188,
+        108
+      ],
+      "rgba": [
+        131,
+        188,
+        108,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Shrubs (SHRB)",
+      "rgb": [
+        143,
+        255,
+        41
+      ],
+      "rgba": [
+        143,
+        255,
+        41,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Sub alpine Avalanche Chutes (AVA)",
+      "rgb": [
+        229,
+        97,
+        194
+      ],
+      "rgba": [
+        229,
+        97,
+        194,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Urban (URB)",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "rgba": [
+        255,
+        0,
+        0,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Wetlands (WET)",
+      "rgb": [
+        128,
+        200,
+        50
+      ],
+      "rgba": [
+        128,
+        200,
+        50,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Young Forest (FY)",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "rgba": [
+        0,
+        255,
+        0,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Transmission line corridor (TRAN)",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "rgba": [
+        0,
+        0,
+        0,
+        220
+      ],
+      "value": 22
+    }
+  ],
+  "visible_pixel_count": 26956,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

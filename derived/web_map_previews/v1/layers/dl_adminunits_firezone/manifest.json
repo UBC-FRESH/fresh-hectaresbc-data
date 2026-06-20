@@ -1,0 +1,577 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_adminunits_firezone/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_adminunits_firezone",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T03:50:41+00:00",
+  "internal_raster_path": "firezone.tiff",
+  "internal_wms_path": "firezone.wms.xml",
+  "manifest_path": "layers/dl_adminunits_firezone/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "firezone.tiff",
+    "legend_source_path": "firezone.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_adminunits_firezone",
+    "source_title": "Fire Centres and Zones",
+    "source_zip_path": "data_layers/adminunits_firezone.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/adminunits_firezone.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/adminunits_firezone.zip",
+  "title": "Fire Centres and Zones",
+  "value_class_count": 35,
+  "value_classes": [
+    {
+      "label": "100 Mile House Fire Zone",
+      "rgb": [
+        34,
+        215,
+        71
+      ],
+      "rgba": [
+        34,
+        215,
+        71,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Arrow Fire Zone",
+      "rgb": [
+        123,
+        174,
+        165
+      ],
+      "rgba": [
+        123,
+        174,
+        165,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Boundary Fire Zone",
+      "rgb": [
+        68,
+        64,
+        40
+      ],
+      "rgba": [
+        68,
+        64,
+        40,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Bulkley Fire Zone",
+      "rgb": [
+        82,
+        90,
+        136
+      ],
+      "rgba": [
+        82,
+        90,
+        136,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Cassiar Fire Zone",
+      "rgb": [
+        242,
+        188,
+        145
+      ],
+      "rgba": [
+        242,
+        188,
+        145,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Central Cariboo Fire Zone",
+      "rgb": [
+        175,
+        251,
+        59
+      ],
+      "rgba": [
+        175,
+        251,
+        59,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Chilcotin Fire Zone",
+      "rgb": [
+        99,
+        80,
+        25
+      ],
+      "rgba": [
+        99,
+        80,
+        25,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Clearwater Fire Zone",
+      "rgb": [
+        210,
+        97,
+        52
+      ],
+      "rgba": [
+        210,
+        97,
+        52,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Columbia Fire Zone",
+      "rgb": [
+        33,
+        7,
+        85
+      ],
+      "rgba": [
+        33,
+        7,
+        85,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Cranbrook Fire Zone",
+      "rgb": [
+        134,
+        87,
+        205
+      ],
+      "rgba": [
+        134,
+        87,
+        205,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Dawson Creek Fire Zone",
+      "rgb": [
+        99,
+        224,
+        218
+      ],
+      "rgba": [
+        99,
+        224,
+        218,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Fort Nelson Fire Zone",
+      "rgb": [
+        2,
+        72,
+        67
+      ],
+      "rgba": [
+        2,
+        72,
+        67,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Fort St. James Fire Zone",
+      "rgb": [
+        26,
+        242,
+        7
+      ],
+      "rgba": [
+        26,
+        242,
+        7,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Fort St. John Fire Zone",
+      "rgb": [
+        138,
+        45,
+        14
+      ],
+      "rgba": [
+        138,
+        45,
+        14,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Fraser Fire Zone",
+      "rgb": [
+        203,
+        20,
+        197
+      ],
+      "rgba": [
+        203,
+        20,
+        197,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Invermere Fire Zone",
+      "rgb": [
+        225,
+        168,
+        211
+      ],
+      "rgba": [
+        225,
+        168,
+        211,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Kamloops Fire Zone",
+      "rgb": [
+        3,
+        127,
+        234
+      ],
+      "rgba": [
+        3,
+        127,
+        234,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Kootenay Fire Zone",
+      "rgb": [
+        66,
+        150,
+        89
+      ],
+      "rgba": [
+        66,
+        150,
+        89,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Lillooet Fire Zone",
+      "rgb": [
+        209,
+        242,
+        128
+      ],
+      "rgba": [
+        209,
+        242,
+        128,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Mackenzie Fire Zone",
+      "rgb": [
+        12,
+        179,
+        46
+      ],
+      "rgba": [
+        12,
+        179,
+        46,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Merritt Fire Zone",
+      "rgb": [
+        237,
+        121,
+        20
+      ],
+      "rgba": [
+        237,
+        121,
+        20,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Mid Island Fire Zone",
+      "rgb": [
+        61,
+        162,
+        123
+      ],
+      "rgba": [
+        61,
+        162,
+        123,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Nadina Fire Zone",
+      "rgb": [
+        162,
+        114,
+        82
+      ],
+      "rgba": [
+        162,
+        114,
+        82,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "North Island Mid Coast Fire Zone",
+      "rgb": [
+        152,
+        196,
+        101
+      ],
+      "rgba": [
+        152,
+        196,
+        101,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Pemberton Fire Zone",
+      "rgb": [
+        170,
+        223,
+        193
+      ],
+      "rgba": [
+        170,
+        223,
+        193,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Pentiction Fire Zone",
+      "rgb": [
+        177,
+        130,
+        146
+      ],
+      "rgba": [
+        177,
+        130,
+        146,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Prince George Fire Zone",
+      "rgb": [
+        243,
+        45,
+        201
+      ],
+      "rgba": [
+        243,
+        45,
+        201,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Quesnel Fire Zone",
+      "rgb": [
+        70,
+        31,
+        190
+      ],
+      "rgba": [
+        70,
+        31,
+        190,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Robson Valley Fire Zone",
+      "rgb": [
+        216,
+        125,
+        27
+      ],
+      "rgba": [
+        216,
+        125,
+        27,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Salmon Arm Fire Zone",
+      "rgb": [
+        58,
+        139,
+        137
+      ],
+      "rgba": [
+        58,
+        139,
+        137,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Skeena Fire Zone",
+      "rgb": [
+        249,
+        11,
+        11
+      ],
+      "rgba": [
+        249,
+        11,
+        11,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "South Island Fire Zone",
+      "rgb": [
+        43,
+        89,
+        193
+      ],
+      "rgba": [
+        43,
+        89,
+        193,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Sunshine Coast Fire Zone",
+      "rgb": [
+        83,
+        181,
+        67
+      ],
+      "rgba": [
+        83,
+        181,
+        67,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Vanderhoof Fire Zone",
+      "rgb": [
+        76,
+        19,
+        57
+      ],
+      "rgba": [
+        76,
+        19,
+        57,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "Vernon Fire Zone",
+      "rgb": [
+        136,
+        151,
+        54
+      ],
+      "rgba": [
+        136,
+        151,
+        54,
+        220
+      ],
+      "value": 35
+    }
+  ],
+  "visible_pixel_count": 22966,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

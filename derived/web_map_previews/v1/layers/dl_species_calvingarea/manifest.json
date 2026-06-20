@@ -1,0 +1,202 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_species_calvingarea/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_species_calvingarea",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:11:54+00:00",
+  "internal_raster_path": "calvingarea.tiff",
+  "internal_wms_path": "calvingarea.wms.xml",
+  "manifest_path": "layers/dl_species_calvingarea/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "calvingarea.tiff",
+    "legend_source_path": "calvingarea.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_species_calvingarea",
+    "source_title": "Caribou Calving Area Predictive Map",
+    "source_zip_path": "data_layers/species_calvingarea.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/species_calvingarea.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/species_calvingarea.zip",
+  "title": "Caribou Calving Area Predictive Map",
+  "value_class_count": 10,
+  "value_classes": [
+    {
+      "label": "1 (low suitability)",
+      "rgb": [
+        196,
+        69,
+        60
+      ],
+      "rgba": [
+        196,
+        69,
+        60,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "2",
+      "rgb": [
+        216,
+        108,
+        78
+      ],
+      "rgba": [
+        216,
+        108,
+        78,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "3",
+      "rgb": [
+        227,
+        146,
+        109
+      ],
+      "rgba": [
+        227,
+        146,
+        109,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "4",
+      "rgb": [
+        237,
+        189,
+        143
+      ],
+      "rgba": [
+        237,
+        189,
+        143,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "5",
+      "rgb": [
+        251,
+        231,
+        170
+      ],
+      "rgba": [
+        251,
+        231,
+        170,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "6",
+      "rgb": [
+        236,
+        237,
+        195
+      ],
+      "rgba": [
+        236,
+        237,
+        195,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "7",
+      "rgb": [
+        191,
+        194,
+        199
+      ],
+      "rgba": [
+        191,
+        194,
+        199,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "8",
+      "rgb": [
+        152,
+        161,
+        202
+      ],
+      "rgba": [
+        152,
+        161,
+        202,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "9",
+      "rgb": [
+        105,
+        127,
+        211
+      ],
+      "rgba": [
+        105,
+        127,
+        211,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "10 (high suitability)",
+      "rgb": [
+        46,
+        97,
+        206
+      ],
+      "rgba": [
+        46,
+        97,
+        206,
+        220
+      ],
+      "value": 10
+    }
+  ],
+  "visible_pixel_count": 967,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

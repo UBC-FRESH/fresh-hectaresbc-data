@@ -1,0 +1,337 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_species_pko/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_species_pko",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:12:09+00:00",
+  "internal_raster_path": "pko.tiff",
+  "internal_wms_path": "pko.wms.xml",
+  "manifest_path": "layers/dl_species_pko/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "pko.tiff",
+    "legend_source_path": "pko.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_species_pko",
+    "source_title": "Salmon - Odd Year Pink",
+    "source_zip_path": "data_layers/species_pko.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/species_pko.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/species_pko.zip",
+  "title": "Salmon - Odd Year Pink",
+  "value_class_count": 19,
+  "value_classes": [
+    {
+      "label": "East Howe Sound-Burrard Inlet",
+      "rgb": [
+        2,
+        63,
+        164
+      ],
+      "rgba": [
+        2,
+        63,
+        164,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "East Queen Charlotte Islands",
+      "rgb": [
+        89,
+        147,
+        142
+      ],
+      "rgba": [
+        89,
+        147,
+        142,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "East Vancouver Island-Johnstone Strait",
+      "rgb": [
+        39,
+        178,
+        168
+      ],
+      "rgba": [
+        39,
+        178,
+        168,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Fraser River",
+      "rgb": [
+        42,
+        175,
+        80
+      ],
+      "rgba": [
+        42,
+        175,
+        80,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Georgia Strait",
+      "rgb": [
+        157,
+        103,
+        62
+      ],
+      "rgba": [
+        157,
+        103,
+        62,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Hecate Strait-Fjords",
+      "rgb": [
+        198,
+        136,
+        62
+      ],
+      "rgba": [
+        198,
+        136,
+        62,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Hecate Strait-Lowlands",
+      "rgb": [
+        220,
+        46,
+        73
+      ],
+      "rgba": [
+        220,
+        46,
+        73,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Homathko-Klinaklini-Smith-Rivers-Bella Coola-Dean",
+      "rgb": [
+        237,
+        220,
+        229
+      ],
+      "rgba": [
+        237,
+        220,
+        229,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Lower Skeena",
+      "rgb": [
+        252,
+        134,
+        146
+      ],
+      "rgba": [
+        252,
+        134,
+        146,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Middle and Upper Skeena",
+      "rgb": [
+        79,
+        158,
+        239
+      ],
+      "rgba": [
+        79,
+        158,
+        239,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Nahwitti",
+      "rgb": [
+        195,
+        234,
+        36
+      ],
+      "rgba": [
+        195,
+        234,
+        36,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Nass-Portland-Observatory",
+      "rgb": [
+        150,
+        126,
+        87
+      ],
+      "rgba": [
+        150,
+        126,
+        87,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Nass-Skeena Estuary",
+      "rgb": [
+        17,
+        77,
+        60
+      ],
+      "rgba": [
+        17,
+        77,
+        60,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "North Queen Charlotte Islands",
+      "rgb": [
+        28,
+        58,
+        146
+      ],
+      "rgba": [
+        28,
+        58,
+        146,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Southern Fjords",
+      "rgb": [
+        50,
+        225,
+        119
+      ],
+      "rgba": [
+        50,
+        225,
+        119,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Transboundary Fjords",
+      "rgb": [
+        98,
+        125,
+        155
+      ],
+      "rgba": [
+        98,
+        125,
+        155,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Upper Nass",
+      "rgb": [
+        64,
+        228,
+        62
+      ],
+      "rgba": [
+        64,
+        228,
+        62,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "West Queen Charlotte Islands",
+      "rgb": [
+        32,
+        35,
+        97
+      ],
+      "rgba": [
+        32,
+        35,
+        97,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "West Vancouver Island",
+      "rgb": [
+        105,
+        50,
+        151
+      ],
+      "rgba": [
+        105,
+        50,
+        151,
+        220
+      ],
+      "value": 19
+    }
+  ],
+  "visible_pixel_count": 10520,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

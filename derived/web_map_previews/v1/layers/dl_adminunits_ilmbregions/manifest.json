@@ -1,0 +1,187 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_adminunits_ilmbregions/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_adminunits_ilmbregions",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T03:51:41+00:00",
+  "internal_raster_path": "ilmbregions.tiff",
+  "internal_wms_path": "ilmbregions.wms.xml",
+  "manifest_path": "layers/dl_adminunits_ilmbregions/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "ilmbregions.tiff",
+    "legend_source_path": "ilmbregions.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_adminunits_ilmbregions",
+    "source_title": "ILMB Regional & Subregional Boundaries",
+    "source_zip_path": "data_layers/adminunits_ilmbregions.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/adminunits_ilmbregions.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/adminunits_ilmbregions.zip",
+  "title": "ILMB Regional & Subregional Boundaries",
+  "value_class_count": 9,
+  "value_classes": [
+    {
+      "label": "Queen Charlotte Islands/Haida Gwaii (Coast Region)",
+      "rgb": [
+        185,
+        247,
+        62
+      ],
+      "rgba": [
+        185,
+        247,
+        62,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "South Coast (Coast Region)",
+      "rgb": [
+        134,
+        179,
+        45
+      ],
+      "rgba": [
+        134,
+        179,
+        45,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "West Coast (Coast Region)",
+      "rgb": [
+        25,
+        128,
+        4
+      ],
+      "rgba": [
+        25,
+        128,
+        4,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Omineca (Northern Region)",
+      "rgb": [
+        10,
+        62,
+        118
+      ],
+      "rgba": [
+        10,
+        62,
+        118,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Peace (Northern Region)",
+      "rgb": [
+        67,
+        140,
+        219
+      ],
+      "rgba": [
+        67,
+        140,
+        219,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Skeena (Northern Region)",
+      "rgb": [
+        197,
+        216,
+        247
+      ],
+      "rgba": [
+        197,
+        216,
+        247,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Cariboo (Southern Interior Region)",
+      "rgb": [
+        139,
+        12,
+        7
+      ],
+      "rgba": [
+        139,
+        12,
+        7,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Kootenay (Southern Interior Region)",
+      "rgb": [
+        247,
+        97,
+        91
+      ],
+      "rgba": [
+        247,
+        97,
+        91,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Thompson-Okanagan (Southern Interior Region)",
+      "rgb": [
+        252,
+        207,
+        206
+      ],
+      "rgba": [
+        252,
+        207,
+        206,
+        220
+      ],
+      "value": 9
+    }
+  ],
+  "visible_pixel_count": 22965,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

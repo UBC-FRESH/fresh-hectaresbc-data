@@ -1,0 +1,232 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_speciessum_endemics/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_speciessum_endemics",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:12:46+00:00",
+  "internal_raster_path": "endemics.tiff",
+  "internal_wms_path": "endemics.wms.xml",
+  "manifest_path": "layers/dl_speciessum_endemics/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "endemics.tiff",
+    "legend_source_path": "endemics.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_speciessum_endemics",
+    "source_title": "Endemic Species Count",
+    "source_zip_path": "data_layers/speciessum_endemics.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/speciessum_endemics.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/speciessum_endemics.zip",
+  "title": "Endemic Species Count",
+  "value_class_count": 12,
+  "value_classes": [
+    {
+      "label": "0",
+      "rgb": [
+        69,
+        117,
+        181
+      ],
+      "rgba": [
+        69,
+        117,
+        181,
+        220
+      ],
+      "value": 0
+    },
+    {
+      "label": "1",
+      "rgb": [
+        106,
+        140,
+        184
+      ],
+      "rgba": [
+        106,
+        140,
+        184,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "2",
+      "rgb": [
+        145,
+        168,
+        186
+      ],
+      "rgba": [
+        145,
+        168,
+        186,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "3",
+      "rgb": [
+        185,
+        199,
+        190
+      ],
+      "rgba": [
+        185,
+        199,
+        190,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "4",
+      "rgb": [
+        224,
+        230,
+        190
+      ],
+      "rgba": [
+        224,
+        230,
+        190,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "5",
+      "rgb": [
+        255,
+        245,
+        184
+      ],
+      "rgba": [
+        255,
+        245,
+        184,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "6",
+      "rgb": [
+        252,
+        200,
+        144
+      ],
+      "rgba": [
+        252,
+        200,
+        144,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "7",
+      "rgb": [
+        245,
+        157,
+        110
+      ],
+      "rgba": [
+        245,
+        157,
+        110,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "8",
+      "rgb": [
+        235,
+        77,
+        114
+      ],
+      "rgba": [
+        235,
+        77,
+        114,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "9",
+      "rgb": [
+        222,
+        71,
+        51
+      ],
+      "rgba": [
+        222,
+        71,
+        51,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "10",
+      "rgb": [
+        214,
+        47,
+        39
+      ],
+      "rgba": [
+        214,
+        47,
+        39,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "11",
+      "rgb": [
+        200,
+        62,
+        34
+      ],
+      "rgba": [
+        200,
+        62,
+        34,
+        220
+      ],
+      "value": 11
+    }
+  ],
+  "visible_pixel_count": 20967,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

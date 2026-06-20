@@ -1,0 +1,142 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_species_elkcap/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_species_elkcap",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:12:19+00:00",
+  "internal_raster_path": "elkcap.tiff",
+  "internal_wms_path": "elkcap.wms.xml",
+  "manifest_path": "layers/dl_species_elkcap/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "elkcap.tiff",
+    "legend_source_path": "elkcap.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_species_elkcap",
+    "source_title": "Elk Capability",
+    "source_zip_path": "data_layers/species_elkcap.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/species_elkcap.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/species_elkcap.zip",
+  "title": "Elk Capability",
+  "value_class_count": 6,
+  "value_classes": [
+    {
+      "label": "1",
+      "rgb": [
+        215,
+        48,
+        39
+      ],
+      "rgba": [
+        215,
+        48,
+        39,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "2",
+      "rgb": [
+        252,
+        141,
+        89
+      ],
+      "rgba": [
+        252,
+        141,
+        89,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "3",
+      "rgb": [
+        254,
+        224,
+        144
+      ],
+      "rgba": [
+        254,
+        224,
+        144,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "4",
+      "rgb": [
+        224,
+        243,
+        248
+      ],
+      "rgba": [
+        224,
+        243,
+        248,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "5",
+      "rgb": [
+        145,
+        191,
+        219
+      ],
+      "rgba": [
+        145,
+        191,
+        219,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "6",
+      "rgb": [
+        69,
+        117,
+        180
+      ],
+      "rgba": [
+        69,
+        117,
+        180,
+        220
+      ],
+      "value": 6
+    }
+  ],
+  "visible_pixel_count": 20949,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

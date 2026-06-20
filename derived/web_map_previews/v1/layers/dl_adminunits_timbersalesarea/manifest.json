@@ -1,0 +1,247 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_adminunits_timbersalesarea/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_adminunits_timbersalesarea",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T03:57:19+00:00",
+  "internal_raster_path": "timbersalesarea.tiff",
+  "internal_wms_path": "timbersalesarea.wms.xml",
+  "manifest_path": "layers/dl_adminunits_timbersalesarea/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "timbersalesarea.tiff",
+    "legend_source_path": "timbersalesarea.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_adminunits_timbersalesarea",
+    "source_title": "BC Timber Sales Area",
+    "source_zip_path": "data_layers/adminunits_timbersalesarea.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/adminunits_timbersalesarea.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/adminunits_timbersalesarea.zip",
+  "title": "BC Timber Sales Area",
+  "value_class_count": 13,
+  "value_classes": [
+    {
+      "label": "Babine Timber Sales Business Area",
+      "rgb": [
+        57,
+        110,
+        239
+      ],
+      "rgba": [
+        57,
+        110,
+        239,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Cariboo - Chilcotin Timber Sales Business Area",
+      "rgb": [
+        77,
+        56,
+        179
+      ],
+      "rgba": [
+        77,
+        56,
+        179,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Chinook Timber Sales Business Area",
+      "rgb": [
+        144,
+        59,
+        177
+      ],
+      "rgba": [
+        144,
+        59,
+        177,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "Chinook Timber Sales Business Area2",
+      "rgb": [
+        94,
+        73,
+        108
+      ],
+      "rgba": [
+        94,
+        73,
+        108,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Kamloops Timber Sales Business Area",
+      "rgb": [
+        146,
+        79,
+        14
+      ],
+      "rgba": [
+        146,
+        79,
+        14,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Kootenay Timber Sales Business Area",
+      "rgb": [
+        74,
+        253,
+        231
+      ],
+      "rgba": [
+        74,
+        253,
+        231,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Okanagan - Columbia Timber Sales Business Area",
+      "rgb": [
+        89,
+        178,
+        110
+      ],
+      "rgba": [
+        89,
+        178,
+        110,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Peace - Liard Timber Sales Business Area",
+      "rgb": [
+        114,
+        157,
+        158
+      ],
+      "rgba": [
+        114,
+        157,
+        158,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Prince George Timber Sales Business Area",
+      "rgb": [
+        15,
+        38,
+        94
+      ],
+      "rgba": [
+        15,
+        38,
+        94,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Seaward/tlasta Timber Sales Business Area",
+      "rgb": [
+        77,
+        5,
+        168
+      ],
+      "rgba": [
+        77,
+        5,
+        168,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Skeena Timber Sales Business Area",
+      "rgb": [
+        42,
+        157,
+        152
+      ],
+      "rgba": [
+        42,
+        157,
+        152,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Strait of Georgia Timber Sales Business Area",
+      "rgb": [
+        241,
+        50,
+        113
+      ],
+      "rgba": [
+        241,
+        50,
+        113,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Stuart - Nechako Timber Sales Business Area",
+      "rgb": [
+        85,
+        137,
+        146
+      ],
+      "rgba": [
+        85,
+        137,
+        146,
+        220
+      ],
+      "value": 13
+    }
+  ],
+  "visible_pixel_count": 22966,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

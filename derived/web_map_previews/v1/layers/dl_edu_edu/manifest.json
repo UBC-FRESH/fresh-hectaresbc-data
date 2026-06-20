@@ -1,0 +1,607 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_edu_edu/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_edu_edu",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T04:07:54+00:00",
+  "internal_raster_path": "edu.tiff",
+  "internal_wms_path": "edu.wms.xml",
+  "manifest_path": "layers/dl_edu_edu/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": 0.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "edu.tiff",
+    "legend_source_path": "edu.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_edu_edu",
+    "source_title": "Ecological Drainage Units",
+    "source_zip_path": "data_layers/edu_edu.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/edu_edu.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/edu_edu.zip",
+  "title": "Ecological Drainage Units",
+  "value_class_count": 37,
+  "value_classes": [
+    {
+      "label": "Bella Coola - Dean Rivers",
+      "rgb": [
+        230,
+        215,
+        199
+      ],
+      "rgba": [
+        230,
+        215,
+        199,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "Clark Fork - Flathead",
+      "rgb": [
+        128,
+        242,
+        221
+      ],
+      "rgba": [
+        128,
+        242,
+        221,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "Columbia - Kootenay Headwaters",
+      "rgb": [
+        169,
+        188,
+        20
+      ],
+      "rgba": [
+        169,
+        188,
+        20,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "East Vancouver Island",
+      "rgb": [
+        159,
+        154,
+        151
+      ],
+      "rgba": [
+        159,
+        154,
+        151,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "Fraser Canyon",
+      "rgb": [
+        41,
+        173,
+        127
+      ],
+      "rgba": [
+        41,
+        173,
+        127,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "Great Lakes / Columbia Mountains",
+      "rgb": [
+        249,
+        24,
+        179
+      ],
+      "rgba": [
+        249,
+        24,
+        179,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "Hay River",
+      "rgb": [
+        150,
+        68,
+        70
+      ],
+      "rgba": [
+        150,
+        68,
+        70,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "Homathko - Klinaklini Rivers",
+      "rgb": [
+        6,
+        97,
+        216
+      ],
+      "rgba": [
+        6,
+        97,
+        216,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "Kettle",
+      "rgb": [
+        167,
+        25,
+        203
+      ],
+      "rgba": [
+        167,
+        25,
+        203,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "Lower Fraser",
+      "rgb": [
+        253,
+        168,
+        201
+      ],
+      "rgba": [
+        253,
+        168,
+        201,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "Lower Kootenay",
+      "rgb": [
+        191,
+        144,
+        161
+      ],
+      "rgba": [
+        191,
+        144,
+        161,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "Lower Liard",
+      "rgb": [
+        135,
+        17,
+        148
+      ],
+      "rgba": [
+        135,
+        17,
+        148,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "Lower Peace",
+      "rgb": [
+        101,
+        186,
+        81
+      ],
+      "rgba": [
+        101,
+        186,
+        81,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "Lower Skeena",
+      "rgb": [
+        121,
+        90,
+        235
+      ],
+      "rgba": [
+        121,
+        90,
+        235,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "Lower Stikine",
+      "rgb": [
+        17,
+        130,
+        152
+      ],
+      "rgba": [
+        17,
+        130,
+        152,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "Middle Fraser",
+      "rgb": [
+        143,
+        124,
+        177
+      ],
+      "rgba": [
+        143,
+        124,
+        177,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "Middle Skeena",
+      "rgb": [
+        68,
+        19,
+        245
+      ],
+      "rgba": [
+        68,
+        19,
+        245,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "Nass",
+      "rgb": [
+        138,
+        25,
+        87
+      ],
+      "rgba": [
+        138,
+        25,
+        87,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "Northern Coastal Streams",
+      "rgb": [
+        99,
+        192,
+        112
+      ],
+      "rgba": [
+        99,
+        192,
+        112,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "Okanagan",
+      "rgb": [
+        47,
+        189,
+        25
+      ],
+      "rgba": [
+        47,
+        189,
+        25,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "Queen Charlottes",
+      "rgb": [
+        247,
+        125,
+        169
+      ],
+      "rgba": [
+        247,
+        125,
+        169,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "Similkameen",
+      "rgb": [
+        153,
+        5,
+        185
+      ],
+      "rgba": [
+        153,
+        5,
+        185,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "Skagit River",
+      "rgb": [
+        46,
+        106,
+        116
+      ],
+      "rgba": [
+        46,
+        106,
+        116,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "Southern Coastal Streams",
+      "rgb": [
+        126,
+        227,
+        206
+      ],
+      "rgba": [
+        126,
+        227,
+        206,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "Taku",
+      "rgb": [
+        106,
+        244,
+        81
+      ],
+      "rgba": [
+        106,
+        244,
+        81,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "Tatshenshim",
+      "rgb": [
+        4,
+        132,
+        205
+      ],
+      "rgba": [
+        4,
+        132,
+        205,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "Teslin Headwaters",
+      "rgb": [
+        180,
+        200,
+        224
+      ],
+      "rgba": [
+        180,
+        200,
+        224,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "Thompson",
+      "rgb": [
+        170,
+        83,
+        248
+      ],
+      "rgba": [
+        170,
+        83,
+        248,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "Upper Fraser",
+      "rgb": [
+        2,
+        182,
+        185
+      ],
+      "rgba": [
+        2,
+        182,
+        185,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "Upper Kootenay",
+      "rgb": [
+        113,
+        228,
+        120
+      ],
+      "rgba": [
+        113,
+        228,
+        120,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "Upper Liard",
+      "rgb": [
+        138,
+        220,
+        245
+      ],
+      "rgba": [
+        138,
+        220,
+        245,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "Upper Peace",
+      "rgb": [
+        52,
+        118,
+        250
+      ],
+      "rgba": [
+        52,
+        118,
+        250,
+        220
+      ],
+      "value": 32
+    },
+    {
+      "label": "Upper Skeena",
+      "rgb": [
+        238,
+        164,
+        101
+      ],
+      "rgba": [
+        238,
+        164,
+        101,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "Upper Stikine",
+      "rgb": [
+        99,
+        35,
+        72
+      ],
+      "rgba": [
+        99,
+        35,
+        72,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "West Vancouver Island",
+      "rgb": [
+        50,
+        142,
+        61
+      ],
+      "rgba": [
+        50,
+        142,
+        61,
+        220
+      ],
+      "value": 35
+    },
+    {
+      "label": "WGP",
+      "rgb": [
+        131,
+        145,
+        193
+      ],
+      "rgba": [
+        131,
+        145,
+        193,
+        220
+      ],
+      "value": 36
+    },
+    {
+      "label": "Yukon Headwaters",
+      "rgb": [
+        81,
+        71,
+        138
+      ],
+      "rgba": [
+        81,
+        71,
+        138,
+        220
+      ],
+      "value": 37
+    }
+  ],
+  "visible_pixel_count": 20905,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}

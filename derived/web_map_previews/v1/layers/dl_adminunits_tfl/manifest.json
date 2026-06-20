@@ -1,0 +1,562 @@
+{
+  "artifact_kind": "raster_png",
+  "artifact_path": "layers/dl_adminunits_tfl/preview.png",
+  "artifact_status": "source_derived_preview",
+  "crs": "EPSG:3005",
+  "dataset_id": "dl_adminunits_tfl",
+  "dtype": "int16",
+  "generated_at": "2026-06-20T03:57:12+00:00",
+  "internal_raster_path": "tfl.tiff",
+  "internal_wms_path": "tfl.wms.xml",
+  "manifest_path": "layers/dl_adminunits_tfl/manifest.json",
+  "native_bounds": [
+    159587.5,
+    173787.5,
+    1881187.5,
+    1748187.5
+  ],
+  "nodata": -9999.0,
+  "preview_eligibility_blockers": [],
+  "preview_eligibility_status": "metadata_preview_candidate",
+  "preview_height": 234,
+  "preview_width": 256,
+  "provenance": {
+    "generated_by": "scripts/generate_layer_preview_batch.py",
+    "internal_raster_path": "tfl.tiff",
+    "legend_source_path": "tfl.wms.xml",
+    "reason": "Rasterio read the recovered raster from the source ZIP and Pillow wrote a browser-fit RGBA preview PNG.",
+    "source_dataset_id": "dl_adminunits_tfl",
+    "source_title": "Tree Farm License",
+    "source_zip_path": "data_layers/adminunits_tfl.zip"
+  },
+  "raster_height": 15744,
+  "raster_width": 17216,
+  "raw_relative_path": "raw/hectaresbc_2022_export/data_layers/adminunits_tfl.zip",
+  "schema_version": 1,
+  "source_content_status": "local_archive_fallback_present",
+  "source_family": "data_layer",
+  "source_resolution": "local_archive_fallback",
+  "source_zip_path": "data_layers/adminunits_tfl.zip",
+  "title": "Tree Farm License",
+  "value_class_count": 34,
+  "value_classes": [
+    {
+      "label": "TFL1",
+      "rgb": [
+        98,
+        100,
+        56
+      ],
+      "rgba": [
+        98,
+        100,
+        56,
+        220
+      ],
+      "value": 2
+    },
+    {
+      "label": "TFL3",
+      "rgb": [
+        212,
+        178,
+        7
+      ],
+      "rgba": [
+        212,
+        178,
+        7,
+        220
+      ],
+      "value": 10
+    },
+    {
+      "label": "TFL6",
+      "rgb": [
+        29,
+        17,
+        101
+      ],
+      "rgba": [
+        29,
+        17,
+        101,
+        220
+      ],
+      "value": 33
+    },
+    {
+      "label": "TFL8",
+      "rgb": [
+        36,
+        33,
+        85
+      ],
+      "rgba": [
+        36,
+        33,
+        85,
+        220
+      ],
+      "value": 34
+    },
+    {
+      "label": "TFL06",
+      "rgb": [
+        167,
+        158,
+        184
+      ],
+      "rgba": [
+        167,
+        158,
+        184,
+        220
+      ],
+      "value": 1
+    },
+    {
+      "label": "TFL10",
+      "rgb": [
+        227,
+        249,
+        98
+      ],
+      "rgba": [
+        227,
+        249,
+        98,
+        220
+      ],
+      "value": 3
+    },
+    {
+      "label": "TFL14",
+      "rgb": [
+        2,
+        138,
+        156
+      ],
+      "rgba": [
+        2,
+        138,
+        156,
+        220
+      ],
+      "value": 4
+    },
+    {
+      "label": "TFL18",
+      "rgb": [
+        94,
+        131,
+        27
+      ],
+      "rgba": [
+        94,
+        131,
+        27,
+        220
+      ],
+      "value": 5
+    },
+    {
+      "label": "TFL19",
+      "rgb": [
+        29,
+        115,
+        217
+      ],
+      "rgba": [
+        29,
+        115,
+        217,
+        220
+      ],
+      "value": 6
+    },
+    {
+      "label": "TFL23",
+      "rgb": [
+        113,
+        230,
+        0
+      ],
+      "rgba": [
+        113,
+        230,
+        0,
+        220
+      ],
+      "value": 7
+    },
+    {
+      "label": "TFL25",
+      "rgb": [
+        88,
+        84,
+        175
+      ],
+      "rgba": [
+        88,
+        84,
+        175,
+        220
+      ],
+      "value": 8
+    },
+    {
+      "label": "TFL26",
+      "rgb": [
+        159,
+        190,
+        0
+      ],
+      "rgba": [
+        159,
+        190,
+        0,
+        220
+      ],
+      "value": 9
+    },
+    {
+      "label": "TFL30",
+      "rgb": [
+        22,
+        126,
+        20
+      ],
+      "rgba": [
+        22,
+        126,
+        20,
+        220
+      ],
+      "value": 11
+    },
+    {
+      "label": "TFL33",
+      "rgb": [
+        105,
+        1,
+        201
+      ],
+      "rgba": [
+        105,
+        1,
+        201,
+        220
+      ],
+      "value": 12
+    },
+    {
+      "label": "TFL35",
+      "rgb": [
+        193,
+        174,
+        234
+      ],
+      "rgba": [
+        193,
+        174,
+        234,
+        220
+      ],
+      "value": 13
+    },
+    {
+      "label": "TFL37",
+      "rgb": [
+        31,
+        79,
+        29
+      ],
+      "rgba": [
+        31,
+        79,
+        29,
+        220
+      ],
+      "value": 14
+    },
+    {
+      "label": "TFL38",
+      "rgb": [
+        3,
+        154,
+        183
+      ],
+      "rgba": [
+        3,
+        154,
+        183,
+        220
+      ],
+      "value": 15
+    },
+    {
+      "label": "TFL39",
+      "rgb": [
+        163,
+        130,
+        71
+      ],
+      "rgba": [
+        163,
+        130,
+        71,
+        220
+      ],
+      "value": 16
+    },
+    {
+      "label": "TFL41",
+      "rgb": [
+        153,
+        175,
+        27
+      ],
+      "rgba": [
+        153,
+        175,
+        27,
+        220
+      ],
+      "value": 17
+    },
+    {
+      "label": "TFL42",
+      "rgb": [
+        223,
+        92,
+        28
+      ],
+      "rgba": [
+        223,
+        92,
+        28,
+        220
+      ],
+      "value": 18
+    },
+    {
+      "label": "TFL43",
+      "rgb": [
+        113,
+        90,
+        53
+      ],
+      "rgba": [
+        113,
+        90,
+        53,
+        220
+      ],
+      "value": 19
+    },
+    {
+      "label": "TFL44",
+      "rgb": [
+        34,
+        160,
+        220
+      ],
+      "rgba": [
+        34,
+        160,
+        220,
+        220
+      ],
+      "value": 20
+    },
+    {
+      "label": "TFL45",
+      "rgb": [
+        155,
+        230,
+        9
+      ],
+      "rgba": [
+        155,
+        230,
+        9,
+        220
+      ],
+      "value": 21
+    },
+    {
+      "label": "TFL46",
+      "rgb": [
+        72,
+        91,
+        132
+      ],
+      "rgba": [
+        72,
+        91,
+        132,
+        220
+      ],
+      "value": 22
+    },
+    {
+      "label": "TFL47",
+      "rgb": [
+        98,
+        173,
+        160
+      ],
+      "rgba": [
+        98,
+        173,
+        160,
+        220
+      ],
+      "value": 23
+    },
+    {
+      "label": "TFL48",
+      "rgb": [
+        35,
+        136,
+        145
+      ],
+      "rgba": [
+        35,
+        136,
+        145,
+        220
+      ],
+      "value": 24
+    },
+    {
+      "label": "TFL49",
+      "rgb": [
+        134,
+        209,
+        241
+      ],
+      "rgba": [
+        134,
+        209,
+        241,
+        220
+      ],
+      "value": 25
+    },
+    {
+      "label": "TFL52",
+      "rgb": [
+        163,
+        139,
+        3
+      ],
+      "rgba": [
+        163,
+        139,
+        3,
+        220
+      ],
+      "value": 26
+    },
+    {
+      "label": "TFL53",
+      "rgb": [
+        26,
+        71,
+        114
+      ],
+      "rgba": [
+        26,
+        71,
+        114,
+        220
+      ],
+      "value": 27
+    },
+    {
+      "label": "TFL54",
+      "rgb": [
+        210,
+        225,
+        116
+      ],
+      "rgba": [
+        210,
+        225,
+        116,
+        220
+      ],
+      "value": 28
+    },
+    {
+      "label": "TFL55",
+      "rgb": [
+        231,
+        103,
+        243
+      ],
+      "rgba": [
+        231,
+        103,
+        243,
+        220
+      ],
+      "value": 29
+    },
+    {
+      "label": "TFL56",
+      "rgb": [
+        172,
+        105,
+        154
+      ],
+      "rgba": [
+        172,
+        105,
+        154,
+        220
+      ],
+      "value": 30
+    },
+    {
+      "label": "TFL57",
+      "rgb": [
+        42,
+        59,
+        12
+      ],
+      "rgba": [
+        42,
+        59,
+        12,
+        220
+      ],
+      "value": 31
+    },
+    {
+      "label": "TFL58",
+      "rgb": [
+        207,
+        151,
+        43
+      ],
+      "rgba": [
+        207,
+        151,
+        43,
+        220
+      ],
+      "value": 32
+    }
+  ],
+  "visible_pixel_count": 1578,
+  "visual_signal_status": "multi_color_preview",
+  "wgs84_bounds": [
+    -141.0962892349142,
+    45.9344383046823,
+    -110.19483972116899,
+    60.71688156515922
+  ]
+}
