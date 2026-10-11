@@ -15,8 +15,13 @@ fresh-hectaresbc-data
 Endpoint host:
 
 ```text
-object-arbutus.cloud.computecanada.ca
+object-arbutus.alliancecan.ca
 ```
+
+> **2026-10-11:** Migrated to the new Arbutus cloud (project
+> `a0d141b801c74d0a819c09b4bde9c3fb`). Public reads work without credentials
+> (`public=yes`); the credentials below are only needed to publish/upload.
+> Ask for the new project's S3 key when publishing.
 
 Region:
 
@@ -40,7 +45,7 @@ Expected exported variables:
 export AWS_ACCESS_KEY_ID="..."
 export AWS_SECRET_ACCESS_KEY="..."
 export AWS_DEFAULT_REGION="ca-west-1"
-export S3_ENDPOINT_URL="https://object-arbutus.cloud.computecanada.ca"
+export S3_ENDPOINT_URL="https://object-arbutus.alliancecan.ca"
 ```
 
 The file should be readable only by the local user:
